@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-12 00:40+0000\n"
-"PO-Revision-Date: 2026-01-13 05:31+0900\n"
+"PO-Revision-Date: 2026-01-13 06:19+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -4498,12 +4498,12 @@ msgstr ""
 #: widgets/fileundomanager.cpp:326
 #, kde-format
 msgid "Und&o"
-msgstr ""
+msgstr "Ho̍k-&guân"
 
 #: widgets/fileundomanager.cpp:332
 #, kde-format
 msgid "Und&o: Copy"
-msgstr "復原：Khóo-pih(&O)"
+msgstr "Ho̍k-&guân: Khóo-pih"
 
 #: widgets/fileundomanager.cpp:334
 #, kde-format
@@ -4513,7 +4513,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:336
 #, kde-format
 msgid "Und&o: Move"
-msgstr "復原：Suá-uī(&O)"
+msgstr "Ho̍k-&guân: Suá-uī"
 
 #: widgets/fileundomanager.cpp:338
 #, kde-format
@@ -4523,7 +4523,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:340
 #, kde-format
 msgid "Und&o: Trash"
-msgstr "復原：Suá去糞埽桶(&O)"
+msgstr "Ho̍k-&guân: Suá-khì pùn-sò-tháng"
 
 #: widgets/fileundomanager.cpp:342
 #, kde-format
@@ -4553,7 +4553,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:363
 #, kde-format
 msgid "&Redo: Copy"
-msgstr "取消復原：Khóo-pih(&R)"
+msgstr "&Tshú-siau ho̍k-guân: Khóo-pih"
 
 #: widgets/fileundomanager.cpp:365
 #, kde-format
@@ -4563,7 +4563,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:367
 #, kde-format
 msgid "&Redo: Move"
-msgstr "取消復原：Suá-uī(&R)"
+msgstr "&Tshú-siau ho̍k-guân: Suá-uī(&R)"
 
 #: widgets/fileundomanager.cpp:369
 #, kde-format
@@ -4573,7 +4573,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:371
 #, kde-format
 msgid "&Redo: Trash"
-msgstr "取消復原：Suá去糞埽桶(&R)"
+msgstr "&Tshú-siau ho̍k-guân: Suá-khì pùn-sò-tháng"
 
 #: widgets/fileundomanager.cpp:373
 #, kde-format
@@ -4690,7 +4690,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
-msgstr "刣掉"
+msgstr "Thâi-tiāu"
 
 #: widgets/kacleditwidget.cpp:227
 #, kde-format
@@ -4720,7 +4720,7 @@ msgstr ""
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Named User"
-msgstr "有名稱ê使用者"
+msgstr "Ū miâ-tshing ê iōng-tsiá"
 
 #: widgets/kacleditwidget.cpp:254
 #, kde-format
@@ -4765,7 +4765,7 @@ msgstr ""
 #: widgets/kacleditwidget.cpp:421
 #, kde-format
 msgid "Named user"
-msgstr "有名稱ê使用者"
+msgstr "Ū miâ-tshing ê iōng-tsiá"
 
 #: widgets/kacleditwidget.cpp:426
 #, kde-format
@@ -4775,7 +4775,7 @@ msgstr ""
 #: widgets/kacleditwidget.cpp:444
 #, kde-format
 msgid "User: "
-msgstr "使用者："
+msgstr "Iōng-tsiá: "
 
 #: widgets/kacleditwidget.cpp:458
 #, kde-format
@@ -4936,7 +4936,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "@info mimetype"
 msgid "Unknown"
-msgstr "毋知"
+msgstr "M̄-tsai"
 
 #. i18n: ectx: property (text), widget (QLabel, typeLabel)
 #: widgets/kfilepropspluginwidget.ui:88
@@ -4960,7 +4960,7 @@ msgstr ""
 #: widgets/kfilepropspluginwidget.ui:192
 #, kde-format
 msgid "Change..."
-msgstr "改變..."
+msgstr "Kái-piàn..."
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:204 widgets/kurlrequesterdialog.cpp:44
@@ -5182,7 +5182,7 @@ msgctxt ""
 "@title:group Title of a group that lets the user choose options about the "
 "terminal when launching a program"
 msgid "Terminal"
-msgstr "終端機"
+msgstr "Tsiong-tuan-ki"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:39
@@ -5227,7 +5227,7 @@ msgctxt ""
 "@title:group Title of a group that lets the user choose which user to use "
 "when launching a program"
 msgid "User"
-msgstr "使用者"
+msgstr "Iōng-tsiá"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, suidCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:81
@@ -5255,7 +5255,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopadvbase.ui:110
 #, kde-format
 msgid "Username:"
-msgstr "使用者名："
+msgstr "Iōng-tsiá-miâ:"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, suidEdit)
 #: widgets/kpropertiesdesktopadvbase.ui:120
@@ -6288,12 +6288,12 @@ msgstr ""
 #: widgets/renamedialog.cpp:263
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
-msgstr "䆀khóo-pi̍h猶是suá這个資料鋏仔，直接處理後一个項目"
+msgstr "Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
 
 #: widgets/renamedialog.cpp:264
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
-msgstr "䆀khóo-pi̍h猶是suá這个檔案，直接處理後一个項目"
+msgstr "Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
 
 #: widgets/renamedialog.cpp:275
 #, kde-format
@@ -6663,7 +6663,7 @@ msgstr ""
 #: widgets/sslinfo.ui:114
 #, kde-format
 msgid "SSL version:"
-msgstr "SSL 版本："
+msgstr "SSL pán-pún:"
 
 #. i18n: ectx: property (text), widget (QLabel, certSelectorTag)
 #: widgets/sslinfo.ui:134

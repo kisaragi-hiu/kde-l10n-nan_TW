@@ -104,10 +104,10 @@
         </langSet>
         <langSet xml:lang="nan-TW">
           <tig>
-            <term>使用者</term>
+            <term>用者</term>
           </tig>
           <tig>
-            <term>sú-iōng-tsiá</term>
+            <term>iōng-tsiá</term>
           </tig>
         </langSet>
       </termEntry>
@@ -384,6 +384,21 @@
           </tig>
           <tig>
             <term>tshò-gōo</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-25">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>cancel</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>取消</term>
+          </tig>
+          <tig>
+            <term>tshú-siau</term>
           </tig>
         </langSet>
       </termEntry>
