@@ -1,0 +1,16 @@
+* KDE nan_TW translations staging repo
+
+I want to make a translation team for nan_TW; this is a repository for staging our translations before we submit it.
+
+nan_TW will be in two scripts: nan_TW is Hntl (Traditional Han characters + Latin) while nan_TW@latin is Latin script only. I use TL (Ministry of Education) spelling for “Latin script”, but realistically mixing POJ is also perfectly fine, just slightly inconsistent.
+
+Setup: make the folders like this:
+
+- kde-translations/l10n-templates :: a checkout of the l10n-templates Git repository
+- kde-translations/templates/{kf5,kf6} :: symlinks to l10n-templates/{trunk5,trunk6}
+- kde-translations/stable.templates/{kf5,kf6} :: symlinks to l10n-templates/{stable5,stable6}
+- kde-translations/l10n-nan_TW-repo :: a checkout of this repository
+- kde-translations/nan_TW :: symlink to nan_TW in this repository
+- kde-translations/nan_TW@latin :: symlink to nan_TW@latin in this repository
+
+Since this is not submitted yet we don't have Scripty keeping the PO files up to date with the latest templates. Use =make update= (which just uses =fd= to run =msgmerge= on the appropriate files) to do it instead. You can run it before each translating session.
