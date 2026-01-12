@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kconfigwidgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-10 00:39+0000\n"
-"PO-Revision-Date: 2025-12-10 12:02+0900\n"
+"PO-Revision-Date: 2026-01-13 07:57+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -31,13 +31,13 @@ msgstr "mail@kisaragi-hiu.com"
 #, kde-format
 msgctxt "Encodings menu"
 msgid "Default"
-msgstr ""
+msgstr "Piau-tsún"
 
 #: kcodecaction.cpp:70
 #, kde-format
 msgctxt "Encodings menu"
 msgid "Autodetect"
-msgstr ""
+msgstr "Tsū-tōng tsing-tshik"
 
 #: kcolorschememenu.cpp:24
 #, kde-format
@@ -58,13 +58,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
-msgstr ""
+msgstr "Siat-tīng"
 
 #: khamburgermenu.cpp:125
 #, kde-format
 msgctxt "@action:inmenu General purpose menu"
 msgid "&Menu"
-msgstr "選單(&M)"
+msgstr "Suán-tuann(&M)"
 
 #: khamburgermenu.cpp:325
 #, kde-format
@@ -83,12 +83,12 @@ msgstr "較濟"
 msgctxt ""
 "@action:inmenu A section heading advertising the contents of the menu bar"
 msgid "More Actions"
-msgstr "較濟動作"
+msgstr "Khah-tsè tōng-tsok"
 
 #: krecentfilesaction.cpp:77
 #, kde-format
 msgid "No Entries"
-msgstr ""
+msgstr "Bô hāng-bo̍k"
 
 #: krecentfilesaction.cpp:83
 #, kde-format
@@ -99,19 +99,19 @@ msgstr ""
 #, kde-format
 msgctxt "go back"
 msgid "&Back"
-msgstr "轉去(&B)"
+msgstr "Tńg-khì(&B)"
 
 #: kstandardaction.cpp:164
 #, kde-format
 msgctxt "go forward"
 msgid "&Forward"
-msgstr "向前(&F)"
+msgstr "Hiòng-tsiân(&F)"
 
 #: kstandardaction.cpp:171
 #, kde-format
 msgctxt "home page"
 msgid "&Home"
-msgstr "頭頁(&H)"
+msgstr "Thâu-ia̍h(&H)"
 
 #: kstandardaction.cpp:230
 #, kde-format
@@ -207,27 +207,27 @@ msgstr ""
 
 #: kstandardaction_p.h:73
 msgid "&Quit"
-msgstr "離開(&Q)"
+msgstr "&Lī-khui"
 
 #: kstandardaction_p.h:73
 msgid "Quit application"
-msgstr "離開應用程式"
+msgstr "Lī-khui ìng-iōng-tîng-sik"
 
 #: kstandardaction_p.h:75
 msgid "&Undo"
-msgstr ""
+msgstr "&Ho̍k-guân"
 
 #: kstandardaction_p.h:75
 msgid "Undo last action"
-msgstr ""
+msgstr "Ho̍k-guân tíng-kái ê tōng-tsok"
 
 #: kstandardaction_p.h:76
 msgid "Re&do"
-msgstr ""
+msgstr "Tshú-s&iau ho̍k-guân"
 
 #: kstandardaction_p.h:76
 msgid "Redo last undone action"
-msgstr ""
+msgstr "Kah tíng-kái ho̍k-guân ê tōng-tsok koh tsò tsi̍t-pái"
 
 #: kstandardaction_p.h:77
 msgid "Cu&t"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: kstandardaction_p.h:78
 msgid "&Copy"
-msgstr "Khóo-pih(&C)"
+msgstr "&Khóo-pih"
 
 #: kstandardaction_p.h:78
 msgid "Copy selection to clipboard"
@@ -391,19 +391,19 @@ msgstr ""
 
 #: kstandardaction_p.h:109
 msgid "&Back"
-msgstr "向後(&B)"
+msgstr "Hiòng-āu(&B)"
 
 #: kstandardaction_p.h:109
 msgid "Go back in document"
-msgstr "佇文件內底向後"
+msgstr "Tī bûn-kiānn lāi-té hiòng-āu"
 
 #: kstandardaction_p.h:110
 msgid "&Forward"
-msgstr "向前(&F)"
+msgstr "Hiòng-tsiân(&F)"
 
 #: kstandardaction_p.h:110
 msgid "Go forward in document"
-msgstr "佇文件內底向前"
+msgstr "Tī bûn-kiānn lāi-té hiòng-tsiân"
 
 #: kstandardaction_p.h:112
 msgid "&Add Bookmark"
@@ -477,36 +477,36 @@ msgstr ""
 
 #: kstandardaction_p.h:130
 msgid "&Report Bug…"
-msgstr ""
+msgstr "Huê-pò tshò-gōo(&R)…"
 
 #: kstandardaction_p.h:131
 msgid "Configure &Language…"
-msgstr ""
+msgstr "Siat-tīng gí-giân(&L)…"
 
 #: kstandardaction_p.h:132
 #, kde-format
 msgid "&About %1"
-msgstr "%1的紹介(&A)"
+msgstr "%1 ê s&iāu-kài"
 
 #: kstandardaction_p.h:133
 msgid "About &KDE"
-msgstr "KDE的紹介(&K)"
+msgstr "&KDE ê siāu-kài"
 
 #: kstandardaction_p.h:134
 msgid "&Delete"
-msgstr "刣掉(&D)"
+msgstr "Thâi-tiāu(&D)"
 
 #: kstandardaction_p.h:135
 msgid "&Rename…"
-msgstr "改名(&R)…"
+msgstr "Kái-miâ(&R)…"
 
 #: kstandardaction_p.h:136
 msgid "&Move to Trash"
-msgstr "Suá去糞埽桶(&M)"
+msgstr "Suá-khì pùn-sò-tháng(&M)"
 
 #: kstandardaction_p.h:137
 msgid "&Donate"
-msgstr "寄付(&D)"
+msgstr "Kià-hù(&D)"
 
 #: kstandardaction_p.h:138
 msgid "Open &Menu"

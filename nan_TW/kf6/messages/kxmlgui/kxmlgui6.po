@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-10 00:39+0000\n"
-"PO-Revision-Date: 2025-12-10 11:53+0900\n"
+"PO-Revision-Date: 2026-01-13 07:46+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -21,7 +21,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "About %1"
-msgstr "%1的紹介"
+msgstr "%1 的紹介"
 
 #: kaboutapplicationdialog.cpp:88 kaboutplugindialog.cpp:84
 #, kde-format
@@ -59,7 +59,7 @@ msgstr "翻譯"
 #, kde-format
 msgctxt "@title:window"
 msgid "About KDE"
-msgstr "KDE的紹介"
+msgstr "KDE 的紹介"
 
 #: kaboutkdedialog_p.cpp:34
 #, kde-format
@@ -132,13 +132,13 @@ msgstr "紹介(&A)"
 #, kde-format
 msgctxt "@title:tab"
 msgid "&Report Bugs or Wishes"
-msgstr ""
+msgstr "回報錯誤猶是願望(&R)"
 
 #: kaboutkdedialog_p.cpp:130
 #, kde-format
 msgctxt "@title:tab"
 msgid "&Join KDE"
-msgstr ""
+msgstr "加入 KDE(&J)"
 
 #: kaboutkdedialog_p.cpp:131
 #, kde-format
@@ -238,7 +238,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "Khóo-pih 到 clipboard"
 
 #: kabstractaboutdialog_p.cpp:259
 #, kde-format
@@ -318,11 +318,11 @@ msgid "Application: "
 msgstr "應用程式："
 
 #: kbugreport.cpp:112
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "The version of this application - please make sure that no newer version is "
 "available before sending a bug report"
-msgstr "這个應用程式的版本 - 請"
+msgstr "這个應用程式的版本 - 請先確定無 kok 較新 ê 版本才閣來傳 bug report"
 
 #: kbugreport.cpp:113
 #, kde-format
@@ -330,9 +330,9 @@ msgid "Version:"
 msgstr "版本："
 
 #: kbugreport.cpp:118
-#, fuzzy, kde-format
+#, kde-format
 msgid "no version set (programmer error)"
-msgstr "bô設定版本（這是）"
+msgstr "bô 設定版本（這是開發者 ê 問題）"
 
 #: kbugreport.cpp:122
 #, kde-format
@@ -351,7 +351,7 @@ msgctxt ""
 "%1 is the operating system name, e.g. 'Windows 10', %2 is the CPU "
 "architecture, e.g. 'x86_64'"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: kbugreport.cpp:142
 #, kde-format
@@ -359,7 +359,7 @@ msgctxt ""
 "%1 is the operating system name, e.g. 'Fedora Linux', %2 is the operating "
 "system version, e.g. '35', %3 is the CPU architecture, e.g. 'x86_64'"
 msgid "%1 %2 (%3)"
-msgstr ""
+msgstr "%1 %2 (%3)"
 
 #: kbugreport.cpp:148
 #, kde-format
@@ -367,7 +367,7 @@ msgctxt ""
 "%1 is the operating system name, e.g. 'Fedora Linux', %2 is the CPU "
 "architecture, e.g. 'x86_64'"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: kbugreport.cpp:162
 #, kde-format
@@ -417,12 +417,12 @@ msgstr ""
 #: kcheckaccelerators.cpp:178 kcheckaccelerators.cpp:182
 #, kde-format
 msgid "Old Text"
-msgstr ""
+msgstr "舊 ê 文"
 
 #: kcheckaccelerators.cpp:178 kcheckaccelerators.cpp:187
 #, kde-format
 msgid "New Text"
-msgstr ""
+msgstr "新 ê 文"
 
 #: kcheckaccelerators.cpp:182
 #, kde-format
@@ -438,7 +438,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Change Text"
-msgstr ""
+msgstr "改變文字"
 
 #: kedittoolbar.cpp:342
 #, kde-format
@@ -458,11 +458,11 @@ msgid "Configure Toolbars"
 msgstr ""
 
 #: kedittoolbar.cpp:659
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
-msgstr "你kám真正ài kā這个應用程式的所有的工具列"
+msgstr "你 kám 真正 ài kā 這个應用程式的所有的工具列攏總 reset 掉？這寡改變會馬上有效。"
 
 #: kedittoolbar.cpp:660
 #, kde-format
@@ -499,7 +499,7 @@ msgstr ""
 #: kedittoolbar.cpp:1020
 #, kde-format
 msgid "Curr&ent actions:"
-msgstr "tsit-má的動作(&E)："
+msgstr "Tsit-má 的動作(&E)："
 
 #: kedittoolbar.cpp:1045
 #, kde-format
@@ -670,7 +670,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Conflict with Standard Application Shortcut"
-msgstr "kap標準應用程式快速齒有衝突"
+msgstr "Kap 標準 ê 應用程式快速齒有衝突"
 
 #: kkeysequencewidget.cpp:350
 #, kde-format
@@ -742,7 +742,7 @@ msgstr "快速齒方案"
 #: kshortcutschemeseditor.cpp:37
 #, kde-format
 msgid "Current scheme:"
-msgstr "tsit-má的方案："
+msgstr "Tsit-má 的方案："
 
 #: kshortcutschemeseditor.cpp:47
 #, kde-format
@@ -922,7 +922,7 @@ msgstr "%1 的快速齒"
 #: kshortcutseditor.cpp:541 kshortcutwidget.ui:22
 #, kde-format
 msgid "Main:"
-msgstr "主要"
+msgstr "主要："
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
 #: kshortcutseditor.cpp:542 kshortcutwidget.ui:52
@@ -987,22 +987,22 @@ msgid ""
 msgstr ""
 
 #: kswitchlanguagedialog_p.cpp:261 kswitchlanguagedialog_p.cpp:282
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "The language for this application has been changed. The change will take "
 "effect the next time the application is started."
-msgstr "這个應用程式ê語言"
+msgstr "這个應用程式 ê 語言"
 
 #: kswitchlanguagedialog_p.cpp:262
 #, kde-format
 msgctxt "@title:window"
 msgid "Application Language Changed"
-msgstr "應用程式ê語言變--ah"
+msgstr "應用程式 ê 語言變--ah"
 
 #: kswitchlanguagedialog_p.cpp:283
 #, kde-format
 msgid "Application Language Changed"
-msgstr "應用程式ê語言變--ah"
+msgstr "應用程式 ê 語言變--ah"
 
 #: kswitchlanguagedialog_p.cpp:368
 #, kde-format
@@ -1116,7 +1116,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
-msgstr ""
+msgstr "標準"
 
 #: ktoolbar.cpp:384 ktoolbar.cpp:408
 #, kde-format
@@ -1187,7 +1187,7 @@ msgstr "無文字"
 #: kxmlguiwindow.cpp:191
 #, kde-format
 msgid "Find Action…"
-msgstr "tshuē動作…"
+msgstr "Tshuē 動作…"
 
 #: kxmlguiwindow.cpp:561
 #, kde-format
@@ -1218,7 +1218,7 @@ msgstr "遊戲(&G)"
 #: ui_standards.rc:61
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "編輯(&E)"
 
 #. i18n: ectx: Menu (move)
 #: ui_standards.rc:84
@@ -1231,13 +1231,13 @@ msgstr ""
 #: ui_standards.rc:102
 #, kde-format
 msgid "&View"
-msgstr ""
+msgstr "檢視(&V)"
 
 #. i18n: ectx: Menu (go)
 #: ui_standards.rc:122
 #, kde-format
 msgid "&Go"
-msgstr ""
+msgstr "前往(&G)"
 
 #. i18n: ectx: Menu (bookmarks)
 #: ui_standards.rc:143
