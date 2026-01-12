@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-12 00:40+0000\n"
-"PO-Revision-Date: 2026-01-13 04:36+0900\n"
+"PO-Revision-Date: 2026-01-13 05:37+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: nan_TW\n"
@@ -213,7 +213,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title job"
 msgid "Copying"
-msgstr "咧 khóo-pih"
+msgstr "Leh khóo-pih"
 
 #: core/job.cpp:128
 #, kde-format
@@ -2221,12 +2221,12 @@ msgstr "無會當刣掉 ê 物件"
 #: filewidgets/kdiroperator.cpp:772 filewidgets/kdiroperator.cpp:860
 #, kde-format
 msgid "You did not select a file to trash."
-msgstr "你無選 ài suá 去糞埽桶 ê 檔案。"
+msgstr "你無選 ài 徙去糞埽桶 ê 檔案。"
 
 #: filewidgets/kdiroperator.cpp:772 filewidgets/kdiroperator.cpp:860
 #, kde-format
 msgid "Nothing to Trash"
-msgstr "無會當 suá 去糞埽桶 ê 物件"
+msgstr "無會當徙去糞埽桶 ê 物件"
 
 #: filewidgets/kdiroperator.cpp:932 filewidgets/kdiroperator.cpp:1055
 #, kde-format
@@ -2276,7 +2276,7 @@ msgstr ""
 #: widgets/jobuidelegate.cpp:282 widgets/widgetsaskuseractionhandler.cpp:312
 #, kde-format
 msgid "Move to Trash"
-msgstr "Suá 去糞埽桶"
+msgstr "徙去糞埽桶"
 
 #: filewidgets/kdiroperator.cpp:2084
 #, kde-format
@@ -2478,7 +2478,7 @@ msgstr "Khóo-pih 去"
 #, kde-format
 msgctxt "@title:menu"
 msgid "Move To"
-msgstr "Suá 去"
+msgstr "徙去"
 
 #: filewidgets/kfilecopytomenu.cpp:102
 #, kde-format
@@ -2514,7 +2514,7 @@ msgstr "Suá 到遮"
 #, kde-format
 msgctxt "Default mime type filter that shows all file types"
 msgid "*|All Files"
-msgstr ""
+msgstr "*|所有的檔案"
 
 #: filewidgets/kfilefiltercombo.cpp:123
 #, kde-format
@@ -2623,7 +2623,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item"
 msgid "Search For"
-msgstr "tshuē"
+msgstr "Tshuē"
 
 #: filewidgets/kfileplacesitem.cpp:233
 #, kde-format
@@ -4473,12 +4473,12 @@ msgstr ""
 #: widgets/fileundomanager.cpp:131
 #, kde-format
 msgid "Copying"
-msgstr "咧 khóo-pih"
+msgstr "Leh khóo-pih"
 
 #: widgets/fileundomanager.cpp:140
 #, kde-format
 msgid "Moving"
-msgstr ""
+msgstr "Leh 徙位"
 
 #: widgets/fileundomanager.cpp:140
 #, kde-format
@@ -4513,7 +4513,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:336
 #, kde-format
 msgid "Und&o: Move"
-msgstr "復原：Suá-uī(&O)"
+msgstr "復原：徙位(&O)"
 
 #: widgets/fileundomanager.cpp:338
 #, kde-format
@@ -4523,7 +4523,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:340
 #, kde-format
 msgid "Und&o: Trash"
-msgstr "復原：Suá 去糞埽桶(&O)"
+msgstr "復原：徙去糞埽桶(&O)"
 
 #: widgets/fileundomanager.cpp:342
 #, kde-format
@@ -4563,7 +4563,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:367
 #, kde-format
 msgid "&Redo: Move"
-msgstr "取消復原：Suá-uī(&R)"
+msgstr "取消復原：徙位(&R)"
 
 #: widgets/fileundomanager.cpp:369
 #, kde-format
@@ -4573,7 +4573,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:371
 #, kde-format
 msgid "&Redo: Trash"
-msgstr "取消復原：Suá 去糞埽桶(&R)"
+msgstr "取消復原：徙去糞埽桶(&R)"
 
 #: widgets/fileundomanager.cpp:373
 #, kde-format
@@ -6288,12 +6288,12 @@ msgstr ""
 #: widgets/renamedialog.cpp:263
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
-msgstr "䆀 khóo-pi̍h 猶是 suá 這个資料鋏仔，直接處理後一个項目"
+msgstr "Bái khóo-pi̍h 猶是 suá 這个資料鋏仔，直接處理後一个項目"
 
 #: widgets/renamedialog.cpp:264
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
-msgstr "䆀 khóo-pi̍h 猶是 suá 這个檔案，直接處理後一个項目"
+msgstr "Bái khóo-pi̍h 猶是 suá 這个檔案，直接處理後一个項目"
 
 #: widgets/renamedialog.cpp:275
 #, kde-format

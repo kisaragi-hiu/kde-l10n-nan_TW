@@ -249,6 +249,18 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-17a">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>move to</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>suá 到</term>
+          </tig>
+          <tig>
+            <term>suá kàu</term>
           </tig>
         </langSet>
       </termEntry>
@@ -260,10 +272,13 @@
         </langSet>
         <langSet xml:lang="nan-TW">
           <tig>
+            <term>徙位</term>
+          </tig>
+          <tig>
             <term>suá</term>
           </tig>
           <tig>
-            <term>徙</term>
+            <term>suá-uī</term>
           </tig>
         </langSet>
       </termEntry>
