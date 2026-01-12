@@ -4,3 +4,9 @@
 update:
 	cd nan_TW && fd -e po -x msgmerge --update '{}' ../../templates/'{.}'.pot
 	cd nan_TW@latin && fd -e po -x msgmerge --update '{}' ../../templates/'{.}'.pot
+
+install:
+	mkdir -p ~/.local/share/locale/nan_TW/LC_MESSAGES/
+	mkdir -p ~/.local/share/locale/nan_TW@latin/LC_MESSAGES/
+	cd nan_TW && fd -e po -x msgfmt '{}' -o ~/.local/share/locale/nan_TW/LC_MESSAGES/'{/.}'.mo
+	cd nan_TW@latin && fd -e po -x msgfmt '{}' -o ~/.local/share/locale/nan_TW@latin/LC_MESSAGES/'{/.}'.mo
