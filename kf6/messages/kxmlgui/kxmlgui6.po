@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"POT-Creation-Date: 2026-01-10 00:39+0000\n"
 "PO-Revision-Date: 2025-12-10 11:53+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
@@ -75,9 +75,9 @@ msgid ""
 "hundreds of applications, and the many software libraries that support them."
 "<br /><br />KDE is a cooperative enterprise: no single entity controls its "
 "direction or products. Instead, we work together to achieve the common goal "
-"of building the world's finest Free Software. Everyone is welcome to <a href="
-"\"%2\">join and contribute</a> to KDE, including you.<br /><br />Visit <a "
-"href=\"%3\">%3</a> for more information about the KDE community and the "
+"of building the world's finest Free Software. Everyone is welcome to <a "
+"href=\"%2\">join and contribute</a> to KDE, including you.<br /><br />Visit "
+"<a href=\"%3\">%3</a> for more information about the KDE community and the "
 "software we produce.</html>"
 msgstr ""
 
@@ -912,50 +912,50 @@ msgstr ""
 msgid "Mouse Shape Gesture"
 msgstr ""
 
-#: kshortcutseditor.cpp:526
+#: kshortcutseditor.cpp:521
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1 的快速齒"
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:546 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:541 kshortcutwidget.ui:22
 #, kde-format
 msgid "Main:"
 msgstr "主要"
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:547 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:542 kshortcutwidget.ui:52
 #, kde-format
 msgid "Alternate:"
 msgstr ""
 
-#: kshortcutseditor.cpp:548
+#: kshortcutseditor.cpp:543
 #, kde-format
 msgid "Global:"
 msgstr ""
 
-#: kshortcutseditor.cpp:549
+#: kshortcutseditor.cpp:544
 #, kde-format
 msgid "Global alternate:"
 msgstr ""
 
-#: kshortcutseditor.cpp:565
+#: kshortcutseditor.cpp:560
 #, kde-format
 msgid "Action Name"
 msgstr "動作名"
 
-#: kshortcutseditor.cpp:569
+#: kshortcutseditor.cpp:564
 #, kde-format
 msgid "Shortcuts"
 msgstr "快速齒"
 
-#: kshortcutseditor.cpp:573
+#: kshortcutseditor.cpp:568
 #, kde-format
 msgid "Description"
 msgstr "說明"
 
-#: kshortcutseditoritem.cpp:35
+#: kshortcutseditoritem.cpp:33
 #, kde-format
 msgctxt "@item:intable Action name in shortcuts configuration"
 msgid "%1"
@@ -1148,21 +1148,21 @@ msgstr ""
 msgid "Toolbars Shown"
 msgstr ""
 
-#: ktooltiphelper.cpp:214
+#: ktooltiphelper.cpp:211
 #, kde-format
 msgctxt ""
 "@info:tooltip %1 is the tooltip of an action, %2 is its keyboard shorcut"
 msgid "%1 (%2)"
 msgstr ""
 
-#: ktooltiphelper.cpp:282
+#: ktooltiphelper.cpp:279
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
 msgstr ""
 
-#: ktooltiphelper.cpp:298
+#: ktooltiphelper.cpp:295
 #, kde-format
 msgctxt "@info:tooltip keep short"
 msgid ""
@@ -1179,7 +1179,7 @@ msgstr "取消復原"
 msgid "Undo"
 msgstr "復原"
 
-#: kxmlguibuilder.cpp:171 kxmlguibuilder.cpp:350
+#: kxmlguibuilder.cpp:172 kxmlguibuilder.cpp:351
 #, kde-format
 msgid "No text"
 msgstr "無文字"
@@ -1193,8 +1193,8 @@ msgstr "tshuē動作…"
 #, kde-format
 msgid ""
 "There are two actions (%1, %2) that want to use the same shortcut (%3). This "
-"is most probably a bug. Please report it in <a href='https://bugs.kde."
-"org'>bugs.kde.org</a>"
+"is most probably a bug. Please report it in <a href='https://"
+"bugs.kde.org'>bugs.kde.org</a>"
 msgstr ""
 
 #: kxmlguiwindow.cpp:566
