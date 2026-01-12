@@ -1,0 +1,13 @@
+[General]
+AltDir=../ja
+BranchDir=../stable.nan_TW
+LangCode=nan_TW@latin
+LanguageSource=Project
+MailingList=zh-l10n@lists.slat.org
+PotBranchDir=../stable.templates
+ProjLangTeam=Taiwanese Hokkien <zh-l10n@lists.slat.org>
+ProjectID=kde-translations-nan_TW@latin
+TargetLangCode=nan_TW@latin
+
+[RegExps]
+Markup=(<[^>]+>)+|(&[A-Za-z]|&[A-Za-z_:][A-Za-z0-9_\\.:-]*;|%[0-9ns]|\\(https?://[^ ]+\\))+
