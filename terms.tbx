@@ -242,7 +242,13 @@
         </langSet>
         <langSet xml:lang="nan-TW">
           <tig>
-            <term>suá去糞埽桶</term>
+            <term>suá 去糞埽桶</term>
+          </tig>
+          <tig>
+            <term>suá khì pùn-sò-tháng</term>
+          </tig>
+        </langSet>
+      </termEntry>
           </tig>
         </langSet>
       </termEntry>
@@ -267,7 +273,7 @@
             <term>copy</term>
           </tig>
           <tig>
-            <term></term>
+            <term>khóo-pih</term>
           </tig>
         </langSet>
         <langSet xml:lang="nan-TW">
@@ -316,6 +322,9 @@
           <tig>
             <term>資料鋏仔</term>
           </tig>
+          <tig>
+            <term>tsu-liāu-giap-á</term>
+          </tig>
         </langSet>
       </termEntry>
       <termEntry id="kisaragi_hiu-22">
@@ -330,6 +339,36 @@
           </tig>
           <tig>
             <term>tóng-àn</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-23">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>menu</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>選單</term>
+          </tig>
+          <tig>
+            <term>suán-tuann</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-24">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>error</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>錯誤</term>
+          </tig>
+          <tig>
+            <term>tshò-gōo</term>
           </tig>
         </langSet>
       </termEntry>
