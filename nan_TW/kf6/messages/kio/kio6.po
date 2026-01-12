@@ -1,15 +1,15 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kio package.
 #
-# SPDX-FileCopyrightText: 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2025, 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-12 00:40+0000\n"
-"PO-Revision-Date: 2025-12-10 12:05+0900\n"
+"PO-Revision-Date: 2026-01-13 04:36+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
-"Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: nan_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,7 +88,7 @@ msgstr "檔案已經有--ah"
 #: core/copyjob.cpp:1711 core/copyjob.cpp:2416
 #, kde-format
 msgid "Already Exists as Folder"
-msgstr "已經是資料鋏仔--ah"
+msgstr "已經有用這个名的資料鋏仔--ah"
 
 #: core/copyjob.cpp:1865 kioworkers/trash/kio_trash.cpp:294
 #, kde-format
@@ -98,7 +98,7 @@ msgstr "糞埽桶"
 #: core/desktopexecparser.cpp:335
 #, kde-format
 msgid "No Exec field in %1"
-msgstr "%1 內底無Exec欄位"
+msgstr "%1 內底無 Exec 欄位"
 
 #: core/desktopexecparser.cpp:360
 #, kde-format
@@ -213,7 +213,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title job"
 msgid "Copying"
-msgstr "咧khóo-pih"
+msgstr "咧 khóo-pih"
 
 #: core/job.cpp:128
 #, kde-format
@@ -2194,39 +2194,39 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu Context menu shown when files are dragged"
 msgid "Move Into New Folder"
-msgstr "Suá到新的資料鋏仔內"
+msgstr "Suá 到新的資料鋏仔內"
 
 #: filewidgets/dropIntoNewFolder/dropintonewfolderPlugin.cpp:70
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New Folder for These Items"
-msgstr ""
+msgstr "為遮个項目建立新的資料鋏仔"
 
 #: filewidgets/kdiroperator.cpp:314
 #, kde-format
 msgctxt "Loading bar percent value"
 msgid "%p%"
-msgstr ""
+msgstr "%p%"
 
 #: filewidgets/kdiroperator.cpp:726 filewidgets/kdiroperator.cpp:759
 #, kde-format
 msgid "You did not select a file to delete."
-msgstr "你無選ài刣掉ê檔案。"
+msgstr "你無選 ài 刣掉 ê 檔案。"
 
 #: filewidgets/kdiroperator.cpp:726 filewidgets/kdiroperator.cpp:759
 #, kde-format
 msgid "Nothing to Delete"
-msgstr "無會當刣掉ê物件"
+msgstr "無會當刣掉 ê 物件"
 
 #: filewidgets/kdiroperator.cpp:772 filewidgets/kdiroperator.cpp:860
 #, kde-format
 msgid "You did not select a file to trash."
-msgstr "你無選ài suá去糞埽桶ê檔案。"
+msgstr "你無選 ài suá 去糞埽桶 ê 檔案。"
 
 #: filewidgets/kdiroperator.cpp:772 filewidgets/kdiroperator.cpp:860
 #, kde-format
 msgid "Nothing to Trash"
-msgstr "無會當suá去糞埽桶ê物件"
+msgstr "無會當 suá 去糞埽桶 ê 物件"
 
 #: filewidgets/kdiroperator.cpp:932 filewidgets/kdiroperator.cpp:1055
 #, kde-format
@@ -2276,7 +2276,7 @@ msgstr ""
 #: widgets/jobuidelegate.cpp:282 widgets/widgetsaskuseractionhandler.cpp:312
 #, kde-format
 msgid "Move to Trash"
-msgstr "Suá去糞埽桶"
+msgstr "Suá 去糞埽桶"
 
 #: filewidgets/kdiroperator.cpp:2084
 #, kde-format
@@ -2472,13 +2472,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:menu"
 msgid "Copy To"
-msgstr "Khóo-pih去"
+msgstr "Khóo-pih 去"
 
 #: filewidgets/kfilecopytomenu.cpp:77
 #, kde-format
 msgctxt "@title:menu"
 msgid "Move To"
-msgstr "Suá去"
+msgstr "Suá 去"
 
 #: filewidgets/kfilecopytomenu.cpp:102
 #, kde-format
@@ -2502,13 +2502,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:menu"
 msgid "Copy Here"
-msgstr "Khóo-pih到遮"
+msgstr "Khóo-pih 到遮"
 
 #: filewidgets/kfilecopytomenu.cpp:225
 #, kde-format
 msgctxt "@title:menu"
 msgid "Move Here"
-msgstr "Suá到遮"
+msgstr "Suá 到遮"
 
 #: filewidgets/kfilefiltercombo.cpp:37
 #, kde-format
@@ -4154,7 +4154,7 @@ msgstr ""
 #: kioworkers/trash/kio_trash_win.cpp:253
 #, kde-format
 msgid "Internal error in copyOrMove, should never happen"
-msgstr "佇copyOrMove內底有內部錯誤，這應該絕對bē發生"
+msgstr "佇 copyOrMove 內底有內部錯誤，這應該絕對 bē 發生"
 
 #: kioworkers/trash/ktrash.cpp:28
 #, kde-format
@@ -4381,7 +4381,7 @@ msgstr ""
 #: widgets/dropjob.cpp:290
 #, kde-format
 msgid "&Move Here"
-msgstr "Suá到遮(&M)"
+msgstr "Suá 到遮(&M)"
 
 #: widgets/dropjob.cpp:296
 #, kde-format
@@ -4392,7 +4392,7 @@ msgstr ""
 #: widgets/dropjob.cpp:296
 #, kde-format
 msgid "&Copy Here"
-msgstr "Khóo-pih到遮(&C)"
+msgstr "Khóo-pih 到遮(&C)"
 
 #: widgets/dropjob.cpp:303
 #, kde-format
@@ -4473,7 +4473,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:131
 #, kde-format
 msgid "Copying"
-msgstr "咧khóo-pih"
+msgstr "咧 khóo-pih"
 
 #: widgets/fileundomanager.cpp:140
 #, kde-format
@@ -4523,7 +4523,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:340
 #, kde-format
 msgid "Und&o: Trash"
-msgstr "復原：Suá去糞埽桶(&O)"
+msgstr "復原：Suá 去糞埽桶(&O)"
 
 #: widgets/fileundomanager.cpp:342
 #, kde-format
@@ -4573,7 +4573,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:371
 #, kde-format
 msgid "&Redo: Trash"
-msgstr "取消復原：Suá去糞埽桶(&R)"
+msgstr "取消復原：Suá 去糞埽桶(&R)"
 
 #: widgets/fileundomanager.cpp:373
 #, kde-format
@@ -4720,7 +4720,7 @@ msgstr ""
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Named User"
-msgstr "有名稱ê使用者"
+msgstr "有名稱 ê 用者"
 
 #: widgets/kacleditwidget.cpp:254
 #, kde-format
@@ -4765,7 +4765,7 @@ msgstr ""
 #: widgets/kacleditwidget.cpp:421
 #, kde-format
 msgid "Named user"
-msgstr "有名稱ê使用者"
+msgstr "有名稱 ê 用者"
 
 #: widgets/kacleditwidget.cpp:426
 #, kde-format
@@ -4775,7 +4775,7 @@ msgstr ""
 #: widgets/kacleditwidget.cpp:444
 #, kde-format
 msgid "User: "
-msgstr "使用者："
+msgstr "用者："
 
 #: widgets/kacleditwidget.cpp:458
 #, kde-format
@@ -5227,7 +5227,7 @@ msgctxt ""
 "@title:group Title of a group that lets the user choose which user to use "
 "when launching a program"
 msgid "User"
-msgstr "使用者"
+msgstr "用者"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, suidCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:81
@@ -5255,7 +5255,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopadvbase.ui:110
 #, kde-format
 msgid "Username:"
-msgstr "使用者名："
+msgstr "用者名："
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, suidEdit)
 #: widgets/kpropertiesdesktopadvbase.ui:120
@@ -6288,12 +6288,12 @@ msgstr ""
 #: widgets/renamedialog.cpp:263
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
-msgstr "䆀khóo-pi̍h猶是suá這个資料鋏仔，直接處理後一个項目"
+msgstr "䆀 khóo-pi̍h 猶是 suá 這个資料鋏仔，直接處理後一个項目"
 
 #: widgets/renamedialog.cpp:264
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
-msgstr "䆀khóo-pi̍h猶是suá這个檔案，直接處理後一个項目"
+msgstr "䆀 khóo-pi̍h 猶是 suá 這个檔案，直接處理後一个項目"
 
 #: widgets/renamedialog.cpp:275
 #, kde-format
