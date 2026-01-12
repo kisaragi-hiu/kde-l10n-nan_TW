@@ -77,28 +77,28 @@ msgstr ""
 #: core/copyjob.cpp:1387 core/job_error.cpp:588
 #, kde-format
 msgid "Folder Already Exists"
-msgstr "資料鋏仔已經有--ah"
+msgstr "Tsu-liāu-giap-á í-king ū--ah"
 
 #: core/copyjob.cpp:1711 core/copyjob.cpp:2416 core/filecopyjob.cpp:368
 #: core/job_error.cpp:577 widgets/paste.cpp:48
 #, kde-format
 msgid "File Already Exists"
-msgstr "檔案已經有--ah"
+msgstr "Tóng-àn í-king ū--ah"
 
 #: core/copyjob.cpp:1711 core/copyjob.cpp:2416
 #, kde-format
 msgid "Already Exists as Folder"
-msgstr "已經是資料鋏仔--ah"
+msgstr "Í-king ū iōng tsit-ê miâ ê tsu-liāu-giap-á--ah"
 
 #: core/copyjob.cpp:1865 kioworkers/trash/kio_trash.cpp:294
 #, kde-format
 msgid "Trash"
-msgstr "糞埽桶"
+msgstr "Pùn-sò-tháng"
 
 #: core/desktopexecparser.cpp:335
 #, kde-format
 msgid "No Exec field in %1"
-msgstr "%1 內底無Exec欄位"
+msgstr "%1 lāi-té bô Exec lân-uī"
 
 #: core/desktopexecparser.cpp:360
 #, kde-format
@@ -213,7 +213,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title job"
 msgid "Copying"
-msgstr "咧khóo-pih"
+msgstr "Leh khóo-pih"
 
 #: core/job.cpp:128
 #, kde-format
@@ -2194,39 +2194,39 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu Context menu shown when files are dragged"
 msgid "Move Into New Folder"
-msgstr "Suá到新的資料鋏仔內"
+msgstr "Suá kàu sin-ê tsu-liāu-giap-á lāi"
 
 #: filewidgets/dropIntoNewFolder/dropintonewfolderPlugin.cpp:70
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New Folder for These Items"
-msgstr ""
+msgstr "Uī tsia-ê hāng-bo̍k kiàn-li̍p sin ê tsu-liāu-giap-á"
 
 #: filewidgets/kdiroperator.cpp:314
 #, kde-format
 msgctxt "Loading bar percent value"
 msgid "%p%"
-msgstr ""
+msgstr "%p%"
 
 #: filewidgets/kdiroperator.cpp:726 filewidgets/kdiroperator.cpp:759
 #, kde-format
 msgid "You did not select a file to delete."
-msgstr "你無選ài刣掉ê檔案。"
+msgstr "Lí bô suán ài thâi-tiāu ê tóng-àn."
 
 #: filewidgets/kdiroperator.cpp:726 filewidgets/kdiroperator.cpp:759
 #, kde-format
 msgid "Nothing to Delete"
-msgstr "無會當刣掉ê物件"
+msgstr "Bô ē-tàng thâi-tiāu ê mi̍h-kiānn."
 
 #: filewidgets/kdiroperator.cpp:772 filewidgets/kdiroperator.cpp:860
 #, kde-format
 msgid "You did not select a file to trash."
-msgstr "你無選ài suá去糞埽桶ê檔案。"
+msgstr "Lí bô suán ài suá-khì pùn-sò-tháng ê tóng-àn."
 
 #: filewidgets/kdiroperator.cpp:772 filewidgets/kdiroperator.cpp:860
 #, kde-format
 msgid "Nothing to Trash"
-msgstr "無會當suá去糞埽桶ê物件"
+msgstr "Bô ē-tàng suá-khì pùn-sò-tháng ê mi̍h-kiānn."
 
 #: filewidgets/kdiroperator.cpp:932 filewidgets/kdiroperator.cpp:1055
 #, kde-format
@@ -2236,7 +2236,7 @@ msgstr ""
 #: filewidgets/kdiroperator.cpp:2041
 #, kde-format
 msgid "Menu"
-msgstr "選單"
+msgstr "Suán-tuann"
 
 #: filewidgets/kdiroperator.cpp:2046
 #, kde-format
@@ -2247,13 +2247,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Go back"
-msgstr "轉去"
+msgstr "Tńg-khì"
 
 #: filewidgets/kdiroperator.cpp:2057
 #, kde-format
 msgctxt "@info"
 msgid "Go forward"
-msgstr "向前"
+msgstr "Hiòng-tsiân\n"
 
 #: filewidgets/kdiroperator.cpp:2061
 #, kde-format
@@ -2276,7 +2276,7 @@ msgstr ""
 #: widgets/jobuidelegate.cpp:282 widgets/widgetsaskuseractionhandler.cpp:312
 #, kde-format
 msgid "Move to Trash"
-msgstr "Suá去糞埽桶"
+msgstr "Suá-khì pùn-sò-tháng"
 
 #: filewidgets/kdiroperator.cpp:2084
 #, kde-format
@@ -2472,13 +2472,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:menu"
 msgid "Copy To"
-msgstr "Khóo-pih去"
+msgstr "Khóo-pih khì"
 
 #: filewidgets/kfilecopytomenu.cpp:77
 #, kde-format
 msgctxt "@title:menu"
 msgid "Move To"
-msgstr "Suá去"
+msgstr "Suá-khì"
 
 #: filewidgets/kfilecopytomenu.cpp:102
 #, kde-format
@@ -2502,19 +2502,19 @@ msgstr ""
 #, kde-format
 msgctxt "@title:menu"
 msgid "Copy Here"
-msgstr "Khóo-pih到遮"
+msgstr "Khóo-pih kàu tsia"
 
 #: filewidgets/kfilecopytomenu.cpp:225
 #, kde-format
 msgctxt "@title:menu"
 msgid "Move Here"
-msgstr "Suá到遮"
+msgstr "Suá kàu tsia"
 
 #: filewidgets/kfilefiltercombo.cpp:37
 #, kde-format
 msgctxt "Default mime type filter that shows all file types"
 msgid "*|All Files"
-msgstr ""
+msgstr "*|Sóo-ū ê tóng-àn"
 
 #: filewidgets/kfilefiltercombo.cpp:123
 #, kde-format
@@ -2623,7 +2623,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item"
 msgid "Search For"
-msgstr "tshuē"
+msgstr "Tshuē"
 
 #: filewidgets/kfileplacesitem.cpp:233
 #, kde-format
@@ -4154,7 +4154,7 @@ msgstr ""
 #: kioworkers/trash/kio_trash_win.cpp:253
 #, kde-format
 msgid "Internal error in copyOrMove, should never happen"
-msgstr "佇copyOrMove內底有內部錯誤，這應該絕對bē發生"
+msgstr "Tī copyOrMove lāi-té ū lāi-pōo tshò-gōo, tse ing-kai tsua̍t-tuì bē huat-sing"
 
 #: kioworkers/trash/ktrash.cpp:28
 #, kde-format
@@ -4381,7 +4381,7 @@ msgstr ""
 #: widgets/dropjob.cpp:290
 #, kde-format
 msgid "&Move Here"
-msgstr "Suá到遮(&M)"
+msgstr "&Suá kàu tsia"
 
 #: widgets/dropjob.cpp:296
 #, kde-format
@@ -4392,7 +4392,7 @@ msgstr ""
 #: widgets/dropjob.cpp:296
 #, kde-format
 msgid "&Copy Here"
-msgstr "Khóo-pih到遮(&C)"
+msgstr "&Khóo-pih kàu tsia"
 
 #: widgets/dropjob.cpp:303
 #, kde-format
@@ -4473,12 +4473,12 @@ msgstr ""
 #: widgets/fileundomanager.cpp:131
 #, kde-format
 msgid "Copying"
-msgstr "咧khóo-pih"
+msgstr "Leh khóo-pih"
 
 #: widgets/fileundomanager.cpp:140
 #, kde-format
 msgid "Moving"
-msgstr ""
+msgstr "Leh suá-uī"
 
 #: widgets/fileundomanager.cpp:140
 #, kde-format
@@ -4488,7 +4488,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:147
 #, kde-format
 msgid "Moving to Trash"
-msgstr ""
+msgstr "Leh suá-khì pùn-sò-tháng"
 
 #: widgets/fileundomanager.cpp:152
 #, kde-format
