@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 00:40+0000\n"
+"POT-Creation-Date: 2026-01-21 00:41+0000\n"
 "PO-Revision-Date: 2026-01-13 07:59+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
@@ -44,7 +44,7 @@ msgstr ""
 msgid "Unable to create KIO worker: %1"
 msgstr ""
 
-#: core/copyjob.cpp:167 kioworkers/file/file_unix.cpp:974
+#: core/copyjob.cpp:167 kioworkers/file/file_unix.cpp:985
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -2011,7 +2011,7 @@ msgid " (Points to %1)"
 msgstr ""
 
 #: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:150
-#: widgets/renamedialog.cpp:637
+#: widgets/renamedialog.cpp:653
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -2721,86 +2721,86 @@ msgctxt "KFile System Bookmarks"
 msgid "Modified Yesterday"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1091
+#: filewidgets/kfileplacesmodel.cpp:1127
 #, kde-format
 msgctxt "Placeholder is error message"
 msgid "Could not add to the Places panel: %1"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1098
+#: filewidgets/kfileplacesmodel.cpp:1134
 #, kde-format
 msgid "Only folders can be added to the Places panel."
-msgstr ""
-
-#: filewidgets/kfileplacesmodel.cpp:1341
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Configure…"
 msgstr ""
 
 #: filewidgets/kfileplacesmodel.cpp:1377
 #, kde-format
 msgctxt "@action:inmenu"
+msgid "Configure…"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:1413
+#, kde-format
+msgctxt "@action:inmenu"
 msgid "Releasing…"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1379
+#: filewidgets/kfileplacesmodel.cpp:1415
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1383
+#: filewidgets/kfileplacesmodel.cpp:1419
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Safely Removing…"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1385
+#: filewidgets/kfileplacesmodel.cpp:1421
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1390
+#: filewidgets/kfileplacesmodel.cpp:1426
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmounting…"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1392
+#: filewidgets/kfileplacesmodel.cpp:1428
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1416
+#: filewidgets/kfileplacesmodel.cpp:1452
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1463
+#: filewidgets/kfileplacesmodel.cpp:1499
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1498
+#: filewidgets/kfileplacesmodel.cpp:1534
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1500
+#: filewidgets/kfileplacesmodel.cpp:1536
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1526
+#: filewidgets/kfileplacesmodel.cpp:1562
 #, kde-format
 msgid "One or more files on this device are open within an application."
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1529
+#: filewidgets/kfileplacesmodel.cpp:1565
 #, kde-kuit-format
 msgid ""
 "One or more files on this device are opened in application "
@@ -2811,13 +2811,13 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: filewidgets/kfileplacesmodel.cpp:1532
+#: filewidgets/kfileplacesmodel.cpp:1568
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1579
+#: filewidgets/kfileplacesmodel.cpp:1615
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reformat or Edit with Partition Manager"
@@ -3148,7 +3148,7 @@ msgstr ""
 msgid "All Folders"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2194 widgets/kfileitemactions.cpp:778
+#: filewidgets/kfilewidget.cpp:2194 widgets/kfileitemactions.cpp:798
 #, kde-format
 msgid "&Open"
 msgstr ""
@@ -3789,22 +3789,22 @@ msgstr ""
 msgid "Could not find program \"umount\""
 msgstr ""
 
-#: kioworkers/file/file_unix.cpp:567
+#: kioworkers/file/file_unix.cpp:578
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: kioworkers/file/file_unix.cpp:781
+#: kioworkers/file/file_unix.cpp:792
 #, kde-format
 msgid "No media in device for %1"
 msgstr ""
 
-#: kioworkers/file/file_unix.cpp:1042
+#: kioworkers/file/file_unix.cpp:1053
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 
-#: kioworkers/file/file_unix.cpp:1053
+#: kioworkers/file/file_unix.cpp:1064
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
@@ -4154,7 +4154,8 @@ msgstr ""
 #: kioworkers/trash/kio_trash_win.cpp:253
 #, kde-format
 msgid "Internal error in copyOrMove, should never happen"
-msgstr "Tī copyOrMove lāi-té ū lāi-pōo tshò-gōo, tse ing-kai tsua̍t-tuì bē huat-sing"
+msgstr ""
+"Tī copyOrMove lāi-té ū lāi-pōo tshò-gōo, tse ing-kai tsua̍t-tuì bē huat-sing"
 
 #: kioworkers/trash/ktrash.cpp:28
 #, kde-format
@@ -4460,12 +4461,12 @@ msgstr ""
 msgid "Creating directory"
 msgstr ""
 
-#: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:387
+#: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:403
 #, kde-format
 msgid "Source"
 msgstr ""
 
-#: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:389
+#: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:405
 #, kde-format
 msgid "Destination"
 msgstr ""
@@ -4867,58 +4868,63 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:401
+#: widgets/kfileitemactions.cpp:403
 #, kde-format
 msgid "Open &with %1"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:403
+#: widgets/kfileitemactions.cpp:405
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:539
+#: widgets/kfileitemactions.cpp:541
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:704
+#: widgets/kfileitemactions.cpp:706
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Open Folder With…"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:704
+#: widgets/kfileitemactions.cpp:706
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Open With…"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:767
+#: widgets/kfileitemactions.cpp:765
+#, kde-format
+msgid "&Run Executable"
+msgstr ""
+
+#: widgets/kfileitemactions.cpp:787
 #, kde-format
 msgid "&Open folder with %1"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:767
+#: widgets/kfileitemactions.cpp:787
 #, kde-format
 msgid "&Open with %1"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:799
+#: widgets/kfileitemactions.cpp:819
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open Folder With"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:799
+#: widgets/kfileitemactions.cpp:819
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:810
+#: widgets/kfileitemactions.cpp:830
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application…"
@@ -6239,69 +6245,72 @@ msgstr ""
 msgid "Filename for dropped contents:"
 msgstr ""
 
-#: widgets/renamedialog.cpp:70
+#: widgets/renamedialog.cpp:73
 #, kde-format
 msgid "Date: %1"
 msgstr ""
 
-#: widgets/renamedialog.cpp:79
+#: widgets/renamedialog.cpp:86
 #, kde-format
 msgid "Size: %1"
 msgstr ""
 
-#: widgets/renamedialog.cpp:243
+#: widgets/renamedialog.cpp:259
 #, kde-format
 msgid "Appl&y to All"
 msgstr ""
 
-#: widgets/renamedialog.cpp:244
+#: widgets/renamedialog.cpp:260
 #, kde-format
 msgid ""
-"When this is checked the button pressed will be applied to all subsequent "
+"When this is checked, the button pressed will be applied to all subsequent "
 "folder conflicts for the remainder of the current job.\n"
 "Unless you press Skip you will still be prompted in case of a conflict with "
 "an existing file in the directory."
 msgstr ""
 
-#: widgets/renamedialog.cpp:248
+#: widgets/renamedialog.cpp:264
 #, kde-format
 msgid ""
-"When this is checked the button pressed will be applied to all subsequent "
+"When this is checked, the button pressed will be applied to all subsequent "
 "conflicts for the remainder of the current job."
 msgstr ""
 
-#: widgets/renamedialog.cpp:254
+#: widgets/renamedialog.cpp:270
 #, kde-format
 msgid "&Rename"
 msgstr ""
 
-#: widgets/renamedialog.cpp:256
+#: widgets/renamedialog.cpp:272
 #, kde-format
 msgid "Suggest New &Name"
 msgstr ""
 
-#: widgets/renamedialog.cpp:262
+#: widgets/renamedialog.cpp:278
 #, kde-format
 msgid "&Skip"
 msgstr ""
 
-#: widgets/renamedialog.cpp:263
+#: widgets/renamedialog.cpp:279
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
-msgstr "Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
+msgstr ""
+"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē "
+"hāng-bo̍k"
 
-#: widgets/renamedialog.cpp:264
+#: widgets/renamedialog.cpp:280
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
-msgstr "Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
+msgstr ""
+"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
 
-#: widgets/renamedialog.cpp:275
+#: widgets/renamedialog.cpp:291
 #, kde-format
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr ""
 
-#: widgets/renamedialog.cpp:278
+#: widgets/renamedialog.cpp:294
 #, kde-format
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its "
@@ -6310,110 +6319,110 @@ msgid ""
 "the directory."
 msgstr ""
 
-#: widgets/renamedialog.cpp:283
+#: widgets/renamedialog.cpp:299
 #, kde-format
 msgctxt "Overwrite files into an existing folder when files are older"
 msgid "&Overwrite older files"
 msgstr ""
 
-#: widgets/renamedialog.cpp:287
+#: widgets/renamedialog.cpp:303
 #, kde-format
 msgid ""
 "Destination files which have older modification times will be overwritten by "
 "the source, skipped otherwise."
 msgstr ""
 
-#: widgets/renamedialog.cpp:299
+#: widgets/renamedialog.cpp:315
 #, kde-format
 msgid "&Resume"
 msgstr ""
 
-#: widgets/renamedialog.cpp:308
+#: widgets/renamedialog.cpp:324
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
 "Please enter a new file name:"
 msgstr ""
 
-#: widgets/renamedialog.cpp:314
+#: widgets/renamedialog.cpp:330
 #, kde-format
 msgid "C&ontinue"
 msgstr ""
 
-#: widgets/renamedialog.cpp:376
+#: widgets/renamedialog.cpp:392
 #, kde-format
 msgid "Would you like to overwrite the destination?"
 msgstr ""
 
-#: widgets/renamedialog.cpp:378
+#: widgets/renamedialog.cpp:394
 #, kde-format
 msgid "Would you like to merge the contents of '%1' into '%2'?"
 msgstr ""
 
-#: widgets/renamedialog.cpp:421
+#: widgets/renamedialog.cpp:437
 #, kde-format
 msgid "The source is <b>more recent</b>."
 msgstr ""
 
-#: widgets/renamedialog.cpp:423
+#: widgets/renamedialog.cpp:439
 #, kde-format
 msgid "The source is <b>older</b>."
 msgstr ""
 
-#: widgets/renamedialog.cpp:432
+#: widgets/renamedialog.cpp:448
 #, kde-format
 msgid "The source is <b>smaller by %1</b>."
 msgstr ""
 
-#: widgets/renamedialog.cpp:435
+#: widgets/renamedialog.cpp:451
 #, kde-format
 msgid "The source is <b>bigger by %1</b>."
 msgstr ""
 
-#: widgets/renamedialog.cpp:449
+#: widgets/renamedialog.cpp:465
 #, kde-format
 msgid "The files are <b>identical</b>."
 msgstr ""
 
-#: widgets/renamedialog.cpp:452
+#: widgets/renamedialog.cpp:468
 #, kde-format
 msgid "The files <b>seem identical</b>."
 msgstr ""
 
-#: widgets/renamedialog.cpp:456
+#: widgets/renamedialog.cpp:472
 #, kde-format
 msgid "The files are <b>different</b>."
 msgstr ""
 
-#: widgets/renamedialog.cpp:464
+#: widgets/renamedialog.cpp:480
 #, kde-format
 msgid ""
 "The files are likely to be identical: they have the same size and their "
 "contents are the same at the beginning, middle and end."
 msgstr ""
 
-#: widgets/renamedialog.cpp:478
+#: widgets/renamedialog.cpp:494
 #, kde-format
 msgctxt "@action:button"
 msgid "Compare Files"
 msgstr ""
 
-#: widgets/renamedialog.cpp:491
+#: widgets/renamedialog.cpp:507
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr ""
 
-#: widgets/renamedialog.cpp:493
+#: widgets/renamedialog.cpp:509
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr ""
 
-#: widgets/renamedialog.cpp:495
+#: widgets/renamedialog.cpp:511
 #, kde-format
 msgid "A more recent item named '%1' already exists."
 msgstr ""
 
-#: widgets/renamedialog.cpp:508
+#: widgets/renamedialog.cpp:524
 #, kde-format
 msgid "Rename:"
 msgstr ""
