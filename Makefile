@@ -10,3 +10,6 @@ install:
 	mkdir -p ~/.local/share/locale/nan_TW@latin/LC_MESSAGES/
 	cd nan_TW && fd -e po -x msgfmt '{}' -o ~/.local/share/locale/nan_TW/LC_MESSAGES/'{/.}'.mo
 	cd nan_TW@latin && fd -e po -x msgfmt '{}' -o ~/.local/share/locale/nan_TW@latin/LC_MESSAGES/'{/.}'.mo
+
+fix-plurals:
+	find . -path '*.po' -execdir sed -i s/'"Plural-Forms: nplurals=2; plural=n != 1;\\n"'/'"Plural-Forms: nplurals=1; plural=0;\\n"'/ '{}' ';'
