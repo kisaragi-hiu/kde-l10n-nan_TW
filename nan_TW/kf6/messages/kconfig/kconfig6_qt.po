@@ -13,12 +13,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 25.11.70\n"
 
-#: core/kconfig.cpp:993
+#: core/kconfig.cpp:991
 msgctxt "KConfig|"
 msgid "Please contact your system administrator."
 msgstr ""
 
-#: core/kconfigini.cpp:506
+#: core/kconfigini.cpp:456
 #, qt-format
 msgctxt "KConfigIniBackend|"
 msgid "Configuration file \"%1\" not writable.\n"
@@ -1018,7 +1018,12 @@ msgctxt "main|"
 msgid "Type of variable"
 msgstr ""
 
-#: kreadconfig/kreadconfig.cpp:84 kreadconfig/kwriteconfig.cpp:71
+#: kreadconfig/kreadconfig.cpp:55
+msgctxt "main|"
+msgid "Dump all entries"
+msgstr ""
+
+#: kreadconfig/kreadconfig.cpp:85 kreadconfig/kwriteconfig.cpp:71
 msgctxt "main|"
 msgid "Group name cannot be empty, use \"<default>\" for the root group"
 msgstr ""
