@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kio package.
 #
-# SPDX-FileCopyrightText: 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2025-2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-30 00:39+0000\n"
-"PO-Revision-Date: 2026-01-13 07:59+0900\n"
+"PO-Revision-Date: 2026-03-30 21:15+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Lokalize 26.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -136,28 +136,24 @@ msgstr ""
 msgid "1 day %2"
 msgid_plural "%1 days %2"
 msgstr[0] ""
-msgstr[1] ""
 
 #: core/global.cpp:88 core/global.cpp:104
 #, kde-format
 msgid "%1 Item"
 msgid_plural "%1 Items"
 msgstr[0] ""
-msgstr[1] ""
 
 #: core/global.cpp:92
 #, kde-format
 msgid "1 Folder"
 msgid_plural "%1 Folders"
 msgstr[0] ""
-msgstr[1] ""
 
 #: core/global.cpp:93
 #, kde-format
 msgid "1 File"
 msgid_plural "%1 Files"
 msgstr[0] ""
-msgstr[1] ""
 
 #: core/global.cpp:95
 #, kde-format
@@ -457,7 +453,7 @@ msgstr ""
 #: core/job_error.cpp:143
 #, kde-format
 msgid "Could not remove folder %1."
-msgstr ""
+msgstr "Bô-huat-tōo î-tû %1 tsit-ê tsu-liāu-giap-á."
 
 #: core/job_error.cpp:146
 #, kde-format
@@ -671,7 +667,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info url"
 msgid "(unknown)"
-msgstr ""
+msgstr "(m̄-tsai)"
 
 #: core/job_error.cpp:304
 #, kde-format
@@ -723,7 +719,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info protocol"
 msgid "(unknown)"
-msgstr ""
+msgstr "(m̄-tsai)"
 
 #: core/job_error.cpp:377
 #, kde-format
@@ -785,6 +781,8 @@ msgid ""
 "Update your software to the latest version. Your distribution should provide "
 "tools to update your software."
 msgstr ""
+"Tshiánn kā lí ê nńg-thé king-sin kàu siōng sin ê pán-pún. Lí ê huat-hîng-pán i"
+"ng-kai ū thê-kiong king-sin nńg-thé ê kang-khū."
 
 #: core/job_error.cpp:405
 #, kde-format
@@ -901,6 +899,9 @@ msgid ""
 "been updated with your last update of KDE. This can cause the program to be "
 "incompatible with the current version and thus not start."
 msgstr ""
+"Thê-kiong tuì tsit-ê hia̍p-tīng ê siong-iông ê tîng-sik khó-lîng bô tī tíng-ká"
+"i king-sin KDE ê sî-tsūn tsò-hué king-sin. Tse khó-lîng ē hāi i kā tsit-má ê p"
+"án-pún bô siong-iông, tsō-sîng i bô-huat-tōo khai-sí."
 
 #: core/job_error.cpp:477
 #, kde-format
@@ -1552,7 +1553,7 @@ msgstr ""
 #: core/job_error.cpp:946
 #, kde-format
 msgid "Could Not Remove Folder"
-msgstr ""
+msgstr "Bô-huat-tōo Î-tû Tsu-liāu-giap-á"
 
 #: core/job_error.cpp:948
 #, kde-format
@@ -1766,7 +1767,7 @@ msgstr ""
 #: core/job_error.cpp:1113
 #, kde-format
 msgid "Unknown Error"
-msgstr ""
+msgstr "M̄-tsai ê tshò-gōo"
 
 #: core/job_error.cpp:1115
 #, kde-format
@@ -1876,6 +1877,10 @@ msgid ""
 "archiving files to removable media storage such as CD-Recordable discs; or "
 "3) obtain more storage capacity."
 msgstr ""
+"Tshiánn sian kā tû-tsûn iông-liōng khang hōo tshut-lâi, ē-sái (1) thâi-tiāu ts"
+"i̍t-kuá bô su-iàu ê tsiām-sî ê tóng-àn; (2) kā tóng-àn hong-tsûn kàu CD-R kong"
+"-tia̍p tsit-khuán ē-sái î-tû ê muî-thé; á-sī (3) an-tsong koh-khah tsē ê tû-ts"
+"ûn khong-kan."
 
 #: core/job_error.cpp:1208
 #, kde-format
@@ -2809,7 +2814,6 @@ msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
 msgstr[0] ""
-msgstr[1] ""
 
 #: filewidgets/kfileplacesmodel.cpp:1568
 #, kde-format
@@ -2978,7 +2982,6 @@ msgid_plural ""
 "The selected URL uses an unsupported scheme. Please use one of the following "
 "schemes: %2"
 msgstr[0] ""
-msgstr[1] ""
 
 #: filewidgets/kfilewidget.cpp:829
 #, kde-format
@@ -4650,7 +4653,6 @@ msgid_plural ""
 "Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis "
 "strong='true'>This action cannot be undone.</emphasis>"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/jobuidelegate.cpp:258 widgets/widgetsaskuseractionhandler.cpp:297
 #, kde-kuit-format
@@ -4679,7 +4681,6 @@ msgstr ""
 msgid "Do you really want to move this item to the Trash?"
 msgid_plural "Do you really want to move these %1 items to the Trash?"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kacleditwidget.cpp:71
 #, kde-format
@@ -4943,7 +4944,6 @@ msgctxt "Items in a folder"
 msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kfileitemdelegate.cpp:266 widgets/kfileitemdelegate.cpp:270
 #, kde-format
@@ -5104,7 +5104,6 @@ msgid "<qt>Select the program you want to use to open the file.</qt>"
 msgid_plural ""
 "<qt>Select the program you want to use to open the %1 files.</qt>"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kopenwithdialog.cpp:597 widgets/kopenwithdialog.cpp:628
 #, kde-format
@@ -5486,7 +5485,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopbase.ui:255
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "Î-tû"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, advancedButton)
 #: widgets/kpropertiesdesktopbase.ui:278
@@ -5514,7 +5513,6 @@ msgstr ""
 msgid "Properties for 1 item"
 msgid_plural "Properties for %1 Selected Items"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kpropertiesdialog.cpp:350
 #, kde-format
@@ -5552,7 +5550,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:716
 #, kde-format
 msgid "Refresh"
-msgstr ""
+msgstr "Tîng tsíng-lí"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:448
 #, kde-format
@@ -5591,7 +5589,6 @@ msgstr ""
 msgid "1 file"
 msgid_plural "%1 files"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:697
 #: widgets/kpropertiesdialogbuiltin_p.cpp:712
@@ -5599,7 +5596,6 @@ msgstr[1] ""
 msgid "1 sub-folder"
 msgid_plural "%1 sub-folders"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:725
 #, kde-format
@@ -5690,7 +5686,6 @@ msgstr ""
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1201
 #, kde-format
@@ -5967,14 +5962,12 @@ msgstr ""
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1819
 #, kde-format
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1833
 #, kde-format
@@ -6137,7 +6130,6 @@ msgctxt "Part of: %1, using %2 bits of a %3 bit key"
 msgid "using %1 bit"
 msgid_plural "using %1 bits"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/ksslinfodialog.cpp:142
 #, kde-format
@@ -6145,7 +6137,6 @@ msgctxt "Part of: %1, using %2 bits of a %3 bit key"
 msgid "of a %1 bit key"
 msgid_plural "of a %1 bit key"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/ksslinfodialog.cpp:157
 #, kde-format
@@ -6224,7 +6215,6 @@ msgctxt "@action:inmenu"
 msgid "Paste One Item"
 msgid_plural "Paste %1 Items"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/paste.cpp:247
 #, kde-format
@@ -6309,14 +6299,16 @@ msgstr ""
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē "
+"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē"
+" "
 "hāng-bo̍k"
 
 #: widgets/renamedialog.cpp:300
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
+"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo"
+"̍k"
 
 #: widgets/renamedialog.cpp:311
 #, kde-format
@@ -6465,7 +6457,6 @@ msgctxt "@label:textbox"
 msgid "Rename the %1 selected item to:"
 msgid_plural "Rename the %1 selected items to:"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/renamefiledialog.cpp:167
 #, kde-format
@@ -6495,7 +6486,6 @@ msgctxt "@label:textbox by: [Replacing: xx] [With: yy]"
 msgid "Rename the %1 selected item by:"
 msgid_plural "Rename the %1 selected items by:"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/renamefiledialog.cpp:314
 #, kde-format
@@ -6541,7 +6531,6 @@ msgctxt "@label:textbox"
 msgid "Rename the %1 selected item:"
 msgid_plural "Rename the %1 selected items:"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/renamefiledialog.cpp:407
 #, kde-format
@@ -6757,7 +6746,6 @@ msgid_plural ""
 "Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis "
 "strong='true'>This action cannot be undone.</emphasis>"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/widgetsaskuseractionhandler.cpp:253
 #, kde-kuit-format
@@ -6779,7 +6767,6 @@ msgid_plural ""
 "instead?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</"
 "emphasis>"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/widgetsaskuseractionhandler.cpp:275
 #, kde-kuit-format
@@ -6802,7 +6789,6 @@ msgid_plural ""
 "delete them instead?<nl/><nl/><emphasis strong='true'>This action cannot be "
 "undone.</emphasis>"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/widgetsaskuseractionhandler.cpp:310
 #, kde-kuit-format
@@ -6810,7 +6796,6 @@ msgctxt "@info"
 msgid "Do you really want to move this %1 item to the Trash?"
 msgid_plural "Do you really want to move these %1 items to the Trash?"
 msgstr[0] ""
-msgstr[1] ""
 
 #: widgets/widgetsaskuseractionhandler.cpp:367
 #, kde-format
@@ -6844,7 +6829,7 @@ msgstr ""
 #, kde-format
 msgctxt "Warning about executing unknown program"
 msgid "Warning"
-msgstr ""
+msgstr "Kíng-kò"
 
 #: widgets/widgetsuntrustedprogramhandler.cpp:126
 #, kde-format

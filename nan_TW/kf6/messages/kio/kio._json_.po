@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: json files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:00+0000\n"
+"PO-Revision-Date: 2026-03-30 21:38+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nan_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 26.07.70\n"
+
+#: src/filewidgets/dropIntoNewFolder/dropintonewfolderPlugin.json
+msgctxt "Name"
+msgid "Drop Into New Folder"
+msgstr "放入去新的資料鋏仔"
+
+#: src/kioworkers/remote/kdedmodule/remotedirnotify.json
+msgctxt "Name"
+msgid "Remote URL Change Notifier"
+msgstr "遠端 URL 改變通知器"
+
+#: src/kioworkers/remote/kdedmodule/remotedirnotify.json
+msgctxt "Description"
+msgid "Provides change notification for network folders"
+msgstr "對網路資料鋏仔提供改變時的通知"
+
+#: src/kioworkers/trash/trash.json
+msgctxt "trash ExtraNames"
+msgid "Original Path;Deletion Date"
+msgstr "原本的路徑;刣掉的日期"

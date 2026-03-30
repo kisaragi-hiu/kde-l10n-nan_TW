@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-03-26 00:02+0900\n"
+"PO-Revision-Date: 2026-03-30 20:58+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -41,7 +41,6 @@ msgctxt "@title:tab"
 msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "Tsok-tsiá"
-msgstr[1] ""
 
 #: kaboutapplicationdialog.cpp:111 kaboutplugindialog.cpp:99
 #, kde-format
@@ -273,12 +272,14 @@ msgid ""
 "Please use %1 to report bugs.<br/>If you have questions or need help, please "
 "visit %2.<br/>"
 msgstr ""
+"Tshiánn iōng %1 lâi huê-pò tshò-gōo.<br/>Nā-sī ū būn-tê á-sī su-iàu láng kā lí"
+" tàu-sann-kāng, ē-sái pài-hóng %2.<br/>"
 
 #: kabstractaboutdialog_p.cpp:324
 #, kde-format
 msgctxt "Reference to email address"
 msgid "Please report bugs to %1.\n"
-msgstr ""
+msgstr "Tshò-gōo tshiánn tuì %1 huê-pò.\n"
 
 #: kactionconflictdetector_p.h:37
 #, kde-format
@@ -292,18 +293,18 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Ambiguous shortcut detected"
-msgstr ""
+msgstr "Tsing-tshik--tio̍h ū tshiong-tu̍t ê khuài-sok-khí"
 
 #: kbugreport.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Submit Bug Report"
-msgstr ""
+msgstr "The̍h-tshut Tshò-gōo Huê-pò"
 
 #: kbugreport.cpp:89
 #, kde-format
 msgid "Submit Bug Report"
-msgstr ""
+msgstr "The̍h-tshut Tshò-gōo Huê-pò"
 
 #: kbugreport.cpp:101
 #, kde-format
@@ -311,6 +312,9 @@ msgid ""
 "The application for which you wish to submit a bug report - if incorrect, "
 "please use the Report Bug menu item of the correct application"
 msgstr ""
+"Lí ài the̍h-tshut tshò-gōo huê-pò ê îng-ióng tîng-sik - tse nā-sī m̄-tio̍h, ts"
+"hiánn uì tio̍h--ê tîng-sik ê suán-tuann khì iōng i ê Huê-pò Tshò-gōo ê suán-hā"
+"ng"
 
 #: kbugreport.cpp:102
 #, kde-format
@@ -379,6 +383,10 @@ msgid ""
 "where you will find a form to fill in. The information displayed above will "
 "be transferred to that server.</qt>"
 msgstr ""
+"<qt>Ài thê-tshut tshò-gōo huê-pò, tshiánn tshi̍h ē-kha ê tshi̍h-liú. Tse ē tī "
+"liû-lám-khì pài-hóng <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a>"
+", lāi-té ū pió-tuann ē-sái su-ji̍p lí ê huê-pò (m̄-koh su-iàu iōng Ing-gí). Tí"
+"ng-kuân hiān-sî ê tsu-liāu ē thuân khì hit-ê sù-ho̍k-khì.</qt>"
 
 #: kbugreport.cpp:168
 #, kde-format
@@ -386,6 +394,8 @@ msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
 "browser window on <a href=\"%1\">%2</a>.</qt>"
 msgstr ""
+"<qt>Ài thê-tshut tshò-gōo huê-pò, tshiánn tshi̍h ē-kha ê tshi̍h-liú. Tse ē tī "
+"liû-lám-khì pài-hóng <a href=\"%1\">%2</a>.</qt>"
 
 #: kbugreport.cpp:185
 #, kde-format
@@ -397,7 +407,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "&Submit Bug Report"
-msgstr ""
+msgstr "The̍h-t&shut Tshò-gōo Huê-pò"
 
 #: kcheckaccelerators.cpp:121
 #, kde-format
@@ -429,7 +439,7 @@ msgstr "Sin ê bûn"
 #: kcheckaccelerators.cpp:182
 #, kde-format
 msgid "<h2>Accelerators removed</h2>"
-msgstr ""
+msgstr "<h2>Ka-sok-khì hōo î-tû tiāu--ah</h2>"
 
 #: kcheckaccelerators.cpp:186
 #, kde-format
@@ -457,7 +467,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Toolbars"
-msgstr ""
+msgstr "Siat-tīng Kang-khū-lia̍t"
 
 #: kedittoolbar.cpp:659
 #, kde-format
@@ -598,7 +608,6 @@ msgctxt "%1 is the number of conflicts"
 msgid "Shortcut Conflict"
 msgid_plural "Shortcut Conflicts"
 msgstr[0] ""
-msgstr[1] ""
 
 #: kkeysequencewidget.cpp:173
 #, kde-format
@@ -617,7 +626,6 @@ msgid_plural ""
 "Do you want to assign an empty shortcut to these actions?\n"
 "%3"
 msgstr[0] ""
-msgstr[1] ""
 
 #: kkeysequencewidget.cpp:188 kkeysequencewidget.cpp:295
 #: kkeysequencewidget.cpp:357
@@ -653,7 +661,6 @@ msgid "The shortcut '%2' conflicts with the following key combination:\n"
 msgid_plural ""
 "The shortcut '%2' conflicts with the following key combinations:\n"
 msgstr[0] ""
-msgstr[1] ""
 
 #: kkeysequencewidget.cpp:291
 #, kde-format
@@ -661,7 +668,6 @@ msgctxt "%1 is the number of shortcuts with which there is a conflict"
 msgid "Conflict with Registered Global Shortcut"
 msgid_plural "Conflict with Registered Global Shortcuts"
 msgstr[0] ""
-msgstr[1] ""
 
 #: kkeysequencewidget.cpp:304
 #, kde-format
@@ -729,7 +735,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure Shortcut…"
-msgstr ""
+msgstr "Siat-tīng Khuài-sok-khí…"
 
 #: kshortcuteditwidget.cpp:55
 #, kde-format
@@ -817,6 +823,8 @@ msgid ""
 "Do you really want to delete the scheme %1?\n"
 "Note that this will not remove any system wide shortcut schemes."
 msgstr ""
+"Lí kám tsin-tsiànn ài thâi-tiāu %1 tsit-ê hong-àn?\n"
+"Tshiánn tsù-ì, tse buē thâi-tiāu jīm-hô hē-thóng ê khuài-sok-khí hong-àn."
 
 #: kshortcutschemeseditor.cpp:187
 #, kde-format
@@ -861,7 +869,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Keyboard Shortcuts"
-msgstr ""
+msgstr "Siat-tīng Khí-puânn Khuài-sok-khí"
 
 #. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
 #: kshortcutsdialog.ui:16
@@ -975,7 +983,7 @@ msgstr "%1"
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Language"
-msgstr "Siat-tīng gí-giân"
+msgstr "Siat-tīng Gí-giân"
 
 #: kswitchlanguagedialog_p.cpp:141
 #, kde-format
@@ -1028,7 +1036,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "Î-tû"
 
 #: kswitchlanguagedialog_p.cpp:389
 #, kde-format

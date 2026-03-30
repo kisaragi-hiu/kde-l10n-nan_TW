@@ -402,6 +402,174 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-14">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>visit</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>拜訪</term>
+          </tig>
+          <tig>
+            <term>pài-hóng</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-26">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>disc</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>kong-tia̍p</term>
+          </tig>
+          <tig>
+            <term>光碟</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-27">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>media</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>muî-thé</term>
+          </tig>
+          <tig>
+            <term>媒體</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-28">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>temporary file</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsiām-sî ê tóng-àn</term>
+          </tig>
+          <tig>
+            <term>暫時的檔案</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-29">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>archive</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>封存 / hong-tsûn</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-30">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>removable media</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>會使移除的媒體 / ē-sái î-tû ê muî-thé</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-31">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>remove</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>移除 / î-tû</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-32">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>Accelerator</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>加速器 / ka-sok-khì</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-33">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>button</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>揤鈕 / tshi̍h-liú</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-34">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>browser</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>瀏覽器 / liû-lám-khì</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-35">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>server</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>伺服器 / sù-ho̍k-khì</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-36">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>path</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>路徑 / lōo-kìng</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-37">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>remote</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>遠端 / uán-tuan</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
