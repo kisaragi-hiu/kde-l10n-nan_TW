@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-03-30 23:40+0900\n"
+"PO-Revision-Date: 2026-03-30 23:42+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -512,7 +512,7 @@ msgstr "Tsit-má 的動作(&E)："
 #, kde-format
 msgctxt "@action:button"
 msgid "Change &Icon…"
-msgstr ""
+msgstr "改變圖示(&I)…"
 
 #: kedittoolbar.cpp:1054
 #, kde-format
@@ -573,7 +573,7 @@ msgstr "%1"
 #: kedittoolbar.cpp:1616
 #, kde-format
 msgid "Change Icon"
-msgstr ""
+msgstr "改變圖示"
 
 #. i18n: ectx: Menu (help)
 #: khelpmenu.cpp:167 ui_standards.rc:179
@@ -1098,7 +1098,7 @@ msgstr "文字位置"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Icons Only"
-msgstr ""
+msgstr "干焦圖示"
 
 #: ktoolbar.cpp:346
 #, kde-format

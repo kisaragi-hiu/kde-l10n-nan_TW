@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-30 00:39+0000\n"
-"PO-Revision-Date: 2026-03-30 23:37+0900\n"
+"PO-Revision-Date: 2026-03-30 23:44+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -5172,7 +5172,7 @@ msgstr ""
 #: widgets/kopenwithdialog.cpp:754
 #, kde-format
 msgid "Terminal options"
-msgstr ""
+msgstr "Tsiong-tuan-ki suán-hāng"
 
 #: widgets/kopenwithdialog.cpp:759
 #, kde-format
@@ -5217,7 +5217,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopadvbase.ui:49
 #, kde-format
 msgid "Terminal options:"
-msgstr ""
+msgstr "Tsiong-tuan-ki suán-hāng:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCloseCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:59

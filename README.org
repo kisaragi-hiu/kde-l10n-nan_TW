@@ -16,3 +16,7 @@ Setup: make the folders like this:
 Since this is not submitted yet we don't have Scripty keeping the PO files up to date with the latest templates. Use =make update= (which just uses =fd= to run =msgmerge= on the appropriate files) to do it instead. You can run it before each translating session.
 
 Use =make install= to compile PO files to MO and install them into ~~/.local/share/locales~. Then use ~env {LANGUAGE,LANG}=nan_TW <command>~ to test it. ($LANG would be used as a fallback after $LANGUAGE is exhausted, so setting it like this avoids that.)
+
+** TODO
+
+pts-taigitv has a preference for “list” and it's not 清單 (it's li2-sirh-tooh, receipt → レシート → li2-sirh-tooh), this needs to be applied (I am not going against pts-taigitv)

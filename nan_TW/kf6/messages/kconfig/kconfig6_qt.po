@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-03-30 23:38+0900\n"
+"PO-Revision-Date: 2026-03-30 23:45+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -448,7 +448,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:121
 msgctxt "KStandardActions|"
 msgid "F&ull Screen Mode"
-msgstr ""
+msgstr "全螢幕模式(&U)"
 
 #: gui/kstandardactions_p.h:122
 msgctxt "KStandardActions|"
@@ -716,7 +716,7 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:290
 msgctxt "KStandardShortcut|@action"
 msgid "Full Screen Mode"
-msgstr ""
+msgstr "全螢幕模式"
 
 #: gui/kstandardshortcut.cpp:301
 msgctxt "KStandardShortcut|@action"
