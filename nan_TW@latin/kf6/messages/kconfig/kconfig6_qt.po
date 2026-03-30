@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-13 08:23+0900\n"
+"PO-Revision-Date: 2026-03-30 23:38+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Lokalize 26.07.70\n"
 
 #: core/kconfig.cpp:991
 msgctxt "KConfig|"
@@ -28,7 +28,7 @@ msgstr ""
 #: core/kemailsettings.cpp:139
 msgctxt "KEMailSettings|"
 msgid "Default"
-msgstr "Piau-tsún"
+msgstr "Ū-siat"
 
 #: gui/kstandardactions.cpp:49
 msgctxt "go back|"
@@ -78,12 +78,12 @@ msgstr ""
 #: gui/kstandardactions_p.h:67
 msgctxt "KStandardActions|"
 msgid "&Save"
-msgstr ""
+msgstr "Tû-t&sûn"
 
 #: gui/kstandardactions_p.h:67
 msgctxt "KStandardActions|"
 msgid "Save document"
-msgstr ""
+msgstr "Tû-tsûn bûn-kiānn"
 
 #: gui/kstandardactions_p.h:68
 msgctxt "KStandardActions|"
@@ -178,12 +178,12 @@ msgstr "Kah tíng-kái ho̍k-guân ê tōng-tsok koh tsò tsi̍t-pái"
 #: gui/kstandardactions_p.h:78
 msgctxt "KStandardActions|"
 msgid "Cu&t"
-msgstr ""
+msgstr "K&a--lo̍h-lâi"
 
 #: gui/kstandardactions_p.h:78
 msgctxt "KStandardActions|"
 msgid "Cut selection to clipboard"
-msgstr ""
+msgstr "Kā suán-ê ka--lo̍h-lâi kàu tsián-tah-phōo"
 
 #: gui/kstandardactions_p.h:79
 msgctxt "KStandardActions|"
@@ -193,17 +193,17 @@ msgstr "&Khóo-pih"
 #: gui/kstandardactions_p.h:79
 msgctxt "KStandardActions|"
 msgid "Copy selection to clipboard"
-msgstr ""
+msgstr "Kā suán-ê khóo-pih kàu tsián-tah-phōo"
 
 #: gui/kstandardactions_p.h:80
 msgctxt "KStandardActions|"
 msgid "&Paste"
-msgstr ""
+msgstr "&Tah--khí-khì"
 
 #: gui/kstandardactions_p.h:80
 msgctxt "KStandardActions|"
 msgid "Paste clipboard content"
-msgstr ""
+msgstr "Kā tsián-tah-phōo ê lāi-iông tah--khí-khì"
 
 #: gui/kstandardactions_p.h:81
 msgctxt "KStandardActions|"
@@ -213,7 +213,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:82
 msgctxt "KStandardActions|"
 msgid "Select &All"
-msgstr ""
+msgstr "T&suān suán"
 
 #: gui/kstandardactions_p.h:83
 msgctxt "KStandardActions|"
@@ -303,22 +303,22 @@ msgstr ""
 #: gui/kstandardactions_p.h:96
 msgctxt "KStandardActions|"
 msgid "&Refresh"
-msgstr ""
+msgstr "Tîng Tsíng-lí(&R)"
 
 #: gui/kstandardactions_p.h:96
 msgctxt "KStandardActions|"
 msgid "Refresh document"
-msgstr ""
+msgstr "Tîng tsíng-lí bûn-kiānn"
 
 #: gui/kstandardactions_p.h:98
 msgctxt "KStandardActions|"
 msgid "&Up"
-msgstr ""
+msgstr "Óng siōng(&U)"
 
 #: gui/kstandardactions_p.h:98
 msgctxt "KStandardActions|"
 msgid "Go up"
-msgstr ""
+msgstr "Óng siōng khì"
 
 #: gui/kstandardactions_p.h:103
 msgctxt "KStandardActions|"
@@ -403,7 +403,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:114
 msgctxt "KStandardActions|"
 msgid "&Edit Bookmarks…"
-msgstr ""
+msgstr "Pian-tsi̍p Su-tshiam(&E)…"
 
 #: gui/kstandardactions_p.h:116
 msgctxt "KStandardActions|"
@@ -428,12 +428,12 @@ msgstr ""
 #: gui/kstandardactions_p.h:119
 msgctxt "KStandardActions|"
 msgid "Show &Toolbar"
-msgstr ""
+msgstr "Hián-sī Kang-kū-lia̍t(&T)"
 
 #: gui/kstandardactions_p.h:119
 msgctxt "KStandardActions|"
 msgid "Show or hide toolbar"
-msgstr ""
+msgstr "Tshiat-uānn hián-sī kang-kū-lia̍t"
 
 #: gui/kstandardactions_p.h:120
 msgctxt "KStandardActions|"
@@ -453,7 +453,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:122
 msgctxt "KStandardActions|"
 msgid "Configure Keyboard S&hortcuts…"
-msgstr ""
+msgstr "Siat-tīng K&hí-puânn Khuài-sok-khí…"
 
 #: gui/kstandardactions_p.h:123
 #, qt-format
@@ -464,12 +464,12 @@ msgstr "&Siat-tīng %1…"
 #: gui/kstandardactions_p.h:124
 msgctxt "KStandardActions|"
 msgid "Configure Tool&bars…"
-msgstr ""
+msgstr "Siat-tīng Kang-kū-lia̍t(&B)…"
 
 #: gui/kstandardactions_p.h:125
 msgctxt "KStandardActions|"
 msgid "Configure &Notifications…"
-msgstr ""
+msgstr "Siat-tīng Thong-ti(&N)…"
 
 #: gui/kstandardactions_p.h:129
 #, qt-format
@@ -490,7 +490,7 @@ msgstr "Huê-pò tshò-gōo(&R)…"
 #: gui/kstandardactions_p.h:132
 msgctxt "KStandardActions|"
 msgid "Configure &Language…"
-msgstr "Siat-tīng gí-giân(&L)…"
+msgstr "Siat-tīng Gí-giân(&L)…"
 
 #: gui/kstandardactions_p.h:133
 #, qt-format
@@ -656,7 +656,7 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:183
 msgctxt "KStandardShortcut|@action"
 msgid "Up"
-msgstr ""
+msgstr "Óng siōng"
 
 #: gui/kstandardshortcut.cpp:186
 msgctxt "KStandardShortcut|@action"
@@ -851,7 +851,7 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:420
 msgctxt "KStandardShortcut|@action"
 msgid "Edit Bookmarks"
-msgstr ""
+msgstr "Pian-tsi̍p Su-tshiam"
 
 #: gui/kstandardshortcut.cpp:426
 msgctxt "KStandardShortcut|@action"
@@ -861,7 +861,7 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:427
 msgctxt "KStandardShortcut|@action"
 msgid "Show Toolbar"
-msgstr ""
+msgstr "Hián-sī Kang-kū-lia̍t"
 
 #: gui/kstandardshortcut.cpp:428
 msgctxt "KStandardShortcut|@action"
@@ -876,17 +876,17 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:439
 msgctxt "KStandardShortcut|@action"
 msgid "Configure Application"
-msgstr "Siat-tīng ìng-iōng-tîng-sik"
+msgstr "Siat-tīng Ìng-iōng-tîng-sik"
 
 #: gui/kstandardshortcut.cpp:447
 msgctxt "KStandardShortcut|@action"
 msgid "Configure Toolbars"
-msgstr "Siat-tīng kang-kū-lia̍t"
+msgstr "Siat-tīng Kang-kū-lia̍t"
 
 #: gui/kstandardshortcut.cpp:455
 msgctxt "KStandardShortcut|@action"
 msgid "Configure Notifications"
-msgstr "Siat-tīng thong-ti"
+msgstr "Siat-tīng Thong-ti"
 
 #: gui/kstandardshortcut.cpp:461
 msgctxt "KStandardShortcut|@action"
@@ -896,12 +896,12 @@ msgstr "Huê-pò tshò-gōo"
 #: gui/kstandardshortcut.cpp:464
 msgctxt "KStandardShortcut|@action"
 msgid "Configure Language…"
-msgstr "Siat-tīng gí-giân…"
+msgstr "Siat-tīng Gí-giân…"
 
 #: gui/kstandardshortcut.cpp:470
 msgctxt "KStandardShortcut|@action"
 msgid "About Application"
-msgstr "Ìng-iōng-tîng-sik ê siāu-kài"
+msgstr "應用程式 ê 紹介"
 
 #: gui/kstandardshortcut.cpp:471
 msgctxt "KStandardShortcut|@action"
@@ -952,7 +952,7 @@ msgstr ""
 #: kconf_update/kconf_update.cpp:368
 msgctxt "main|"
 msgid "KDE Tool for updating user configuration files"
-msgstr ""
+msgstr "King-sin iōng-tsiá siat-tīng tóng-àn iōng ê KDE kang-kū"
 
 #: kconf_update/kconf_update.cpp:370
 msgctxt "main|"

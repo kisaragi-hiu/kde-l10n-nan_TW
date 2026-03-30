@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-03-30 20:58+0900\n"
+"PO-Revision-Date: 2026-03-30 23:39+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -187,7 +187,7 @@ msgstr ""
 #: kabstractaboutdialog_p.cpp:130
 #, kde-format
 msgid "Using %1 and built against %2"
-msgstr ""
+msgstr "Sú-iōng %1, tuì %2 pian-i̍k"
 
 #: kabstractaboutdialog_p.cpp:136
 #, kde-format
@@ -211,7 +211,7 @@ msgstr "AppImage"
 #, kde-format
 msgctxt "@info"
 msgid "Distribution method."
-msgstr ""
+msgstr "Huat-hîng hong-huat."
 
 #: kabstractaboutdialog_p.cpp:148
 #, kde-format
@@ -223,7 +223,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit component's homepage"
-msgstr ""
+msgstr "Pài-hóng guân-kiānn ê tsú-ia̍h"
 
 #: kabstractaboutdialog_p.cpp:177
 #, kde-format
@@ -232,6 +232,8 @@ msgid ""
 "Visit components's homepage\n"
 "%1"
 msgstr ""
+"Pài-hóng guân-kiānn ê tsú-ia̍h\n"
+"%1"
 
 #: kabstractaboutdialog_p.cpp:199
 #, kde-format
@@ -243,7 +245,7 @@ msgstr "Khóo-pih kàu clipboard"
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit author's homepage"
-msgstr ""
+msgstr "Pài-hóng tsok-tsiá ê tsú-ia̍h"
 
 #: kabstractaboutdialog_p.cpp:260
 #, kde-format
@@ -252,18 +254,20 @@ msgid ""
 "Visit author's homepage\n"
 "%1"
 msgstr ""
+"Pài-hóng tsok-tsiá ê tsú-ia̍h\n"
+"%1"
 
 #: kabstractaboutdialog_p.cpp:274
 #, kde-format
 msgctxt "@action:button Send an email to a contributor"
 msgid "Email contributor"
-msgstr ""
+msgstr "Hiòng kòng-hiàn-tsiá thuân email"
 
 #: kabstractaboutdialog_p.cpp:275
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Email contributor: %1"
-msgstr ""
+msgstr "Hiòng kòng-hiàn-tsiá thuân email: %1"
 
 #: kabstractaboutdialog_p.cpp:314
 #, kde-format
@@ -401,7 +405,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "&Launch Bug Report Wizard"
-msgstr ""
+msgstr "Kā Tshò-gōo Huê-pò Kang-kū Khí-tāng(&L)"
 
 #: kbugreport.cpp:187
 #, kde-format
@@ -413,18 +417,18 @@ msgstr "The̍h-t&shut Tshò-gōo Huê-pò"
 #, kde-format
 msgctxt "@title:window"
 msgid "Dr. Klash' Accelerator Diagnosis"
-msgstr ""
+msgstr "Dr. Klash ê Ka-sok-khì Hun-sik"
 
 #: kcheckaccelerators.cpp:128
 #, kde-format
 msgctxt "@option:check"
 msgid "Disable automatic checking"
-msgstr ""
+msgstr "Kuainn-tiāu tsū-tōng kiám-tsa"
 
 #: kcheckaccelerators.cpp:174
 #, kde-format
 msgid "<h2>Accelerators changed</h2>"
-msgstr ""
+msgstr "<h2>Ka-sok-khì ū piàn</h2>"
 
 #: kcheckaccelerators.cpp:178 kcheckaccelerators.cpp:182
 #, kde-format
@@ -455,13 +459,14 @@ msgstr "Kái-piàn bûn-jī"
 #: kedittoolbar.cpp:342
 #, kde-format
 msgid "Icon te&xt:"
-msgstr ""
+msgstr "Tôo-sī bûn-jī(&X):"
 
 #: kedittoolbar.cpp:347
 #, kde-format
 msgctxt "@option:check"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
+"Kang-kū-lia̍t tī tôo-sī pinn-á &hiān-sî bûn-jī ê sî-tsūn bái hiān-sî bûn-jī"
 
 #: kedittoolbar.cpp:596
 #, kde-format
@@ -525,7 +530,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Change Te&xt…"
-msgstr ""
+msgstr "Kái-piàn Bûn-jī(&X)…"
 
 #: kedittoolbar.cpp:1196
 #, kde-format
@@ -541,7 +546,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: kedittoolbar.cpp:1247
 #, kde-format
@@ -569,13 +574,13 @@ msgstr ""
 #: kedittoolbar.cpp:1262
 #, kde-format
 msgid "ActionList: %1"
-msgstr ""
+msgstr "Tōng-tsok Tshing-tuann: %1"
 
 #: kedittoolbar.cpp:1363 kedittoolbar.cpp:1388
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: kedittoolbar.cpp:1616
 #, kde-format
@@ -607,7 +612,7 @@ msgstr ""
 msgctxt "%1 is the number of conflicts"
 msgid "Shortcut Conflict"
 msgid_plural "Shortcut Conflicts"
-msgstr[0] ""
+msgstr[0] "Khuài-sok-khí Tshiong-tu̍t"
 
 #: kkeysequencewidget.cpp:173
 #, kde-format
@@ -638,7 +643,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Shortcut conflict"
-msgstr ""
+msgstr "Khuài-sok-khí tshiong-tu̍t"
 
 #: kkeysequencewidget.cpp:195
 #, kde-format
@@ -741,7 +746,7 @@ msgstr "Siat-tīng Khuài-sok-khí…"
 #, kde-format
 msgctxt "@option:radio"
 msgid "Default:"
-msgstr "Piau-tsún:"
+msgstr "Ū-siat:"
 
 #: kshortcuteditwidget.cpp:62
 #, kde-format
@@ -782,35 +787,35 @@ msgstr "Khah-tsè tōng-tsok"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save shortcuts to scheme"
-msgstr ""
+msgstr "Kā khuài-sok-khí tû-tsûn kàu hong-àn"
 
 #: kshortcutschemeseditor.cpp:62
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export Scheme…"
-msgstr ""
+msgstr "Huē-tshut Hong-àn…"
 
 #: kshortcutschemeseditor.cpp:66
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Import Scheme…"
-msgstr ""
+msgstr "Huē-ji̍p Hong-àn…"
 
 #: kshortcutschemeseditor.cpp:115
 #, kde-format
 msgctxt "@title:window"
 msgid "Name for New Scheme"
-msgstr ""
+msgstr "Sin Hong-àn ê Miâ"
 
 #: kshortcutschemeseditor.cpp:115
 #, kde-format
 msgid "Name for new scheme:"
-msgstr ""
+msgstr "Sin hong-àn ê miâ:"
 
 #: kshortcutschemeseditor.cpp:115
 #, kde-format
 msgid "New Scheme"
-msgstr ""
+msgstr "Sin Hong-àn"
 
 #: kshortcutschemeseditor.cpp:121
 #, kde-format
@@ -830,23 +835,23 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Shortcuts"
-msgstr ""
+msgstr "Huē-tshut Khuài-sok-khí"
 
 #: kshortcutschemeseditor.cpp:187 kshortcutschemeseditor.cpp:198
 #, kde-format
 msgid "Shortcuts (*.shortcuts)"
-msgstr ""
+msgstr "Khuài-sok-khí (*.shortcuts)"
 
 #: kshortcutschemeseditor.cpp:198
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Shortcuts"
-msgstr ""
+msgstr "Huē-ji̍p Khuài-sok-khí"
 
 #: kshortcutschemeseditor.cpp:209
 #, kde-format
 msgid "Shortcut scheme successfully saved."
-msgstr ""
+msgstr "Sîng-kong tû-tsûn khuài-sok-khí hong-àn."
 
 #: kshortcutschemeseditor.cpp:212
 #, kde-format
@@ -854,11 +859,13 @@ msgid "Error saving the shortcut scheme."
 msgstr ""
 
 #: kshortcutsdialog.cpp:70
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "The current shortcut scheme is modified. Save before switching to the new "
 "one?"
-msgstr "tsit-má的快速齒方案已經hō改變過--ah。敢ài佇"
+msgstr ""
+"Tsit-má ê khuài-sok-khí hong-àn í-king hō kái-piàn kuè--ah. Kám ài tī tshiat-u"
+"ānn kàu sin-ê khuài-sok-khí hong-àn tsìn-tsîng sing tû-tsûn?"
 
 #: kshortcutsdialog.cpp:124
 #, kde-format
@@ -961,7 +968,7 @@ msgstr ""
 #: kshortcutseditor.cpp:560
 #, kde-format
 msgid "Action Name"
-msgstr "Tōng-tsok miâ"
+msgstr "Tōng-tsok Miâ"
 
 #: kshortcutseditor.cpp:564
 #, kde-format
@@ -1030,7 +1037,7 @@ msgstr "Tsú-iàu gí-giân:"
 #: kswitchlanguagedialog_p.cpp:368
 #, kde-format
 msgid "Fallback language:"
-msgstr ""
+msgstr "Pī-iōng gí-giân:"
 
 #: kswitchlanguagedialog_p.cpp:383
 #, kde-format
@@ -1058,19 +1065,19 @@ msgstr ""
 #, kde-format
 msgctxt "@title:menu"
 msgid "Toolbar Settings"
-msgstr ""
+msgstr "Kang-kū-lia̍t Siat-tīng"
 
 #: ktoolbar.cpp:311
 #, kde-format
 msgctxt "@title:menu"
 msgid "Show Text"
-msgstr ""
+msgstr "Hián-sī Bûn-jī"
 
 #: ktoolbar.cpp:318
 #, kde-format
 msgctxt "Toolbar orientation"
 msgid "Orientation"
-msgstr ""
+msgstr "Hong-hiòng"
 
 #: ktoolbar.cpp:320
 #, kde-format
@@ -1099,7 +1106,7 @@ msgstr ""
 #: ktoolbar.cpp:341
 #, kde-format
 msgid "Text Position"
-msgstr ""
+msgstr "Bûn-jī Uī-tì"
 
 #: ktoolbar.cpp:343
 #, kde-format
@@ -1111,19 +1118,19 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Text Only"
-msgstr ""
+msgstr "Kan-na Bûn-jī"
 
 #: ktoolbar.cpp:349
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Text Alongside Icons"
-msgstr ""
+msgstr "Bûn-jī Tī Tôo-sī Pinn-á"
 
 #: ktoolbar.cpp:352
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Text Under Icons"
-msgstr ""
+msgstr "Bûn-jī Tī Tôo-sī Ē-kha"
 
 #: ktoolbar.cpp:363
 #, kde-format
@@ -1134,7 +1141,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
-msgstr "Piau-tsún"
+msgstr "Ū-siat"
 
 #: ktoolbar.cpp:385 ktoolbar.cpp:409
 #, kde-format
@@ -1171,7 +1178,7 @@ msgstr ""
 msgctxt ""
 "@info:tooltip %1 is the tooltip of an action, %2 is its keyboard shorcut"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: ktooltiphelper.cpp:279
 #, kde-format
@@ -1200,7 +1207,7 @@ msgstr "Ho̍k-guân"
 #: kxmlguibuilder.cpp:173 kxmlguibuilder.cpp:352
 #, kde-format
 msgid "No text"
-msgstr "Bô bûn"
+msgstr "Bô bûn-jī"
 
 #: kxmlguiwindow.cpp:191
 #, kde-format
@@ -1261,7 +1268,7 @@ msgstr "Tsiân-óng(&G)"
 #: ui_standards.rc:143
 #, kde-format
 msgid "&Bookmarks"
-msgstr ""
+msgstr "Su-tshiam(&B)"
 
 #. i18n: ectx: Menu (tools)
 #: ui_standards.rc:149

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-30 00:39+0000\n"
-"PO-Revision-Date: 2026-03-30 21:15+0900\n"
+"PO-Revision-Date: 2026-03-30 23:37+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -3039,7 +3039,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:1245
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Suán-hāng"
 
 #: filewidgets/kfilewidget.cpp:1248
 #, kde-format
@@ -3054,7 +3054,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:1267
 #, kde-format
 msgid "Bookmarks"
-msgstr ""
+msgstr "Su-tshiam"
 
 #: filewidgets/kfilewidget.cpp:1271
 #, kde-format
@@ -4464,6 +4464,8 @@ msgctxt "@info:tooltip How to undo do not ask again"
 msgid ""
 "You can undo this under \"Confirmations\" in Dolphin file manager settings."
 msgstr ""
+"Lí ē-sái tī Dolphin tóng-àn tsóng-kuán ê \"Khak-jīn\" suán-hāng lâi ho̍k-guân "
+"tsit-ê siat-tīng."
 
 #: widgets/fileundomanager.cpp:126
 #, kde-format
@@ -5782,7 +5784,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1324
 #, kde-format
 msgid "Apply changes to all subfolders and their contents"
-msgstr ""
+msgstr "Thò-iōng kái-piàn kàu sóo-ū ê tsí tsu-liāu-giap-á kap in ê lāi-iông"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1367
 #, kde-format
@@ -6262,7 +6264,7 @@ msgstr ""
 #: widgets/renamedialog.cpp:279
 #, kde-format
 msgid "Appl&y to All"
-msgstr ""
+msgstr "Thò-iōng kàu Tsuân-pōo(&Y)"
 
 #: widgets/renamedialog.cpp:280
 #, kde-format

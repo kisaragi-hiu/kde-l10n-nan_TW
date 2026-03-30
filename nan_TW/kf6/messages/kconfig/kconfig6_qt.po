@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-13 08:15+0900\n"
+"PO-Revision-Date: 2026-03-30 23:38+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Lokalize 26.07.70\n"
 
 #: core/kconfig.cpp:991
 msgctxt "KConfig|"
@@ -28,7 +28,7 @@ msgstr ""
 #: core/kemailsettings.cpp:139
 msgctxt "KEMailSettings|"
 msgid "Default"
-msgstr "標準"
+msgstr "預設"
 
 #: gui/kstandardactions.cpp:49
 msgctxt "go back|"
@@ -78,12 +78,12 @@ msgstr ""
 #: gui/kstandardactions_p.h:67
 msgctxt "KStandardActions|"
 msgid "&Save"
-msgstr ""
+msgstr "儲存(&S)"
 
 #: gui/kstandardactions_p.h:67
 msgctxt "KStandardActions|"
 msgid "Save document"
-msgstr ""
+msgstr "儲存文件"
 
 #: gui/kstandardactions_p.h:68
 msgctxt "KStandardActions|"
@@ -178,12 +178,12 @@ msgstr "Kah 頂改復原 ê 動作 koh 做一擺"
 #: gui/kstandardactions_p.h:78
 msgctxt "KStandardActions|"
 msgid "Cu&t"
-msgstr ""
+msgstr "鉸落來(&T)"
 
 #: gui/kstandardactions_p.h:78
 msgctxt "KStandardActions|"
 msgid "Cut selection to clipboard"
-msgstr ""
+msgstr "Kā 選的鉸落來到剪貼簿"
 
 #: gui/kstandardactions_p.h:79
 msgctxt "KStandardActions|"
@@ -193,17 +193,17 @@ msgstr "Khóo-pih(&C)"
 #: gui/kstandardactions_p.h:79
 msgctxt "KStandardActions|"
 msgid "Copy selection to clipboard"
-msgstr ""
+msgstr "Kā 選的 khóo-pih 到剪貼簿"
 
 #: gui/kstandardactions_p.h:80
 msgctxt "KStandardActions|"
 msgid "&Paste"
-msgstr ""
+msgstr "貼起去(&P)"
 
 #: gui/kstandardactions_p.h:80
 msgctxt "KStandardActions|"
 msgid "Paste clipboard content"
-msgstr ""
+msgstr "Kā 剪貼簿的內容貼起去"
 
 #: gui/kstandardactions_p.h:81
 msgctxt "KStandardActions|"
@@ -213,7 +213,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:82
 msgctxt "KStandardActions|"
 msgid "Select &All"
-msgstr ""
+msgstr "全選(&A)"
 
 #: gui/kstandardactions_p.h:83
 msgctxt "KStandardActions|"
@@ -303,22 +303,22 @@ msgstr ""
 #: gui/kstandardactions_p.h:96
 msgctxt "KStandardActions|"
 msgid "&Refresh"
-msgstr ""
+msgstr "重整理(&R)"
 
 #: gui/kstandardactions_p.h:96
 msgctxt "KStandardActions|"
 msgid "Refresh document"
-msgstr ""
+msgstr "重整理文件"
 
 #: gui/kstandardactions_p.h:98
 msgctxt "KStandardActions|"
 msgid "&Up"
-msgstr ""
+msgstr "往上(&U)"
 
 #: gui/kstandardactions_p.h:98
 msgctxt "KStandardActions|"
 msgid "Go up"
-msgstr ""
+msgstr "往上去"
 
 #: gui/kstandardactions_p.h:103
 msgctxt "KStandardActions|"
@@ -403,7 +403,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:114
 msgctxt "KStandardActions|"
 msgid "&Edit Bookmarks…"
-msgstr ""
+msgstr "編輯書籤(&E)…"
 
 #: gui/kstandardactions_p.h:116
 msgctxt "KStandardActions|"
@@ -428,12 +428,12 @@ msgstr ""
 #: gui/kstandardactions_p.h:119
 msgctxt "KStandardActions|"
 msgid "Show &Toolbar"
-msgstr ""
+msgstr "顯示工具列(&T)"
 
 #: gui/kstandardactions_p.h:119
 msgctxt "KStandardActions|"
 msgid "Show or hide toolbar"
-msgstr ""
+msgstr "切換顯示工具列"
 
 #: gui/kstandardactions_p.h:120
 msgctxt "KStandardActions|"
@@ -453,7 +453,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:122
 msgctxt "KStandardActions|"
 msgid "Configure Keyboard S&hortcuts…"
-msgstr ""
+msgstr "設定齒盤快速齒(&H)…"
 
 #: gui/kstandardactions_p.h:123
 #, qt-format
@@ -480,7 +480,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:130
 msgctxt "KStandardActions|"
 msgid "What's &This?"
-msgstr ""
+msgstr "這是啥(&T)？"
 
 #: gui/kstandardactions_p.h:131
 msgctxt "KStandardActions|"
@@ -631,12 +631,12 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:143
 msgctxt "KStandardShortcut|@action Go to main page"
 msgid "Home"
-msgstr ""
+msgstr "頭頁"
 
 #: gui/kstandardshortcut.cpp:151
 msgctxt "KStandardShortcut|@action Beginning of document"
 msgid "Begin"
-msgstr ""
+msgstr "開始"
 
 #: gui/kstandardshortcut.cpp:163
 msgctxt "KStandardShortcut|@action End of document"
@@ -656,12 +656,12 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:183
 msgctxt "KStandardShortcut|@action"
 msgid "Up"
-msgstr ""
+msgstr "往上"
 
 #: gui/kstandardshortcut.cpp:186
 msgctxt "KStandardShortcut|@action"
 msgid "Back"
-msgstr ""
+msgstr "轉去"
 
 #: gui/kstandardshortcut.cpp:198
 msgctxt "KStandardShortcut|@action"
@@ -741,7 +741,7 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:321
 msgctxt "KStandardShortcut|@action"
 msgid "What's This"
-msgstr ""
+msgstr "這是啥"
 
 #: gui/kstandardshortcut.cpp:326
 msgctxt "KStandardShortcut|@action"
@@ -831,7 +831,7 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:400
 msgctxt "KStandardShortcut|@action"
 msgid "Goto"
-msgstr ""
+msgstr "前往"
 
 #: gui/kstandardshortcut.cpp:401
 msgctxt "KStandardShortcut|@action"
@@ -851,7 +851,7 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:420
 msgctxt "KStandardShortcut|@action"
 msgid "Edit Bookmarks"
-msgstr ""
+msgstr "編輯書籤"
 
 #: gui/kstandardshortcut.cpp:426
 msgctxt "KStandardShortcut|@action"
@@ -861,7 +861,7 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:427
 msgctxt "KStandardShortcut|@action"
 msgid "Show Toolbar"
-msgstr ""
+msgstr "顯示工具列"
 
 #: gui/kstandardshortcut.cpp:428
 msgctxt "KStandardShortcut|@action"
@@ -876,32 +876,32 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:439
 msgctxt "KStandardShortcut|@action"
 msgid "Configure Application"
-msgstr ""
+msgstr "設定應用程式"
 
 #: gui/kstandardshortcut.cpp:447
 msgctxt "KStandardShortcut|@action"
 msgid "Configure Toolbars"
-msgstr ""
+msgstr "設定工具列"
 
 #: gui/kstandardshortcut.cpp:455
 msgctxt "KStandardShortcut|@action"
 msgid "Configure Notifications"
-msgstr ""
+msgstr "設定通知"
 
 #: gui/kstandardshortcut.cpp:461
 msgctxt "KStandardShortcut|@action"
 msgid "Report Bug"
-msgstr ""
+msgstr "回報錯誤"
 
 #: gui/kstandardshortcut.cpp:464
 msgctxt "KStandardShortcut|@action"
 msgid "Configure Language…"
-msgstr ""
+msgstr "設定語言…"
 
 #: gui/kstandardshortcut.cpp:470
 msgctxt "KStandardShortcut|@action"
 msgid "About Application"
-msgstr ""
+msgstr "應用程式 ê 紹介"
 
 #: gui/kstandardshortcut.cpp:471
 msgctxt "KStandardShortcut|@action"
@@ -952,7 +952,7 @@ msgstr ""
 #: kconf_update/kconf_update.cpp:368
 msgctxt "main|"
 msgid "KDE Tool for updating user configuration files"
-msgstr ""
+msgstr "更新用者設定檔案用 ê KDE 工具"
 
 #: kconf_update/kconf_update.cpp:370
 msgctxt "main|"
