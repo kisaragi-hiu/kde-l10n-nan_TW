@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE martif PUBLIC 'ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN' 'TBXcdv04.dtd'>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
 <martif type="TBX" xml:lang="en_US">
   <text>
     <body>
@@ -408,7 +408,7 @@
             <term>Bookmark</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW@latin">
+        <langSet xml:lang="nan-TW">
           <tig>
             <term>書籤 / Su-tshiam</term>
           </tig>
@@ -420,7 +420,7 @@
             <term>Responsive</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW@latin">
+        <langSet xml:lang="nan-TW">
           <tig>
             <term>響應式 / Hiáng-ìng-sik</term>
           </tig>
