@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-03-30 23:41+0900\n"
+"PO-Revision-Date: 2026-04-10 20:54+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -93,7 +93,7 @@ msgid ""
 msgstr ""
 
 #: kaboutkdedialog_p.cpp:85
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "<html>You do not have to be a software developer to be a member of the KDE "
 "team. You can join the language teams that translate program interfaces. You "
@@ -102,7 +102,7 @@ msgid ""
 "which you can participate.<br /><br />If you need more information or "
 "documentation, then a visit to <a href=\"%2\">%2</a> will provide you with "
 "what you need.</html>"
-msgstr ""
+msgstr "<html>Lí m̄-sī khai-huat-tsiá mā-sī "
 
 #: kaboutkdedialog_p.cpp:108
 #, kde-format

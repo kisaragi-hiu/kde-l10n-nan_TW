@@ -426,6 +426,144 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-27">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>wallet</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsînn-pau</term>
+          </tig>
+          <tig>
+            <term>錢包</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-28">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>theme</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsú-tê</term>
+          </tig>
+          <tig>
+            <term>主題</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-29">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>plugin</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>guā-kuà-tîng-sik</term>
+          </tig>
+          <tig>
+            <term>外掛程式</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-30">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>load</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsài-ji̍p</term>
+          </tig>
+          <tig>
+            <term>載入</term>
+          </tig>
+          <tig>
+            <term>lóo</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-31">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>library</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>Hâm-sik-khòo</term>
+          </tig>
+          <tig>
+            <term>函式庫</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-32">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>create</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>kiàn-li̍p</term>
+          </tig>
+          <tig>
+            <term>建立</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-33">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>instance</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>si̍t-thé</term>
+          </tig>
+          <tig>
+            <term>實體</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-34">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>executable</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsip-hîng-tóng</term>
+          </tig>
+          <tig>
+            <term>執行檔</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-35">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>error code</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tshò-gōo tāi-bé</term>
+          </tig>
+          <tig>
+            <term>錯誤代碼</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
