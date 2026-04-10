@@ -564,6 +564,48 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-36">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>extension</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>khok-tshiong-kong-lîng</term>
+          </tig>
+          <tig>
+            <term>擴充功能</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-37">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>next</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>ē-tsi̍t-ê</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-38">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>metadata</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>āu-siat-tsu-liāu</term>
+          </tig>
+          <tig>
+            <term>後設資料</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
