@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-04-10 20:54+0900\n"
+"PO-Revision-Date: 2026-04-10 22:18+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -553,6 +553,7 @@ msgstr "%1"
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
+"Tsit-ê element ê tshú-tāi tsò tsi̍t-ê an-ji̍p component ê sóo-ū ê element."
 
 #: kedittoolbar.cpp:1249
 #, kde-format
@@ -591,7 +592,7 @@ msgstr "Kái-piàn Tôo-sī"
 #: khelpmenu.cpp:167 ui_standards.rc:179
 #, kde-format
 msgid "&Help"
-msgstr ""
+msgstr "Suat-bîng(&H)"
 
 #: kkeysequencewidget.cpp:146
 #, kde-format
@@ -705,19 +706,19 @@ msgstr ""
 #, kde-format
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
-msgstr ""
+msgstr "Su-ji̍p"
 
 #: kkeysequencewidget.cpp:397 kshortcuteditwidget.cpp:51
 #, kde-format
 msgctxt "No shortcut defined"
 msgid "None"
-msgstr ""
+msgstr "Bô"
 
 #: klicensedialog_p.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "License Agreement"
-msgstr ""
+msgstr "Siū-khuân-tiâu-khuán"
 
 #: kmainwindow.cpp:257
 #, kde-format
@@ -734,7 +735,7 @@ msgstr "mail@kisaragi-hiu.com"
 #: kmenumenuhandler_p.cpp:37
 #, kde-format
 msgid "Add to Toolbar"
-msgstr ""
+msgstr "Ka kàu Kang-kū-lia̍t"
 
 #: kmenumenuhandler_p.cpp:224
 #, kde-format
@@ -769,7 +770,7 @@ msgstr "Tsit-má ê hong-àn:"
 #, kde-format
 msgctxt "@action:button"
 msgid "New…"
-msgstr ""
+msgstr "Kiàn-li̍p…"
 
 #: kshortcutschemeseditor.cpp:50
 #, kde-format
@@ -1083,25 +1084,25 @@ msgstr "Hong-hiòng"
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Top"
-msgstr ""
+msgstr "Tíng-kuân"
 
 #: ktoolbar.cpp:324
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Left"
-msgstr ""
+msgstr "Tò-pîng"
 
 #: ktoolbar.cpp:327
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Right"
-msgstr ""
+msgstr "Tsiànn-pîng"
 
 #: ktoolbar.cpp:330
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Bottom"
-msgstr ""
+msgstr "Ē-kha"
 
 #: ktoolbar.cpp:341
 #, kde-format
@@ -1135,7 +1136,7 @@ msgstr "Bûn-jī Tī Tôo-sī Ē-kha"
 #: ktoolbar.cpp:363
 #, kde-format
 msgid "Icon Size"
-msgstr ""
+msgstr "Tôo-sī Tuā-sè"
 
 #: ktoolbar.cpp:365
 #, kde-format
@@ -1146,32 +1147,32 @@ msgstr "Ū-siat"
 #: ktoolbar.cpp:385 ktoolbar.cpp:409
 #, kde-format
 msgid "Small (%1x%2)"
-msgstr ""
+msgstr "Sé (%1x%2)"
 
 #: ktoolbar.cpp:387 ktoolbar.cpp:411
 #, kde-format
 msgid "Medium (%1x%2)"
-msgstr ""
+msgstr "Tiong-ng (%1x%2)"
 
 #: ktoolbar.cpp:389 ktoolbar.cpp:413
 #, kde-format
 msgid "Large (%1x%2)"
-msgstr ""
+msgstr "Tuā (%1x%2)"
 
 #: ktoolbar.cpp:391 ktoolbar.cpp:415
 #, kde-format
 msgid "Huge (%1x%2)"
-msgstr ""
+msgstr "Tsiok-tuā (%1x%2)"
 
 #: ktoolbar.cpp:441
 #, kde-format
 msgid "Lock Toolbar Positions"
-msgstr ""
+msgstr "Só-tīng Kang-kū-lia̍t Uī-tì"
 
 #: ktoolbarhandler.cpp:93
 #, kde-format
 msgid "Toolbars Shown"
-msgstr ""
+msgstr "Hián-sī ê Kang-kū-lia̍t"
 
 #: ktooltiphelper.cpp:211
 #, kde-format
@@ -1186,6 +1187,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
 msgstr ""
+"<small><font color=\"%1\">Tshi̍h <b>Shift</b> lâi khuànn kha-tsē tsu-liāu.</fo"
+"nt></small>"
 
 #: ktooltiphelper.cpp:295
 #, kde-format
@@ -1193,6 +1196,8 @@ msgctxt "@info:tooltip keep short"
 msgid ""
 "%1<br/><small><font color=\"%2\">Press <b>Shift</b> for more.</font></small>"
 msgstr ""
+"%1<br/><small><font color=\"%2\">Tshi̍h <b>Shift</b> lâi khuànn kha-tsē.</font"
+"></small>"
 
 #: kundoactions.cpp:30
 #, kde-format
@@ -1250,7 +1255,7 @@ msgstr "&Pian-tsi̍p"
 #, kde-format
 msgctxt "@title:menu Game move"
 msgid "&Move"
-msgstr ""
+msgstr "Î-tōng(&M)"
 
 #. i18n: ectx: Menu (view)
 #: ui_standards.rc:102

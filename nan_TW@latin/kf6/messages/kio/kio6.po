@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-10 00:40+0000\n"
-"PO-Revision-Date: 2026-03-30 23:44+0900\n"
+"PO-Revision-Date: 2026-04-10 23:00+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -4828,7 +4828,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column"
 msgid "Permissions"
-msgstr ""
+msgstr "Khuân-hān"
 
 #: widgets/kdirmodel.cpp:1272
 #, kde-format
@@ -5491,7 +5491,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "@title:tab"
 msgid "Share"
-msgstr ""
+msgstr "Hun-hiáng"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:112
 #, kde-kuit-format
@@ -5511,7 +5511,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter file name"
-msgstr ""
+msgstr "Su-ji̍p tóng-miâ"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:428
 #, kde-format
@@ -5646,7 +5646,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1178
 #, kde-format
 msgid "&Permissions"
-msgstr ""
+msgstr "Khuân-hān(&P)"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1189
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1377
@@ -6272,14 +6272,16 @@ msgstr ""
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē "
+"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē"
+" "
 "hāng-bo̍k"
 
 #: widgets/renamedialog.cpp:300
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
+"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo"
+"̍k"
 
 #: widgets/renamedialog.cpp:311
 #, kde-format
