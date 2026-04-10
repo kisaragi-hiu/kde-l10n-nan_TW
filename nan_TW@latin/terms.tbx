@@ -9,7 +9,7 @@
             <term>OK</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>好</term>
           </tig>
@@ -24,7 +24,7 @@
             <term/>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>快速齒</term>
           </tig>
@@ -39,7 +39,7 @@
             <term>keyboard</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>齒盤</term>
           </tig>
@@ -54,7 +54,7 @@
             <term>action</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>動作</term>
           </tig>
@@ -69,7 +69,7 @@
             <term>anonymous</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>匿名</term>
           </tig>
@@ -87,7 +87,7 @@
             <term>delete</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>刣掉 (verb)</term>
           </tig>
@@ -102,7 +102,7 @@
             <term>user</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>用者</term>
           </tig>
@@ -117,7 +117,7 @@
             <term>terminal</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>終端機</term>
           </tig>
@@ -132,7 +132,7 @@
             <term>author</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>作者</term>
           </tig>
@@ -147,7 +147,7 @@
             <term>application</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>應用程式</term>
           </tig>
@@ -165,7 +165,7 @@
             <term>toolbar</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>工具列</term>
           </tig>
@@ -183,7 +183,7 @@
             <term>app</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>app</term>
           </tig>
@@ -195,7 +195,7 @@
             <term>license</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>授權</term>
           </tig>
@@ -210,7 +210,7 @@
             <term>template</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>枋模</term>
           </tig>
@@ -225,7 +225,7 @@
             <term>toolbar</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>工具列</term>
           </tig>
@@ -240,7 +240,7 @@
             <term>move to trash</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>suá 去糞埽桶</term>
           </tig>
@@ -255,7 +255,7 @@
             <term>move to</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>suá 到</term>
           </tig>
@@ -270,7 +270,7 @@
             <term>move</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>徙位</term>
           </tig>
@@ -291,7 +291,7 @@
             <term>khóo-pih</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>khóo-pih</term>
           </tig>
@@ -303,7 +303,7 @@
             <term>undo</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>復原</term>
           </tig>
@@ -318,7 +318,7 @@
             <term>redo</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>取消復原</term>
           </tig>
@@ -333,7 +333,7 @@
             <term>folder</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>資料鋏仔</term>
           </tig>
@@ -348,7 +348,7 @@
             <term>file</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>檔案</term>
           </tig>
@@ -363,7 +363,7 @@
             <term>menu</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>選單</term>
           </tig>
@@ -378,7 +378,7 @@
             <term>error</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>錯誤</term>
           </tig>
@@ -393,7 +393,7 @@
             <term>cancel</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>取消</term>
           </tig>
@@ -408,7 +408,7 @@
             <term>Bookmark</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>書籤 / Su-tshiam</term>
           </tig>
@@ -420,7 +420,7 @@
             <term>Responsive</term>
           </tig>
         </langSet>
-        <langSet xml:lang="nan-TW">
+        <langSet xml:lang="nan-TW@latin">
           <tig>
             <term>響應式 / Hiáng-ìng-sik</term>
           </tig>
