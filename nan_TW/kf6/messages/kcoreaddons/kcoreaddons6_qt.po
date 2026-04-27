@@ -1,59 +1,59 @@
 # SPDX-FileCopyrightText: 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2026-04-10 21:45+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
+"Language: nan_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
-"PO-Revision-Date: 2026-04-10 21:45+0900\n"
-"Project-Id-Version: \n"
-"Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
-"Language: nan_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 26.07.70\n"
 
-#: lib/io/kfilesystemtype.cpp:251
+#: lib/io/kfilesystemtype.cpp:275
 msgctxt "KFileSystemType|"
 msgid "NFS"
 msgstr "NFS"
 
-#: lib/io/kfilesystemtype.cpp:253
+#: lib/io/kfilesystemtype.cpp:277
 msgctxt "KFileSystemType|"
 msgid "SMB"
 msgstr "SMB"
 
-#: lib/io/kfilesystemtype.cpp:255
+#: lib/io/kfilesystemtype.cpp:279
 msgctxt "KFileSystemType|"
 msgid "FAT"
 msgstr "FAT"
 
-#: lib/io/kfilesystemtype.cpp:257
+#: lib/io/kfilesystemtype.cpp:281
 msgctxt "KFileSystemType|"
 msgid "RAMFS"
 msgstr "RAMFS"
 
-#: lib/io/kfilesystemtype.cpp:259
+#: lib/io/kfilesystemtype.cpp:283
 msgctxt "KFileSystemType|"
 msgid "Other"
 msgstr "其他"
 
-#: lib/io/kfilesystemtype.cpp:261
+#: lib/io/kfilesystemtype.cpp:285
 msgctxt "KFileSystemType|"
 msgid "NTFS"
 msgstr "NTFS"
 
-#: lib/io/kfilesystemtype.cpp:263
+#: lib/io/kfilesystemtype.cpp:287
 msgctxt "KFileSystemType|"
 msgid "ExFAT"
 msgstr "ExFAT"
 
-#: lib/io/kfilesystemtype.cpp:265
+#: lib/io/kfilesystemtype.cpp:289
 msgctxt "KFileSystemType|"
 msgid "FUSE"
 msgstr "FUSE"
 
-#: lib/io/kfilesystemtype.cpp:267
+#: lib/io/kfilesystemtype.cpp:291
 msgctxt "KFileSystemType|"
 msgid "Unknown"
 msgstr "毋知"
@@ -68,8 +68,8 @@ msgstr ""
 #, qt-format
 msgctxt "KAboutLicense|"
 msgid ""
-"<p>You can find the full terms on <a "
-"href=\"https://spdx.org/licenses/%1.html\">the SPDX website</a>.</p>"
+"<p>You can find the full terms on <a href=\"https://spdx.org/licenses/%1."
+"html\">the SPDX website</a>.</p>"
 msgstr ""
 
 #: lib/kaboutdata.cpp:296
@@ -246,52 +246,52 @@ msgctxt "KAboutLicense|@item license"
 msgid "Not specified"
 msgstr ""
 
-#: lib/kaboutdata.cpp:1062
+#: lib/kaboutdata.cpp:1069
 msgctxt "KAboutData|replace this with information about your translation team"
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the "
 "translation teams all over the world.</p><p>For more information on KDE "
-"internationalization visit <a "
-"href=\"https://l10n.kde.org\">https://l10n.kde.org</a></p>"
+"internationalization visit <a href=\"https://l10n.kde.org\">https://l10n.kde."
+"org</a></p>"
 msgstr ""
 
-#: lib/kaboutdata.cpp:1310
+#: lib/kaboutdata.cpp:1317
 msgctxt "KAboutData CLI|"
 msgid "Show author information."
 msgstr "顯示作者資料。"
 
-#: lib/kaboutdata.cpp:1311
+#: lib/kaboutdata.cpp:1318
 msgctxt "KAboutData CLI|"
 msgid "Show license information."
 msgstr "顯示授權條款資料。"
 
-#: lib/kaboutdata.cpp:1313
+#: lib/kaboutdata.cpp:1320
 msgctxt "KAboutData CLI|"
 msgid "The base file name of the desktop entry for this application."
 msgstr ""
 
-#: lib/kaboutdata.cpp:1314
+#: lib/kaboutdata.cpp:1321
 msgctxt "KAboutData CLI|"
 msgid "file name"
 msgstr "檔案名"
 
-#: lib/kaboutdata.cpp:1324
+#: lib/kaboutdata.cpp:1331
 msgctxt "KAboutData CLI|"
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr ""
 
-#: lib/kaboutdata.cpp:1326
+#: lib/kaboutdata.cpp:1333
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "%1 was written by:"
 msgstr "%1 ê 作者："
 
-#: lib/kaboutdata.cpp:1337
+#: lib/kaboutdata.cpp:1344
 msgctxt "KAboutData CLI|"
 msgid "Please use https://bugs.kde.org to report bugs."
 msgstr "請用 https://bugs.kde.org 來回報錯誤。"
 
-#: lib/kaboutdata.cpp:1339
+#: lib/kaboutdata.cpp:1346
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "Please report bugs to %1."
