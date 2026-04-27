@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-19 00:40+0000\n"
-"PO-Revision-Date: 2026-03-30 23:44+0900\n"
+"PO-Revision-Date: 2026-04-28 00:49+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -30,14 +30,14 @@ msgstr "mail@kisaragi-hiu.com"
 #: core/chmodjob.cpp:197
 #, kde-format
 msgid "Could not modify the ownership of file %1"
-msgstr ""
+msgstr "無法度修改檔案 %1 ê 所有者"
 
 #: core/chmodjob.cpp:231
 #, kde-kuit-format
 msgid ""
 "Could not modify the ownership of file <filename>%1</filename>. You have "
 "insufficient access to the file to perform the change."
-msgstr ""
+msgstr "無法度修改檔案 <filename>%1</filename> ê 所有者。你無權限做這个改變。"
 
 #: core/connectionbackend.cpp:107
 #, kde-format
@@ -124,7 +124,7 @@ msgstr ""
 #: core/desktopexecparser.cpp:509
 #, kde-format
 msgid "Terminal %1 not found while trying to run %2"
-msgstr ""
+msgstr "愛執行 %2 ê 時陣揣無終端機 %1"
 
 #: core/desktopexecparser.cpp:526
 #, kde-format
@@ -135,49 +135,49 @@ msgstr ""
 #, kde-format
 msgid "1 day %2"
 msgid_plural "%1 days %2"
-msgstr[0] ""
+msgstr[0] "%1 kang %2"
 
 #: core/global.cpp:88 core/global.cpp:104
 #, kde-format
 msgid "%1 Item"
 msgid_plural "%1 Items"
-msgstr[0] ""
+msgstr[0] "%1 个項目"
 
 #: core/global.cpp:92
 #, kde-format
 msgid "1 Folder"
 msgid_plural "%1 Folders"
-msgstr[0] ""
+msgstr[0] "%1 个資料鋏仔"
 
 #: core/global.cpp:93
 #, kde-format
 msgid "1 File"
 msgid_plural "%1 Files"
-msgstr[0] ""
+msgstr[0] "%1 个檔案"
 
 #: core/global.cpp:95
 #, kde-format
 msgctxt "folders, files (size)"
 msgid "%1, %2 (%3)"
-msgstr ""
+msgstr "%1, %2 (%3)"
 
 #: core/global.cpp:96
 #, kde-format
 msgctxt "folders, files"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: core/global.cpp:98
 #, kde-format
 msgctxt "files (size)"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: core/global.cpp:105
 #, kde-format
 msgctxt "items: folders, files (size)"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: core/job.cpp:104
 #, kde-format
@@ -227,13 +227,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title job"
 msgid "Deleting"
-msgstr ""
+msgstr "Leh 刣掉"
 
 #: core/job.cpp:136 core/job.cpp:143 widgets/fileundomanager.cpp:152
 #: widgets/kurlrequester.cpp:477
 #, kde-format
 msgid "File"
-msgstr ""
+msgstr "檔案"
 
 #: core/job.cpp:142
 #, kde-format
@@ -648,7 +648,7 @@ msgstr ""
 #: core/job_error.cpp:261
 #, kde-format
 msgid "File is too large to be trashed."
-msgstr ""
+msgstr "檔案上大，無法度徙去糞埽桶。"
 
 #: core/job_error.cpp:264
 #, kde-format
@@ -673,7 +673,7 @@ msgstr "(毋知)"
 #, kde-format
 msgctxt "@info %1 error name, %2 description"
 msgid "<qt><p><b>%1</b></p><p>%2</p></qt>"
-msgstr ""
+msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 
 #: core/job_error.cpp:308
 #, kde-format
@@ -1998,7 +1998,7 @@ msgstr ""
 #: core/kfileitem.cpp:1479
 #, kde-format
 msgid "(Symbolic Link to %1)"
-msgstr ""
+msgstr "(到 %1 ê 符號連結)"
 
 #: core/kfileitem.cpp:1481
 #, kde-format
@@ -2042,7 +2042,7 @@ msgctxt "@info"
 msgid ""
 "<filename>%1</filename> was not found; please enter a valid path to an "
 "executable program."
-msgstr ""
+msgstr "揣無 <filename>%1</filename>；請輸入會使執行 ê 程式 ê 有效路徑。"
 
 #: core/slavebase.cpp:806
 #, kde-format
@@ -2102,7 +2102,7 @@ msgstr ""
 #: core/slavebase.cpp:828
 #, kde-format
 msgid "Deleting files from %1 is not supported."
-msgstr ""
+msgstr "無支援 uì %1 刣掉檔案。"
 
 #: core/slavebase.cpp:830
 #, kde-format
@@ -2171,7 +2171,7 @@ msgstr ""
 #: widgets/widgetsaskuseractionhandler.cpp:516
 #, kde-format
 msgid "&Details"
-msgstr ""
+msgstr "詳細(&D)"
 
 #: core/workerinterface.cpp:345 kioworkers/http/http.cpp:215
 #: widgets/sslui.cpp:97
@@ -2269,7 +2269,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action"
 msgid "New Folder…"
-msgstr ""
+msgstr "建立資料鋏仔…"
 
 #: filewidgets/kdiroperator.cpp:2080 widgets/jobuidelegate.cpp:271
 #: widgets/jobuidelegate.cpp:272 widgets/jobuidelegate.cpp:281
@@ -2281,7 +2281,7 @@ msgstr "徙去糞埽桶"
 #: filewidgets/kdiroperator.cpp:2086
 #, kde-format
 msgid "Delete"
-msgstr ""
+msgstr "刣掉"
 
 #: filewidgets/kdiroperator.cpp:2093
 #, kde-format
@@ -2331,7 +2331,7 @@ msgstr ""
 #: filewidgets/kdiroperator.cpp:2152
 #, kde-format
 msgid "Icons View"
-msgstr ""
+msgstr "圖示檢視"
 
 #: filewidgets/kdiroperator.cpp:2159
 #, kde-format
@@ -2341,22 +2341,22 @@ msgstr ""
 #: filewidgets/kdiroperator.cpp:2166
 #, kde-format
 msgid "Details View"
-msgstr ""
+msgstr "詳細檢視"
 
 #: filewidgets/kdiroperator.cpp:2185
 #, kde-format
 msgid "Icon Position"
-msgstr ""
+msgstr "圖示位置"
 
 #: filewidgets/kdiroperator.cpp:2188
 #, kde-format
 msgid "Next to File Name"
-msgstr ""
+msgstr "佇檔名邊仔"
 
 #: filewidgets/kdiroperator.cpp:2194
 #, kde-format
 msgid "Above File Name"
-msgstr ""
+msgstr "Teh 檔名頂懸"
 
 #: filewidgets/kdiroperator.cpp:2208
 #, kde-format
@@ -2366,7 +2366,7 @@ msgstr ""
 #: filewidgets/kdiroperator.cpp:2215
 #, kde-format
 msgid "Detailed View"
-msgstr ""
+msgstr "詳細檢視"
 
 #: filewidgets/kdiroperator.cpp:2222
 #, kde-format
@@ -2411,19 +2411,19 @@ msgstr ""
 #: filewidgets/kdiroperator.cpp:2285
 #, kde-format
 msgid "&View Mode"
-msgstr ""
+msgstr "檢視模式(&V)"
 
 #: filewidgets/kdiroperator.cpp:2388 filewidgets/kdiroperator.cpp:2400
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: filewidgets/kdiroperator.cpp:2389 filewidgets/kdiroperator.cpp:2401
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: filewidgets/kdiroperator.cpp:2392
 #, kde-format
@@ -2460,7 +2460,7 @@ msgstr ""
 #: filewidgets/kencodingfiledialog.cpp:164 widgets/kurlrequesterdialog.cpp:105
 #, kde-format
 msgid "Open"
-msgstr ""
+msgstr "Phah-khui"
 
 #: filewidgets/kencodingfiledialog.cpp:178
 #: filewidgets/kencodingfiledialog.cpp:196
@@ -2520,18 +2520,18 @@ msgstr "*|所有的檔案"
 #, kde-format
 msgctxt "%1 is the mimetype name, %2 is the extensions"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: filewidgets/kfilefiltercombo.cpp:160
 #, kde-format
 msgid "All Supported Files"
-msgstr ""
+msgstr "所有支援 ê 檔案"
 
 #: filewidgets/kfilefiltercombo.cpp:169 filewidgets/kfilefiltercombo.cpp:171
 #: filewidgets/kfilewidget.cpp:2057
 #, kde-format
 msgid "All Files"
-msgstr ""
+msgstr "所有 ê 檔案"
 
 #: filewidgets/kfileplaceeditdialog.cpp:66
 #, kde-format
@@ -2560,7 +2560,7 @@ msgstr ""
 #: filewidgets/kfileplaceeditdialog.cpp:86
 #, kde-format
 msgid "Enter descriptive label here"
-msgstr ""
+msgstr "佇 tsia 輸入說明描述"
 
 #: filewidgets/kfileplaceeditdialog.cpp:91
 #, kde-format
@@ -2574,7 +2574,7 @@ msgstr ""
 #: filewidgets/kfileplaceeditdialog.cpp:98
 #, kde-format
 msgid "&Location:"
-msgstr ""
+msgstr "位置(&L):"
 
 #: filewidgets/kfileplaceeditdialog.cpp:105
 #, kde-format
@@ -2647,7 +2647,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip path (mounted from)"
 msgid "%1 (from %2)"
-msgstr ""
+msgstr "%1 (uì %2)"
 
 #: filewidgets/kfileplacesmodel.cpp:158
 msgctxt "KFile System Bookmarks"
@@ -2669,7 +2669,7 @@ msgstr ""
 #: filewidgets/kfileplacesmodel.cpp:270
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
-msgstr ""
+msgstr "文件"
 
 #: filewidgets/kfileplacesmodel.cpp:277
 msgctxt "KFile System Bookmarks"
@@ -2736,7 +2736,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure…"
-msgstr ""
+msgstr "設定…"
 
 #: filewidgets/kfileplacesmodel.cpp:1416
 #, kde-format
@@ -2814,7 +2814,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: filewidgets/kfileplacesmodel.cpp:1618
 #, kde-format
@@ -2826,7 +2826,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip full display text since it is elided: original tooltip"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: filewidgets/kfileplacesview.cpp:360
 #: widgets/kpropertiesdialogbuiltin_p.cpp:676
@@ -2874,7 +2874,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Edit…"
-msgstr ""
+msgstr "編輯(&E)…"
 
 #: filewidgets/kfileplacesview.cpp:1285
 #, kde-format
@@ -3029,7 +3029,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:1242
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 #: filewidgets/kfilewidget.cpp:1245
 #, kde-format
@@ -3059,7 +3059,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:1313 widgets/kpropertiesdesktopbase.ui:22
 #, kde-format
 msgid "&Name:"
-msgstr ""
+msgstr "名(&N):"
 
 #: filewidgets/kfilewidget.cpp:1338
 #, kde-format
@@ -3139,7 +3139,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:2055
 #, kde-format
 msgid "All Folders"
-msgstr ""
+msgstr "所有 ê 資料鋏仔"
 
 #: filewidgets/kfilewidget.cpp:2079
 #, kde-format
@@ -3149,7 +3149,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:2208 widgets/kfileitemactions.cpp:847
 #, kde-format
 msgid "&Open"
-msgstr ""
+msgstr "Phah-khui(&O)"
 
 #: filewidgets/kfilewidget.cpp:2309
 #, kde-format
@@ -3240,7 +3240,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inmenu Create New"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: filewidgets/knewfilemenu.cpp:1128
 #, kde-format
@@ -3323,59 +3323,59 @@ msgstr ""
 #: filewidgets/knewfilemenu.cpp:1475
 #, kde-format
 msgid "Create New"
-msgstr ""
+msgstr "建立"
 
 #: filewidgets/knewfilemenu.cpp:1510
-#, kde-format
+#, fuzzy, kde-format
 msgid "Link to Device"
-msgstr ""
+msgstr "Liân-kiat kàu "
 
 #: filewidgets/knewfilemenu.cpp:1556
 #, kde-format
 msgctxt "Default name for a new folder"
 msgid "New Folder"
-msgstr ""
+msgstr "建立資料鋏仔"
 
 #: filewidgets/knewfilemenu.cpp:1579
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New Folder"
-msgstr ""
+msgstr "建立新 ê 資料鋏仔"
 
 #: filewidgets/knewfilemenu.cpp:1581
 #, kde-format
 msgid "Create new folder in %1:"
-msgstr ""
+msgstr "佇 %1 建立新 ê 資料鋏仔："
 
 #: filewidgets/knewfilemenu.cpp:1584 widgets/kpropertiesdialogbuiltin_p.cpp:363
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter folder name"
-msgstr ""
+msgstr "輸入資料鋏仔 ê 名"
 
 #: filewidgets/knewfilemenu.cpp:1641
 #, kde-format
 msgid "Default"
-msgstr ""
+msgstr "預設"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, NewFileDialog)
 #: filewidgets/knewfilemenu_newfiledialog.ui:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New File"
-msgstr ""
+msgstr "建立新 ê 檔案"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lineEdit)
 #: filewidgets/knewfilemenu_newfiledialog.ui:57
 #, kde-format
 msgid "Enter file name"
-msgstr ""
+msgstr "輸入檔名"
 
 #. i18n: ectx: property (title), widget (KCollapsibleGroupBox, chooseIconBox)
 #: filewidgets/knewfilemenu_newfiledialog.ui:79
 #, kde-format
 msgid "Choose custom icon or color"
-msgstr ""
+msgstr "選自訂 ê 圖示 á-sī 色彩"
 
 #. i18n: ectx: property (text), widget (QPushButton, chooseIconButton)
 #: filewidgets/knewfilemenu_newfiledialog.ui:129
@@ -3405,7 +3405,7 @@ msgstr "Khóo-pih"
 #: filewidgets/kurlnavigator.cpp:610 widgets/checksumswidget.ui:42
 #, kde-format
 msgid "Paste"
-msgstr ""
+msgstr "Tah--khí-khì"
 
 #: filewidgets/kurlnavigator.cpp:630
 #, kde-format
@@ -3422,7 +3422,7 @@ msgstr ""
 #: filewidgets/kurlnavigator.cpp:647
 #, kde-format
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: filewidgets/kurlnavigator.cpp:650
 #, kde-format
@@ -3444,7 +3444,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "More"
-msgstr ""
+msgstr "較濟"
 
 #: filewidgets/kurlnavigatordropdownbutton.cpp:21
 #, kde-format
@@ -3468,12 +3468,12 @@ msgstr "Subversion"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #: filewidgets/kurlnavigatortogglebutton.cpp:28
 #, kde-format
 msgid "Edit mode"
-msgstr ""
+msgstr "編輯模式"
 
 #: filewidgets/kurlnavigatortogglebutton.cpp:80
 #, kde-format
@@ -3528,7 +3528,7 @@ msgstr ""
 #: gui/faviconrequestjob.cpp:156
 #, kde-format
 msgid "Error saving image to %1"
-msgstr ""
+msgstr "儲存影像 kàu %1 ê 時陣發生錯誤"
 
 #: gui/faviconrequestjob.cpp:166
 #, kde-format
@@ -3568,7 +3568,7 @@ msgstr ""
 #: gui/kterminallauncherjob.cpp:130
 #, kde-format
 msgid "No terminal emulator found"
-msgstr ""
+msgstr "揣無終端機"
 
 #: gui/openurljob.cpp:163
 #, kde-format
@@ -3644,7 +3644,7 @@ msgstr ""
 #: kioexec/kioexecd.cpp:87 kioexec/main.cpp:240 kioexec/main.cpp:250
 #, kde-format
 msgid "File Changed"
-msgstr ""
+msgstr "檔案變--ah"
 
 #: kioexec/kioexecd.cpp:88 kioexec/main.cpp:251
 #, kde-format
@@ -3664,7 +3664,7 @@ msgstr ""
 #: kioexec/main.cpp:64
 #, kde-format
 msgid "File not found: %1"
-msgstr ""
+msgstr "揣無檔案：%1"
 
 #: kioexec/main.cpp:81
 #, kde-format
@@ -3716,12 +3716,12 @@ msgstr ""
 #: kioexec/main.cpp:306
 #, kde-format
 msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
-msgstr ""
+msgstr "(c) 1998-2000,2003 KFM/Konqueror 開發群"
 
 #: kioexec/main.cpp:307
 #, kde-format
 msgid "David Faure"
-msgstr ""
+msgstr "David Faure"
 
 #: kioexec/main.cpp:308
 #, kde-format
@@ -3826,7 +3826,7 @@ msgstr ""
 #: kioworkers/ftp/ftp.cpp:477
 #, kde-format
 msgid "%1 (Error %2)"
-msgstr ""
+msgstr "%1 (錯誤 %2)"
 
 #: kioworkers/ftp/ftp.cpp:507
 #, kde-format
@@ -4274,7 +4274,7 @@ msgstr ""
 #: widgets/certificateparty.ui:88
 #, kde-format
 msgid "Country:"
-msgstr ""
+msgstr "國家："
 
 #. i18n: ectx: property (text), widget (QLabel, country)
 #: widgets/certificateparty.ui:98
@@ -4298,7 +4298,7 @@ msgstr ""
 #: widgets/certificateparty.ui:128
 #, kde-format
 msgid "City:"
-msgstr ""
+msgstr "市："
 
 #. i18n: ectx: property (text), widget (QLabel, city)
 #: widgets/certificateparty.ui:138
@@ -4332,28 +4332,28 @@ msgstr ""
 #: widgets/checksumswidget.ui:70
 #, kde-format
 msgid "MD5:"
-msgstr ""
+msgstr "MD5："
 
 #. i18n: SHA1 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, sha1Label)
 #: widgets/checksumswidget.ui:80
 #, kde-format
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1："
 
 #. i18n: SHA256 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, sha256Label)
 #: widgets/checksumswidget.ui:90
 #, kde-format
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA256："
 
 #. i18n: SHA512 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, sha512Label)
 #: widgets/checksumswidget.ui:100
 #, kde-format
 msgid "SHA512:"
-msgstr ""
+msgstr "SHA512："
 
 #. i18n: ectx: property (text), widget (QPushButton, md5Button)
 #. i18n: ectx: property (text), widget (QPushButton, sha1Button)
@@ -4365,7 +4365,7 @@ msgstr ""
 #: widgets/kfilepropspluginwidget.ui:276
 #, kde-format
 msgid "Calculate"
-msgstr ""
+msgstr "計算"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, md5CopyButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, sha1CopyButton)
@@ -4380,7 +4380,7 @@ msgstr ""
 #: widgets/dropjob.cpp:178
 #, kde-format
 msgid "C&ancel"
-msgstr ""
+msgstr "取消(&A)"
 
 #: widgets/dropjob.cpp:290
 #, kde-format
@@ -4401,7 +4401,7 @@ msgstr "Khóo-pih 到遮(&C)"
 #: widgets/dropjob.cpp:303
 #, kde-format
 msgid "&Link Here"
-msgstr ""
+msgstr "連結 kàu 遮(&L)"
 
 #: widgets/executablefileopendialog.cpp:72
 #, kde-format
@@ -4418,7 +4418,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open"
-msgstr ""
+msgstr "Phah-khui(&O)"
 
 #: widgets/executablefileopendialog.cpp:85
 #, kde-format
@@ -4465,17 +4465,17 @@ msgstr ""
 #: widgets/fileundomanager.cpp:147
 #, kde-format
 msgid "Moving to Trash"
-msgstr ""
+msgstr "Leh 徙去糞埽桶"
 
 #: widgets/fileundomanager.cpp:152
 #, kde-format
 msgid "Deleting"
-msgstr ""
+msgstr "Leh 刣掉"
 
 #: widgets/fileundomanager.cpp:326
 #, kde-format
 msgid "Und&o"
-msgstr ""
+msgstr "復原(&O)"
 
 #: widgets/fileundomanager.cpp:332
 #, kde-format
@@ -4659,7 +4659,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit…"
-msgstr ""
+msgstr "編輯…"
 
 #: widgets/kacleditwidget.cpp:79
 #, kde-format
@@ -4677,13 +4677,13 @@ msgstr ""
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Owning Group"
-msgstr ""
+msgstr "所有 ê 群組"
 
 #: widgets/kacleditwidget.cpp:235 widgets/kacleditwidget.cpp:247
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Others"
-msgstr ""
+msgstr "其他"
 
 #: widgets/kacleditwidget.cpp:239
 #, kde-format
@@ -4720,17 +4720,17 @@ msgstr ""
 #: widgets/kacleditwidget.cpp:401
 #, kde-format
 msgid "Owner"
-msgstr ""
+msgstr "所有者"
 
 #: widgets/kacleditwidget.cpp:406
 #, kde-format
 msgid "Owning Group"
-msgstr ""
+msgstr "所有 ê 群組"
 
 #: widgets/kacleditwidget.cpp:411 widgets/kpropertiesdialogbuiltin_p.cpp:1450
 #, kde-format
 msgid "Others"
-msgstr ""
+msgstr "其他"
 
 #: widgets/kacleditwidget.cpp:416
 #, kde-format
@@ -4745,7 +4745,7 @@ msgstr "有名稱 ê 用者"
 #: widgets/kacleditwidget.cpp:426
 #, kde-format
 msgid "Named group"
-msgstr ""
+msgstr "Ū 名稱 ê 群組"
 
 #: widgets/kacleditwidget.cpp:444
 #, kde-format
@@ -4755,7 +4755,7 @@ msgstr "用者："
 #: widgets/kacleditwidget.cpp:458
 #, kde-format
 msgid "Group: "
-msgstr ""
+msgstr "群組："
 
 #: widgets/kacleditwidget.cpp:596
 #, kde-format
@@ -4765,25 +4765,25 @@ msgstr ""
 #: widgets/kacleditwidget.cpp:597
 #, kde-format
 msgid "Name"
-msgstr ""
+msgstr "名"
 
 #: widgets/kacleditwidget.cpp:598
 #, kde-format
 msgctxt "read permission"
 msgid "r"
-msgstr ""
+msgstr "r"
 
 #: widgets/kacleditwidget.cpp:599
 #, kde-format
 msgctxt "write permission"
 msgid "w"
-msgstr ""
+msgstr "w"
 
 #: widgets/kacleditwidget.cpp:600
 #, kde-format
 msgctxt "execute permission"
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: widgets/kacleditwidget.cpp:601
 #, kde-format
@@ -4816,13 +4816,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column"
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: widgets/kdirmodel.cpp:1270
 #, kde-format
 msgctxt "@title:column"
 msgid "Permissions"
-msgstr ""
+msgstr "權限"
 
 #: widgets/kdirmodel.cpp:1272
 #, kde-format
@@ -4834,7 +4834,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column"
 msgid "Group"
-msgstr ""
+msgstr "群組"
 
 #: widgets/kdirmodel.cpp:1276
 #, kde-format
@@ -4845,19 +4845,19 @@ msgstr ""
 #: widgets/kfileitemactions.cpp:448
 #, kde-format
 msgid "Open &with %1"
-msgstr ""
+msgstr "用 %1 Phah-khui(&W)"
 
 #: widgets/kfileitemactions.cpp:450
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: widgets/kfileitemactions.cpp:586
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Actions"
-msgstr ""
+msgstr "動作(&A)"
 
 #: widgets/kfileitemactions.cpp:756
 #, kde-format
@@ -4875,17 +4875,17 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Run Executable"
-msgstr ""
+msgstr "執行檔案(&R)"
 
 #: widgets/kfileitemactions.cpp:836
 #, kde-format
 msgid "&Open folder with %1"
-msgstr ""
+msgstr "用 %1 Phah-khui 資料鋏仔(&O)"
 
 #: widgets/kfileitemactions.cpp:836
 #, kde-format
 msgid "&Open with %1"
-msgstr ""
+msgstr "用 %1 Phah-khui(&O)"
 
 #: widgets/kfileitemactions.cpp:868
 #, kde-format
@@ -4903,14 +4903,14 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application…"
-msgstr ""
+msgstr "其他應用程式(&O)…"
 
 #: widgets/kfileitemdelegate.cpp:211
 #, kde-format
 msgctxt "Items in a folder"
 msgid "1 item"
 msgid_plural "%1 items"
-msgstr[0] ""
+msgstr[0] "%1 个項目"
 
 #: widgets/kfileitemdelegate.cpp:266 widgets/kfileitemdelegate.cpp:270
 #, kde-format
@@ -5012,7 +5012,7 @@ msgstr ""
 #: widgets/kfilepropspluginwidget.ui:455
 #, kde-format
 msgid "File System:"
-msgstr ""
+msgstr "檔案系統："
 
 #. i18n: ectx: property (text), widget (QLabel, mountPointLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:481
@@ -5075,7 +5075,7 @@ msgstr[0] ""
 #: widgets/kopenwithdialog.cpp:597 widgets/kopenwithdialog.cpp:628
 #, kde-format
 msgid "Choose Application"
-msgstr ""
+msgstr "選應用程式"
 
 #: widgets/kopenwithdialog.cpp:612
 #, kde-format
@@ -5142,7 +5142,7 @@ msgstr "終端機選項"
 #: widgets/kopenwithdialog.cpp:759
 #, kde-format
 msgid "Run in &terminal"
-msgstr ""
+msgstr "佇終端機執行(&T)"
 
 #: widgets/kopenwithdialog.cpp:777
 #, kde-format
@@ -5176,7 +5176,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopadvbase.ui:42
 #, kde-format
 msgid "Run in terminal"
-msgstr ""
+msgstr "佇終端機執行"
 
 #. i18n: ectx: property (text), widget (QLabel, terminalEditLabel)
 #: widgets/kpropertiesdesktopadvbase.ui:49
@@ -5293,13 +5293,13 @@ msgstr ""
 msgid ""
 "Type a generic name for the application here. Examples: an image viewing "
 "application would be \"Image Viewer\"."
-msgstr ""
+msgstr "請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: widgets/kpropertiesdesktopbase.ui:42
 #, kde-format
 msgid "&Generic name:"
-msgstr ""
+msgstr "通用名(&G)："
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, commentEdit)
@@ -5308,7 +5308,7 @@ msgstr ""
 msgid ""
 "Type the description of this application, based on its use, here. Examples: "
 "an image viewing application would be \"View and edit images\"."
-msgstr ""
+msgstr "請佇 tsia 以應用程式 ê 用途輸入伊 ê 說明。例：檢視影像 ê 程式會使敘述做叫做「檢視 kā 編輯影像」。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: widgets/kpropertiesdesktopbase.ui:62
@@ -5333,7 +5333,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopbase.ui:95
 #, kde-format
 msgid "Program:"
-msgstr ""
+msgstr "程式："
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, browseButton)
 #: widgets/kpropertiesdesktopbase.ui:114
@@ -5424,7 +5424,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopbase.ui:232
 #, kde-format
 msgid "Description"
-msgstr ""
+msgstr "說明"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, addFiletypeButton)
 #: widgets/kpropertiesdesktopbase.ui:242
@@ -5485,7 +5485,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "@title:tab"
 msgid "Share"
-msgstr ""
+msgstr "分享"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:112
 #, kde-kuit-format
@@ -5505,7 +5505,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter file name"
-msgstr ""
+msgstr "輸入檔名"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:428
 #, kde-format
@@ -5535,13 +5535,13 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:561
 #, kde-format
 msgid "%1:"
-msgstr ""
+msgstr "%1："
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:683
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown size"
-msgstr ""
+msgstr "毋知大細"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:693
 #, kde-format
@@ -5555,7 +5555,7 @@ msgstr ""
 #, kde-format
 msgid "1 file"
 msgid_plural "%1 files"
-msgstr[0] ""
+msgstr[0] "%1 个檔案"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:697
 #: widgets/kpropertiesdialogbuiltin_p.cpp:712
@@ -5593,76 +5593,76 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button Create new file type"
 msgid "Create…"
-msgstr ""
+msgstr "建立…"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1004
 #, kde-format
 msgctxt "@action:button"
 msgid "Change…"
-msgstr ""
+msgstr "改變…"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1006
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Change the default application for opening files of type “%1”."
-msgstr ""
+msgstr "改變 \"%1\" 類 ê 檔案預設愛用啥物應用程式來開。"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1076
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1077
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1079
 msgid "No Access"
-msgstr ""
+msgstr "無權存取"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1076
 msgid "Can Only View"
-msgstr ""
+msgstr "只會使檢視"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1076
 msgid "Can View & Modify"
-msgstr ""
+msgstr "會使檢視 kā 改變"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1077
 msgid "Can Only View Content"
-msgstr ""
+msgstr "只會使檢視內容"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1077
 msgid "Can View & Modify Content"
-msgstr ""
+msgstr "會使檢視 kā 改變內容"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1079
 msgid "Can Only View/Read Content"
-msgstr ""
+msgstr "只會使檢視/讀取內容"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1079
 msgid "Can View/Read & Modify/Write"
-msgstr ""
+msgstr "會使檢視/讀取 kā 改變/寫入"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1178
 #, kde-format
 msgid "&Permissions"
-msgstr ""
+msgstr "權限(&P)"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1189
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1377
 #, kde-format
 msgid "Access Permissions"
-msgstr ""
+msgstr "存取權限"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1199
 #, kde-format
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
-msgstr[0] ""
+msgstr[0] "遮所有 ê 檔案攏是連結所以無權限設定。"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1201
 #, kde-format
 msgid "Only the owner can change permissions."
-msgstr ""
+msgstr "干焦所有者 ē-sái 改權限。"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1208
 #, kde-format
 msgid "O&wner:"
-msgstr ""
+msgstr "所有者(&W)："
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1210
 #, kde-format
@@ -5672,7 +5672,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1213
 #, kde-format
 msgid "Gro&up:"
-msgstr ""
+msgstr "群組(&U)："
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1215
 #, kde-format
@@ -5682,7 +5682,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1218
 #, kde-format
 msgid "O&thers:"
-msgstr ""
+msgstr "其他(&T)："
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1221
 #, kde-format
@@ -5729,22 +5729,22 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1236
 #, kde-format
 msgid "A&dvanced Permissions"
-msgstr ""
+msgstr "詳細權限(&D)"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1244
 #, kde-format
 msgid "Ownership"
-msgstr ""
+msgstr "所有者"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1252
 #, kde-format
 msgid "User:"
-msgstr ""
+msgstr "用者："
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1290
 #, kde-format
 msgid "Group:"
-msgstr ""
+msgstr "群組："
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1324
 #, kde-format
@@ -5754,7 +5754,7 @@ msgstr "套用改變到所有 ê 子資料鋏仔 kap in ê 內容"
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1367
 #, kde-format
 msgid "Advanced Permissions"
-msgstr ""
+msgstr "詳細權限"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1387
 #, kde-format
@@ -5767,6 +5767,8 @@ msgid ""
 "Show\n"
 "Entries"
 msgstr ""
+"顯示\n"
+"項目"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1395
 #, kde-format
@@ -5776,7 +5778,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1397
 #, kde-format
 msgid "Read"
-msgstr ""
+msgstr "讀取"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1398
 #, kde-format
@@ -5789,6 +5791,8 @@ msgid ""
 "Write\n"
 "Entries"
 msgstr ""
+"寫入\n"
+"項目"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1406
 #, kde-format
@@ -5800,7 +5804,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1409
 #, kde-format
 msgid "Write"
-msgstr ""
+msgstr "寫入"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1410
 #, kde-format
@@ -5811,7 +5815,7 @@ msgstr ""
 #, kde-format
 msgctxt "Enter folder"
 msgid "Enter"
-msgstr ""
+msgstr "入去"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1417
 #, kde-format
@@ -5821,7 +5825,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1419
 #, kde-format
 msgid "Exec"
-msgstr ""
+msgstr "執行"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1420
 #, kde-format
@@ -5850,12 +5854,12 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1442
 #, kde-format
 msgid "User"
-msgstr ""
+msgstr "用者"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1446
 #, kde-format
 msgid "Group"
-msgstr ""
+msgstr "群組"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1457
 #, kde-format
@@ -5917,7 +5921,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1666
 #, kde-format
 msgid "Link"
-msgstr ""
+msgstr "連結"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1686
 #, kde-format
@@ -6008,12 +6012,12 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2562
 #, kde-format
 msgid "U&RL"
-msgstr ""
+msgstr "U&RL"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2568
 #, kde-format
 msgid "URL:"
-msgstr ""
+msgstr "URL:"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2637
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2908
@@ -6025,7 +6029,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2708
 #, kde-format
 msgid "&Application"
-msgstr ""
+msgstr "應用程式(&A)"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2848
 #, kde-format
@@ -6045,12 +6049,12 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:3002
 #, kde-format
 msgid "Advanced Options for %1"
-msgstr ""
+msgstr "%1 ê 詳細選項"
 
 #: widgets/ksslinfodialog.cpp:38
 #, kde-format
 msgid "KDE SSL Information"
-msgstr ""
+msgstr "KDE SSL 資訊"
 
 #: widgets/ksslinfodialog.cpp:49
 #, kde-format
@@ -6089,7 +6093,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1, using %2 bits of a %3 bit key"
 msgid "%1, %2 %3"
-msgstr ""
+msgstr "%1, %2 %3"
 
 #: widgets/ksslinfodialog.cpp:141
 #, kde-format
@@ -6121,7 +6125,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the effective date of the certificate, %2 is the expiry date"
 msgid "%1 to %2"
-msgstr ""
+msgstr "%1 kàu %2"
 
 #: widgets/kurifiltersearchprovideractions.cpp:80
 #, kde-format
@@ -6132,7 +6136,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu Search for <text> with"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: widgets/kurifiltersearchprovideractions.cpp:94
 #, kde-format
@@ -6155,7 +6159,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Paste Clipboard Content"
-msgstr ""
+msgstr "Kā 剪貼簿的內容貼起去"
 
 #: widgets/paste.cpp:122
 #, kde-format
@@ -6168,32 +6172,32 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Folder"
-msgstr ""
+msgstr "Tah 一个資料鋏仔"
 
 #: widgets/paste.cpp:250
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One File"
-msgstr ""
+msgstr "Tah 一个檔案"
 
 #: widgets/paste.cpp:252
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Item"
 msgid_plural "Paste %1 Items"
-msgstr[0] ""
+msgstr[0] "Tah %1 个項目"
 
 #: widgets/paste.cpp:254
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste Clipboard Contents…"
-msgstr ""
+msgstr "Kā 剪貼簿的內容貼起去…"
 
 #: widgets/paste.cpp:258
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
-msgstr ""
+msgstr "Tah--khí-khì"
 
 #: widgets/pastedialog.cpp:57
 #, kde-format
@@ -6204,7 +6208,7 @@ msgstr ""
 #: widgets/pastedialog.cpp:68
 #, kde-format
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: widgets/pastejob.cpp:75
 #, kde-format
@@ -6219,12 +6223,12 @@ msgstr ""
 #: widgets/renamedialog.cpp:73
 #, kde-format
 msgid "Date: %1"
-msgstr ""
+msgstr "日期：%1"
 
 #: widgets/renamedialog.cpp:86
 #, kde-format
 msgid "Size: %1"
-msgstr ""
+msgstr "大細：%1"
 
 #: widgets/renamedialog.cpp:279
 #, kde-format
@@ -6432,7 +6436,7 @@ msgctxt ""
 "This a template for new filenames, # is replaced by a number later, must be "
 "the end character"
 msgid "New name #"
-msgstr ""
+msgstr "新 ê 名 #"
 
 #: widgets/renamefiledialog.cpp:283
 #, kde-format
@@ -6510,13 +6514,13 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inlistbox as in insert text before filename"
 msgid "Before filename"
-msgstr ""
+msgstr "檔名進前"
 
 #: widgets/renamefiledialog.cpp:415
 #, kde-format
 msgctxt "@item:inlistbox as in insert text after filename"
 msgid "After filename"
-msgstr ""
+msgstr "檔名後壁"
 
 #: widgets/renamefiledialog.cpp:532
 #, kde-format

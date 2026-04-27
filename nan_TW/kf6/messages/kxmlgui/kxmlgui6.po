@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-03-30 23:42+0900\n"
+"PO-Revision-Date: 2026-04-28 00:23+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -540,17 +540,17 @@ msgstr "%1"
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
-msgstr ""
+msgstr "這个 element 會取代做一个安入 component 的所有的 element。"
 
 #: kedittoolbar.cpp:1249
 #, kde-format
 msgid "<Merge>"
-msgstr ""
+msgstr "<合併>"
 
 #: kedittoolbar.cpp:1251
 #, kde-format
 msgid "<Merge %1>"
-msgstr ""
+msgstr "<合併 %1>"
 
 #: kedittoolbar.cpp:1261
 #, kde-format
@@ -579,7 +579,7 @@ msgstr "改變圖示"
 #: khelpmenu.cpp:167 ui_standards.rc:179
 #, kde-format
 msgid "&Help"
-msgstr ""
+msgstr "說明(&H)"
 
 #: kkeysequencewidget.cpp:146
 #, kde-format
@@ -693,19 +693,19 @@ msgstr ""
 #, kde-format
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
-msgstr ""
+msgstr "輸入"
 
 #: kkeysequencewidget.cpp:397 kshortcuteditwidget.cpp:51
 #, kde-format
 msgctxt "No shortcut defined"
 msgid "None"
-msgstr ""
+msgstr "無"
 
 #: klicensedialog_p.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "License Agreement"
-msgstr ""
+msgstr "授權條款"
 
 #: kmainwindow.cpp:257
 #, kde-format
@@ -722,7 +722,7 @@ msgstr "mail@kisaragi-hiu.com"
 #: kmenumenuhandler_p.cpp:37
 #, kde-format
 msgid "Add to Toolbar"
-msgstr ""
+msgstr "加到工具列"
 
 #: kmenumenuhandler_p.cpp:224
 #, kde-format
@@ -740,7 +740,7 @@ msgstr "預設："
 #, kde-format
 msgctxt "@option:radio"
 msgid "Custom:"
-msgstr ""
+msgstr "Tsū-tīng:"
 
 #: kshortcutschemeseditor.cpp:32
 #, kde-format
@@ -757,7 +757,7 @@ msgstr "Tsit-má 的方案："
 #, kde-format
 msgctxt "@action:button"
 msgid "New…"
-msgstr ""
+msgstr "建立…"
 
 #: kshortcutschemeseditor.cpp:50
 #, kde-format
@@ -808,7 +808,7 @@ msgstr "新方案"
 #: kshortcutschemeseditor.cpp:121
 #, kde-format
 msgid "A scheme with this name already exists."
-msgstr ""
+msgstr "已經有別个叫做這个名 ê 方案--ah。"
 
 #: kshortcutschemeseditor.cpp:151
 #, kde-format
@@ -844,7 +844,7 @@ msgstr "成功儲存快速齒方案。"
 #: kshortcutschemeseditor.cpp:212
 #, kde-format
 msgid "Error saving the shortcut scheme."
-msgstr ""
+msgstr "儲存快速齒方案 ê 時陣發生錯誤。"
 
 #: kshortcutsdialog.cpp:70
 #, kde-format
@@ -856,7 +856,7 @@ msgstr "Tsit-má 的快速齒方案已經 hō 改變過--ah。敢 ài 佇切換�
 #: kshortcutsdialog.cpp:124
 #, kde-format
 msgid "Manage &Schemes"
-msgstr ""
+msgstr "管理方案(&S)"
 
 #: kshortcutsdialog.cpp:149
 #, kde-format
@@ -1018,7 +1018,7 @@ msgstr "應用程式 ê 語言變--ah"
 #: kswitchlanguagedialog_p.cpp:368
 #, kde-format
 msgid "Primary language:"
-msgstr ""
+msgstr "主要語言："
 
 #: kswitchlanguagedialog_p.cpp:368
 #, kde-format
@@ -1069,25 +1069,25 @@ msgstr "方向"
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Top"
-msgstr ""
+msgstr "頂懸"
 
 #: ktoolbar.cpp:324
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Left"
-msgstr ""
+msgstr "倒爿"
 
 #: ktoolbar.cpp:327
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Right"
-msgstr ""
+msgstr "正爿"
 
 #: ktoolbar.cpp:330
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Bottom"
-msgstr ""
+msgstr "下跤"
 
 #: ktoolbar.cpp:341
 #, kde-format
@@ -1121,7 +1121,7 @@ msgstr "文字佇圖示下跤"
 #: ktoolbar.cpp:363
 #, kde-format
 msgid "Icon Size"
-msgstr ""
+msgstr "圖示大細"
 
 #: ktoolbar.cpp:365
 #, kde-format
@@ -1132,32 +1132,32 @@ msgstr "預設"
 #: ktoolbar.cpp:385 ktoolbar.cpp:409
 #, kde-format
 msgid "Small (%1x%2)"
-msgstr ""
+msgstr "細 (%1x%2)"
 
 #: ktoolbar.cpp:387 ktoolbar.cpp:411
 #, kde-format
 msgid "Medium (%1x%2)"
-msgstr ""
+msgstr "中 (%1x%2)"
 
 #: ktoolbar.cpp:389 ktoolbar.cpp:413
 #, kde-format
 msgid "Large (%1x%2)"
-msgstr ""
+msgstr "大 (%1x%2)"
 
 #: ktoolbar.cpp:391 ktoolbar.cpp:415
 #, kde-format
 msgid "Huge (%1x%2)"
-msgstr ""
+msgstr "足大 (%1x%2)"
 
 #: ktoolbar.cpp:441
 #, kde-format
 msgid "Lock Toolbar Positions"
-msgstr ""
+msgstr "鎖定工具列位置"
 
 #: ktoolbarhandler.cpp:93
 #, kde-format
 msgid "Toolbars Shown"
-msgstr ""
+msgstr "顯示 ê 工具列"
 
 #: ktooltiphelper.cpp:211
 #, kde-format
@@ -1171,7 +1171,7 @@ msgstr "%1 (%2)"
 msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
-msgstr ""
+msgstr "<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
 
 #: ktooltiphelper.cpp:295
 #, kde-format
@@ -1179,6 +1179,7 @@ msgctxt "@info:tooltip keep short"
 msgid ""
 "%1<br/><small><font color=\"%2\">Press <b>Shift</b> for more.</font></small>"
 msgstr ""
+"%1<br/><small><font color=\"%2\">揤 <b>Shift</b> 來看 kha 濟。</font></small>"
 
 #: kundoactions.cpp:30
 #, kde-format
@@ -1236,7 +1237,7 @@ msgstr "編輯(&E)"
 #, kde-format
 msgctxt "@title:menu Game move"
 msgid "&Move"
-msgstr ""
+msgstr "移動(&M)"
 
 #. i18n: ectx: Menu (view)
 #: ui_standards.rc:102

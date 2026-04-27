@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:49+0000\n"
-"PO-Revision-Date: 2026-04-10 20:35+0900\n"
+"PO-Revision-Date: 2026-04-28 00:19+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -105,7 +105,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:21
 msgctxt "comment"
 msgid "HDR image"
-msgstr ""
+msgstr "HDR iánn-siōng"
 
 #: kde6.xml.podir/kde6.xml.in.h:22
 msgctxt "comment"
@@ -235,7 +235,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:48
 msgctxt "comment"
 msgid "Windows link"
-msgstr ""
+msgstr "Windows liân-kiat"
 
 #: kde6.xml.podir/kde6.xml.in.h:49
 msgctxt "comment"
@@ -265,7 +265,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:57
 msgctxt "comment"
 msgid "Softimage PIC image"
-msgstr ""
+msgstr "Softimage PIC iánn-siōng"
 
 #: kde6.xml.podir/kde6.xml.in.h:58
 msgctxt "comment"

@@ -606,6 +606,23 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-39">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>embed</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>安入</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="zh-TW">
+          <tig>
+            <term/>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
