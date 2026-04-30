@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-14 00:40+0000\n"
+"POT-Creation-Date: 2026-04-28 00:41+0000\n"
 "PO-Revision-Date: 2026-04-28 00:23+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
@@ -275,7 +275,8 @@ msgctxt "Reference to website"
 msgid ""
 "Please use %1 to report bugs.<br/>If you have questions or need help, please "
 "visit %2.<br/>"
-msgstr "請用 %1 來回報錯誤。<br/>若是有問題猶是需要人 kā 你鬥相共，會使拜訪 %2。<br/>"
+msgstr ""
+"請用 %1 來回報錯誤。<br/>若是有問題猶是需要人 kā 你鬥相共，會使拜訪 %2。<br/>"
 
 #: kabstractaboutdialog_p.cpp:324
 #, kde-format
@@ -313,7 +314,9 @@ msgstr "提出錯誤回報"
 msgid ""
 "The application for which you wish to submit a bug report - if incorrect, "
 "please use the Report Bug menu item of the correct application"
-msgstr "你愛提出錯誤回報 ê 應用程式 —— 這若是毋著，請 uì tio̍h--的程式的選單去用伊的「回報錯誤」的選項"
+msgstr ""
+"你愛提出錯誤回報 ê 應用程式 —— 這若是毋著，請 uì tio̍h--的程式的選單去用伊的"
+"「回報錯誤」的選項"
 
 #: kbugreport.cpp:102
 #, kde-format
@@ -380,15 +383,18 @@ msgid ""
 "where you will find a form to fill in. The information displayed above will "
 "be transferred to that server.</qt>"
 msgstr ""
-"<qt>愛提出錯誤回報，請 tshi̍h 下跤的揤鈕。這會佇瀏覽器拜訪 <a href=\"https://bugs.kde.org\">https://b"
-"ugs.kde.org</a>，內底有表單會使輸入你的回報（毋過需要用英語）。頂懸顯示的資料會傳去彼个伺服器。</qt>"
+"<qt>愛提出錯誤回報，請 tshi̍h 下跤的揤鈕。這會佇瀏覽器拜訪 <a href=\"https://"
+"bugs.kde.org\">https://bugs.kde.org</a>，內底有表單會使輸入你的回報（毋過需要"
+"用英語）。頂懸顯示的資料會傳去彼个伺服器。</qt>"
 
 #: kbugreport.cpp:168
 #, kde-format
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
 "browser window on <a href=\"%1\">%2</a>.</qt>"
-msgstr "<qt>愛提出錯誤回報，請 tshi̍h 下跤的揤鈕。這會佇瀏覽器拜訪 <a href=\"%1\">%2</a>。</qt>"
+msgstr ""
+"<qt>愛提出錯誤回報，請 tshi̍h 下跤的揤鈕。這會佇瀏覽器拜訪 <a href=\"%1\">%2</"
+"a>。</qt>"
 
 #: kbugreport.cpp:185
 #, kde-format
@@ -851,7 +857,9 @@ msgstr "儲存快速齒方案 ê 時陣發生錯誤。"
 msgid ""
 "The current shortcut scheme is modified. Save before switching to the new "
 "one?"
-msgstr "Tsit-má 的快速齒方案已經 hō 改變過--ah。敢 ài 佇切換到新的快速齒方案進前先儲存？"
+msgstr ""
+"Tsit-má 的快速齒方案已經 hō 改變過--ah。敢 ài 佇切換到新的快速齒方案進前先儲"
+"存？"
 
 #: kshortcutsdialog.cpp:124
 #, kde-format
@@ -1171,7 +1179,8 @@ msgstr "%1 (%2)"
 msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
-msgstr "<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
+msgstr ""
+"<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
 
 #: ktooltiphelper.cpp:295
 #, kde-format
@@ -1196,12 +1205,12 @@ msgstr "復原"
 msgid "No text"
 msgstr "無文字"
 
-#: kxmlguiwindow.cpp:191
+#: kxmlguiwindow.cpp:193
 #, kde-format
 msgid "Find Action…"
 msgstr "Tshuē 動作…"
 
-#: kxmlguiwindow.cpp:561
+#: kxmlguiwindow.cpp:563
 #, kde-format
 msgid ""
 "There are two actions (%1, %2) that want to use the same shortcut (%3). This "
@@ -1209,7 +1218,7 @@ msgid ""
 "org'>bugs.kde.org</a>"
 msgstr ""
 
-#: kxmlguiwindow.cpp:566
+#: kxmlguiwindow.cpp:568
 #, kde-format
 msgid "Ambiguous Shortcuts"
 msgstr ""
