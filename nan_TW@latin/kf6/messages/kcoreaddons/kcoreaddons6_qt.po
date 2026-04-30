@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-04-28 00:08+0900\n"
+"PO-Revision-Date: 2026-05-01 01:00+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -860,7 +860,7 @@ msgstr[0] "%n hun-tsing"
 msgctxt "KFormat|"
 msgid "%n second(s)"
 msgid_plural "%n second(s)"
-msgstr[0] ""
+msgstr[0] "%n bió"
 
 #. @item:intext days and hours. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
 #. ----------
@@ -872,7 +872,7 @@ msgstr[0] ""
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1 and %2"
-msgstr ""
+msgstr "%1 kā %2"
 
 #: lib/util/kformatprivate.cpp:576
 msgctxt ""
@@ -884,7 +884,7 @@ msgstr "Bô-hāu ê ji̍t-kî"
 #: lib/util/kformatprivate.cpp:586
 msgctxt "KFormat|"
 msgid "In two days"
-msgstr ""
+msgstr "Nn̄g-kang liáu-āu"
 
 #: lib/util/kformatprivate.cpp:588
 msgctxt "KFormat|"
@@ -904,7 +904,7 @@ msgstr "Tsa-hng"
 #: lib/util/kformatprivate.cpp:594
 msgctxt "KFormat|"
 msgid "Two days ago"
-msgstr ""
+msgstr "Nn̄g-kang tsîng"
 
 #: lib/util/kformatprivate.cpp:608
 msgctxt "KFormat|"
@@ -983,7 +983,7 @@ msgstr "%1 km"
 #, qt-format
 msgctxt "QObject|"
 msgid "Path %1 doesn't exist"
-msgstr ""
+msgstr "Lōo-kìng %1 bô tsûn-tsāi"
 
 #: lib/util/klistopenfilesjob_unix.cpp:46
 msgctxt "QObject|"
@@ -999,4 +999,4 @@ msgstr "Tsip-hîng `lsof' sit-pāi--ah. Tshò-gōo tāi-bé %1"
 #: lib/util/klistopenfilesjob_win.cpp:27
 msgctxt "QObject|"
 msgid "KListOpenFilesJob is not supported on Windows"
-msgstr "KListOpenFilesJob 佇 Windows 無支援"
+msgstr "KListOpenFilesJob tī Windows bô tsi-uān"
