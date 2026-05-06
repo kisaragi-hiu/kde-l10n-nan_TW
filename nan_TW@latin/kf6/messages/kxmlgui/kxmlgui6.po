@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-28 00:41+0000\n"
+"POT-Creation-Date: 2026-05-03 00:40+0000\n"
 "PO-Revision-Date: 2026-05-01 00:56+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
@@ -838,23 +838,23 @@ msgctxt "@title:window"
 msgid "Export Shortcuts"
 msgstr "Huē-tshut Khuài-sok-khí"
 
-#: kshortcutschemeseditor.cpp:187 kshortcutschemeseditor.cpp:198
+#: kshortcutschemeseditor.cpp:187 kshortcutschemeseditor.cpp:202
 #, kde-format
 msgid "Shortcuts (*.shortcuts)"
 msgstr "Khuài-sok-khí (*.shortcuts)"
 
-#: kshortcutschemeseditor.cpp:198
+#: kshortcutschemeseditor.cpp:202
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Shortcuts"
 msgstr "Huē-ji̍p Khuài-sok-khí"
 
-#: kshortcutschemeseditor.cpp:209
+#: kshortcutschemeseditor.cpp:213
 #, kde-format
 msgid "Shortcut scheme successfully saved."
 msgstr "Sîng-kong tû-tsûn khuài-sok-khí hong-àn."
 
-#: kshortcutschemeseditor.cpp:212
+#: kshortcutschemeseditor.cpp:216
 #, kde-format
 msgid "Error saving the shortcut scheme."
 msgstr "Tû-tsûn khuài-sok-khí hong-àn ê sî-tsūn huat-sing tshò-ngōo."
@@ -1011,8 +1011,8 @@ msgid ""
 "Adds one more language which will be used if other translations do not "
 "contain a proper translation."
 msgstr ""
-"Ke līng-guā tsi̍t-ê tī kî-tha gí-giân bô ē-sái iōng ê huan-i̍k ê sî-tsūn ài lâ"
-"i iōng ê gí-giân."
+"Ke līng-guā tsi̍t-ê tī kî-tha gí-giân bô ē-sái iōng ê huan-i̍k ê sî-tsūn ài "
+"lâi iōng ê gí-giân."
 
 #: kswitchlanguagedialog_p.cpp:261 kswitchlanguagedialog_p.cpp:282
 #, kde-format
@@ -1055,8 +1055,8 @@ msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
 msgstr ""
-"Tse sī ìng-iōng-tîng-sik tsú-iàu ê gí-giân, nā-sī tsi̍t-ê sû tī tsit-ê gí-giân"
-" bô ê sî-tsūn tsiah-ē tshì kî-tha ê gí-giân."
+"Tse sī ìng-iōng-tîng-sik tsú-iàu ê gí-giân, nā-sī tsi̍t-ê sû tī tsit-ê gí-"
+"giân bô ê sî-tsūn tsiah-ē tshì kî-tha ê gí-giân."
 
 #: kswitchlanguagedialog_p.cpp:390
 #, kde-format
