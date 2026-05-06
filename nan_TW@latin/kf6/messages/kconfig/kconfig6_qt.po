@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-01 01:01+0900\n"
+"PO-Revision-Date: 2026-05-06 23:32+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -16,13 +16,13 @@ msgstr ""
 #: core/kconfig.cpp:991
 msgctxt "KConfig|"
 msgid "Please contact your system administrator."
-msgstr ""
+msgstr "Tshiánn kā lí-ê hē-thóng kuán-lí-tsiá liân-lo̍k."
 
 #: core/kconfigini.cpp:456
 #, qt-format
 msgctxt "KConfigIniBackend|"
 msgid "Configuration file \"%1\" not writable.\n"
-msgstr ""
+msgstr "Siat-tīng tóng-àn \"%1\" bô-huat-tōo siá-ji̍p.\n"
 
 #: core/kemailsettings.cpp:128 core/kemailsettings.cpp:131
 #: core/kemailsettings.cpp:139
@@ -53,7 +53,7 @@ msgstr "Kià&n-li̍p"
 #: gui/kstandardactions_p.h:64
 msgctxt "KStandardActions|"
 msgid "Create new document"
-msgstr ""
+msgstr "Kiàn-li̍p sin ê bûn-kiānn"
 
 #: gui/kstandardactions_p.h:65
 msgctxt "KStandardActions|"
@@ -63,17 +63,17 @@ msgstr "Phah-khui(&O)…"
 #: gui/kstandardactions_p.h:65
 msgctxt "KStandardActions|"
 msgid "Open an existing document"
-msgstr ""
+msgstr "Khui hiān-tsûn tóng-àn"
 
 #: gui/kstandardactions_p.h:66
 msgctxt "KStandardActions|"
 msgid "Open &Recent"
-msgstr ""
+msgstr "Khui Kīn-lâi Iōng--ê(&R)"
 
 #: gui/kstandardactions_p.h:66
 msgctxt "KStandardActions|"
 msgid "Open a document which was recently opened"
-msgstr ""
+msgstr "Khui tsuè-kīn ū khui kuè ê bûn-kiānn"
 
 #: gui/kstandardactions_p.h:67
 msgctxt "KStandardActions|"
@@ -118,32 +118,32 @@ msgstr "Kuainn-tiāu bûn-kiānn"
 #: gui/kstandardactions_p.h:71
 msgctxt "KStandardActions|"
 msgid "&Print…"
-msgstr ""
+msgstr "Lia̍t-ìn(&P)…"
 
 #: gui/kstandardactions_p.h:71
 msgctxt "KStandardActions|"
 msgid "Print document"
-msgstr ""
+msgstr "Lia̍t-ìn bûn-kiānn"
 
 #: gui/kstandardactions_p.h:72
 msgctxt "KStandardActions|"
 msgid "Print Previe&w"
-msgstr ""
+msgstr "Ī-lám Lia̍t-ìn(&W)"
 
 #: gui/kstandardactions_p.h:72
 msgctxt "KStandardActions|"
 msgid "Show a print preview of document"
-msgstr ""
+msgstr "Hián-sī bûn-kiānn ê lia̍t-ìn liáu-āu ê kiat-kó ê ī-lám"
 
 #: gui/kstandardactions_p.h:73
 msgctxt "KStandardActions|"
 msgid "&Mail…"
-msgstr ""
+msgstr "E&mail…"
 
 #: gui/kstandardactions_p.h:73
 msgctxt "KStandardActions|"
 msgid "Send document by mail"
-msgstr ""
+msgstr "Iōng email thuân bûn-kiānn"
 
 #: gui/kstandardactions_p.h:74
 msgctxt "KStandardActions|"
@@ -358,12 +358,12 @@ msgstr ""
 #: gui/kstandardactions_p.h:108
 msgctxt "KStandardActions|"
 msgid "&First Page"
-msgstr "Tē-it Ia̍h(&F)"
+msgstr "Thâu-ia̍h(&F)"
 
 #: gui/kstandardactions_p.h:108
 msgctxt "KStandardActions|"
 msgid "Go to first page"
-msgstr "Tsiân-óng tē-it Ia̍h"
+msgstr "Tsiân-óng thâu-ia̍h"
 
 #: gui/kstandardactions_p.h:109
 msgctxt "KStandardActions|"
@@ -398,7 +398,7 @@ msgstr "Tī bûn-kiānn lāi-té hiòng-tsiân"
 #: gui/kstandardactions_p.h:113
 msgctxt "KStandardActions|"
 msgid "&Add Bookmark"
-msgstr ""
+msgstr "Thi&am Su-tshiam"
 
 #: gui/kstandardactions_p.h:114
 msgctxt "KStandardActions|"
@@ -418,7 +418,7 @@ msgstr ""
 #: gui/kstandardactions_p.h:118
 msgctxt "KStandardActions|"
 msgid "Show &Menubar"
-msgstr ""
+msgstr "Hián-sī Suán-tuann-lia̍t"
 
 #: gui/kstandardactions_p.h:118
 msgctxt "KStandardActions|"
@@ -551,7 +551,7 @@ msgstr "Tû-tsûn"
 #: gui/kstandardshortcut.cpp:77
 msgctxt "KStandardShortcut|@action"
 msgid "Print"
-msgstr ""
+msgstr "Lia̍t-ìn"
 
 #: gui/kstandardshortcut.cpp:78
 msgctxt "KStandardShortcut|@action"
@@ -586,7 +586,7 @@ msgstr "Tah--khí-khì"
 #: gui/kstandardshortcut.cpp:90
 msgctxt "KStandardShortcut|@action"
 msgid "Paste Selection"
-msgstr ""
+msgstr "Kā Suán-ti̍k-khu Tah--khí-khì"
 
 #: gui/kstandardshortcut.cpp:97
 msgctxt "KStandardShortcut|@action"
@@ -596,7 +596,7 @@ msgstr "Tsuān suán"
 #: gui/kstandardshortcut.cpp:98
 msgctxt "KStandardShortcut|@action"
 msgid "Deselect"
-msgstr ""
+msgstr "Bái-suán"
 
 #: gui/kstandardshortcut.cpp:101
 msgctxt "KStandardShortcut|@action"
@@ -666,7 +666,7 @@ msgstr "Tńg-khì"
 #: gui/kstandardshortcut.cpp:198
 msgctxt "KStandardShortcut|@action"
 msgid "Forward"
-msgstr ""
+msgstr "Hiòng-tsiân"
 
 #: gui/kstandardshortcut.cpp:210
 msgctxt "KStandardShortcut|@action"
@@ -676,17 +676,17 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:219
 msgctxt "KStandardShortcut|@action"
 msgid "Beginning of Line"
-msgstr ""
+msgstr "Hâng-thâu"
 
 #: gui/kstandardshortcut.cpp:231
 msgctxt "KStandardShortcut|@action"
 msgid "End of Line"
-msgstr ""
+msgstr "Hâng-bué"
 
 #: gui/kstandardshortcut.cpp:243
 msgctxt "KStandardShortcut|@action"
 msgid "Go to Line"
-msgstr ""
+msgstr "Tsiân-óng Hâng"
 
 #: gui/kstandardshortcut.cpp:255
 msgctxt "KStandardShortcut|@action"
@@ -701,7 +701,7 @@ msgstr "Ē-tsi̍t-ê Sû"
 #: gui/kstandardshortcut.cpp:280
 msgctxt "KStandardShortcut|@action"
 msgid "Add Bookmark"
-msgstr ""
+msgstr "Thiam Su-tshiam"
 
 #: gui/kstandardshortcut.cpp:286
 msgctxt "KStandardShortcut|@action"
@@ -791,12 +791,12 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:385
 msgctxt "KStandardShortcut|@action"
 msgid "Print Preview"
-msgstr ""
+msgstr "Ī-lám Lia̍t-ìn"
 
 #: gui/kstandardshortcut.cpp:386
 msgctxt "KStandardShortcut|@action"
 msgid "Mail"
-msgstr ""
+msgstr "Email"
 
 #: gui/kstandardshortcut.cpp:387
 msgctxt "KStandardShortcut|@action"
@@ -841,12 +841,12 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:404
 msgctxt "KStandardShortcut|@action"
 msgid "Document Back"
-msgstr ""
+msgstr "Bûn-kiānn Thè-āu"
 
 #: gui/kstandardshortcut.cpp:412
 msgctxt "KStandardShortcut|@action"
 msgid "Document Forward"
-msgstr ""
+msgstr "Bûn-kiānn Hiòng-tsiân"
 
 #: gui/kstandardshortcut.cpp:420
 msgctxt "KStandardShortcut|@action"
@@ -984,7 +984,7 @@ msgstr ""
 #: kconfig_compiler/kconfig_compiler.cpp:733
 msgctxt "main|"
 msgid "directory"
-msgstr ""
+msgstr "tsu-liāu-giap-á"
 
 #: kconfig_compiler/kconfig_compiler.cpp:737
 msgctxt "main|"
@@ -1011,7 +1011,7 @@ msgstr ""
 #: kreadconfig/kreadconfig.cpp:53
 msgctxt "main|"
 msgid "Default value"
-msgstr ""
+msgstr "Ū-siat ti̍t"
 
 #: kreadconfig/kreadconfig.cpp:54
 msgctxt "main|"
