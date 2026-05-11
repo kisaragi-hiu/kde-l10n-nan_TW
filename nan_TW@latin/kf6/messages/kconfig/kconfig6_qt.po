@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-06 23:32+0900\n"
+"PO-Revision-Date: 2026-05-12 00:43+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -88,7 +88,7 @@ msgstr "Tû-tsûn bûn-kiānn"
 #: gui/kstandardactions_p.h:68
 msgctxt "KStandardActions|"
 msgid "Save &As…"
-msgstr ""
+msgstr "Iōng Pa̍t-ê Miâ Tû-tsûn(&A)…"
 
 #: gui/kstandardactions_p.h:68
 msgctxt "KStandardActions|"
@@ -423,7 +423,7 @@ msgstr "Hián-sī Suán-tuann-lia̍t"
 #: gui/kstandardactions_p.h:118
 msgctxt "KStandardActions|"
 msgid "Show or hide menubar"
-msgstr ""
+msgstr "Tshiat-uānn hián-sī suán-tuann-lia̍t"
 
 #: gui/kstandardactions_p.h:119
 msgctxt "KStandardActions|"
@@ -438,12 +438,12 @@ msgstr "Tshiat-uānn hián-sī kang-kū-lia̍t"
 #: gui/kstandardactions_p.h:120
 msgctxt "KStandardActions|"
 msgid "Show St&atusbar"
-msgstr ""
+msgstr "Hián-sī Tsōng-thài-lia̍t(&A)"
 
 #: gui/kstandardactions_p.h:120
 msgctxt "KStandardActions|"
 msgid "Show or hide statusbar"
-msgstr ""
+msgstr "Tshiat-uānn hián-sī tsōng-thài-lia̍t"
 
 #: gui/kstandardactions_p.h:121
 msgctxt "KStandardActions|"
@@ -776,12 +776,12 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:382
 msgctxt "KStandardShortcut|@action"
 msgid "Open Recent"
-msgstr ""
+msgstr "Khui Kīn-lâi Iōng--ê"
 
 #: gui/kstandardshortcut.cpp:383
 msgctxt "KStandardShortcut|@action"
 msgid "Save As"
-msgstr ""
+msgstr "Iōng Pa̍t-ê Miâ Tû-tsûn"
 
 #: gui/kstandardshortcut.cpp:384
 msgctxt "KStandardShortcut|@action"
@@ -866,7 +866,7 @@ msgstr "Hián-sī Kang-kū-lia̍t"
 #: gui/kstandardshortcut.cpp:428
 msgctxt "KStandardShortcut|@action"
 msgid "Show Statusbar"
-msgstr ""
+msgstr "Hián-sī Tsōng-thài-lia̍t"
 
 #: gui/kstandardshortcut.cpp:431
 msgctxt "KStandardShortcut|@action"
@@ -931,7 +931,7 @@ msgstr "Kià-hù"
 #: gui/kstandardshortcut.cpp:487
 msgctxt "KStandardShortcut|@action"
 msgid "Show/Hide Hidden Files"
-msgstr ""
+msgstr "Hián-sī/tshàng Ún-tsông-tóng-àn"
 
 #: gui/kstandardshortcut.cpp:495
 msgctxt "KStandardShortcut|@action"

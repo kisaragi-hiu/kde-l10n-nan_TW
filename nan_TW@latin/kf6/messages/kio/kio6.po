@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-04 00:39+0000\n"
-"PO-Revision-Date: 2026-05-06 23:43+0900\n"
+"PO-Revision-Date: 2026-05-12 00:42+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -211,7 +211,7 @@ msgstr "Tī-leh kái-miâ"
 #, kde-format
 msgctxt "@title job"
 msgid "Copying"
-msgstr "Leh khóo-pih"
+msgstr "Leh Khóo-pih"
 
 #: core/job.cpp:128
 #, kde-format
@@ -229,7 +229,7 @@ msgstr "Tsu-liāu-giap-á"
 #, kde-format
 msgctxt "@title job"
 msgid "Deleting"
-msgstr "Leh 刣掉"
+msgstr "Leh Thâi-tiāu"
 
 #: core/job.cpp:136 core/job.cpp:143 widgets/fileundomanager.cpp:152
 #: widgets/kurlrequester.cpp:477
@@ -305,12 +305,12 @@ msgstr ""
 #: core/job_error.cpp:52
 #, kde-format
 msgid "The protocol %1 is not supported."
-msgstr ""
+msgstr "Hia̍p-tīng %1 bô tsi-uān."
 
 #: core/job_error.cpp:55
 #, kde-format
 msgid "The protocol %1 is only a filter protocol."
-msgstr ""
+msgstr "Hia̍p-tīng %1 tsí-sī tsi̍t-ê kè-lī hia̍p-tīng niā."
 
 #: core/job_error.cpp:62
 #, kde-format
@@ -397,7 +397,7 @@ msgstr ""
 #: core/job_error.cpp:107
 #, kde-format
 msgid "The protocol %1 is not a filter protocol."
-msgstr ""
+msgstr "Hia̍p-tīng %1 m̄-sī tsi̍t-ê kè-lī hia̍p-tīng."
 
 #: core/job_error.cpp:110
 #, kde-format
@@ -515,6 +515,8 @@ msgid ""
 "User canceled action\n"
 "%1"
 msgstr ""
+"Iōng-tsiá kā tōng-tsok tshú-siau--ah\n"
+"%1"
 
 #: core/job_error.cpp:179
 #, kde-format
@@ -975,7 +977,7 @@ msgstr ""
 #: core/job_error.cpp:518
 #, kde-format
 msgid "Protocol is a Filter Protocol"
-msgstr ""
+msgstr "Hia̍p-tīng sī Kè-lī Hia̍p-tīng"
 
 #: core/job_error.cpp:520
 #, kde-format
@@ -1324,7 +1326,7 @@ msgstr ""
 #: core/job_error.cpp:752
 #, kde-format
 msgid "Protocol %1 is not a Filter Protocol"
-msgstr ""
+msgstr "Hia̍p-tīng %1 m̄-sī tsi̍t-ê Kè-lī Hia̍p-tīng"
 
 #: core/job_error.cpp:754
 #, kde-format
@@ -1533,7 +1535,7 @@ msgstr ""
 #: core/job_error.cpp:928
 #, kde-format
 msgid "Could Not Cancel Listing"
-msgstr ""
+msgstr "Bô-huat-tōo Tshú-siau Piáu-lia̍t"
 
 #: core/job_error.cpp:929
 #, kde-format
@@ -1861,7 +1863,7 @@ msgstr ""
 #: core/job_error.cpp:1190
 #, kde-format
 msgid "No Content"
-msgstr ""
+msgstr "Bô Lāi-iông"
 
 #: core/job_error.cpp:1195
 #, kde-format
@@ -2104,7 +2106,7 @@ msgstr ""
 #: core/slavebase.cpp:824
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
-msgstr ""
+msgstr "Bô tsi-uān iōng hia̍p-tīng %1 ê sî-tsūn kiàn-li̍p hû-hō-liân-kiat."
 
 #: core/slavebase.cpp:826
 #, kde-format
@@ -2119,7 +2121,7 @@ msgstr "Bô tsi-uān uì %1 thâi-tiāu tóng-àn."
 #: core/slavebase.cpp:830
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
-msgstr ""
+msgstr "Bô tsi-uān iōng hia̍p-tīng %1 ê sî-tsūn kiàn-li̍p tsu-liāu-giap-á."
 
 #: core/slavebase.cpp:832
 #, kde-format
@@ -2189,18 +2191,18 @@ msgstr "Siông-sè(&D)"
 #: widgets/sslui.cpp:97
 #, kde-format
 msgid "&Forever"
-msgstr ""
+msgstr "Íng-uán(&F)"
 
 #: core/workerinterface.cpp:349 widgets/sslui.cpp:62
 #, kde-format
 msgid "Co&ntinue"
-msgstr ""
+msgstr "Kè-sio̍k(&N)"
 
 #: core/workerinterface.cpp:351 kioworkers/http/http.cpp:216
 #: widgets/sslui.cpp:98
 #, kde-format
 msgid "&Current Session only"
-msgstr ""
+msgstr "Kan-na tsit-ê Session(&C)"
 
 #: filewidgets/dropIntoNewFolder/dropintonewfolderPlugin.cpp:53
 #, kde-format
@@ -2243,7 +2245,7 @@ msgstr "Bô ē-tàng suá-khì pùn-sò-tháng ê mi̍h-kiānn."
 #: filewidgets/kdiroperator.cpp:934 filewidgets/kdiroperator.cpp:1057
 #, kde-format
 msgid "The specified folder does not exist or was not readable."
-msgstr ""
+msgstr "Tsí-tīng ê tsu-liāu-giap-á bô tsûn-tsāi á-sī bô-huat-tōo tho̍k-tshú."
 
 #: filewidgets/kdiroperator.cpp:2043
 #, kde-format
@@ -2298,47 +2300,47 @@ msgstr "Thâi-tiāu"
 #: filewidgets/kdiroperator.cpp:2093
 #, kde-format
 msgid "Sorting"
-msgstr ""
+msgstr "Sūn-sū"
 
 #: filewidgets/kdiroperator.cpp:2098
 #, kde-format
 msgid "Sort by Name"
-msgstr ""
+msgstr "Iōng Miâ lâi Pâi-sū"
 
 #: filewidgets/kdiroperator.cpp:2104
 #, kde-format
 msgid "Sort by Size"
-msgstr ""
+msgstr "Iōng Tuā-sè lâi Pâi-sū"
 
 #: filewidgets/kdiroperator.cpp:2110
 #, kde-format
 msgid "Sort by Date"
-msgstr ""
+msgstr "Iōng Ji̍t-kî lâi Pâi-sū"
 
 #: filewidgets/kdiroperator.cpp:2116
 #, kde-format
 msgid "Sort by Type"
-msgstr ""
+msgstr "Iōng Luī lâi Pâi-sū"
 
 #: filewidgets/kdiroperator.cpp:2125
 #, kde-format
 msgid "Ascending"
-msgstr ""
+msgstr "Tsing-sū"
 
 #: filewidgets/kdiroperator.cpp:2132
 #, kde-format
 msgid "Descending"
-msgstr ""
+msgstr "Kiám-sū"
 
 #: filewidgets/kdiroperator.cpp:2139
 #, kde-format
 msgid "Folders First"
-msgstr ""
+msgstr "Tsu-liāu-giap-á tī Thâu-tsîng"
 
 #: filewidgets/kdiroperator.cpp:2145
 #, kde-format
 msgid "Hidden Files Last"
-msgstr ""
+msgstr "Ún-tsông-tóng-àn tī Siōng-bué"
 
 #: filewidgets/kdiroperator.cpp:2152
 #, kde-format
@@ -2398,7 +2400,7 @@ msgstr ""
 #: filewidgets/kdiroperator.cpp:2248
 #, kde-format
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "Hián-sī Ún-tsông-tóng-àn"
 
 #: filewidgets/kdiroperator.cpp:2255
 #, kde-format
@@ -2478,7 +2480,7 @@ msgstr "Phah-khui"
 #: filewidgets/kencodingfiledialog.cpp:196
 #, kde-format
 msgid "Save As"
-msgstr ""
+msgstr "Iōng Pa̍t-ê Miâ Tû-tsûn"
 
 #: filewidgets/kfilecopytomenu.cpp:71
 #, kde-format
@@ -2508,7 +2510,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu in Copy To or Move To submenu"
 msgid "Browse…"
-msgstr ""
+msgstr "Liû-lám…"
 
 #: filewidgets/kfilecopytomenu.cpp:225
 #, kde-format
@@ -2691,17 +2693,17 @@ msgstr ""
 #: filewidgets/kfileplacesmodel.cpp:282
 msgctxt "KFile System Bookmarks"
 msgid "Network"
-msgstr ""
+msgstr "Bāng-lōo"
 
 #: filewidgets/kfileplacesmodel.cpp:287
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
-msgstr ""
+msgstr "Pùn-sò-tháng"
 
 #: filewidgets/kfileplacesmodel.cpp:348
 msgctxt "KFile System Bookmarks"
 msgid "Music"
-msgstr ""
+msgstr "Im-ga̍k"
 
 #: filewidgets/kfileplacesmodel.cpp:355
 msgctxt "KFile System Bookmarks"
@@ -2711,7 +2713,7 @@ msgstr ""
 #: filewidgets/kfileplacesmodel.cpp:364
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
-msgstr ""
+msgstr "Iánn-phìnn"
 
 #: filewidgets/kfileplacesmodel.cpp:391
 msgctxt "KFile System Bookmarks"
@@ -2754,25 +2756,25 @@ msgstr "Siat-tīng…"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Releasing…"
-msgstr ""
+msgstr "Teh Thè-tshut…"
 
 #: filewidgets/kfileplacesmodel.cpp:1418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Release"
-msgstr ""
+msgstr "Thè-tshut(&R)"
 
 #: filewidgets/kfileplacesmodel.cpp:1422
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Safely Removing…"
-msgstr ""
+msgstr "Teh An-tsuân Thè-tshut…"
 
 #: filewidgets/kfileplacesmodel.cpp:1424
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
-msgstr ""
+msgstr "An-tsuân Thè-tshut(&S)"
 
 #: filewidgets/kfileplacesmodel.cpp:1429
 #, kde-format
@@ -2790,7 +2792,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Eject"
-msgstr ""
+msgstr "Thè-tshut(&E)"
 
 #: filewidgets/kfileplacesmodel.cpp:1502
 #, kde-format
@@ -2871,13 +2873,13 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Tab"
-msgstr ""
+msgstr "Khui tī Sin Hun-ia̍h"
 
 #: filewidgets/kfileplacesview.cpp:1265
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Window"
-msgstr ""
+msgstr "Khui tī Sin Sī-thang"
 
 #: filewidgets/kfileplacesview.cpp:1274
 #, kde-format
@@ -3039,7 +3041,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:1234
 #, kde-format
 msgid "Show Quick Filter"
-msgstr ""
+msgstr "Hián-sī Khuài-sok Kè-lī"
 
 #: filewidgets/kfilewidget.cpp:1242
 #, kde-format
@@ -3086,18 +3088,18 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Keep Filter When Changing Folders"
-msgstr ""
+msgstr "Tsu-liāu-giap-á ū Piàn ê Sî-tsūn mā Pó-liû Lī-á"
 
 #: filewidgets/kfilewidget.cpp:1397
 #, kde-format
 msgid "Filter by name…"
-msgstr ""
+msgstr "Iōng miâ lâi kè-lī…"
 
 #: filewidgets/kfilewidget.cpp:1405
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide Filter Bar"
-msgstr ""
+msgstr "Tshàng Kè-lī-lia̍t"
 
 #: filewidgets/kfilewidget.cpp:1454
 #, kde-format
@@ -3111,7 +3113,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:1461
 #, kde-format
 msgid "This is the name to save the file as."
-msgstr ""
+msgstr "Kā tóng-àn tsûn tsò tsit-ê miâ."
 
 #: filewidgets/kfilewidget.cpp:1464
 #, kde-format
@@ -3229,7 +3231,7 @@ msgstr ""
 #: filewidgets/knewfilemenu.cpp:518
 #, kde-format
 msgid "Sorry"
-msgstr ""
+msgstr "Pháinn-sè"
 
 #: filewidgets/knewfilemenu.cpp:529
 #, kde-format
@@ -3244,12 +3246,12 @@ msgstr ""
 #: filewidgets/knewfilemenu.cpp:686
 #, kde-format
 msgid "Create Symlink"
-msgstr ""
+msgstr "Kiàn-li̍p Hû-hō-liân-kiat"
 
 #: filewidgets/knewfilemenu.cpp:752
 #, kde-format
 msgid "Create link to URL"
-msgstr ""
+msgstr "Kiàn-li̍p bāng-tsí ê liân-kiat"
 
 #: filewidgets/knewfilemenu.cpp:793 filewidgets/knewfilemenu.cpp:848
 #, kde-format
@@ -3261,7 +3263,7 @@ msgstr "%1"
 #, kde-format
 msgctxt "@label:textbox Prompt for new file of type"
 msgid "Enter %1 filename:"
-msgstr ""
+msgstr "Su-ji̍p %1 tóng-miâ:"
 
 #: filewidgets/knewfilemenu.cpp:1227
 #, kde-kuit-format
@@ -3442,18 +3444,18 @@ msgstr "Pian-tsi̍p"
 #: filewidgets/kurlnavigator.cpp:650
 #, kde-format
 msgid "Navigate"
-msgstr ""
+msgstr "Liû-lán"
 
 #: filewidgets/kurlnavigator.cpp:665
 #, kde-format
 msgid "Show Full Path"
-msgstr ""
+msgstr "Hián-sī Uân-tsíng Lōo-kìng"
 
 #: filewidgets/kurlnavigator.cpp:826
 #, kde-kuit-format
 msgctxt "@info:tooltip for button. 1 is path"
 msgid "Go to any location on the path <filename>%1</filename>"
-msgstr ""
+msgstr "Tsiân-óng lōo-kìng <filename>%1</filename> lāi-té ê jīm-hô uī-tì"
 
 #: filewidgets/kurlnavigatorbutton.cpp:725
 #, kde-format
@@ -3465,7 +3467,7 @@ msgstr "Khah-tsè"
 #, kde-format
 msgctxt "@action:button opening a list of locations"
 msgid "Go to Location on Path"
-msgstr ""
+msgstr "Tsiân-óng Lōo-kìng lāi-té ê Uī-tì"
 
 #: filewidgets/kurlnavigatorschemecombo.cpp:155
 #, kde-format
@@ -4457,7 +4459,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:126
 #, kde-format
 msgid "Creating directory"
-msgstr ""
+msgstr "Tī-leh kiàn-li̍p tsu-liāu-giap-á"
 
 #: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:427
 #, kde-format
@@ -4472,12 +4474,12 @@ msgstr "Bo̍k-ti̍k-tē"
 #: widgets/fileundomanager.cpp:131
 #, kde-format
 msgid "Copying"
-msgstr "Leh khóo-pih"
+msgstr "Leh Khóo-pih"
 
 #: widgets/fileundomanager.cpp:140
 #, kde-format
 msgid "Moving"
-msgstr "Leh suá-uī"
+msgstr "Leh Suá-uī"
 
 #: widgets/fileundomanager.cpp:140
 #, kde-format
@@ -4487,12 +4489,12 @@ msgstr "Kái-miâ"
 #: widgets/fileundomanager.cpp:147
 #, kde-format
 msgid "Moving to Trash"
-msgstr "Leh 徙去糞埽桶"
+msgstr "Leh Suá-khì Pùn-sò-tháng"
 
 #: widgets/fileundomanager.cpp:152
 #, kde-format
 msgid "Deleting"
-msgstr "Leh 刣掉"
+msgstr "Leh Thâi-tiāu"
 
 #: widgets/fileundomanager.cpp:326
 #, kde-format
@@ -4502,42 +4504,42 @@ msgstr "Ho̍k-guân(&O)"
 #: widgets/fileundomanager.cpp:332
 #, kde-format
 msgid "Und&o: Copy"
-msgstr "Ho̍k-&guân: Khóo-pih"
+msgstr "Ho̍k-guân: Khóo-pih(&O)"
 
 #: widgets/fileundomanager.cpp:334
 #, kde-format
 msgid "Und&o: Link"
-msgstr ""
+msgstr "Ho̍k-guân: Liân-kiat(&O)"
 
 #: widgets/fileundomanager.cpp:336
 #, kde-format
 msgid "Und&o: Move"
-msgstr "Ho̍k-&guân: Suá-uī"
+msgstr "Ho̍k-guân: Suá-uī(&O)"
 
 #: widgets/fileundomanager.cpp:338
 #, kde-format
 msgid "Und&o: Rename"
-msgstr ""
+msgstr "Ho̍k-guân: Kái-miâ(&O)"
 
 #: widgets/fileundomanager.cpp:340
 #, kde-format
 msgid "Und&o: Trash"
-msgstr "Ho̍k-&guân: Suá-khì pùn-sò-tháng"
+msgstr "Ho̍k-guân: Suá-khì Pùn-sò-tháng(&O)"
 
 #: widgets/fileundomanager.cpp:342
 #, kde-format
 msgid "Und&o: Create Folder"
-msgstr ""
+msgstr "Ho̍k-guân: Kiàn-li̍p Tsu-liāu-giap-á(&O)"
 
 #: widgets/fileundomanager.cpp:344
 #, kde-format
 msgid "Und&o: Create Folder(s)"
-msgstr ""
+msgstr "Ho̍k-guân: Kiàn-li̍p Tsu-liāu-giap-á(&O)"
 
 #: widgets/fileundomanager.cpp:346
 #, kde-format
 msgid "Und&o: Create File"
-msgstr ""
+msgstr "Ho̍k-guân: Kiàn-li̍p Tóng-àn(&O)"
 
 #: widgets/fileundomanager.cpp:348
 #, kde-format
@@ -4547,47 +4549,47 @@ msgstr ""
 #: widgets/fileundomanager.cpp:357
 #, kde-format
 msgid "&Redo"
-msgstr ""
+msgstr "Tshú-siau ho̍k-guân(&R)"
 
 #: widgets/fileundomanager.cpp:363
 #, kde-format
 msgid "&Redo: Copy"
-msgstr "&Tshú-siau ho̍k-guân: Khóo-pih"
+msgstr "Tshú-siau ho̍k-guân: Khóo-pih(&R)"
 
 #: widgets/fileundomanager.cpp:365
 #, kde-format
 msgid "&Redo: Link"
-msgstr ""
+msgstr "Tshú-siau ho̍k-guân: Liân-kiat(&R)"
 
 #: widgets/fileundomanager.cpp:367
 #, kde-format
 msgid "&Redo: Move"
-msgstr "&Tshú-siau ho̍k-guân: Suá-uī(&R)"
+msgstr "Tshú-siau ho̍k-guân: Suá-uī(&R)"
 
 #: widgets/fileundomanager.cpp:369
 #, kde-format
 msgid "&Redo: Rename"
-msgstr ""
+msgstr "Tshú-siau ho̍k-guân: Kái-miâ(&R)"
 
 #: widgets/fileundomanager.cpp:371
 #, kde-format
 msgid "&Redo: Trash"
-msgstr "&Tshú-siau ho̍k-guân: Suá-khì pùn-sò-tháng"
+msgstr "Tshú-siau ho̍k-guân: Suá-khì Pùn-sò-tháng(&R)"
 
 #: widgets/fileundomanager.cpp:373
 #, kde-format
 msgid "&Redo: Create Folder"
-msgstr ""
+msgstr "Tshú-siau ho̍k-guân: Kiàn-li̍p Tsu-liāu-giap-á(&R)"
 
 #: widgets/fileundomanager.cpp:375
 #, kde-format
 msgid "&Redo: Create Folder(s)"
-msgstr ""
+msgstr "Tshú-siau ho̍k-guân: Kiàn-li̍p Tsu-liāu-giap-á(&R)"
 
 #: widgets/fileundomanager.cpp:377
 #, kde-format
 msgid "&Redo: Create File"
-msgstr ""
+msgstr "Tshú-siau ho̍k-guân: Kiàn-li̍p Tóng-àn(&R)"
 
 #: widgets/fileundomanager.cpp:379
 #, kde-format
@@ -4621,7 +4623,7 @@ msgstr ""
 #: widgets/jobuidelegate.cpp:259 widgets/widgetsaskuseractionhandler.cpp:203
 #, kde-format
 msgid "Delete Permanently"
-msgstr ""
+msgstr "Íng-uán Thâi-tiāu"
 
 #: widgets/jobuidelegate.cpp:234 widgets/jobuidelegate.cpp:248
 #: widgets/widgetsaskuseractionhandler.cpp:246
@@ -4630,7 +4632,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete Permanently"
-msgstr ""
+msgstr "Íng-uán Thâi-tiāu"
 
 #: widgets/jobuidelegate.cpp:243
 #, kde-kuit-format
@@ -4642,6 +4644,8 @@ msgid_plural ""
 "Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis "
 "strong='true'>This action cannot be undone.</emphasis>"
 msgstr[0] ""
+"Lí kám tsin-tsiànn ài íng-uán kā tse %1 ê hāng-bo̍k thâi-tiāu?<nl/><nl/><empha"
+"sis strong='true'>Tsit-ê tōng-tsok bô-huat-tōo ho̍k-guân.</emphasis>"
 
 #: widgets/jobuidelegate.cpp:258 widgets/widgetsaskuseractionhandler.cpp:297
 #, kde-kuit-format
@@ -5124,6 +5128,9 @@ msgid ""
 "Type to filter the applications below, or specify the name of a command.\n"
 "Press down arrow to navigate the results."
 msgstr ""
+"Tī ē-kha phah-jī lâi kè-lī ìng-iōng-tîng-sik, mā ē-sái tsí-tīng command ê miâ."
+"\n"
+"Iōng ↓ khí lâi liû-lám kiat-kó."
 
 #: widgets/kopenwithdialog.cpp:699
 #, kde-format
@@ -5374,7 +5381,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopbase.ui:117
 #, kde-format
 msgid "&Browse..."
-msgstr ""
+msgstr "Liû-lám(&B)…"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, argumentsLabel)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, argumentsEdit)
@@ -6145,13 +6152,13 @@ msgstr[0] ""
 #, kde-format
 msgctxt "The certificate is not trusted"
 msgid "NO, there were errors:"
-msgstr ""
+msgstr "M̄-SĪ, ū tshò-gōo:"
 
 #: widgets/ksslinfodialog.cpp:163
 #, kde-format
 msgctxt "The certificate is trusted"
 msgid "Yes"
-msgstr ""
+msgstr "Sī"
 
 #: widgets/ksslinfodialog.cpp:168
 #, kde-format
@@ -6185,13 +6192,13 @@ msgstr ""
 #, kde-format
 msgctxt "A default file name excluding extension for some pasted content"
 msgid "pasted file"
-msgstr ""
+msgstr "tah--khí-khì ê tóng-àn"
 
 #: widgets/paste.cpp:79 widgets/paste.cpp:113
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Paste Clipboard Content"
-msgstr "Kā tsián-tah-phōo ê lāi-iông tah--khí-khì"
+msgstr "Kā Tsián-tah-phōo ê Lāi-iông Tah--khí-khì"
 
 #: widgets/paste.cpp:122
 #, kde-format
@@ -6616,7 +6623,7 @@ msgstr ""
 #: widgets/skipdialog.cpp:29
 #, kde-format
 msgid "Information"
-msgstr ""
+msgstr "Tsu-sìn"
 
 #: widgets/skipdialog.cpp:48
 #, kde-format
@@ -6690,7 +6697,7 @@ msgstr "Pîn-tsìng-liān:"
 #: widgets/sslinfo.ui:163
 #, kde-format
 msgid "Trusted:"
-msgstr ""
+msgstr "Hōo Sìn-lāi:"
 
 #. i18n: ectx: property (text), widget (QLabel, validityPeriodTag)
 #: widgets/sslinfo.ui:183
@@ -6840,12 +6847,12 @@ msgstr "Kíng-kò"
 #, kde-format
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
-msgstr ""
+msgstr "Tse ē khai-sí tîng-sik:"
 
 #: widgets/widgetsuntrustedprogramhandler.cpp:136
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
-msgstr ""
+msgstr "Nā lí bô sìn-lāi tsit-ê tîng-sik, tshiánn tshi̍h Tshú-siau"
 
 #, kde-format
 #~ msgctxt "@info:tooltip How to undo do not ask again"
