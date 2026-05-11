@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:40+0000\n"
-"PO-Revision-Date: 2026-04-28 00:49+0900\n"
+"PO-Revision-Date: 2026-05-12 01:37+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -183,27 +183,27 @@ msgstr "%1: %2"
 #, kde-format
 msgctxt "@title job"
 msgid "Moving"
-msgstr ""
+msgstr "佇咧徙"
 
 #: core/job.cpp:105 core/job.cpp:113 core/job.cpp:121 core/job.cpp:150
 #: widgets/fileundomanager.cpp:136
 #, kde-format
 msgctxt "The source of a file operation"
 msgid "Source"
-msgstr ""
+msgstr "來源"
 
 #: core/job.cpp:106 core/job.cpp:114 core/job.cpp:122
 #: widgets/fileundomanager.cpp:137
 #, kde-format
 msgctxt "The destination of a file operation"
 msgid "Destination"
-msgstr ""
+msgstr "目的地"
 
 #: core/job.cpp:112
 #, kde-format
 msgctxt "@title job"
 msgid "Renaming"
-msgstr ""
+msgstr "佇咧改名"
 
 #: core/job.cpp:120
 #, kde-format
@@ -215,13 +215,13 @@ msgstr "Leh khóo-pih"
 #, kde-format
 msgctxt "@title job"
 msgid "Creating directory"
-msgstr ""
+msgstr "佇咧建立資料鋏仔"
 
 #: core/job.cpp:129 widgets/fileundomanager.cpp:126
 #: widgets/kurlrequester.cpp:478
 #, kde-format
 msgid "Directory"
-msgstr ""
+msgstr "資料鋏仔"
 
 #: core/job.cpp:135
 #, kde-format
@@ -256,7 +256,7 @@ msgstr ""
 #: core/job.cpp:156
 #, kde-format
 msgid "Device"
-msgstr ""
+msgstr "裝置"
 
 #: core/job.cpp:156 core/job.cpp:161
 #, kde-format
@@ -272,12 +272,12 @@ msgstr ""
 #: core/job_error.cpp:37
 #, kde-format
 msgid "Could not read %1."
-msgstr ""
+msgstr "無法度讀取 %1。"
 
 #: core/job_error.cpp:40
 #, kde-format
 msgid "Could not write to %1."
-msgstr ""
+msgstr "無法度寫入 %1。"
 
 #: core/job_error.cpp:43
 #, kde-format
@@ -291,6 +291,9 @@ msgid ""
 "Please send a full bug report at https://bugs.kde.org\n"
 "%1"
 msgstr ""
+"內部錯誤\n"
+"請傳完整的 bug report 予 https://bugs.kde.org\n"
+"%1"
 
 #: core/job_error.cpp:49
 #, kde-format
@@ -300,37 +303,37 @@ msgstr ""
 #: core/job_error.cpp:52
 #, kde-format
 msgid "The protocol %1 is not supported."
-msgstr ""
+msgstr "協定 %1 無支援。"
 
 #: core/job_error.cpp:55
 #, kde-format
 msgid "The protocol %1 is only a filter protocol."
-msgstr ""
+msgstr "協定 %1 只是一个過濾協定爾爾。"
 
 #: core/job_error.cpp:62
 #, kde-format
 msgid "%1 is a folder, but a file was expected."
-msgstr ""
+msgstr "%1 是資料鋏仔，但是預期 ê 是檔案。"
 
 #: core/job_error.cpp:65
 #, kde-format
 msgid "%1 is a file, but a folder was expected."
-msgstr ""
+msgstr "%1 是檔案，但是預期 ê 是資料鋏仔。"
 
 #: core/job_error.cpp:68
 #, kde-format
 msgid "The file or folder %1 does not exist."
-msgstr ""
+msgstr "檔案猶是資料鋏仔 %1 無存在。"
 
 #: core/job_error.cpp:71
 #, kde-format
 msgid "A file named %1 already exists."
-msgstr ""
+msgstr "已經有別个叫做 %1 ê 檔案--ah。"
 
 #: core/job_error.cpp:74
 #, kde-format
 msgid "A folder named %1 already exists."
-msgstr ""
+msgstr "已經有別个叫做 %1 ê 資料鋏仔--ah。"
 
 #: core/job_error.cpp:77
 #, kde-format
@@ -392,7 +395,7 @@ msgstr ""
 #: core/job_error.cpp:107
 #, kde-format
 msgid "The protocol %1 is not a filter protocol."
-msgstr ""
+msgstr "協定 %1 毋是一个過濾協定。"
 
 #: core/job_error.cpp:110
 #, kde-format
@@ -967,7 +970,7 @@ msgstr ""
 #: core/job_error.cpp:518
 #, kde-format
 msgid "Protocol is a Filter Protocol"
-msgstr ""
+msgstr "協定是過濾協定"
 
 #: core/job_error.cpp:520
 #, kde-format
@@ -1316,7 +1319,7 @@ msgstr ""
 #: core/job_error.cpp:752
 #, kde-format
 msgid "Protocol %1 is not a Filter Protocol"
-msgstr ""
+msgstr "協定 %1 毋是一个過濾協定"
 
 #: core/job_error.cpp:754
 #, kde-format
@@ -2466,7 +2469,7 @@ msgstr "Phah-khui"
 #: filewidgets/kencodingfiledialog.cpp:196
 #, kde-format
 msgid "Save As"
-msgstr ""
+msgstr "用別个名儲存"
 
 #: filewidgets/kfilecopytomenu.cpp:71
 #, kde-format
@@ -2659,7 +2662,7 @@ msgstr ""
 #: filewidgets/kfileplacesmodel.cpp:254
 msgctxt "KFile System Bookmarks"
 msgid "Home"
-msgstr ""
+msgstr "頭頁"
 
 #: filewidgets/kfileplacesmodel.cpp:263
 msgctxt "KFile System Bookmarks"
@@ -2684,7 +2687,7 @@ msgstr ""
 #: filewidgets/kfileplacesmodel.cpp:287
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
-msgstr ""
+msgstr "糞埽桶"
 
 #: filewidgets/kfileplacesmodel.cpp:348
 msgctxt "KFile System Bookmarks"
@@ -2909,7 +2912,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Icon Size"
-msgstr ""
+msgstr "圖示大細"
 
 #: filewidgets/kfileplacesview.cpp:1431
 #, kde-format
@@ -3024,7 +3027,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:1234
 #, kde-format
 msgid "Show Quick Filter"
-msgstr ""
+msgstr "顯示快速過濾"
 
 #: filewidgets/kfilewidget.cpp:1242
 #, kde-format
@@ -3071,18 +3074,18 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Keep Filter When Changing Folders"
-msgstr ""
+msgstr "資料鋏仔有變 ê 時陣 mā 保留 Lī-á"
 
 #: filewidgets/kfilewidget.cpp:1397
 #, kde-format
 msgid "Filter by name…"
-msgstr ""
+msgstr "用名來過濾…"
 
 #: filewidgets/kfilewidget.cpp:1405
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide Filter Bar"
-msgstr ""
+msgstr "藏過濾列"
 
 #: filewidgets/kfilewidget.cpp:1454
 #, kde-format
@@ -3326,9 +3329,9 @@ msgid "Create New"
 msgstr "建立"
 
 #: filewidgets/knewfilemenu.cpp:1510
-#, fuzzy, kde-format
+#, kde-format
 msgid "Link to Device"
-msgstr "Liân-kiat kàu "
+msgstr "連結到裝置"
 
 #: filewidgets/knewfilemenu.cpp:1556
 #, kde-format
@@ -4424,7 +4427,7 @@ msgstr "Phah-khui(&O)"
 #, kde-format
 msgctxt "@action:button"
 msgid "&Open with %1"
-msgstr ""
+msgstr "用 %1 Phah-khui(&O)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: widgets/executablefileopendialog.ui:26
@@ -4435,17 +4438,17 @@ msgstr ""
 #: widgets/fileundomanager.cpp:126
 #, kde-format
 msgid "Creating directory"
-msgstr ""
+msgstr "佇咧建立資料鋏仔"
 
 #: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:427
 #, kde-format
 msgid "Source"
-msgstr ""
+msgstr "來源"
 
 #: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:429
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "目的地"
 
 #: widgets/fileundomanager.cpp:131
 #, kde-format
@@ -4460,7 +4463,7 @@ msgstr "Leh 徙位"
 #: widgets/fileundomanager.cpp:140
 #, kde-format
 msgid "Renaming"
-msgstr ""
+msgstr "佇咧改名"
 
 #: widgets/fileundomanager.cpp:147
 #, kde-format
@@ -4671,7 +4674,7 @@ msgstr "刣掉"
 #, kde-format
 msgctxt "Unix permissions"
 msgid "Owner"
-msgstr ""
+msgstr "所有者"
 
 #: widgets/kacleditwidget.cpp:231
 #, kde-format
@@ -4804,7 +4807,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
-msgstr ""
+msgstr "名"
 
 #: widgets/kdirmodel.cpp:1266
 #, kde-format
@@ -4828,7 +4831,7 @@ msgstr "權限"
 #, kde-format
 msgctxt "@title:column"
 msgid "Owner"
-msgstr ""
+msgstr "所有者"
 
 #: widgets/kdirmodel.cpp:1274
 #, kde-format
@@ -5036,7 +5039,7 @@ msgstr ""
 #: widgets/kfilepropspluginwidget.ui:546
 #, kde-format
 msgid "Unknown size"
-msgstr ""
+msgstr "毋知大細"
 
 #: widgets/kopenwithdialog.cpp:299
 #, kde-format
@@ -5102,6 +5105,8 @@ msgid ""
 "Type to filter the applications below, or specify the name of a command.\n"
 "Press down arrow to navigate the results."
 msgstr ""
+"佇下跤拍字來過濾應用程式，mā 會使指定 command ê 名。\n"
+"用 ↓ 齒來瀏覽結果。"
 
 #: widgets/kopenwithdialog.cpp:699
 #, kde-format
@@ -5293,8 +5298,7 @@ msgstr ""
 msgid ""
 "Type a generic name for the application here. Examples: an image viewing "
 "application would be \"Image Viewer\"."
-msgstr ""
-"請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
+msgstr "請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: widgets/kpropertiesdesktopbase.ui:42
@@ -6116,13 +6120,13 @@ msgstr[0] ""
 #, kde-format
 msgctxt "The certificate is not trusted"
 msgid "NO, there were errors:"
-msgstr ""
+msgstr "毋是，有錯誤："
 
 #: widgets/ksslinfodialog.cpp:163
 #, kde-format
 msgctxt "The certificate is trusted"
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: widgets/ksslinfodialog.cpp:168
 #, kde-format
@@ -6156,7 +6160,7 @@ msgstr ""
 #, kde-format
 msgctxt "A default file name excluding extension for some pasted content"
 msgid "pasted file"
-msgstr ""
+msgstr "貼起去 ê 檔案"
 
 #: widgets/paste.cpp:79 widgets/paste.cpp:113
 #, kde-format
@@ -6257,7 +6261,7 @@ msgstr ""
 #: widgets/renamedialog.cpp:290
 #, kde-format
 msgid "&Rename"
-msgstr ""
+msgstr "改名(&R)"
 
 #: widgets/renamedialog.cpp:292
 #, kde-format
@@ -6322,7 +6326,7 @@ msgstr ""
 #: widgets/renamedialog.cpp:350
 #, kde-format
 msgid "C&ontinue"
-msgstr ""
+msgstr "繼續(&O)"
 
 #: widgets/renamedialog.cpp:416
 #, kde-format
@@ -6541,7 +6545,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "&Rename"
-msgstr ""
+msgstr "改名(&R)"
 
 #: widgets/renamefiledialog.cpp:552
 #, kde-format
@@ -6571,7 +6575,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info As in filename renaming preview"
 msgid "Preview:"
-msgstr ""
+msgstr "預覽："
 
 #: widgets/renamefiledialog.cpp:691
 #, kde-kuit-format
@@ -6582,12 +6586,12 @@ msgstr ""
 #: widgets/skipdialog.cpp:29
 #, kde-format
 msgid "Information"
-msgstr ""
+msgstr "資訊"
 
 #: widgets/skipdialog.cpp:48
 #, kde-format
 msgid "Replace"
-msgstr ""
+msgstr "取代"
 
 #: widgets/skipdialog.cpp:54
 #, kde-format
@@ -6620,25 +6624,25 @@ msgstr ""
 #, kde-format
 msgctxt "Web page address"
 msgid "Address:"
-msgstr ""
+msgstr "位址："
 
 #. i18n: ectx: property (text), widget (QLabel, ipTag)
 #: widgets/sslinfo.ui:54
 #, kde-format
 msgid "IP address:"
-msgstr ""
+msgstr "IP 位址："
 
 #. i18n: ectx: property (text), widget (QLabel, encryptionTag)
 #: widgets/sslinfo.ui:74
 #, kde-format
 msgid "Encryption:"
-msgstr ""
+msgstr "加密："
 
 #. i18n: ectx: property (text), widget (QLabel, detailsTag)
 #: widgets/sslinfo.ui:94
 #, kde-format
 msgid "Details:"
-msgstr ""
+msgstr "詳細："
 
 #. i18n: ectx: property (text), widget (QLabel, sslVersionTag)
 #: widgets/sslinfo.ui:114
@@ -6650,13 +6654,13 @@ msgstr "SSL 版本："
 #: widgets/sslinfo.ui:134
 #, kde-format
 msgid "Certificate chain:"
-msgstr ""
+msgstr "憑證鍊："
 
 #. i18n: ectx: property (text), widget (QLabel, trustedTag)
 #: widgets/sslinfo.ui:163
 #, kde-format
 msgid "Trusted:"
-msgstr ""
+msgstr "予信賴："
 
 #. i18n: ectx: property (text), widget (QLabel, validityPeriodTag)
 #: widgets/sslinfo.ui:183
@@ -6688,6 +6692,8 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+"遠端主機無傳任何 SSL 憑證。\n"
+"這馬中止，因為無法度建立主機 ê 身份。"
 
 #: widgets/sslui.cpp:50 widgets/widgetsaskuseractionhandler.cpp:507
 #, kde-format
@@ -6770,13 +6776,13 @@ msgstr[0] ""
 #, kde-format
 msgctxt "@option:checkbox"
 msgid "Do not ask again"
-msgstr ""
+msgstr "Bái koh 問--ah"
 
 #: widgets/widgetsaskuseractionhandler.cpp:411
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not ask again"
-msgstr ""
+msgstr "Bái koh 問--ah"
 
 #: widgets/widgetsaskuseractionhandler.cpp:437
 #, kde-format
@@ -6792,7 +6798,7 @@ msgstr ""
 #: widgets/widgetsaskuseractionhandler.cpp:575
 #, kde-format
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: widgets/widgetsuntrustedprogramhandler.cpp:110
 #, kde-format
@@ -6804,12 +6810,12 @@ msgstr "警告"
 #, kde-format
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
-msgstr ""
+msgstr "這會開始程式："
 
 #: widgets/widgetsuntrustedprogramhandler.cpp:136
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
-msgstr ""
+msgstr "若你無信賴這个程式，請揤取消"
 
 #, kde-format
 #~ msgctxt "@info:tooltip How to undo do not ask again"

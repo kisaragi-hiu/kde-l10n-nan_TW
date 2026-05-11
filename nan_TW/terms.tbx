@@ -617,9 +617,373 @@
             <term>安入</term>
           </tig>
         </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-40">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>remote</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>uán-tuan</term>
+          </tig>
+          <tig>
+            <term>遠端</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-41">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>replace</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>Tshú-tāi</term>
+          </tig>
+          <tig>
+            <term>取代</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-42">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>size</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tuā-sè</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-43">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>location</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>uī-tì:</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-44">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>context</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>lāi-bûn</term>
+          </tig>
+          <tig>
+            <term>內文</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-45">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>certificate</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>pîn-tsìng-liān:</term>
+          </tig>
+        </langSet>
         <langSet xml:lang="zh-TW">
           <tig>
-            <term/>
+            <term>pîn-tsìng</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-46">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>chain</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>liān</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-47">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>address</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>uī-tsí:</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-48">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>encryption</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>ka-bi̍t:</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-49">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>refresh</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tîng tsíng-lí</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-50">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>device</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsong-tì</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-51">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>filter bar</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>kè-lī-lia̍t</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-52">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>filter</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>kè-lī (verb)</term>
+          </tig>
+          <tig>
+            <term>lī-á (noun)</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-53">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>browse</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>liû-lám</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-54">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>save</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tû-tsûn</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="zh-TW"/>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-55">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>read</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tho̍k-tshú</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-56">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>tab</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>hun-ia̍h</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-57">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>window</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>sī-thang</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-58">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>this action cannot be undone</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsit-ê tōng-tsok bô-huat-tōo ho̍k-guân</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-59">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>date</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>ji̍t-kî</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-60">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>descending</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>kiám-sū</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-61">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>ascending</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsing-sū</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-62">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>hidden file</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>ún-tsông-tóng-àn</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-63">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>symlink</term>
+          </tig>
+          <tig>
+            <term>symbolic link</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>hû-hō-liân-kiat</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-64">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>path</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>lōo-kìng</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-65">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>statusbar</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsōng-thài-lia̍t</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-66">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>preview</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>預覽</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-67">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>context menu</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>正子選單</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-68">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>expected</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>預期</term>
           </tig>
         </langSet>
       </termEntry>

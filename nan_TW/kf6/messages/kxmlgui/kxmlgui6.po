@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-03 00:40+0000\n"
-"PO-Revision-Date: 2026-04-28 00:23+0900\n"
+"PO-Revision-Date: 2026-05-12 01:17+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -275,8 +275,7 @@ msgctxt "Reference to website"
 msgid ""
 "Please use %1 to report bugs.<br/>If you have questions or need help, please "
 "visit %2.<br/>"
-msgstr ""
-"請用 %1 來回報錯誤。<br/>若是有問題猶是需要人 kā 你鬥相共，會使拜訪 %2。<br/>"
+msgstr "請用 %1 來回報錯誤。<br/>若是有問題猶是需要人 kā 你鬥相共，會使拜訪 %2。<br/>"
 
 #: kabstractaboutdialog_p.cpp:324
 #, kde-format
@@ -507,7 +506,7 @@ msgstr ""
 #: kedittoolbar.cpp:1017 kedittoolbar.cpp:1042
 #, kde-format
 msgid "Filter"
-msgstr ""
+msgstr "過濾"
 
 #: kedittoolbar.cpp:1020
 #, kde-format
@@ -905,7 +904,7 @@ msgstr "快速齒"
 #: kshortcutsdialog.ui:43
 #, kde-format
 msgid "Alternate"
-msgstr ""
+msgstr "代替"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:48
@@ -947,7 +946,7 @@ msgstr "主要："
 #: kshortcutseditor.cpp:542 kshortcutwidget.ui:52
 #, kde-format
 msgid "Alternate:"
-msgstr ""
+msgstr "代替："
 
 #: kshortcutseditor.cpp:543
 #, kde-format
@@ -995,7 +994,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Fallback Language"
-msgstr ""
+msgstr "加備用語言"
 
 #: kswitchlanguagedialog_p.cpp:169
 #, kde-format
@@ -1003,7 +1002,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "Adds one more language which will be used if other translations do not "
 "contain a proper translation."
-msgstr ""
+msgstr "加另外一个佇其他語言無會使用 ê 翻譯 ê 時陣愛來用 ê 語言。"
 
 #: kswitchlanguagedialog_p.cpp:261 kswitchlanguagedialog_p.cpp:282
 #, kde-format
@@ -1045,7 +1044,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
-msgstr ""
+msgstr "這是應用程式主要 ê 語言，若是一个詞佇這个語言無 ê 時陣才會試其他 ê 語言。"
 
 #: kswitchlanguagedialog_p.cpp:390
 #, kde-format
@@ -1053,7 +1052,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "This is the language which will be used if any previous languages do not "
 "contain a proper translation."
-msgstr ""
+msgstr "這是佇頂懸 ê 語言攏無會使用 ê 翻譯 ê 時陣才會試 ê 備用語言。"
 
 #: ktoolbar.cpp:309 ktoolbar.cpp:316
 #, kde-format
@@ -1179,8 +1178,7 @@ msgstr "%1 (%2)"
 msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
-msgstr ""
-"<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
+msgstr "<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
 
 #: ktooltiphelper.cpp:295
 #, kde-format
