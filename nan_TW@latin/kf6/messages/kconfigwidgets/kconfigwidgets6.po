@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kconfigwidgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-25 00:42+0000\n"
-"PO-Revision-Date: 2026-05-12 00:45+0900\n"
+"PO-Revision-Date: 2026-05-12 00:46+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -339,7 +339,7 @@ msgstr "Tîng tsíng-lí bûn-kiānn"
 
 #: kstandardaction_p.h:97
 msgid "&Up"
-msgstr ""
+msgstr "Óng siōng(&U)"
 
 #: kstandardaction_p.h:97
 msgid "Go up"
@@ -427,7 +427,7 @@ msgstr "Hián-sī Suán-tuann-lia̍t"
 
 #: kstandardaction_p.h:117
 msgid "Show or hide menubar"
-msgstr ""
+msgstr "Tshiat-uānn hián-sī suán-tuann-lia̍t"
 
 #: kstandardaction_p.h:118
 msgid "Show &Toolbar"
@@ -435,15 +435,15 @@ msgstr "Hián-sī Kang-kū-lia̍t(&T)"
 
 #: kstandardaction_p.h:118
 msgid "Show or hide toolbar"
-msgstr ""
+msgstr "Tshiat-uānn hián-sī kang-kū-lia̍t"
 
 #: kstandardaction_p.h:119
 msgid "Show St&atusbar"
-msgstr ""
+msgstr "Hián-sī Tsōng-thài-lia̍t(&A)"
 
 #: kstandardaction_p.h:119
 msgid "Show or hide statusbar"
-msgstr ""
+msgstr "Tshiat-uānn hián-sī tsōng-thài-lia̍t"
 
 #: kstandardaction_p.h:120
 msgid "F&ull Screen Mode"
@@ -451,7 +451,7 @@ msgstr "Ts&uân-îng-bōo Bôo-sik"
 
 #: kstandardaction_p.h:121
 msgid "Configure Keyboard S&hortcuts…"
-msgstr ""
+msgstr "Siat-tīng K&hí-puânn Khuài-sok-khí…"
 
 #: kstandardaction_p.h:122
 #, kde-format
@@ -460,11 +460,11 @@ msgstr "Siat-tīng %1(&C)…"
 
 #: kstandardaction_p.h:123
 msgid "Configure Tool&bars…"
-msgstr ""
+msgstr "Siat-tīng Kang-kū-lia̍t(&B)…"
 
 #: kstandardaction_p.h:124
 msgid "Configure &Notifications…"
-msgstr ""
+msgstr "Siat-tīng Thong-ti(&N)…"
 
 #: kstandardaction_p.h:128
 #, kde-format
@@ -473,7 +473,7 @@ msgstr ""
 
 #: kstandardaction_p.h:129
 msgid "What's &This?"
-msgstr ""
+msgstr "&Tse-sī siánn?"
 
 #: kstandardaction_p.h:130
 msgid "&Report Bug…"

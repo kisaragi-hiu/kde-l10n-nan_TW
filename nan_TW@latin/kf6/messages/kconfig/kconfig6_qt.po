@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-12 00:43+0900\n"
+"PO-Revision-Date: 2026-05-12 00:46+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -93,7 +93,7 @@ msgstr "Iōng Pa̍t-ê Miâ Tû-tsûn(&A)…"
 #: gui/kstandardactions_p.h:68
 msgctxt "KStandardActions|"
 msgid "Save document under a new name"
-msgstr ""
+msgstr "Iōng sin-ê miâ tû-tsûn bûn-kiānn"
 
 #: gui/kstandardactions_p.h:69
 msgctxt "KStandardActions|"
@@ -223,22 +223,22 @@ msgstr ""
 #: gui/kstandardactions_p.h:84
 msgctxt "KStandardActions|"
 msgid "&Find…"
-msgstr ""
+msgstr "Tshuē(&F)…"
 
 #: gui/kstandardactions_p.h:85
 msgctxt "KStandardActions|"
 msgid "Find &Next"
-msgstr ""
+msgstr "Tshuē Ē-tsi̍t-ē(&N)"
 
 #: gui/kstandardactions_p.h:86
 msgctxt "KStandardActions|"
 msgid "Find Pre&vious"
-msgstr ""
+msgstr "Tshuē Tíng-tsi̍t-ê(&V)"
 
 #: gui/kstandardactions_p.h:87
 msgctxt "KStandardActions|"
 msgid "&Replace…"
-msgstr ""
+msgstr "Tshú-tāi(&R)…"
 
 #: gui/kstandardactions_p.h:89
 msgctxt "KStandardActions|"
@@ -353,7 +353,7 @@ msgstr "Tsiân-óng Ia̍h(&G)…"
 #: gui/kstandardactions_p.h:107
 msgctxt "KStandardActions|"
 msgid "&Go to Line…"
-msgstr ""
+msgstr "Tsiân-óng Hâng(&G)…"
 
 #: gui/kstandardactions_p.h:108
 msgctxt "KStandardActions|"
