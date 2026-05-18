@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-19 00:40+0000\n"
-"PO-Revision-Date: 2026-05-12 00:46+0900\n"
+"PO-Revision-Date: 2026-05-19 03:44+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -274,17 +274,17 @@ msgstr ""
 #: core/job_error.cpp:37
 #, kde-format
 msgid "Could not read %1."
-msgstr ""
+msgstr "Bô-huat-tōo tho̍k-tshú %1."
 
 #: core/job_error.cpp:40
 #, kde-format
 msgid "Could not write to %1."
-msgstr ""
+msgstr "Bô-huat-tōo siá-ji̍p %1."
 
 #: core/job_error.cpp:43
 #, kde-format
 msgid "Could not start process %1."
-msgstr ""
+msgstr "Bô-huat-tōo khí-tōng tîng-sū %1."
 
 #: core/job_error.cpp:46
 #, kde-format
@@ -300,7 +300,7 @@ msgstr ""
 #: core/job_error.cpp:49
 #, kde-format
 msgid "Malformed URL %1."
-msgstr ""
+msgstr "Put-tsìng ê URL %1."
 
 #: core/job_error.cpp:52
 #, kde-format
@@ -315,12 +315,12 @@ msgstr "Hia̍p-tīng %1 tsí-sī tsi̍t-ê kè-lī hia̍p-tīng niā."
 #: core/job_error.cpp:62
 #, kde-format
 msgid "%1 is a folder, but a file was expected."
-msgstr ""
+msgstr "%1 sī tsu-liāu-giap-á, á-sī tsia kî-thāi ê sī tóng-àn."
 
 #: core/job_error.cpp:65
 #, kde-format
 msgid "%1 is a file, but a folder was expected."
-msgstr ""
+msgstr "%1 sī tóng-àn, á-sī tsia kî-thāi ê sī tsu-liāu-giap-á."
 
 #: core/job_error.cpp:68
 #, kde-format
@@ -330,12 +330,12 @@ msgstr ""
 #: core/job_error.cpp:71
 #, kde-format
 msgid "A file named %1 already exists."
-msgstr ""
+msgstr "Kiò-tsò %1 ê tóng-àn í-king ū--ah."
 
 #: core/job_error.cpp:74
 #, kde-format
 msgid "A folder named %1 already exists."
-msgstr ""
+msgstr "Kiò-tsò %1 ê tsu-liāu-giap-á í-king ū--ah."
 
 #: core/job_error.cpp:77
 #, kde-format
@@ -345,12 +345,12 @@ msgstr ""
 #: core/job_error.cpp:77
 #, kde-format
 msgid "Unknown host %1"
-msgstr ""
+msgstr "M̄-tsai ê tsú-ki %1"
 
 #: core/job_error.cpp:80
 #, kde-format
 msgid "Access denied to %1."
-msgstr ""
+msgstr "Kī-tsua̍t tsûn-tshú %1."
 
 #: core/job_error.cpp:83
 #, kde-format
@@ -358,26 +358,28 @@ msgid ""
 "Access denied.\n"
 "Could not write to %1."
 msgstr ""
+"Kī-tsua̍t tsûn-tshú.\n"
+"Bô-huat-tōo siá-ji̍p %1."
 
 #: core/job_error.cpp:86
 #, kde-format
 msgid "Could not enter folder %1."
-msgstr ""
+msgstr "Bô-huat-tōo li̍p-khì tsu-liāu-giap-á %1."
 
 #: core/job_error.cpp:89
 #, kde-format
 msgid "The protocol %1 does not implement a folder service."
-msgstr ""
+msgstr "Hia̍p-tīng %1 bô si̍t-tsoh tsu-liāu-giap-á ê ho̍k-bū."
 
 #: core/job_error.cpp:92
 #, kde-format
 msgid "Found a cyclic link in %1."
-msgstr ""
+msgstr "Tī %1 tshuē-tio̍h sûn-khuân liân-kiat."
 
 #: core/job_error.cpp:95
 #, kde-format
 msgid "Found a cyclic link while copying %1."
-msgstr ""
+msgstr "Khóo-pih %1 ê sî-tsūn tshuē-tio̍h sûn-khuân liân-kiat."
 
 #: core/job_error.cpp:98
 #, kde-format
@@ -418,12 +420,12 @@ msgstr ""
 #: core/job_error.cpp:116
 #, kde-format
 msgid "Could not read file %1."
-msgstr ""
+msgstr "Bô-huat-tōo tho̍k-tshú tóng-àn %1."
 
 #: core/job_error.cpp:119
 #, kde-format
 msgid "Could not write to file %1."
-msgstr ""
+msgstr "Bô-huat-tōo siá-ji̍p tóng-àn %1."
 
 #: core/job_error.cpp:122
 #, kde-format
@@ -438,12 +440,12 @@ msgstr ""
 #: core/job_error.cpp:128
 #, kde-format
 msgid "Could not accept %1."
-msgstr ""
+msgstr "Bô-huat-tōo tsiap-siū %1."
 
 #: core/job_error.cpp:134
 #, kde-format
 msgid "Could not access %1."
-msgstr ""
+msgstr "Bô-huat-tōo tsûn-tshú %1."
 
 #: core/job_error.cpp:137
 #, kde-format
@@ -463,7 +465,7 @@ msgstr "Bô-huat-tōo î-tû %1 tsit-ê tsu-liāu-giap-á."
 #: core/job_error.cpp:146
 #, kde-format
 msgid "Could not resume file %1."
-msgstr ""
+msgstr "Bô-huat-tōo kè-sio̍k tóng-àn %1."
 
 #: core/job_error.cpp:149
 #, kde-format
@@ -483,7 +485,7 @@ msgstr ""
 #: core/job_error.cpp:158
 #, kde-format
 msgid "Could not delete file %1."
-msgstr ""
+msgstr "Bô-huat-tōo thâi-tiāu tóng-àn %1."
 
 #: core/job_error.cpp:161
 #, kde-format
@@ -491,11 +493,13 @@ msgid "The process for the %1 protocol died unexpectedly."
 msgstr ""
 
 #: core/job_error.cpp:164
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Error. Out of memory.\n"
 "%1"
 msgstr ""
+"Tshò-gōo. Bô memory --ah.\n"
+"%1"
 
 #: core/job_error.cpp:167
 #, kde-format
@@ -524,6 +528,8 @@ msgid ""
 "Internal error in server\n"
 "%1"
 msgstr ""
+"Sù-ho̍k-khì luē-pōo tshò-gōo\n"
+"%1"
 
 #: core/job_error.cpp:182
 #, kde-format
@@ -538,6 +544,8 @@ msgid ""
 "Unknown error\n"
 "%1"
 msgstr ""
+"M̄-tsai ê tshò-gōo\n"
+"%1"
 
 #: core/job_error.cpp:188
 #, kde-format
@@ -603,7 +611,7 @@ msgstr ""
 #: core/job_error.cpp:231
 #, kde-format
 msgid "%1 is required by the server, but is not available."
-msgstr ""
+msgstr "Sù-ho̍k-khì su-iàu %1, suah bô-huat-tōo iōng."
 
 #: core/job_error.cpp:234
 #, kde-format
@@ -685,7 +693,7 @@ msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 #: core/job_error.cpp:308
 #, kde-format
 msgid "<b>Technical reason</b>: "
-msgstr ""
+msgstr "<b>Ki-su̍t guân-in</b>:"
 
 #: core/job_error.cpp:310
 #, kde-format
@@ -695,32 +703,32 @@ msgstr ""
 #: core/job_error.cpp:310
 #, kde-format
 msgid "<li>URL: %1</li>"
-msgstr ""
+msgstr "<li>URL: %1</li>"
 
 #: core/job_error.cpp:312
 #, kde-format
 msgid "<li>Protocol: %1</li>"
-msgstr ""
+msgstr "<li>Hia̍p-tīng: %1</li>"
 
 #: core/job_error.cpp:314
 #, kde-format
 msgid "<li>Date and time: %1</li>"
-msgstr ""
+msgstr "<li>Ji̍t-kî kā sî-kan: %1</li>"
 
 #: core/job_error.cpp:314
 #, kde-format
 msgid "<li>Additional information: %1</li>"
-msgstr ""
+msgstr "<li>Kî-tha ê tsū-sìn: %1</li>"
 
 #: core/job_error.cpp:316
 #, kde-format
 msgid "<b>Possible causes</b>:"
-msgstr ""
+msgstr "<b>Khó-lîng ê guân-in</b>:"
 
 #: core/job_error.cpp:320
 #, kde-format
 msgid "<b>Possible solutions</b>:"
-msgstr ""
+msgstr "<b>Khó-lîng ê kái-kuat pān-huat</b>:"
 
 #: core/job_error.cpp:364
 #, kde-format
@@ -743,7 +751,7 @@ msgstr ""
 #: core/job_error.cpp:384
 #, kde-format
 msgid "Check your access permissions on this resource."
-msgstr ""
+msgstr "Tshiánn kiám-tsa lí tuì tsit-ê tsu-guân ê tsûn-tshú-khuân."
 
 #: core/job_error.cpp:386
 #, kde-format
@@ -1023,7 +1031,7 @@ msgstr ""
 #: core/job_error.cpp:547
 #, kde-format
 msgid "File Expected"
-msgstr ""
+msgstr "Kî-thāi ê sī Tóng-àn"
 
 #: core/job_error.cpp:549
 #, kde-format
@@ -1040,7 +1048,7 @@ msgstr ""
 #: core/job_error.cpp:557
 #, kde-format
 msgid "Folder Expected"
-msgstr ""
+msgstr "Kî-thāi ê sī Tsu-liāu-giap-á"
 
 #: core/job_error.cpp:559
 #, kde-format
@@ -1106,7 +1114,7 @@ msgstr "Tshiánn uì sin ê tsu-liāu-giap-á suán līng-guā tsi̍t-ê miâ."
 #: core/job_error.cpp:599
 #, kde-format
 msgid "Unknown Host"
-msgstr ""
+msgstr "M̄-tsai ê Tsú-ki"
 
 #: core/job_error.cpp:601
 #, kde-format
@@ -1124,7 +1132,7 @@ msgstr ""
 #: core/job_error.cpp:614
 #, kde-format
 msgid "Access Denied"
-msgstr ""
+msgstr "Kī-tsua̍t Tsûn-tshú"
 
 #: core/job_error.cpp:616
 #, kde-format
@@ -1139,7 +1147,7 @@ msgstr ""
 #: core/job_error.cpp:623 core/job_error.cpp:899
 #, kde-format
 msgid "Your account may not have permission to access the specified resource."
-msgstr ""
+msgstr "Lí ê kháu-tsō khó-lîng bô tsûn-tshú tsí-tīng tsu-guân ê khuân-hān."
 
 #: core/job_error.cpp:626 core/job_error.cpp:903 core/job_error.cpp:921
 #, kde-format
@@ -1151,7 +1159,7 @@ msgstr ""
 #: core/job_error.cpp:635
 #, kde-format
 msgid "Write Access Denied"
-msgstr ""
+msgstr "Kī-tsua̍t Siá-ji̍p Tsûn-tshú"
 
 #: core/job_error.cpp:637
 #, kde-format
@@ -1163,7 +1171,7 @@ msgstr ""
 #: core/job_error.cpp:645
 #, kde-format
 msgid "Unable to Enter Folder"
-msgstr ""
+msgstr "Bô-huat-tōo Ji̍p-khì Tsu-liāu-giap-á"
 
 #: core/job_error.cpp:647
 #, kde-format
@@ -1175,12 +1183,12 @@ msgstr ""
 #: core/job_error.cpp:655
 #, kde-format
 msgid "Folder Listing Unavailable"
-msgstr ""
+msgstr "Bô-huat-tōo Iōng Tsu-liāu-giap-á Piáu-lia̍t"
 
 #: core/job_error.cpp:656
 #, kde-format
 msgid "Protocol %1 is not a Filesystem"
-msgstr ""
+msgstr "Hia̍p-tīng %1 m̄-sī Tóng-àn-hē-thóng"
 
 #: core/job_error.cpp:658
 #, kde-format
@@ -1193,7 +1201,7 @@ msgstr ""
 #: core/job_error.cpp:666
 #, kde-format
 msgid "Cyclic Link Detected"
-msgstr ""
+msgstr "Huat-kiàn Sûn-khuân Liân-kiat"
 
 #: core/job_error.cpp:668
 #, kde-format
@@ -1229,7 +1237,7 @@ msgstr ""
 #: core/job_error.cpp:691
 #, kde-format
 msgid "Cyclic Link Detected During Copy"
-msgstr ""
+msgstr "Khóo-pih ê Sî-tsūn Huat-kiàn Sûn-khuân Liân-kiat"
 
 #: core/job_error.cpp:693
 #, kde-format
@@ -1426,7 +1434,7 @@ msgstr ""
 #: core/job_error.cpp:816
 #, kde-format
 msgid "Cannot Read From Resource"
-msgstr ""
+msgstr "Bô-huat-tōo Tho̍k-tshú Tsu-guân"
 
 #: core/job_error.cpp:818
 #, kde-format
@@ -1583,9 +1591,9 @@ msgid "Ensure that the folder exists and is empty, and try again."
 msgstr ""
 
 #: core/job_error.cpp:962
-#, kde-format
+#, fuzzy, kde-format
 msgid "Could Not Resume File Transfer"
-msgstr ""
+msgstr "Bô-huat-tōo Kè-sio̍k Tóng-àn"
 
 #: core/job_error.cpp:964
 #, kde-format
@@ -1726,7 +1734,7 @@ msgstr ""
 #: core/job_error.cpp:1080
 #, kde-format
 msgid "Internal Error in Server"
-msgstr ""
+msgstr "Sù-ho̍k-khì luē-pōo tshò-gōo"
 
 #: core/job_error.cpp:1082
 #, kde-format
@@ -2111,7 +2119,7 @@ msgstr "Bô tsi-uān iōng hia̍p-tīng %1 ê sî-tsūn kiàn-li̍p hû-hō-liâ
 #: core/slavebase.cpp:826
 #, kde-format
 msgid "Copying files within %1 is not supported."
-msgstr ""
+msgstr "Bô tsi-uān tī %1 lāi-té khóo-pih tóng-àn."
 
 #: core/slavebase.cpp:828
 #, kde-format
@@ -2272,7 +2280,7 @@ msgstr "Hiòng-tsiân"
 #: filewidgets/kdiroperator.cpp:2063
 #, kde-format
 msgid "Home Folder"
-msgstr ""
+msgstr "Ka-bo̍k-lo̍k"
 
 #: filewidgets/kdiroperator.cpp:2067
 #, kde-format
@@ -2498,7 +2506,7 @@ msgstr "Suá-khì"
 #, kde-format
 msgctxt "@title:menu"
 msgid "Home Folder"
-msgstr ""
+msgstr "Ka-bo̍k-lo̍k"
 
 #: filewidgets/kfilecopytomenu.cpp:110
 #, kde-format
@@ -2600,7 +2608,7 @@ msgstr ""
 #: filewidgets/kfileplaceeditdialog.cpp:126
 #, kde-format
 msgid "Choose an &icon:"
-msgstr ""
+msgstr "Suán tôo-sī(&I):"
 
 #: filewidgets/kfileplaceeditdialog.cpp:136
 #, kde-format
@@ -2655,7 +2663,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item"
 msgid "Tags"
-msgstr ""
+msgstr "Piau-tshiam"
 
 #: filewidgets/kfileplacesitem.cpp:344
 #, kde-format
@@ -2666,7 +2674,7 @@ msgstr "%1 (uì %2)"
 #: filewidgets/kfileplacesmodel.cpp:158
 msgctxt "KFile System Bookmarks"
 msgid "All tags"
-msgstr ""
+msgstr "Sóo-ū ê piau-tshiam"
 
 #. i18nc calls has to be "KFile System Bookmarks".
 #. The real i18nc call is made later, with this context, so the two must match.
@@ -2688,7 +2696,7 @@ msgstr "Bûn-kiānn"
 #: filewidgets/kfileplacesmodel.cpp:277
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
-msgstr ""
+msgstr "Hā-tsài"
 
 #: filewidgets/kfileplacesmodel.cpp:282
 msgctxt "KFile System Bookmarks"
@@ -2708,7 +2716,7 @@ msgstr "Im-ga̍k"
 #: filewidgets/kfileplacesmodel.cpp:355
 msgctxt "KFile System Bookmarks"
 msgid "Pictures"
-msgstr ""
+msgstr "Tôo-phìnn"
 
 #: filewidgets/kfileplacesmodel.cpp:364
 msgctxt "KFile System Bookmarks"
@@ -3003,7 +3011,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:847
 #, kde-format
 msgid "Cannot open file"
-msgstr ""
+msgstr "Bô-huat-tōo khui tóng-àn"
 
 #: filewidgets/kfilewidget.cpp:1216
 #, kde-format
@@ -3212,7 +3220,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:2958
 #, kde-format
 msgid "&File type:"
-msgstr ""
+msgstr "Tóng-àn luī(&F):"
 
 #: filewidgets/kfilewidget.cpp:2962
 #, kde-format
@@ -3241,7 +3249,7 @@ msgstr ""
 #: filewidgets/knewfilemenu.cpp:683 filewidgets/knewfilemenu.cpp:748
 #, kde-format
 msgid "Name for new link:"
-msgstr ""
+msgstr "Sin liân-kiat ê miâ:"
 
 #: filewidgets/knewfilemenu.cpp:686
 #, kde-format
@@ -3399,7 +3407,7 @@ msgstr "Suán tsū-tīng ê tôo-sī á-sī sik-tshái"
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose Other Icon…"
-msgstr ""
+msgstr "Suán Pa̍t-ê Tôo-sī…"
 
 #. i18n: ectx: property (text), widget (QLabel, iconHintLabel)
 #: filewidgets/knewfilemenu_newfiledialog.ui:145
@@ -3511,7 +3519,7 @@ msgstr ""
 #, kde-format
 msgctxt "Launching application"
 msgid "Launching %1"
-msgstr ""
+msgstr "Tī khí-tōng %1"
 
 #: gui/applicationlauncherjob.cpp:173
 #, kde-format
@@ -3530,17 +3538,19 @@ msgstr ""
 msgid ""
 "Internal error: could not prompt the user for which application to start"
 msgstr ""
+"Luē-pōo tshò-gōo: bô-huat-tōo būn iōng-tsiá ài khí-tōng tó-tsi̍t-ê ìng-iōng-tî"
+"ng-sik"
 
 #: gui/commandlauncherjob.cpp:107
 #, kde-format
 msgctxt "An error message"
 msgid "Empty command provided"
-msgstr ""
+msgstr "Thê-kiong ê tsí-līng sī khang ê"
 
 #: gui/faviconrequestjob.cpp:108
 #, kde-format
 msgid "No favicon found for %1"
-msgstr ""
+msgstr "Tshuē-bô %1 iōng ê favicon"
 
 #: gui/faviconrequestjob.cpp:156
 #, kde-format
@@ -3550,13 +3560,15 @@ msgstr "Tû-tsûn iánn-siōng kàu %1 ê sî-tsūn huat-sing tshò-ngōo"
 #: gui/faviconrequestjob.cpp:166
 #, kde-format
 msgid "Icon file too big, download aborted"
-msgstr ""
+msgstr "Tôo-sī tóng-àn siunn-tuā--ah, hā-tsài tiong-tsí"
 
 #: gui/filepreviewjob.cpp:285
 #, kde-format
 msgctxt "%1 is a file url"
 msgid "FilePreviewJob: skipping an empty file, might be a broken symlink: %1"
 msgstr ""
+"FilePreviewJob: tī thiàu-kuè khang ê tóng-àn, khó-lîng sī phái-khì--ê hû-hō-li"
+"ân-kiat: %1"
 
 #: gui/kemailclientlauncherjob.cpp:92
 #, kde-format
@@ -3574,7 +3586,7 @@ msgstr ""
 #: gui/kprocessrunner.cpp:291
 #, kde-format
 msgid "Launching %1"
-msgstr ""
+msgstr "Tī khí-tōng %1"
 
 #: gui/kprocessrunner.cpp:463
 #, kde-kuit-format
@@ -3592,7 +3604,7 @@ msgstr "Tshuē-bô tsiong-tuan-ki"
 #: gui/openurljob.cpp:163
 #, kde-format
 msgid "Failed to open %1"
-msgstr ""
+msgstr "Khui %1 sit-pāi"
 
 #: gui/openurljob.cpp:301
 #, kde-format
@@ -3647,7 +3659,7 @@ msgstr ""
 #: gui/openurljob.cpp:660
 #, kde-format
 msgid "Failed to open the file."
-msgstr ""
+msgstr "Khui tóng-àn sit-pāi."
 
 #: gui/openurljob.cpp:694
 #, kde-format
@@ -3693,6 +3705,8 @@ msgid ""
 "The URL %1\n"
 "is malformed"
 msgstr ""
+"URL %1\n"
+"put-tsìng"
 
 #: kioexec/main.cpp:83
 #, kde-format
@@ -3711,6 +3725,10 @@ msgid ""
 "has been modified.\n"
 "Do you still want to delete it?"
 msgstr ""
+"Ing-kai ài sī tsiām-sî ê tóng-àn\n"
+"%1\n"
+"í-king hōo kái-piàn--ah.\n"
+"Lí kám koh ài kā i thâi-tiāu?"
 
 #: kioexec/main.cpp:242
 #, kde-format
@@ -3725,6 +3743,10 @@ msgid ""
 "has been modified.\n"
 "Do you want to upload the changes?"
 msgstr ""
+"Tóng-àn\n"
+"%1\n"
+"í-king hōo kái-piàn--ah.\n"
+"Lí kám ài tsiūnn-thuân piàn-king?"
 
 #: kioexec/main.cpp:302
 #, kde-format
@@ -3779,7 +3801,7 @@ msgstr ""
 #: kioexec/main.cpp:319
 #, kde-format
 msgid "Command to execute"
-msgstr "Ài tsip-hîng ê command"
+msgstr "Ài tsip-hîng ê tsí-līng"
 
 #: kioexec/main.cpp:320
 #, kde-format
@@ -3800,6 +3822,8 @@ msgid ""
 "Could not change owner and group for\n"
 "%1"
 msgstr ""
+"Bô-huat-tōo kái-piàn tsit-ê hāng-bo̍k ê sóo-iú-tsiá kah kûn-tsoo\n"
+"%1"
 
 #: kioworkers/file/file.cpp:740 kioworkers/file/file.cpp:832
 #, kde-format
@@ -3871,16 +3895,17 @@ msgstr ""
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
+"Ài thê-kiong iōng-tsiá-miâ kā bi̍t-bé tsiah ē-sái tsûn-tshú tsit-ê bāng-tsām."
 
 #: kioworkers/ftp/ftp.cpp:570 kioworkers/http/http.cpp:331
 #, kde-format
 msgid "Site:"
-msgstr ""
+msgstr "Bāng-tsām:"
 
 #: kioworkers/ftp/ftp.cpp:571 kioworkers/ftp/ftp.cpp:2499
 #, kde-format
 msgid "<b>%1</b>"
-msgstr ""
+msgstr "<b>%1</b>"
 
 #: kioworkers/ftp/ftp.cpp:664
 #, kde-format
@@ -3898,6 +3923,8 @@ msgid ""
 "\n"
 "The server said: \"%1\""
 msgstr ""
+"\n"
+"Sù-ho̍k-khì huê-tap: \"%1\""
 
 #: kioworkers/ftp/ftp.cpp:2494 kioworkers/http/http.cpp:379
 #, kde-format
@@ -3919,7 +3946,7 @@ msgstr ""
 #: kioworkers/help/kio_help.cpp:112
 #, kde-format
 msgid "There is no documentation available for %1."
-msgstr ""
+msgstr "%1 bô bûn-kiānn ē-sái iōng."
 
 #: kioworkers/help/kio_help.cpp:157
 #, kde-format
@@ -3960,19 +3987,19 @@ msgstr ""
 #, kde-format
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
-msgstr ""
+msgstr "Lí kám ài íng-uán ti̍t-tsiap bái būn tio̍h tsiap-siū tsit-ê pîn-tsìng?"
 
 #: kioworkers/http/http.cpp:214 widgets/sslui.cpp:60 widgets/sslui.cpp:96
 #: widgets/widgetsaskuseractionhandler.cpp:514
 #, kde-format
 msgid "Server Authentication"
-msgstr ""
+msgstr "Sù-ho̍k-khì Jīn-tsìng"
 
 #: kioworkers/http/http.cpp:349 kioworkers/http/http.cpp:388
 #: kioworkers/http/http.cpp:402
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
-msgstr ""
+msgstr "tī <b>%2</b> ê <b>%1</b>"
 
 #: kioworkers/http/http.cpp:1396
 #, kde-format
@@ -4176,13 +4203,13 @@ msgstr ""
 #: kioworkers/trash/kio_trash_win.cpp:244
 #, kde-format
 msgid "not supported"
-msgstr ""
+msgstr "bô tsi-uān"
 
 #: kioworkers/trash/kio_trash_win.cpp:253
 #, kde-format
 msgid "Internal error in copyOrMove, should never happen"
 msgstr ""
-"Tī copyOrMove lāi-té ū lāi-pōo tshò-gōo, tse ing-kai tsua̍t-tuì bē huat-sing"
+"Tī copyOrMove lāi-té ū luē-pōo tshò-gōo, tse ing-kai tsua̍t-tuì bē huat-sing"
 
 #: kioworkers/trash/ktrash.cpp:28
 #, kde-format
@@ -4231,7 +4258,7 @@ msgstr ""
 #: schemehandlers/telnet/ktelnetservice.cpp:54
 #, kde-format
 msgid "Access denied"
-msgstr ""
+msgstr "Kī-tsua̍t tsûn-tshú"
 
 #: schemehandlers/telnet/ktelnetservice.cpp:54
 #, kde-format
@@ -4304,7 +4331,7 @@ msgstr "Kok-ka:"
 #: widgets/certificateparty.ui:98
 #, kde-format
 msgid "Canada"
-msgstr ""
+msgstr "Ka-ná-tāi"
 
 #. i18n: ectx: property (text), widget (QLabel, stateTag)
 #: widgets/certificateparty.ui:108
@@ -4415,7 +4442,7 @@ msgstr "&Suá kàu Tsia"
 #, kde-format
 msgctxt "@action:inmenu Download contents of URL here"
 msgid "&Download Here"
-msgstr ""
+msgstr "Hā-tsài kàu Tsia(&D)"
 
 #: widgets/dropjob.cpp:296
 #, kde-format
@@ -4679,7 +4706,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Add…"
-msgstr ""
+msgstr "Thiam…"
 
 #: widgets/kacleditwidget.cpp:75
 #, kde-format
@@ -4736,7 +4763,7 @@ msgstr ""
 #: widgets/kacleditwidget.cpp:387
 #, kde-format
 msgid "Entry Type"
-msgstr ""
+msgstr "Hāng-bo̍k Luī"
 
 #: widgets/kacleditwidget.cpp:394
 #, kde-format
@@ -5000,9 +5027,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, sizeDetailsBtn)
 #: widgets/kfilepropspluginwidget.ui:302
-#, fuzzy, kde-format
+#, kde-format
 msgid "Explore in Filelight"
-msgstr "Tī Filelight "
+msgstr "Tī Filelight Thàm-sik"
 
 #. i18n: ectx: property (text), widget (QLabel, symlinkTargetLabel)
 #: widgets/kfilepropspluginwidget.ui:330
@@ -5128,7 +5155,7 @@ msgid ""
 "Type to filter the applications below, or specify the name of a command.\n"
 "Press down arrow to navigate the results."
 msgstr ""
-"Tī ē-kha phah-jī lâi kè-lī ìng-iōng-tîng-sik, mā ē-sái tsí-tīng command ê "
+"Tī ē-kha phah-jī lâi kè-lī ìng-iōng-tîng-sik, mā ē-sái tsí-tīng tsí-līng ê "
 "miâ.\n"
 "Iōng ↓ khí lâi liû-lám kiat-kó."
 
@@ -5176,7 +5203,7 @@ msgstr "Tī &tsiong-tuan-ki tsip-hîng"
 #: widgets/kopenwithdialog.cpp:777
 #, kde-format
 msgid "&Do not close when command exits"
-msgstr ""
+msgstr "Tsí-līng thè-tshut ê sî-tsūn bái kuainn-tiāu(&D)"
 
 #: widgets/kopenwithdialog.cpp:796
 #, kde-format
@@ -5226,7 +5253,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopadvbase.ui:62
 #, kde-format
 msgid "Do not close when command exits"
-msgstr ""
+msgstr "Tsí-līng thè-tshut ê sî-tsūn bái kuainn-tiāu"
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2_2)
 #: widgets/kpropertiesdesktopadvbase.ui:75
@@ -5290,7 +5317,7 @@ msgctxt ""
 "@title:group Title of a group that lets the user choose options regarding "
 "program startup"
 msgid "Startup"
-msgstr ""
+msgstr "Khí-tōng"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, startupInfoCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:152
@@ -5304,7 +5331,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopadvbase.ui:155
 #, kde-format
 msgid "Enable launch feedback"
-msgstr ""
+msgstr "Khé-iōng khí-tōng huê-kuī"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, nameEdit)
@@ -5362,6 +5389,8 @@ msgstr ""
 #, kde-format
 msgid "Type the command to start this application here."
 msgstr ""
+"Tī tsia su-ji̍p ài iōng siánn-mih tsí-līng lâi khí-tōng tsit-ê ìng-iōng-tîng-s"
+"ik."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: widgets/kpropertiesdesktopbase.ui:95
@@ -5419,7 +5448,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopbase.ui:169
 #, kde-format
 msgid "&Work path:"
-msgstr ""
+msgstr "Kang-tsok lōo-kìng(&W):"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel7)
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, filetypeList)
@@ -5446,13 +5475,13 @@ msgstr ""
 #: widgets/kpropertiesdesktopbase.ui:196
 #, kde-format
 msgid "&Supported file types:"
-msgstr ""
+msgstr "Tsi-uān ê tóng-àn luī(&S):"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
 #: widgets/kpropertiesdesktopbase.ui:227
 #, kde-format
 msgid "Mimetype"
-msgstr ""
+msgstr "MIME Luī"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
 #: widgets/kpropertiesdesktopbase.ui:232
@@ -5500,7 +5529,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopbase.ui:281
 #, kde-format
 msgid "Ad&vanced Options"
-msgstr ""
+msgstr "Siông-sè Suán-hāng"
 
 #: widgets/kpropertiesdialog.cpp:145 widgets/kpropertiesdialog.cpp:160
 #: widgets/kpropertiesdialog.cpp:172 widgets/kpropertiesdialog.cpp:190
@@ -5545,7 +5574,7 @@ msgstr "Su-ji̍p tóng-miâ"
 #, kde-format
 msgctxt "@action:button"
 msgid "Explore in %1"
-msgstr ""
+msgstr "Tī %1 Thàm-sik"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:439
 #: widgets/kpropertiesdialogbuiltin_p.cpp:716
@@ -5557,7 +5586,7 @@ msgstr "Tîng tsíng-lí"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter target location"
-msgstr ""
+msgstr "Su-ji̍p bo̍k-piau uī-tì"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:452
 #: widgets/kpropertiesdialogbuiltin_p.cpp:455
@@ -5601,17 +5630,17 @@ msgstr[0] ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:725
 #, kde-format
 msgid "Calculating...\n"
-msgstr ""
+msgstr "Tī Kè-sǹg...\n"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:748
 #, kde-format
 msgid "At least %1\n"
-msgstr ""
+msgstr "Tsì-tsió %1\n"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:794
 #, kde-format
 msgid "The new file name is empty."
-msgstr ""
+msgstr "Sin ê tóng-miâ sī khang ê."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:992
 #, kde-format
@@ -5748,7 +5777,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1227
 #, kde-format
 msgid "Execute:"
-msgstr ""
+msgstr "Tsip-hîng:"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1228
 #, kde-format
@@ -5768,7 +5797,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1236
 #, kde-format
 msgid "A&dvanced Permissions"
-msgstr "Siông-sè Khuân-hān(&D)"
+msgstr "Tsìn-kai Khuân-hān(&D)"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1244
 #, kde-format
@@ -5793,7 +5822,7 @@ msgstr "Thò-iōng kái-piàn kàu sóo-ū ê tsí tsu-liāu-giap-á kap in ê l
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1367
 #, kde-format
 msgid "Advanced Permissions"
-msgstr "Siông-sè Khuân-hān"
+msgstr "Tsìn-kai Khuân-hān"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1387
 #, kde-format
@@ -5859,7 +5888,7 @@ msgstr "Li̍p-khì"
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1417
 #, kde-format
 msgid "Enable this flag to allow entering the folder."
-msgstr ""
+msgstr "Khé-iōng tsit-ê flag lâi ín-tsún ji̍p-khì tsu-liāu-giap-á."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1419
 #, kde-format
@@ -5870,11 +5899,13 @@ msgstr "Tsip-hîng"
 #, kde-format
 msgid "Enable this flag to allow executing the file as a program."
 msgstr ""
+"Khé-iōng tsit-ê flag lâi ín-tsún kā tsit-ê tóng-àn tòng-tsò tîng-sik tsip-hîng"
+"."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1428
 #, kde-format
 msgid "Special"
-msgstr ""
+msgstr "Ti̍k-pia̍t"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1433
 #, kde-format
@@ -5971,18 +6002,18 @@ msgstr ""
 #, kde-format
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
-msgstr[0] ""
+msgstr[0] "Tsia-ê tóng-àn ū iōng tsìn-kai khuân-hān."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1819
 #, kde-format
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
-msgstr[0] ""
+msgstr[0] "Tsia-ê tsu-liāu-giap-á ū iōng tsìn-kai khuân-hān."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1833
 #, kde-format
 msgid "These files use advanced permissions."
-msgstr ""
+msgstr "Tsia-ê tóng-àn ū iōng tsìn-kai khuân-hān."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2077
 #, kde-format
@@ -6046,7 +6077,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:progress"
 msgid "Calculating…"
-msgstr ""
+msgstr "Tī Kè-sǹg…"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2562
 #, kde-format
@@ -6186,7 +6217,7 @@ msgstr ""
 #: widgets/kurlrequester.cpp:367
 #, kde-format
 msgid "Open file dialog"
-msgstr ""
+msgstr "Khui tóng-àn tuì-uē-khing"
 
 #: widgets/paste.cpp:69
 #, kde-format
@@ -6293,7 +6324,7 @@ msgstr ""
 #: widgets/renamedialog.cpp:290
 #, kde-format
 msgid "&Rename"
-msgstr ""
+msgstr "Kái-miâ(&R)"
 
 #: widgets/renamedialog.cpp:292
 #, kde-format
@@ -6303,26 +6334,28 @@ msgstr ""
 #: widgets/renamedialog.cpp:298
 #, kde-format
 msgid "&Skip"
-msgstr ""
+msgstr "Thiàu-kuè(&S)"
 
 #: widgets/renamedialog.cpp:299
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē "
+"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē"
+" "
 "hāng-bo̍k"
 
 #: widgets/renamedialog.cpp:300
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
+"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo"
+"̍k"
 
 #: widgets/renamedialog.cpp:311
 #, kde-format
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
-msgstr ""
+msgstr "Siá--li̍p-khì(&W)"
 
 #: widgets/renamedialog.cpp:314
 #, kde-format
@@ -6349,7 +6382,7 @@ msgstr ""
 #: widgets/renamedialog.cpp:335
 #, kde-format
 msgid "&Resume"
-msgstr ""
+msgstr "Kè-sio̍k(&R)"
 
 #: widgets/renamedialog.cpp:344
 #, kde-format
@@ -6376,37 +6409,37 @@ msgstr ""
 #: widgets/renamedialog.cpp:461
 #, kde-format
 msgid "The source is <b>more recent</b>."
-msgstr ""
+msgstr "Lâi-guân <b>khah sin</b>."
 
 #: widgets/renamedialog.cpp:463
 #, kde-format
 msgid "The source is <b>older</b>."
-msgstr ""
+msgstr "Lâi-guân <b>khah kū</b>."
 
 #: widgets/renamedialog.cpp:472
 #, kde-format
 msgid "The source is <b>smaller by %1</b>."
-msgstr ""
+msgstr "Lâi-guân <b>sè %1</b>."
 
 #: widgets/renamedialog.cpp:475
 #, kde-format
 msgid "The source is <b>bigger by %1</b>."
-msgstr ""
+msgstr "Lâi-guân <b>tuā %1</b>."
 
 #: widgets/renamedialog.cpp:489
 #, kde-format
 msgid "The files are <b>identical</b>."
-msgstr ""
+msgstr "Tóng-àn <b>uân-tsuân kāng-khuán</b>."
 
 #: widgets/renamedialog.cpp:492
 #, kde-format
 msgid "The files <b>seem identical</b>."
-msgstr ""
+msgstr "Tóng-àn <b>kan-na kāng-khuán</b>."
 
 #: widgets/renamedialog.cpp:496
 #, kde-format
 msgid "The files are <b>different</b>."
-msgstr ""
+msgstr "Tóng-àn <b>bô-kâng</b>."
 
 #: widgets/renamedialog.cpp:504
 #, kde-format
@@ -6414,50 +6447,52 @@ msgid ""
 "The files are likely to be identical: they have the same size and their "
 "contents are the same at the beginning, middle and end."
 msgstr ""
+"Tóng-àn tsin khó-lîng sī kāng-khuán ê: in ê tuā-sè kāng-khuán; siōng thâu, siō"
+"ng bué, kah tiong-ng ê lāi-iông mā kāng-khuán."
 
 #: widgets/renamedialog.cpp:518
 #, kde-format
 msgctxt "@action:button"
 msgid "Compare Files"
-msgstr ""
+msgstr "Pí-kàu Tóng-àn"
 
 #: widgets/renamedialog.cpp:531
 #, kde-format
 msgid "An older item named '%1' already exists."
-msgstr ""
+msgstr "Í-king ū tsit-ê khah-kū ê hāng-bo̍k kiò-tsò '%1' ah."
 
 #: widgets/renamedialog.cpp:533
 #, kde-format
 msgid "A similar file named '%1' already exists."
-msgstr ""
+msgstr "Í-king ū tsit-ê luī-sū ê hāng-bo̍k kiò-tsò '%1' ah."
 
 #: widgets/renamedialog.cpp:535
 #, kde-format
 msgid "A more recent item named '%1' already exists."
-msgstr ""
+msgstr "Í-king ū tsit-ê khah-sin ê hāng-bo̍k kiò-tsò '%1' ah."
 
 #: widgets/renamedialog.cpp:548
 #, kde-format
 msgid "Rename:"
-msgstr ""
+msgstr "Kái-miâ:"
 
 #: widgets/renamefiledialog.cpp:91
 #, kde-kuit-format
 msgctxt "@label:textbox"
 msgid "Rename the item <filename>%1</filename> to:"
-msgstr ""
+msgstr "Kā <filename>%1</filename> ê miâ kái-tsò:"
 
 #: widgets/renamefiledialog.cpp:141 widgets/renamefiledialog.cpp:483
 #, kde-kuit-format
 msgctxt "@info error a file already exists"
 msgid "A file named <filename>%1</filename> already exists."
-msgstr ""
+msgstr "Kiò-tsò <filename>%1</filename> ê tóng-àn í-king ū--ah."
 
 #: widgets/renamefiledialog.cpp:144
 #, kde-kuit-format
 msgctxt "@info %1 is an invalid filename"
 msgid "<filename>%1</filename> is not a valid file name."
-msgstr ""
+msgstr "<filename>%1</filename> m̄-sī ū-hāu ê tóng-miâ."
 
 #: widgets/renamefiledialog.cpp:164
 #, kde-format
@@ -6544,13 +6579,13 @@ msgstr[0] ""
 #, kde-format
 msgctxt "@label:textbox add text to a filename"
 msgid "Add Text:"
-msgstr ""
+msgstr "Thiam Bûn-jī:"
 
 #: widgets/renamefiledialog.cpp:409
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Text to add"
-msgstr ""
+msgstr "Ài thiam ê bûn-jī"
 
 #: widgets/renamefiledialog.cpp:414
 #, kde-format
@@ -6568,25 +6603,25 @@ msgstr "Tóng-miâ āu-piah"
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename Item"
-msgstr ""
+msgstr "Kái Hāng-bo̍k ê Miâ"
 
 #: widgets/renamefiledialog.cpp:532
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename Items"
-msgstr ""
+msgstr "Kái Hāng-bo̍k ê Miâ"
 
 #: widgets/renamefiledialog.cpp:543
 #, kde-format
 msgctxt "@action:button"
 msgid "&Rename"
-msgstr ""
+msgstr "Kái-miâ(&R)"
 
 #: widgets/renamefiledialog.cpp:552
 #, kde-format
 msgctxt "@info"
 msgid "How to rename:"
-msgstr ""
+msgstr "Ài án-ná kái-miâ:"
 
 #: widgets/renamefiledialog.cpp:555
 #, kde-format
@@ -6598,19 +6633,19 @@ msgstr ""
 #, kde-format
 msgctxt "@info renaming operation"
 msgid "Replace text"
-msgstr ""
+msgstr "Tshú-tāi bûn-jī"
 
 #: widgets/renamefiledialog.cpp:555
 #, kde-format
 msgctxt "@info renaming operation"
 msgid "Add text"
-msgstr ""
+msgstr "Thiam bûn-jī"
 
 #: widgets/renamefiledialog.cpp:567
 #, kde-format
 msgctxt "@info As in filename renaming preview"
 msgid "Preview:"
-msgstr ""
+msgstr "Ī-lám:"
 
 #: widgets/renamefiledialog.cpp:691
 #, kde-kuit-format
@@ -6636,17 +6671,17 @@ msgstr ""
 #: widgets/skipdialog.cpp:61
 #, kde-format
 msgid "Replace All"
-msgstr ""
+msgstr "Tshú-tāi Tsuân-pōo"
 
 #: widgets/skipdialog.cpp:68
 #, kde-format
 msgid "Skip"
-msgstr ""
+msgstr "Thiàu-kuè"
 
 #: widgets/skipdialog.cpp:72
 #, kde-format
 msgid "Skip All"
-msgstr ""
+msgstr "Thiàu-kuè Tsuân-pōo"
 
 #. i18n: ectx: property (text), widget (QLabel, encryptionIndicator)
 #: widgets/sslinfo.ui:17

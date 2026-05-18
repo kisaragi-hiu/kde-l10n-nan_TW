@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-05-11 23:49+0900\n"
+"PO-Revision-Date: 2026-05-19 03:28+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -423,7 +423,7 @@ msgstr "Dr. Klash ê Ka-sok-khì Hun-sik"
 #, kde-format
 msgctxt "@option:check"
 msgid "Disable automatic checking"
-msgstr "Kuainn-tiāu tsū-tōng kiám-tsa"
+msgstr "Tîng-iōng tsū-tōng kiám-tsa"
 
 #: kcheckaccelerators.cpp:174
 #, kde-format
@@ -481,17 +481,17 @@ msgid ""
 "default? The changes will be applied immediately."
 msgstr ""
 "Lí kám tsin-tsiànn ài kā tsit-ê ìng-iōng-tîng-sik ê sóo-ū ê kang-kū-lia̍t "
-"lóng-tsóng reset tiāu? Tsit-kuá kái-piàn ē má-siōng ū-hāu."
+"lóng-tsóng tîng-siat--tiāu? Tsit-kuá kái-piàn ē má-siōng ū-hāu."
 
 #: kedittoolbar.cpp:660
 #, kde-format
 msgid "Reset Toolbars"
-msgstr ""
+msgstr "Tîng-siat Kang-kū-lia̍t"
 
 #: kedittoolbar.cpp:661
 #, kde-format
 msgid "Reset"
-msgstr ""
+msgstr "Tîng-siat"
 
 #: kedittoolbar.cpp:980
 #, kde-format
@@ -508,7 +508,7 @@ msgstr "Kang-khū lia̍t(&T):"
 #: kedittoolbar.cpp:996
 #, kde-format
 msgid "A&vailable actions:"
-msgstr ""
+msgstr "Ē-sái iōng ê tōng-tsok(&V):"
 
 #: kedittoolbar.cpp:1017 kedittoolbar.cpp:1042
 #, kde-format
@@ -606,7 +606,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Clear"
-msgstr ""
+msgstr "Tshing-tû"
 
 #: kkeysequencewidget.cpp:169
 #, kde-format
@@ -638,7 +638,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Reassign"
-msgstr ""
+msgstr "Tîng tsí-phài"
 
 #: kkeysequencewidget.cpp:193
 #, kde-format
@@ -918,13 +918,13 @@ msgstr "Tāi-thè"
 #: kshortcutsdialog.ui:48
 #, kde-format
 msgid "Global"
-msgstr ""
+msgstr "Tsuân-i̍k"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:53
 #, kde-format
 msgid "Global Alternate"
-msgstr ""
+msgstr "Tsuân-i̍k Tāi-thè"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:58
@@ -959,12 +959,12 @@ msgstr "Tāi-thè:"
 #: kshortcutseditor.cpp:543
 #, kde-format
 msgid "Global:"
-msgstr ""
+msgstr "Tsuân-i̍k:"
 
 #: kshortcutseditor.cpp:544
 #, kde-format
 msgid "Global alternate:"
-msgstr ""
+msgstr "Tsuân-i̍k tāi-thè:"
 
 #: kshortcutseditor.cpp:560
 #, kde-format
