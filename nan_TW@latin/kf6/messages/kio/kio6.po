@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-19 00:40+0000\n"
-"PO-Revision-Date: 2026-05-20 22:13+0900\n"
+"PO-Revision-Date: 2026-05-20 23:11+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -2702,7 +2702,7 @@ msgstr "Thâu-ia̍h"
 #: filewidgets/kfileplacesmodel.cpp:263
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
-msgstr ""
+msgstr "Toh-bīn"
 
 #: filewidgets/kfileplacesmodel.cpp:270
 msgctxt "KFile System Bookmarks"
@@ -6222,7 +6222,7 @@ msgstr "%1 kàu %2"
 #: widgets/kurifiltersearchprovideractions.cpp:80
 #, kde-format
 msgid "Search for '%1' with"
-msgstr ""
+msgstr "Tshuē '%1'"
 
 #: widgets/kurifiltersearchprovideractions.cpp:85
 #, kde-format
@@ -6234,7 +6234,7 @@ msgstr "%1"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure Web Shortcuts…"
-msgstr ""
+msgstr "Siat-tīng Bāng-lōo Tsia̍t-kìng…"
 
 #: widgets/kurlrequester.cpp:367
 #, kde-format

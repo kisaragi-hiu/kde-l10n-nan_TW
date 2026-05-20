@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-01 01:00+0900\n"
+"PO-Revision-Date: 2026-05-20 23:24+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -71,6 +71,8 @@ msgid ""
 "<p>You can find the full terms on <a href=\"https://spdx.org/licenses/%1."
 "html\">the SPDX website</a>.</p>"
 msgstr ""
+"<p>Uân-tsíng tiâu-khuán ē-sái tī <a href=\"https://spdx.org/licenses/%1.html\""
+">SPDX bāng-tsām</a> tha̍k.</p>"
 
 #: lib/kaboutdata.cpp:296
 msgctxt "KAboutLicense|"
@@ -94,7 +96,7 @@ msgstr "GPL v2"
 #: lib/kaboutdata.cpp:349
 msgctxt "KAboutLicense|@item license"
 msgid "GNU General Public License Version 2"
-msgstr ""
+msgstr "GNU Thong-iōng Kong-kiōng Siū-khuân 2"
 
 #: lib/kaboutdata.cpp:352
 msgctxt "KAboutLicense|@item license (short name)"
@@ -134,7 +136,7 @@ msgstr "GPL v3"
 #: lib/kaboutdata.cpp:365
 msgctxt "KAboutLicense|@item license"
 msgid "GNU General Public License Version 3"
-msgstr ""
+msgstr "GNU Thong-iōng Kong-kiōng Siū-khuân 3"
 
 #: lib/kaboutdata.cpp:368
 msgctxt "KAboutLicense|@item license (short name)"
@@ -234,7 +236,7 @@ msgstr "MPL 2.0"
 #: lib/kaboutdata.cpp:405
 msgctxt "KAboutLicense|@item license"
 msgid "Mozilla Public License 2.0"
-msgstr ""
+msgstr "Mozilla Kong-kiōng Siū-khuân 2.0"
 
 #: lib/kaboutdata.cpp:409
 msgctxt "KAboutLicense|@item license"
@@ -244,7 +246,7 @@ msgstr "Tsū-tīng"
 #: lib/kaboutdata.cpp:412
 msgctxt "KAboutLicense|@item license"
 msgid "Not specified"
-msgstr ""
+msgstr "Bô tsí-tīng"
 
 #: lib/kaboutdata.cpp:1069
 msgctxt "KAboutData|replace this with information about your translation team"
@@ -268,7 +270,7 @@ msgstr "Hián-sī siū-khuân-tiâu-khuán tsu-liāu."
 #: lib/kaboutdata.cpp:1320
 msgctxt "KAboutData CLI|"
 msgid "The base file name of the desktop entry for this application."
-msgstr ""
+msgstr "Tsit-ê ìng-iōng-tîng-sik ê desktop hāng-bo̍k ê ki-tshóo tóng-miâ."
 
 #: lib/kaboutdata.cpp:1321
 msgctxt "KAboutData CLI|"
@@ -278,7 +280,7 @@ msgstr "tóng-àn-miâ"
 #: lib/kaboutdata.cpp:1331
 msgctxt "KAboutData CLI|"
 msgid "This application was written by somebody who wants to remain anonymous."
-msgstr ""
+msgstr "Tsit-ê ìng-iōng-tîng-sik ê tsok-tsiá hi-bāng li̍k-miâ."
 
 #: lib/kaboutdata.cpp:1333
 #, qt-format
@@ -820,7 +822,7 @@ msgstr "%1 bió"
 msgctxt "KFormat|"
 msgid "%n millisecond(s)"
 msgid_plural "%n millisecond(s)"
-msgstr[0] ""
+msgstr[0] "%n hô-bió"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:508

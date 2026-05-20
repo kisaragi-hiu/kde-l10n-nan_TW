@@ -1791,6 +1791,69 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-130">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>mouse</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>ku̍t-tshí</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-131">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>gesture</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>tshiú-sè</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-132">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>shortcut</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>tsia̍t-kìng</term>
+          </tig>
+          <tig>
+            <term>捷徑</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-133">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>desktop entry</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>desktop hāng-bo̍k</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-134">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>millisecond</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>hô-bió</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
