@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-12 01:14+0900\n"
+"PO-Revision-Date: 2026-05-20 23:35+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -208,7 +208,7 @@ msgstr "Kā 剪貼簿的內容貼起去"
 #: gui/kstandardactions_p.h:81
 msgctxt "KStandardActions|"
 msgid "C&lear"
-msgstr ""
+msgstr "清除(&L)"
 
 #: gui/kstandardactions_p.h:82
 msgctxt "KStandardActions|"
@@ -243,7 +243,7 @@ msgstr "取代(&R)…"
 #: gui/kstandardactions_p.h:89
 msgctxt "KStandardActions|"
 msgid "Zoom to &Actual Size"
-msgstr ""
+msgstr "放大到實際大細(&A)"
 
 #: gui/kstandardactions_p.h:89
 msgctxt "KStandardActions|"
@@ -283,17 +283,17 @@ msgstr ""
 #: gui/kstandardactions_p.h:93
 msgctxt "KStandardActions|"
 msgid "Zoom &In"
-msgstr ""
+msgstr "放大(&I)"
 
 #: gui/kstandardactions_p.h:94
 msgctxt "KStandardActions|"
 msgid "Zoom &Out"
-msgstr ""
+msgstr "縮小(&O)"
 
 #: gui/kstandardactions_p.h:95
 msgctxt "KStandardActions|"
 msgid "&Zoom…"
-msgstr ""
+msgstr "放大縮小(&Z)…"
 
 #: gui/kstandardactions_p.h:95
 msgctxt "KStandardActions|"
@@ -475,7 +475,7 @@ msgstr "設定通知(&N)…"
 #, qt-format
 msgctxt "KStandardActions|"
 msgid "%1 &Handbook"
-msgstr ""
+msgstr "%1 手冊(&H)"
 
 #: gui/kstandardactions_p.h:130
 msgctxt "KStandardActions|"
@@ -671,7 +671,7 @@ msgstr "向前"
 #: gui/kstandardshortcut.cpp:210
 msgctxt "KStandardShortcut|@action"
 msgid "Reload"
-msgstr ""
+msgstr "重載入"
 
 #: gui/kstandardshortcut.cpp:219
 msgctxt "KStandardShortcut|@action"
@@ -706,12 +706,12 @@ msgstr "添書籤"
 #: gui/kstandardshortcut.cpp:286
 msgctxt "KStandardShortcut|@action"
 msgid "Zoom In"
-msgstr ""
+msgstr "放大"
 
 #: gui/kstandardshortcut.cpp:287
 msgctxt "KStandardShortcut|@action"
 msgid "Zoom Out"
-msgstr ""
+msgstr "縮小"
 
 #: gui/kstandardshortcut.cpp:290
 msgctxt "KStandardShortcut|@action"
@@ -721,7 +721,7 @@ msgstr "全螢幕模式"
 #: gui/kstandardshortcut.cpp:301
 msgctxt "KStandardShortcut|@action"
 msgid "Show Menu Bar"
-msgstr ""
+msgstr "顯示選單列"
 
 #: gui/kstandardshortcut.cpp:304
 msgctxt "KStandardShortcut|@action"
@@ -766,12 +766,12 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:367
 msgctxt "KStandardShortcut|@action"
 msgid "Previous Item in List"
-msgstr ""
+msgstr "Tuann ê 頂一个項目"
 
 #: gui/kstandardshortcut.cpp:375
 msgctxt "KStandardShortcut|@action"
 msgid "Next Item in List"
-msgstr ""
+msgstr "Tuann ê 下一个項目"
 
 #: gui/kstandardshortcut.cpp:382
 msgctxt "KStandardShortcut|@action"
@@ -801,12 +801,12 @@ msgstr "Email"
 #: gui/kstandardshortcut.cpp:387
 msgctxt "KStandardShortcut|@action"
 msgid "Clear"
-msgstr ""
+msgstr "清除"
 
 #: gui/kstandardshortcut.cpp:390
 msgctxt "KStandardShortcut|@action"
 msgid "Zoom to Actual Size"
-msgstr ""
+msgstr "放大到實際大細"
 
 #: gui/kstandardshortcut.cpp:396
 msgctxt "KStandardShortcut|@action"
@@ -989,7 +989,7 @@ msgstr "資料鋏仔"
 #: kconfig_compiler/kconfig_compiler.cpp:737
 msgctxt "main|"
 msgid "Display software license."
-msgstr ""
+msgstr "顯示軟體授權。"
 
 #: kreadconfig/kreadconfig.cpp:46 kreadconfig/kwriteconfig.cpp:25
 msgctxt "main|"
@@ -1050,9 +1050,9 @@ msgstr ""
 #: kreadconfig/kwriteconfig.cpp:37
 msgctxt "notify|"
 msgid "Notify applications of the change"
-msgstr ""
+msgstr "Kā 應用程式通知變更"
 
 #: kreadconfig/kwriteconfig.cpp:38
 msgctxt "main|"
 msgid "The value to write. Mandatory, on a shell use '' for empty"
-msgstr ""
+msgstr "愛寫入 ê 值。需要提供。愛提供空 ê 值，佇 shell tshiánn siá \""

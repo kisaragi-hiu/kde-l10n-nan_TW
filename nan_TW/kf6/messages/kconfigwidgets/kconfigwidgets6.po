@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kconfigwidgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-25 00:42+0000\n"
-"PO-Revision-Date: 2026-05-12 01:37+0900\n"
+"PO-Revision-Date: 2026-05-20 23:56+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -42,7 +42,7 @@ msgstr "自動偵測"
 #: kcolorschememenu.cpp:24
 #, kde-format
 msgid "Color Scheme"
-msgstr ""
+msgstr "配色方案"
 
 #: kcommandbar.cpp:660
 #, kde-format
@@ -70,7 +70,7 @@ msgstr "選單(&M)"
 #, kde-format
 msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
 msgid "Show &Menubar with All Actions"
-msgstr ""
+msgstr "顯示有所有動作的選單列(&M)"
 
 #: khamburgermenu.cpp:351
 #, kde-format
@@ -93,7 +93,7 @@ msgstr "無項目"
 #: krecentfilesaction.cpp:84
 #, kde-format
 msgid "Clear List"
-msgstr ""
+msgstr "清除單"
 
 #: kstandardaction.cpp:157
 #, kde-format
@@ -469,7 +469,7 @@ msgstr "設定通知(&N)…"
 #: kstandardaction_p.h:128
 #, kde-format
 msgid "%1 &Handbook"
-msgstr ""
+msgstr "%1 手冊(&H)"
 
 #: kstandardaction_p.h:129
 msgid "What's &This?"
@@ -515,7 +515,7 @@ msgstr "拍開選單(&M)"
 #: kstylemanager.cpp:74
 #, kde-format
 msgid "Application Style"
-msgstr ""
+msgstr "應用程式風格"
 
 #: kstylemanager.cpp:78
 #, kde-format

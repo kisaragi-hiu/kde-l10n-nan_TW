@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-19 00:40+0000\n"
-"PO-Revision-Date: 2026-05-12 01:37+0900\n"
+"PO-Revision-Date: 2026-05-20 23:53+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -282,7 +282,7 @@ msgstr "無法度寫入 %1。"
 #: core/job_error.cpp:43
 #, kde-format
 msgid "Could not start process %1."
-msgstr ""
+msgstr "無法度起動程序 %1。"
 
 #: core/job_error.cpp:46
 #, kde-format
@@ -298,7 +298,7 @@ msgstr ""
 #: core/job_error.cpp:49
 #, kde-format
 msgid "Malformed URL %1."
-msgstr ""
+msgstr "不正 ê URL %1。"
 
 #: core/job_error.cpp:52
 #, kde-format
@@ -343,12 +343,12 @@ msgstr ""
 #: core/job_error.cpp:77
 #, kde-format
 msgid "Unknown host %1"
-msgstr ""
+msgstr "毋知 ê 主機 %1"
 
 #: core/job_error.cpp:80
 #, kde-format
 msgid "Access denied to %1."
-msgstr ""
+msgstr "拒絕存取 %1。"
 
 #: core/job_error.cpp:83
 #, kde-format
@@ -356,26 +356,28 @@ msgid ""
 "Access denied.\n"
 "Could not write to %1."
 msgstr ""
+"拒絕存取。\n"
+"無法度寫入 %1。"
 
 #: core/job_error.cpp:86
 #, kde-format
 msgid "Could not enter folder %1."
-msgstr ""
+msgstr "無法度入去資料鋏仔 %1。"
 
 #: core/job_error.cpp:89
 #, kde-format
 msgid "The protocol %1 does not implement a folder service."
-msgstr ""
+msgstr "協定 %1 無實作資料鋏仔 ê 服務。"
 
 #: core/job_error.cpp:92
 #, kde-format
 msgid "Found a cyclic link in %1."
-msgstr ""
+msgstr "佇 %1 揣著循環連結。"
 
 #: core/job_error.cpp:95
 #, kde-format
 msgid "Found a cyclic link while copying %1."
-msgstr ""
+msgstr "Khóo-pih %1 ê 時陣揣著循環連結。"
 
 #: core/job_error.cpp:98
 #, kde-format
@@ -416,12 +418,12 @@ msgstr ""
 #: core/job_error.cpp:116
 #, kde-format
 msgid "Could not read file %1."
-msgstr ""
+msgstr "無法度讀取檔案 %1。"
 
 #: core/job_error.cpp:119
 #, kde-format
 msgid "Could not write to file %1."
-msgstr ""
+msgstr "無法度寫入檔案 %1。"
 
 #: core/job_error.cpp:122
 #, kde-format
@@ -436,12 +438,12 @@ msgstr ""
 #: core/job_error.cpp:128
 #, kde-format
 msgid "Could not accept %1."
-msgstr ""
+msgstr "無法度接受 %1。"
 
 #: core/job_error.cpp:134
 #, kde-format
 msgid "Could not access %1."
-msgstr ""
+msgstr "無法度存取 %1。"
 
 #: core/job_error.cpp:137
 #, kde-format
@@ -461,7 +463,7 @@ msgstr "無法度移除 %1 這个資料鋏仔。"
 #: core/job_error.cpp:146
 #, kde-format
 msgid "Could not resume file %1."
-msgstr ""
+msgstr "無法度繼續檔案 %1。"
 
 #: core/job_error.cpp:149
 #, kde-format
@@ -481,7 +483,7 @@ msgstr ""
 #: core/job_error.cpp:158
 #, kde-format
 msgid "Could not delete file %1."
-msgstr ""
+msgstr "無法度刣掉檔案 %1。"
 
 #: core/job_error.cpp:161
 #, kde-format
@@ -513,6 +515,8 @@ msgid ""
 "User canceled action\n"
 "%1"
 msgstr ""
+"用者 kā 動作取消--ah\n"
+"%1"
 
 #: core/job_error.cpp:179
 #, kde-format
@@ -520,6 +524,8 @@ msgid ""
 "Internal error in server\n"
 "%1"
 msgstr ""
+"伺服器內部錯誤\n"
+"%1"
 
 #: core/job_error.cpp:182
 #, kde-format
@@ -534,6 +540,8 @@ msgid ""
 "Unknown error\n"
 "%1"
 msgstr ""
+"毋知的錯誤\n"
+"%1"
 
 #: core/job_error.cpp:188
 #, kde-format
@@ -5298,8 +5306,7 @@ msgstr ""
 msgid ""
 "Type a generic name for the application here. Examples: an image viewing "
 "application would be \"Image Viewer\"."
-msgstr ""
-"請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
+msgstr "請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: widgets/kpropertiesdesktopbase.ui:42

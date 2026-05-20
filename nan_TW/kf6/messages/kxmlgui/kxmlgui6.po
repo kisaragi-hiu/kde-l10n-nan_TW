@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-05-12 01:17+0900\n"
+"PO-Revision-Date: 2026-05-20 23:49+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -275,8 +275,7 @@ msgctxt "Reference to website"
 msgid ""
 "Please use %1 to report bugs.<br/>If you have questions or need help, please "
 "visit %2.<br/>"
-msgstr ""
-"請用 %1 來回報錯誤。<br/>若是有問題猶是需要人 kā 你鬥相共，會使拜訪 %2。<br/>"
+msgstr "請用 %1 來回報錯誤。<br/>若是有問題猶是需要人 kā 你鬥相共，會使拜訪 %2。<br/>"
 
 #: kabstractaboutdialog_p.cpp:324
 #, kde-format
@@ -291,6 +290,8 @@ msgid ""
 "from the 'Settings' menu to solve the ambiguity.\n"
 "No action will be triggered."
 msgstr ""
+"齒組合 '%1' 是茫茫 ê。請用「設定」選單內底 ê「設定齒盤快速齒」選項來解決這个衝突。\n"
+"袂觸發動作。"
 
 #: kactionconflictdetector_p.h:41
 #, kde-format
@@ -443,7 +444,7 @@ msgstr "<h2>加速器予移除掉--ah</h2>"
 #: kcheckaccelerators.cpp:186
 #, kde-format
 msgid "<h2>Accelerators added (just for your info)</h2>"
-msgstr ""
+msgstr "<h2>加速齒添好--ah</h2>"
 
 #: kedittoolbar.cpp:332
 #, kde-format
@@ -480,12 +481,12 @@ msgstr ""
 #: kedittoolbar.cpp:660
 #, kde-format
 msgid "Reset Toolbars"
-msgstr ""
+msgstr "重設工具列"
 
 #: kedittoolbar.cpp:661
 #, kde-format
 msgid "Reset"
-msgstr ""
+msgstr "重設"
 
 #: kedittoolbar.cpp:980
 #, kde-format
@@ -502,7 +503,7 @@ msgstr "工具列(&T)："
 #: kedittoolbar.cpp:996
 #, kde-format
 msgid "A&vailable actions:"
-msgstr ""
+msgstr "會使用 ê 動作(&V)："
 
 #: kedittoolbar.cpp:1017 kedittoolbar.cpp:1042
 #, kde-format
@@ -563,7 +564,7 @@ msgstr "<合併 %1>"
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
-msgstr ""
+msgstr "這个動作單 sī 動態更新 ê。動作會使徙位，毋過若是移除會 suá 無法度閣共伊添入來。"
 
 #: kedittoolbar.cpp:1262
 #, kde-format
@@ -594,12 +595,14 @@ msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+A: hold the Ctrl key and press A."
 msgstr ""
+"揤這个鈕，然後親像佇彼程式內底仝款輸入快速齒。\n"
+"例：對 Ctrl+A，揤 leh Ctrl 齒，然後揤 A。"
 
 #: kkeysequencewidget.cpp:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Clear"
-msgstr ""
+msgstr "清除"
 
 #: kkeysequencewidget.cpp:169
 #, kde-format
@@ -611,7 +614,7 @@ msgstr[0] "快速齒衝突"
 #: kkeysequencewidget.cpp:173
 #, kde-format
 msgid "Shortcut '%1' for action '%2'\n"
-msgstr ""
+msgstr "動作 '%2' ê 快速齒 '%1'\n"
 
 #: kkeysequencewidget.cpp:178
 #, kde-format
@@ -625,13 +628,16 @@ msgid_plural ""
 "Do you want to assign an empty shortcut to these actions?\n"
 "%3"
 msgstr[0] ""
+"\"%2\" 快速齒 kap tsia-ê 快速齒有衝突。\n"
+"你 kám 愛 kā tsia-ê 動作改指派空白 ê 快速齒？\n"
+"%3"
 
 #: kkeysequencewidget.cpp:188 kkeysequencewidget.cpp:295
 #: kkeysequencewidget.cpp:357
 #, kde-format
 msgctxt "@action:button"
 msgid "Reassign"
-msgstr ""
+msgstr "重指派"
 
 #: kkeysequencewidget.cpp:193
 #, kde-format
@@ -644,12 +650,12 @@ msgstr "快速齒衝突"
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
-msgstr ""
+msgstr "<qt>'%1' ê 齒組合已經予 <b>%2</b> 動作用--ah。<br>請選另外一个。</qt>"
 
 #: kkeysequencewidget.cpp:275
 #, kde-format
 msgid "Shortcut '%1' in Application '%2' for action '%3'\n"
-msgstr ""
+msgstr "應用程式 '%2' ê 動作 '%3' ê 快速齒 '%1'\n"
 
 #: kkeysequencewidget.cpp:284
 #, kde-format
@@ -659,7 +665,7 @@ msgctxt ""
 msgid "The shortcut '%2' conflicts with the following key combination:\n"
 msgid_plural ""
 "The shortcut '%2' conflicts with the following key combinations:\n"
-msgstr[0] ""
+msgstr[0] "快速齒 '%2' kap tsia-ê 齒組合有衝突：\n"
 
 #: kkeysequencewidget.cpp:291
 #, kde-format
@@ -694,6 +700,8 @@ msgid ""
 "some applications use.\n"
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
+"'%1' 齒組合 mā 對一寡應用程式用 ê 標準動作 \"%2\" 使用。\n"
+"你 kám 真正愛 kā 伊當做全域快速齒來用？"
 
 #: kkeysequencewidget.cpp:395
 #, kde-format
@@ -878,7 +886,7 @@ msgstr "設定齒盤快速齒"
 msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
-msgstr ""
+msgstr "佇遮輸入快速齒 ê 名（例：Khóo-pih）猶是齒組合（例：Ctrl+C）來 kā in 搜揣。"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:23
@@ -887,7 +895,7 @@ msgid ""
 "Here you can see a list of key bindings, i.e. associations between actions "
 "(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
 "Ctrl+V) shown in the right column."
-msgstr ""
+msgstr "遮是快速齒 ê 表，倒爿是動作（例：Khóo-pih），正爿是齒猶是齒 ê 組合（例：Ctrl+V）"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:33
@@ -911,25 +919,25 @@ msgstr "代替"
 #: kshortcutsdialog.ui:48
 #, kde-format
 msgid "Global"
-msgstr ""
+msgstr "全域"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:53
 #, kde-format
 msgid "Global Alternate"
-msgstr ""
+msgstr "全域代替"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:58
 #, kde-format
 msgid "Mouse Button Gesture"
-msgstr ""
+msgstr "滑鼠揤鈕手勢"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:63
 #, kde-format
 msgid "Mouse Shape Gesture"
-msgstr ""
+msgstr "滑鼠形狀手勢"
 
 #: kshortcutseditor.cpp:521
 #, kde-format
@@ -952,12 +960,12 @@ msgstr "代替："
 #: kshortcutseditor.cpp:543
 #, kde-format
 msgid "Global:"
-msgstr ""
+msgstr "全域："
 
 #: kshortcutseditor.cpp:544
 #, kde-format
 msgid "Global alternate:"
-msgstr ""
+msgstr "全域代替："
 
 #: kshortcutseditor.cpp:560
 #, kde-format
@@ -989,7 +997,7 @@ msgstr "設定語言"
 #: kswitchlanguagedialog_p.cpp:141
 #, kde-format
 msgid "Please choose the language which should be used for this application:"
-msgstr ""
+msgstr "請選這个應用程式愛用 ê 語言："
 
 #: kswitchlanguagedialog_p.cpp:168
 #, kde-format
@@ -1045,8 +1053,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
-msgstr ""
-"這是應用程式主要 ê 語言，若是一个詞佇這个語言無 ê 時陣才會試其他 ê 語言。"
+msgstr "這是應用程式主要 ê 語言，若是一个詞佇這个語言無 ê 時陣才會試其他 ê 語言。"
 
 #: kswitchlanguagedialog_p.cpp:390
 #, kde-format
@@ -1180,8 +1187,7 @@ msgstr "%1 (%2)"
 msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
-msgstr ""
-"<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
+msgstr "<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
 
 #: ktooltiphelper.cpp:295
 #, kde-format
@@ -1218,11 +1224,13 @@ msgid ""
 "is most probably a bug. Please report it in <a href='https://"
 "bugs.kde.org'>bugs.kde.org</a>"
 msgstr ""
+"有兩个動作 (%1, %2) beh 用仝一个快速齒 (%3)。這應該是程式 ê 問題。請去 <a href='https://"
+"bugs.kde.org'>bugs.kde.org</a> 回報這个問題"
 
 #: kxmlguiwindow.cpp:566
 #, kde-format
 msgid "Ambiguous Shortcuts"
-msgstr ""
+msgstr "茫茫 ê 快速齒"
 
 #. i18n: ectx: Menu (file)
 #: ui_standards.rc:5

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-19 00:51+0000\n"
-"PO-Revision-Date: 2026-05-12 01:36+0900\n"
+"PO-Revision-Date: 2026-05-20 23:54+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -191,7 +191,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/baidu.desktop:3
 msgctxt "Name"
 msgid "Baidu"
-msgstr ""
+msgstr "百度"
 
 #: src/urifilters/ikws/searchproviders/baidu.desktop:84
 msgctxt "Query"
@@ -201,7 +201,7 @@ msgstr "https://www.baidu.com/s?wd=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/beolingus.desktop:3
 msgctxt "Name"
 msgid "Beolingus Online Dictionary"
-msgstr ""
+msgstr "Beolingus 線頂辭典"
 
 #: src/urifilters/ikws/searchproviders/beolingus.desktop:82
 msgctxt "Query"
@@ -331,7 +331,7 @@ msgstr "http://cplusplus.com/search.do?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/cppreference.desktop:2
 msgctxt "Name"
 msgid "CPP Reference"
-msgstr ""
+msgstr "CPP 參考"
 
 #: src/urifilters/ikws/searchproviders/cppreference.desktop:65
 msgctxt "Query"
@@ -959,10 +959,12 @@ msgstr ""
 msgctxt "Query"
 msgid ""
 "https://forum.kde.org/search.php?keywords=\\\\{@}"
-"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&countlimit=100&t=0&submit=Search"
+"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&count"
+"limit=100&t=0&submit=Search"
 msgstr ""
 "https://forum.kde.org/search.php?keywords=\\\\{@}"
-"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&countlimit=100&t=0&submit=Search"
+"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&count"
+"limit=100&t=0&submit=Search"
 
 #: src/urifilters/ikws/searchproviders/kde_store.desktop:5
 msgctxt "Name"
@@ -1246,7 +1248,7 @@ msgstr "https://pgp.mit.edu/pks/lookup?search=\\\\{@}&op=vindex"
 #: src/urifilters/ikws/searchproviders/php.desktop:3
 msgctxt "Name"
 msgid "PHP Search"
-msgstr ""
+msgstr "PHP 搜揣"
 
 #: src/urifilters/ikws/searchproviders/php.desktop:100
 msgctxt "Query"
@@ -1290,7 +1292,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/qt5.desktop:5
 msgctxt "Name"
 msgid "Qt5 Online Documentation"
-msgstr ""
+msgstr "Qt5 線頂文件"
 
 #: src/urifilters/ikws/searchproviders/qt5.desktop:66
 msgctxt "Query"
@@ -1300,7 +1302,7 @@ msgstr "https://doc.qt.io/qt-5/search-results.html?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/qt6.desktop:5
 msgctxt "Name"
 msgid "Qt6 Online Documentation"
-msgstr ""
+msgstr "Qt6 線頂文件"
 
 #: src/urifilters/ikws/searchproviders/qt6.desktop:66
 msgctxt "Query"
@@ -1310,7 +1312,7 @@ msgstr "https://doc.qt.io/qt-6/search-results.html?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/qwant.desktop:3
 msgctxt "Name"
 msgid "Qwant"
-msgstr ""
+msgstr "Qwant"
 
 #: src/urifilters/ikws/searchproviders/qwant.desktop:75
 msgctxt "Query"
@@ -1320,7 +1322,7 @@ msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=web"
 #: src/urifilters/ikws/searchproviders/qwant_images.desktop:3
 msgctxt "Name"
 msgid "Qwant Images"
-msgstr ""
+msgstr "Qwant Iánn-siōng"
 
 #: src/urifilters/ikws/searchproviders/qwant_images.desktop:74
 msgctxt "Query"
@@ -1330,7 +1332,7 @@ msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=images"
 #: src/urifilters/ikws/searchproviders/qwant_news.desktop:3
 msgctxt "Name"
 msgid "Qwant News"
-msgstr ""
+msgstr "Qwant 新聞"
 
 #: src/urifilters/ikws/searchproviders/qwant_news.desktop:75
 msgctxt "Query"
@@ -1612,7 +1614,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/wine.desktop:2
 msgctxt "Name"
 msgid "WineHQ Database"
-msgstr ""
+msgstr "WineHQ 資料庫"
 
 #: src/urifilters/ikws/searchproviders/wine.desktop:66
 msgctxt "Query"
@@ -1622,7 +1624,7 @@ msgstr "https://www.winehq.org/search?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/wolfram_alpha.desktop:3
 msgctxt "Name"
 msgid "Wolfram Alpha"
-msgstr ""
+msgstr "Wolfram Alpha"
 
 #: src/urifilters/ikws/searchproviders/wolfram_alpha.desktop:85
 msgctxt "Query"
@@ -1632,12 +1634,12 @@ msgstr "https://www.wolframalpha.com/input/?i=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/wordref.desktop:5
 msgctxt "Name"
 msgid "WordReference.com English Dictionary"
-msgstr ""
+msgstr "WordReference.com 英語辭典"
 
 #: src/urifilters/ikws/searchproviders/wordref.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/english/definition.asp?en=\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/english/definition.asp?en=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/yahoo.desktop:6
 msgctxt "Name"
@@ -1656,7 +1658,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/yahoo_image.desktop:5
 msgctxt "Name"
 msgid "Yahoo Images"
-msgstr ""
+msgstr "Yahoo 影像"
 
 #: src/urifilters/ikws/searchproviders/yahoo_image.desktop:85
 msgctxt "Query"
@@ -1670,7 +1672,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/yahoo_local.desktop:5
 msgctxt "Name"
 msgid "Yahoo Local"
-msgstr ""
+msgstr "Yahoo 本地"
 
 #: src/urifilters/ikws/searchproviders/yahoo_local.desktop:84
 msgctxt "Query"
@@ -1688,11 +1690,13 @@ msgstr ""
 msgctxt "Query"
 msgid ""
 "https://shopping.yahoo.com/"
-"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQDVjEwOQ--?"
+"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQD"
+"VjEwOQ--?"
 "cop=mss&ei=UTF-8&p=\\\\{@}&fr2=tab-video&fr=yfp-t-701"
 msgstr ""
 "https://shopping.yahoo.com/"
-"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQDVjEwOQ--?"
+"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQD"
+"VjEwOQ--?"
 "cop=mss&ei=UTF-8&p=\\\\{@}&fr2=tab-video&fr=yfp-t-701"
 
 #: src/urifilters/ikws/searchproviders/yahoo_video.desktop:5
