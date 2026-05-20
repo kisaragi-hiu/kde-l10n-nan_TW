@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-19 00:40+0000\n"
-"PO-Revision-Date: 2026-05-19 03:44+0900\n"
+"PO-Revision-Date: 2026-05-20 22:13+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -677,6 +677,9 @@ msgid ""
 "%2\n"
 "Please send a full bug report at https://bugs.kde.org."
 msgstr ""
+"M̄-tsai ê tshò-gōo tāi-bé %1\n"
+"%2\n"
+"Tshiánn thuân uân-tsíng--ê bug report hōo https://bugs.kde.org."
 
 #: core/job_error.cpp:298
 #, kde-format
@@ -698,7 +701,7 @@ msgstr "<b>Ki-su̍t guân-in</b>:"
 #: core/job_error.cpp:310
 #, kde-format
 msgid "<b>Details of the request</b>:"
-msgstr ""
+msgstr "<b>Tshíng-kiû ê siông-sè</b>:"
 
 #: core/job_error.cpp:310
 #, kde-format
@@ -759,12 +762,16 @@ msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
 msgstr ""
+"Lí ê tsûn-tshú-khuân khó-lîng bô-kàu lâi uì tsi̍t-ê tsu-guân tsip-hîng tshíng-"
+"kiû ê tōng-tsok."
 
 #: core/job_error.cpp:389
 #, kde-format
 msgid ""
 "The file may be in use (and thus locked) by another user or application."
 msgstr ""
+"Tóng-àn khó-lîng in-uī tī hōo pa̍t-ê ióng-tsiá á-sī tîng-sik sú-iōng sóo-í hōo"
+" só-tīng."
 
 #: core/job_error.cpp:392
 #, kde-format
@@ -772,6 +779,8 @@ msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
 msgstr ""
+"Tshiánn kiám-tsa bô kî-tha tîng-sik á-sī ióng-tsiá tī iōng tsit-ê tóng-àn á-sī"
+" kā i só-tīng--ah."
 
 #: core/job_error.cpp:395
 #, kde-format
@@ -784,11 +793,11 @@ msgid "You may have encountered a bug in the program."
 msgstr ""
 
 #: core/job_error.cpp:399
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
-msgstr ""
+msgstr "Tse ing-kai sī tîng-sik ê būn-tê."
 
 #: core/job_error.cpp:402
 #, kde-format
@@ -1138,11 +1147,14 @@ msgstr "Kī-tsua̍t Tsûn-tshú"
 #, kde-format
 msgid "Access was denied to the specified resource, <strong>%1</strong>."
 msgstr ""
+"Tuì tsí-tīng ê tsu-guân <strong>%1</strong> ê tsûn-tshú hōo kī-tsua̍t--ah."
 
 #: core/job_error.cpp:620 core/job_error.cpp:896
 #, kde-format
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr ""
+"Tse khó-lîng sī in-uī lí thê-kiong ê jīn-tsìng tsu-sìn m̄-tio̍h, á-sī bô thê-k"
+"iong jīn-tsìng tsu-sìn."
 
 #: core/job_error.cpp:623 core/job_error.cpp:899
 #, kde-format
@@ -1222,17 +1234,17 @@ msgstr ""
 #: core/job_error.cpp:683
 #, kde-format
 msgid "Request Aborted By User"
-msgstr ""
+msgstr "Tshíng-kiû Hōo Iōng-tsiá Tiong-tsí--ah"
 
 #: core/job_error.cpp:685 core/job_error.cpp:1074
 #, kde-format
 msgid "The request was not completed because it was aborted."
-msgstr ""
+msgstr "Tshíng-kiû hōo tiong-tsí--ah, sóo-í bô uân-sîng."
 
 #: core/job_error.cpp:687 core/job_error.cpp:942 core/job_error.cpp:1076
 #, kde-format
 msgid "Retry the request."
-msgstr ""
+msgstr "Tîng-tshì tshíng-kiû."
 
 #: core/job_error.cpp:691
 #, kde-format
@@ -1329,7 +1341,7 @@ msgstr ""
 #: core/job_error.cpp:751
 #, kde-format
 msgid "URL Resource Invalid"
-msgstr ""
+msgstr "URL Tsu-guân Bô-hāu"
 
 #: core/job_error.cpp:752
 #, kde-format
@@ -1371,12 +1383,14 @@ msgid ""
 msgstr ""
 
 #: core/job_error.cpp:776
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "The device may not be ready, for example there may be no media in a "
 "removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
 "peripheral/portable device, the device may not be correctly connected."
 msgstr ""
+"Tsong-tì khó-lîng á-buē tsún-pī hó-sè, tshin-tshiūnn khó-î-tû muî-thé tsong-tì"
+" lāi-té bô muî-thé (CD-tia̍p lāi-té bô CD-ROM),"
 
 #: core/job_error.cpp:781
 #, kde-format
@@ -1387,11 +1401,13 @@ msgid ""
 msgstr ""
 
 #: core/job_error.cpp:786
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
 "portable devices must be connected and powered on.; and try again."
 msgstr ""
+"Tshiánn kiám-tsa tsong-tì í-king tsún-pī hó--ah; khó-î-tû tsû-tia̍p lāi-té ài "
+"ū muî-thé,"
 
 #: core/job_error.cpp:793
 #, kde-format
@@ -1709,7 +1725,7 @@ msgstr ""
 #: core/job_error.cpp:1057
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
-msgstr ""
+msgstr "Jīn-tsìng Sit-pāi: Hong-huat %1 Bô Tsi-uān"
 
 #: core/job_error.cpp:1059
 #, kde-format
@@ -1729,7 +1745,7 @@ msgstr ""
 #: core/job_error.cpp:1072
 #, kde-format
 msgid "Request Aborted"
-msgstr ""
+msgstr "Tshíng-kiû Tiong-tsí--ah"
 
 #: core/job_error.cpp:1080
 #, kde-format
@@ -2285,7 +2301,7 @@ msgstr "Ka-bo̍k-lo̍k"
 #: filewidgets/kdiroperator.cpp:2067
 #, kde-format
 msgid "Reload"
-msgstr ""
+msgstr "Tîng Tsài-ji̍p"
 
 #: filewidgets/kdiroperator.cpp:2070
 #, kde-format
@@ -2657,7 +2673,7 @@ msgstr "Tsong-tì"
 #, kde-format
 msgctxt "@item"
 msgid "Removable Devices"
-msgstr ""
+msgstr "Khó-î-tû Tsong-tì"
 
 #: filewidgets/kfileplacesitem.cpp:239
 #, kde-format
@@ -3034,12 +3050,12 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:1223
 #, kde-format
 msgid "Click this button to reload the contents of the current location."
-msgstr ""
+msgstr "Tshi̍h tsit-ê liú lâi kā tsit-má uī-tì ê lāi-iông tîng tsài-ji̍p."
 
 #: filewidgets/kfilewidget.cpp:1225
 #, kde-format
 msgid "Click this button to create a new folder."
-msgstr ""
+msgstr "Tshi̍h tsit-ê liú lâi kiàn-li̍p sin ê tsu-liāu-giap-á."
 
 #: filewidgets/kfilewidget.cpp:1227
 #, kde-format
@@ -3527,6 +3543,8 @@ msgid ""
 "Unable to make the service %1 executable, aborting execution.\n"
 "%2."
 msgstr ""
+"Bô-huat-tōo kā ho̍k-bū %1 piàn-tsò ē-sái tsip-hîng. Tiong-tsí tsip-hîng.\n"
+"%2."
 
 #: gui/applicationlauncherjob.cpp:291 gui/openurljob.cpp:648
 #, kde-format
@@ -4022,31 +4040,31 @@ msgstr ""
 #, kde-format
 msgctxt "request type"
 msgid "create the requested folder"
-msgstr ""
+msgstr "kiàn-li̍p tshíng-kiû ê tsu-liāu-giap-á"
 
 #: kioworkers/http/http.cpp:1405
 #, kde-format
 msgctxt "request type"
 msgid "copy the specified file or folder"
-msgstr ""
+msgstr "khóo-pih tsí-tīng ê tóng-àn á-sī tsu-liāu-giap-á"
 
 #: kioworkers/http/http.cpp:1407
 #, kde-format
 msgctxt "request type"
 msgid "move the specified file or folder"
-msgstr ""
+msgstr "suá tsí-tīng ê tóng-àn á-sī tsu-liāu-giap-á"
 
 #: kioworkers/http/http.cpp:1409
 #, kde-format
 msgctxt "request type"
 msgid "search in the specified folder"
-msgstr ""
+msgstr "tī tsí-tīng ê tsu-liāu-giap-á tshiau-tshuē"
 
 #: kioworkers/http/http.cpp:1411
 #, kde-format
 msgctxt "request type"
 msgid "lock the specified file or folder"
-msgstr ""
+msgstr "só-tīng tsí-tīng ê tóng-àn á-sī tsu-liāu-giap-á"
 
 #: kioworkers/http/http.cpp:1413
 #, kde-format
@@ -4058,7 +4076,7 @@ msgstr ""
 #, kde-format
 msgctxt "request type"
 msgid "delete the specified file or folder"
-msgstr ""
+msgstr "thâi-tiāu tsí-tīng ê tóng-àn á-sī tsu-liāu-giap-á"
 
 #: kioworkers/http/http.cpp:1417
 #, kde-format
@@ -4070,7 +4088,7 @@ msgstr ""
 #, kde-format
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
-msgstr ""
+msgstr "tshú-tit tsí-tīng ê tóng-àn á-sī tsu-liāu-giap-á ê lāi-iông"
 
 #: kioworkers/http/http.cpp:1421
 #, kde-format
@@ -4160,7 +4178,7 @@ msgstr ""
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
-msgstr ""
+msgstr "tsiūnn-thuân %1"
 
 #: kioworkers/http/http.cpp:1673
 #, kde-format
@@ -4237,23 +4255,23 @@ msgstr ""
 #: kpasswdserver/kpasswdserver.cpp:529
 #, kde-format
 msgid "Do you want to retry?"
-msgstr ""
+msgstr "Lí kám ài tíng-tshì?"
 
 #: kpasswdserver/kpasswdserver.cpp:533
 #, kde-format
 msgid "Retry Authentication"
-msgstr ""
+msgstr "Tîng-tshì Jīn-tsìng"
 
 #: kpasswdserver/kpasswdserver.cpp:536
 #, kde-format
 msgctxt "@action:button filter-continue"
 msgid "Retry"
-msgstr ""
+msgstr "Tîng-tshì"
 
 #: kpasswdserver/kpasswdserver.cpp:797
 #, kde-format
 msgid "Authentication Dialog"
-msgstr ""
+msgstr "Jīn-tsìng Tuì-uē-khing"
 
 #: schemehandlers/telnet/ktelnetservice.cpp:54
 #, kde-format
@@ -4263,17 +4281,17 @@ msgstr "Kī-tsua̍t tsûn-tshú"
 #: schemehandlers/telnet/ktelnetservice.cpp:54
 #, kde-format
 msgid "You do not have permission to access the %1 protocol."
-msgstr ""
+msgstr "Lí bô khuân-hān tsûn-tshú %1 hia̍p-tīng."
 
 #: urifilters/ikws/kuriikwsfilter.cpp:81
 #, kde-format
 msgid "No preferred search providers were found."
-msgstr ""
+msgstr "Tshuē-bô ài iu-sian sú-iōng ê tshiau-tshuē-thê-kiong-tsiá."
 
 #: urifilters/ikws/kuriikwsfilter.cpp:96
 #, kde-format
 msgid "No search providers were found."
-msgstr ""
+msgstr "Tshuē-bô tshiau-tshuē-thê-kiong-tsiá."
 
 #: urifilters/shorturi/kshorturifilter.cpp:247
 #, kde-format
@@ -4307,7 +4325,7 @@ msgstr "Tsoo-tsit:"
 #: widgets/certificateparty.ui:58
 #, kde-format
 msgid "Acme Sundry Products Company"
-msgstr ""
+msgstr "Acme Tsa̍p-bu̍t Sán-phín Kong-si"
 
 #. i18n: ectx: property (text), widget (QLabel, organizationalUnitTag)
 #: widgets/certificateparty.ui:68
@@ -4426,7 +4444,7 @@ msgstr "Kè-sǹg"
 #: widgets/checksumswidget.ui:236 widgets/checksumswidget.ui:283
 #, kde-format
 msgid "Click to copy the checksum to the clipboard."
-msgstr ""
+msgstr "Tshi̍h tsia lâi khóo-pih kiám-tsa-bé kàu tsián-tah-phōo."
 
 #: widgets/dropjob.cpp:178
 #, kde-format
@@ -5148,6 +5166,8 @@ msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
 "the browse button.</qt>"
 msgstr ""
+"<qt>Suán tsi̍t-ê tîng-sik. Nā ài iōng ê tîng-sik bô lia̍t tshut-lâi, tshiánn t"
+"i̍t-tsiap su-ji̍p tîng-sik ê miâ á-sī tshi̍h liû-lám liú.</qt>"
 
 #: widgets/kopenwithdialog.cpp:676
 #, kde-format
@@ -5405,6 +5425,8 @@ msgid ""
 "Click here to browse your file system in order to find the desired "
 "executable."
 msgstr ""
+"Tshi̍h tsia lâi liû-lám lí ê tóng-àn-hē-thóng lâi tshuē ài iōng ê tsip-hîng-tó"
+"ng."
 
 #. i18n: ectx: property (text), widget (QPushButton, browseButton)
 #: widgets/kpropertiesdesktopbase.ui:117
@@ -6019,12 +6041,12 @@ msgstr "Tsia-ê tóng-àn ū iōng tsìn-kai khuân-hān."
 #, kde-format
 msgctxt "@title:tab"
 msgid "C&hecksums"
-msgstr ""
+msgstr "Kiám-tsa-bé(&H)"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2368
 #, kde-format
 msgid "Invalid checksum."
-msgstr ""
+msgstr "Bô-hāu ê kiám-tsa-bé."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2371
 #, kde-format
@@ -6283,7 +6305,7 @@ msgstr "%1 (%2)"
 #: widgets/pastejob.cpp:75
 #, kde-format
 msgid "Filename for clipboard content:"
-msgstr ""
+msgstr "Tsián-tah-phōo lāi-iông ê tóng-miâ:"
 
 #: widgets/pastejob.cpp:75
 #, kde-format
@@ -6404,7 +6426,7 @@ msgstr ""
 #: widgets/renamedialog.cpp:418
 #, kde-format
 msgid "Would you like to merge the contents of '%1' into '%2'?"
-msgstr ""
+msgstr "Lí kám ài kā '%1' ê lāi-iông ha̍p-pìng li̍p-khì '%2' lāi-té?"
 
 #: widgets/renamedialog.cpp:461
 #, kde-format
@@ -6821,6 +6843,9 @@ msgid ""
 "instead?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis "
 "strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
+"Tsit-ê hāng-bo̍k ê uī-tì bô pùn-sò-tháng thang iōng. Kám ài kái tsò íng-uán th"
+"âi-tiāu in?<nl/><nl/><filename>%1</filename><emphasis strong='true'>tsit-ê tōn"
+"g-tsok bô-huat-tōo ho̍k-guân.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:282
 #, kde-kuit-format
@@ -6834,6 +6859,9 @@ msgid_plural ""
 "delete them instead?<nl/><nl/><emphasis strong='true'>This action cannot be "
 "undone.</emphasis>"
 msgstr[0] ""
+"Tsia %1 ê hāng-bo̍k ê uī-tì bô pùn-sò-tháng thang iōng. Kám ài kái tsò íng-uán"
+" thâi-tiāu in?<nl/><nl/><emphasis strong='true'>tsit-ê tōng-tsok bô-huat-tōo h"
+"o̍k-guân.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:310
 #, kde-kuit-format

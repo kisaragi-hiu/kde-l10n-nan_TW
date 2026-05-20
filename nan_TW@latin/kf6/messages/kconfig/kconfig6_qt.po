@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-19 03:32+0900\n"
+"PO-Revision-Date: 2026-05-20 21:27+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -475,7 +475,7 @@ msgstr "Siat-tīng Thong-ti(&N)…"
 #, qt-format
 msgctxt "KStandardActions|"
 msgid "%1 &Handbook"
-msgstr ""
+msgstr "%1 Ts&hiú-tsheh"
 
 #: gui/kstandardactions_p.h:130
 msgctxt "KStandardActions|"
@@ -671,7 +671,7 @@ msgstr "Hiòng-tsiân"
 #: gui/kstandardshortcut.cpp:210
 msgctxt "KStandardShortcut|@action"
 msgid "Reload"
-msgstr ""
+msgstr "Tîng Tsài-ji̍p"
 
 #: gui/kstandardshortcut.cpp:219
 msgctxt "KStandardShortcut|@action"
@@ -766,12 +766,12 @@ msgstr ""
 #: gui/kstandardshortcut.cpp:367
 msgctxt "KStandardShortcut|@action"
 msgid "Previous Item in List"
-msgstr ""
+msgstr "Tuann ê Tíng-tsi̍t-ê Hāng-bo̍k"
 
 #: gui/kstandardshortcut.cpp:375
 msgctxt "KStandardShortcut|@action"
 msgid "Next Item in List"
-msgstr ""
+msgstr "Tuann ê Ē-tsi̍t-ê Hāng-bo̍k"
 
 #: gui/kstandardshortcut.cpp:382
 msgctxt "KStandardShortcut|@action"
@@ -989,7 +989,7 @@ msgstr "tsu-liāu-giap-á"
 #: kconfig_compiler/kconfig_compiler.cpp:737
 msgctxt "main|"
 msgid "Display software license."
-msgstr ""
+msgstr "Hián-sī nńg-thé siū-khuân."
 
 #: kreadconfig/kreadconfig.cpp:46 kreadconfig/kwriteconfig.cpp:25
 msgctxt "main|"

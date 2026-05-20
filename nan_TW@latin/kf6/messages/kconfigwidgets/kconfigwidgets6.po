@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kconfigwidgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-25 00:42+0000\n"
-"PO-Revision-Date: 2026-05-19 03:32+0900\n"
+"PO-Revision-Date: 2026-05-20 21:51+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -70,7 +70,7 @@ msgstr "Suán-tuann(&M)"
 #, kde-format
 msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
 msgid "Show &Menubar with All Actions"
-msgstr ""
+msgstr "Hián-sī ū Sóo-ū Tōng-tsok ê Suán-tuann-lia̍t"
 
 #: khamburgermenu.cpp:351
 #, kde-format
@@ -93,7 +93,7 @@ msgstr "Bô hāng-bo̍k"
 #: krecentfilesaction.cpp:84
 #, kde-format
 msgid "Clear List"
-msgstr "Tshing-tû Tshing-tuann"
+msgstr "Tshing-tû Tuann"
 
 #: kstandardaction.cpp:157
 #, kde-format
@@ -117,6 +117,8 @@ msgstr "Thâu-ia̍h(&H)"
 #, kde-format
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr ""
+"Hián-sī Suán-tuann-lia̍t<p>Suán-tuann-lia̍t ún-tsông liáu-āu koh kā i hiān-sî<"
+"/p>"
 
 #: kstandardaction.cpp:251
 #, kde-format
@@ -124,6 +126,8 @@ msgid ""
 "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
 "window used for status information.</p>"
 msgstr ""
+"Hián-sī Tsōng-thài-lia̍t<p>Hián-sī sī-thang ē-kha piáu-sī tsōng-thài tsu-sìn i"
+"ōng ê tsōng-thài-lia̍t.</p>"
 
 #: kstandardaction_p.h:63
 msgid "&New"
@@ -469,7 +473,7 @@ msgstr "Siat-tīng Thong-ti(&N)…"
 #: kstandardaction_p.h:128
 #, kde-format
 msgid "%1 &Handbook"
-msgstr ""
+msgstr "%1 Ts&hiú-tsheh"
 
 #: kstandardaction_p.h:129
 msgid "What's &This?"

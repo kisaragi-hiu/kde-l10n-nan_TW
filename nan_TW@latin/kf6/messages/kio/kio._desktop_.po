@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-19 00:51+0000\n"
-"PO-Revision-Date: 2026-05-19 03:42+0900\n"
+"PO-Revision-Date: 2026-05-20 21:15+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -201,7 +201,7 @@ msgstr "https://www.baidu.com/s?wd=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/beolingus.desktop:3
 msgctxt "Name"
 msgid "Beolingus Online Dictionary"
-msgstr ""
+msgstr "Beolingus Suànn-tíng Sû-tián"
 
 #: src/urifilters/ikws/searchproviders/beolingus.desktop:82
 msgctxt "Query"
@@ -309,7 +309,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/cpan.desktop:3
 msgctxt "Name"
 msgid "CPAN - Comprehensive Perl Archive Network"
-msgstr ""
+msgstr "CPAN - Uân-tsíng Perl Hong-tsûn Bāng-lōo"
 
 #: src/urifilters/ikws/searchproviders/cpan.desktop:99
 msgctxt "Query"
@@ -331,7 +331,7 @@ msgstr "http://cplusplus.com/search.do?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/cppreference.desktop:2
 msgctxt "Name"
 msgid "CPP Reference"
-msgstr ""
+msgstr "CPP Tsham-khó"
 
 #: src/urifilters/ikws/searchproviders/cppreference.desktop:65
 msgctxt "Query"
@@ -355,7 +355,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/ctan.desktop:3
 msgctxt "Name"
 msgid "CTAN - Comprehensive TeX Archive Network"
-msgstr ""
+msgstr "CTAN - Uân-tsíng TeX Hong-tsûn Bāng-lōo"
 
 #: src/urifilters/ikws/searchproviders/ctan.desktop:99
 msgctxt "Query"
@@ -858,7 +858,7 @@ msgstr "https://identi.ca/search/people?q=\\\\{@}&search=Search"
 #: src/urifilters/ikws/searchproviders/imdb.desktop:3
 msgctxt "Name"
 msgid "Internet Movie Database"
-msgstr ""
+msgstr "Bāng-lōo Tiān-iánn Tsu-liāu-khòo (IMDB)"
 
 #: src/urifilters/ikws/searchproviders/imdb.desktop:100
 msgctxt "Query"
@@ -888,7 +888,7 @@ msgstr "https://invent.kde.org/search?scope=issues&search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/invent_mr.desktop:3
 msgctxt "Name"
 msgid "KDE Invent Merge Requests"
-msgstr ""
+msgstr "KDE Invent Ha̍p-pìng Tshíng-kiû"
 
 #: src/urifilters/ikws/searchproviders/invent_mr.desktop:63
 msgctxt "Query"
@@ -908,7 +908,7 @@ msgstr "https://invent.kde.org/explore/projects/starred?name=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/it2en.desktop:5
 msgctxt "Name"
 msgid "WordReference.com Translation: Italian to English"
-msgstr ""
+msgstr "WordReference.com Huan-i̍k: Ì-tāi-lī-gí kàu Ing-gí"
 
 #: src/urifilters/ikws/searchproviders/jamendo.desktop:5
 msgctxt "Name"
@@ -1009,7 +1009,7 @@ msgstr "https://www.reddit.com/r/kde/search/?q=\\\\{@}&restrict_sr=1"
 #: src/urifilters/ikws/searchproviders/krita.desktop:2
 msgctxt "Name"
 msgid "Krita Manual"
-msgstr ""
+msgstr "Krita Tshiú-tsheh"
 
 #: src/urifilters/ikws/searchproviders/krita.desktop:66
 msgctxt "Query"
@@ -1080,7 +1080,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:2
 msgctxt "Name"
 msgid "Microsoft C++ Documentation"
-msgstr ""
+msgstr "Microsoft C++ Bûn-kiānn"
 
 #: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:65
 msgctxt "Query"
@@ -1090,7 +1090,7 @@ msgstr "https://docs.microsoft.com/search/?terms=\\\\{@}&scope=C%2B%2B"
 #: src/urifilters/ikws/searchproviders/msdn.desktop:3
 msgctxt "Name"
 msgid "Microsoft Developer Network Search"
-msgstr ""
+msgstr "Microsoft Khai-huat-tsiá Bāng-lōo Tshiau-tshuē"
 
 #: src/urifilters/ikws/searchproviders/msdn.desktop:100
 msgctxt "Query"
@@ -1278,7 +1278,7 @@ msgstr "https://pypi.org/search/?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/python.desktop:5
 msgctxt "Name"
 msgid "Python Reference Manual"
-msgstr ""
+msgstr "Python Tsham-khó Tshiú-tsheh"
 
 #: src/urifilters/ikws/searchproviders/python.desktop:101
 msgctxt "Query"
@@ -1292,7 +1292,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/qt5.desktop:5
 msgctxt "Name"
 msgid "Qt5 Online Documentation"
-msgstr ""
+msgstr "Qt5 Suànn-tíng Bûn-kiānn"
 
 #: src/urifilters/ikws/searchproviders/qt5.desktop:66
 msgctxt "Query"
@@ -1302,7 +1302,7 @@ msgstr "https://doc.qt.io/qt-5/search-results.html?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/qt6.desktop:5
 msgctxt "Name"
 msgid "Qt6 Online Documentation"
-msgstr ""
+msgstr "Qt6 Suànn-tíng Bûn-kiānn"
 
 #: src/urifilters/ikws/searchproviders/qt6.desktop:66
 msgctxt "Query"
@@ -1402,7 +1402,7 @@ msgstr "https://www.reddit.com/search/?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/rfc.desktop:3
 msgctxt "Name"
 msgid "IETF Requests for Comments"
-msgstr ""
+msgstr "IETF Phîng-lūn Tshíng-kiû (RFC)"
 
 #: src/urifilters/ikws/searchproviders/rfc.desktop:96
 msgctxt "Query"
@@ -1412,7 +1412,7 @@ msgstr "https://datatracker.ietf.org/doc/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/rpmfind.desktop:3
 msgctxt "Name"
 msgid "RPM-Find"
-msgstr ""
+msgstr "RPM-Find"
 
 #: src/urifilters/ikws/searchproviders/rpmfind.desktop:101
 msgctxt "Query"
@@ -1422,17 +1422,17 @@ msgstr "https://www.rpmfind.net/linux/rpm2html/search.php?query=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/ruby_application_archive.desktop:3
 msgctxt "Name"
 msgid "Ruby Application Archive"
-msgstr ""
+msgstr "Ruby Ìng-iōng-tîng-sik Hong-tsûn"
 
 #: src/urifilters/ikws/searchproviders/ruby_application_archive.desktop:101
 msgctxt "Query"
 msgid "https://www.ruby-lang.org/en/raa-list.rhtml?name=\\\\{@}"
-msgstr ""
+msgstr "https://www.ruby-lang.org/en/raa-list.rhtml?name=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/rust.desktop:2
 msgctxt "Name"
 msgid "Rust STD Documentation"
-msgstr ""
+msgstr "Rust STD Bûn-kiānn"
 
 #: src/urifilters/ikws/searchproviders/rust.desktop:64
 msgctxt "Query"
@@ -1466,7 +1466,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/startpage.desktop:3
 msgctxt "Name"
 msgid "Startpage"
-msgstr ""
+msgstr "Startpage"
 
 #: src/urifilters/ikws/searchproviders/startpage.desktop:5
 msgctxt "Query"
@@ -1486,7 +1486,7 @@ msgstr "https://technorati.com/search?return=sites&authority=high&q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/technoratitags.desktop:3
 msgctxt "Name"
 msgid "Technorati Tags"
-msgstr ""
+msgstr "Technorati Piau-tshiam"
 
 #: src/urifilters/ikws/searchproviders/technoratitags.desktop:97
 msgctxt "Query"

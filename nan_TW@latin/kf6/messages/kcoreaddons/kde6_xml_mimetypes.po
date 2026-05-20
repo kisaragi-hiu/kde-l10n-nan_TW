@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:49+0000\n"
-"PO-Revision-Date: 2026-05-19 03:32+0900\n"
+"PO-Revision-Date: 2026-05-20 22:15+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -75,7 +75,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:13
 msgctxt "comment"
 msgid "KPlato project management document"
-msgstr ""
+msgstr "KPlato tsuan-àn kuán-lí bûn-kiānn"
 
 #: kde6.xml.podir/kde6.xml.in.h:14
 msgctxt "comment"
@@ -85,12 +85,12 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:15
 msgctxt "comment"
 msgid "Kugar archive"
-msgstr ""
+msgstr "Kugar hong-tsûn"
 
 #: kde6.xml.podir/kde6.xml.in.h:16
 msgctxt "comment"
 msgid "web archive"
-msgstr ""
+msgstr "bāng-lōo hong-tsûn"
 
 #: kde6.xml.podir/kde6.xml.in.h:17
 msgctxt "comment"
@@ -155,17 +155,17 @@ msgstr "KDE tsú-tê"
 #: kde6.xml.podir/kde6.xml.in.h:32
 msgctxt "comment"
 msgid "Quanta project"
-msgstr ""
+msgstr "Quanta tsuan-àn"
 
 #: kde6.xml.podir/kde6.xml.in.h:33
 msgctxt "comment"
 msgid "Kommander file"
-msgstr ""
+msgstr "Kommander tóng-àn"
 
 #: kde6.xml.podir/kde6.xml.in.h:34
 msgctxt "comment"
 msgid "potato"
-msgstr ""
+msgstr "potato"
 
 #: kde6.xml.podir/kde6.xml.in.h:35
 msgctxt "comment"
@@ -180,7 +180,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:37
 msgctxt "comment"
 msgid "Okular document archive"
-msgstr ""
+msgstr "Okular bûn-kiānn hong-tsûn"
 
 #: kde6.xml.podir/kde6.xml.in.h:38
 msgctxt "comment"
@@ -205,7 +205,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:42
 msgctxt "comment"
 msgid "KSeg document"
-msgstr ""
+msgstr "KSeg bûn-kiānn"
 
 #: kde6.xml.podir/kde6.xml.in.h:43
 msgctxt "comment"
@@ -215,7 +215,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:44
 msgctxt "comment"
 msgid "KmPlot file"
-msgstr ""
+msgstr "KmPlot tóng-àn"
 
 #: kde6.xml.podir/kde6.xml.in.h:45
 msgctxt "comment"
@@ -260,7 +260,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:55
 msgctxt "comment"
 msgid "Turtle RDF document"
-msgstr ""
+msgstr "Turtle RDF bûn-kiānn"
 
 #: kde6.xml.podir/kde6.xml.in.h:57
 msgctxt "comment"

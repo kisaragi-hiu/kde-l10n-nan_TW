@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-14 00:40+0000\n"
-"PO-Revision-Date: 2026-05-19 03:28+0900\n"
+"PO-Revision-Date: 2026-05-20 21:57+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -239,7 +239,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy to Clipboard"
-msgstr "Khóo-pih kàu clipboard"
+msgstr "Khóo-pih kàu Tsián-tah-phōo"
 
 #: kabstractaboutdialog_p.cpp:259
 #, kde-format
@@ -558,12 +558,12 @@ msgstr ""
 #: kedittoolbar.cpp:1249
 #, kde-format
 msgid "<Merge>"
-msgstr ""
+msgstr "<Ha̍p-pìng>"
 
 #: kedittoolbar.cpp:1251
 #, kde-format
 msgid "<Merge %1>"
-msgstr ""
+msgstr "<Ha̍p-pìng %1>"
 
 #: kedittoolbar.cpp:1261
 #, kde-format
@@ -575,7 +575,7 @@ msgstr ""
 #: kedittoolbar.cpp:1262
 #, kde-format
 msgid "ActionList: %1"
-msgstr "Tōng-tsok Tshing-tuann: %1"
+msgstr "Tōng-tsok Tuann: %1"
 
 #: kedittoolbar.cpp:1363 kedittoolbar.cpp:1388
 #, kde-format
@@ -601,6 +601,9 @@ msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+A: hold the Ctrl key and press A."
 msgstr ""
+"Tshi̍h tsit-ê liú, jiân-āu tshin-tshiūnn tī he tîng-sik lāi-té kāng-khuán su-j"
+"i̍p khuài-sok-khí.\n"
+"Lē: uì Ctrl+A, tshi̍h-leh Ctrl khì, jiân-āu tshi̍h A."
 
 #: kkeysequencewidget.cpp:150
 #, kde-format
@@ -618,7 +621,7 @@ msgstr[0] "Khuài-sok-khí Tshiong-tu̍t"
 #: kkeysequencewidget.cpp:173
 #, kde-format
 msgid "Shortcut '%1' for action '%2'\n"
-msgstr ""
+msgstr "Tōng-tsok '%2' ê Khuài-sok-khí '%1'\n"
 
 #: kkeysequencewidget.cpp:178
 #, kde-format
@@ -632,6 +635,9 @@ msgid_plural ""
 "Do you want to assign an empty shortcut to these actions?\n"
 "%3"
 msgstr[0] ""
+"\"%2\" khuài-sok-khí kap tsia-ê khuài-sok-khí ū tshiong-tu̍t.\n"
+"Lí kám ài kā tsia-ê tōng-tsok kái tsí-phài khàng-pe̍h ê khuài-sok-khí?\n"
+"%3"
 
 #: kkeysequencewidget.cpp:188 kkeysequencewidget.cpp:295
 #: kkeysequencewidget.cpp:357
