@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-21 00:40+0000\n"
-"PO-Revision-Date: 2026-05-20 23:11+0900\n"
+"PO-Revision-Date: 2026-05-22 00:00+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -6362,14 +6362,16 @@ msgstr "Thiàu-kuè(&S)"
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē "
+"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē"
+" "
 "hāng-bo̍k"
 
 #: widgets/renamedialog.cpp:300
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
+"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo"
+"̍k"
 
 #: widgets/renamedialog.cpp:311
 #, kde-format
@@ -6842,7 +6844,7 @@ msgid ""
 "strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
 "Tsit-ê hāng-bo̍k ê uī-tì bô pùn-sò-tháng thang iōng. Kám ài kái tsò íng-uán "
-"thâi-tiāu in?<nl/><nl/><filename>%1</filename><emphasis strong='true'>tsit-ê "
+"thâi-tiāu in?<nl/><nl/><filename>%1</filename><emphasis strong='true'>Tsit-ê "
 "tōng-tsok bô-huat-tōo ho̍k-guân.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:282
@@ -6858,7 +6860,7 @@ msgid_plural ""
 "undone.</emphasis>"
 msgstr[0] ""
 "Tsia %1 ê hāng-bo̍k ê uī-tì bô pùn-sò-tháng thang iōng. Kám ài kái tsò íng-"
-"uán thâi-tiāu in?<nl/><nl/><emphasis strong='true'>tsit-ê tōng-tsok bô-huat-"
+"uán thâi-tiāu in?<nl/><nl/><emphasis strong='true'>Tsit-ê tōng-tsok bô-huat-"
 "tōo ho̍k-guân.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:310

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kconfigwidgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-18 00:40+0000\n"
-"PO-Revision-Date: 2026-05-20 23:25+0900\n"
+"PO-Revision-Date: 2026-05-22 00:44+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -117,7 +117,8 @@ msgstr "Thâu-ia̍h(&H)"
 #, kde-format
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr ""
-"Hián-sī Suán-tuann-lia̍t<p>Suán-tuann-lia̍t ún-tsông liáu-āu koh kā i hiān-sî</"
+"Hián-sī Suán-tuann-lia̍t<p>Suán-tuann-lia̍t ún-tsông liáu-āu koh kā i hiān-sî<"
+"/"
 "p>"
 
 #: kstandardaction.cpp:251
@@ -171,11 +172,11 @@ msgstr "Iōng sin-ê miâ tû-tsûn bûn-kiānn"
 
 #: kstandardaction_p.h:68
 msgid "Re&vert"
-msgstr ""
+msgstr "Hue-ho̍k(&V)"
 
 #: kstandardaction_p.h:68
 msgid "Revert unsaved changes made to document"
-msgstr ""
+msgstr "Kā bûn-kiānn iáu-buē tû-tsûn ê piàn-king hue-ho̍k--tiāu"
 
 #: kstandardaction_p.h:69
 msgid "&Close"
@@ -291,19 +292,19 @@ msgstr "Hòng-tuā kàu Si̍t-tsè Tuā-sè(&A)"
 
 #: kstandardaction_p.h:88
 msgid "View document at its actual size"
-msgstr ""
+msgstr "Iōng si̍t-tsè ê tuā-sè kiám-sī bûn-kiānn"
 
 #: kstandardaction_p.h:89
 msgid "&Fit to Page"
-msgstr ""
+msgstr "Hû-ha̍p Ia̍h(&F)"
 
 #: kstandardaction_p.h:89
 msgid "Zoom to fit page in window"
-msgstr ""
+msgstr "Hòng-tuā kàu ia̍h hû-ha̍p sī-thang tuā-sè"
 
 #: kstandardaction_p.h:90
 msgid "Fit to Page &Width"
-msgstr ""
+msgstr "Hû-ha̍p Ia̍h Khuan(&W)"
 
 #: kstandardaction_p.h:90
 msgid "Zoom to fit page width in window"
@@ -311,7 +312,7 @@ msgstr ""
 
 #: kstandardaction_p.h:91
 msgid "Fit to Page &Height"
-msgstr ""
+msgstr "Hû-ha̍p Ia̍h Kuân(&H)"
 
 #: kstandardaction_p.h:91
 msgid "Zoom to fit page height in window"
@@ -331,7 +332,7 @@ msgstr "Hòng-tuā Sok-sió(&Z)…"
 
 #: kstandardaction_p.h:94
 msgid "Select zoom level"
-msgstr ""
+msgstr "Suán hòng-tuā thîng-tōo"
 
 #: kstandardaction_p.h:95
 msgid "&Refresh"
