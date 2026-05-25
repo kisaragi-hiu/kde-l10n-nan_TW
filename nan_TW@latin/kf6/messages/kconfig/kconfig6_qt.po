@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-26 00:06+0900\n"
+"PO-Revision-Date: 2026-05-26 00:55+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -601,12 +601,12 @@ msgstr "Bái Suán"
 #: gui/kstandardshortcut.cpp:101
 msgctxt "KStandardShortcut|@action"
 msgid "Delete Word Backwards"
-msgstr ""
+msgstr "Thâi-tiāu Tíng-tsi̍t-ê Sû"
 
 #: gui/kstandardshortcut.cpp:113
 msgctxt "KStandardShortcut|@action"
 msgid "Delete Word Forward"
-msgstr ""
+msgstr "Thâi-tiāu Ē-tsi̍t-ê Sû"
 
 #: gui/kstandardshortcut.cpp:124
 msgctxt "KStandardShortcut|@action"
@@ -646,7 +646,7 @@ msgstr "Āu-bué"
 #: gui/kstandardshortcut.cpp:173
 msgctxt "KStandardShortcut|@action"
 msgid "Prior"
-msgstr ""
+msgstr "Tíng-tsi̍t-ē"
 
 #: gui/kstandardshortcut.cpp:176
 msgctxt "KStandardShortcut|@action Opposite to Prior"
@@ -746,22 +746,22 @@ msgstr "Tse-sī siánn"
 #: gui/kstandardshortcut.cpp:326
 msgctxt "KStandardShortcut|@action"
 msgid "Text Completion"
-msgstr ""
+msgstr "Bûn-jī Póo-tsuân"
 
 #: gui/kstandardshortcut.cpp:334
 msgctxt "KStandardShortcut|@action"
 msgid "Previous Completion Match"
-msgstr ""
+msgstr "Tíng-tsi̍t-ê Póo-tsuân Hû-ha̍p"
 
 #: gui/kstandardshortcut.cpp:346
 msgctxt "KStandardShortcut|@action"
 msgid "Next Completion Match"
-msgstr ""
+msgstr "Ē-tsi̍t-ê Póo-tsuân Hû-ha̍p"
 
 #: gui/kstandardshortcut.cpp:358
 msgctxt "KStandardShortcut|@action"
 msgid "Substring Completion"
-msgstr ""
+msgstr "Tsí-jī-tshng Póo-tsuân"
 
 #: gui/kstandardshortcut.cpp:367
 msgctxt "KStandardShortcut|@action"
@@ -871,7 +871,7 @@ msgstr "Hián-sī Tsōng-thài-lia̍t"
 #: gui/kstandardshortcut.cpp:431
 msgctxt "KStandardShortcut|@action"
 msgid "Key Bindings"
-msgstr ""
+msgstr "Khuài-sok-khí"
 
 #: gui/kstandardshortcut.cpp:439
 msgctxt "KStandardShortcut|@action"
@@ -957,19 +957,17 @@ msgstr "King-sin iōng-tsiá siat-tīng tóng-àn iōng ê KDE kang-kū"
 #: kconf_update/kconf_update.cpp:370
 msgctxt "main|"
 msgid "Keep output results from scripts"
-msgstr ""
+msgstr "Pó-liû uì kio̍k-pún sut-tshut ê kiat-kó"
 
 #: kconf_update/kconf_update.cpp:373
 msgctxt "main|"
-msgid ""
-"For unit tests only: do not write the done entries, so that with every re-"
-"run, the scripts are executed again"
-msgstr ""
+msgid "For unit tests only: do not write the done entries, so that with every re-\nrun, the scripts are executed again"
+msgstr "Tan-uī tshik-tshì iōng: bái siá uân-sîng ê hāng-bo̍k, án-ne ta̍k-pái tîng-sin tsip-hîng tshik-tshì ê sî-tsūn, kio̍k-pún mā ē tsò-hué tîng-sin tsip-hîng"
 
 #: kconf_update/kconf_update.cpp:375
 msgctxt "main|"
 msgid "Check whether config file itself requires updating"
-msgstr ""
+msgstr "Kiám-tsa siat-tīng tóng-àn pûn-sin kám sū-iàu king-sin"
 
 #: kconf_update/kconf_update.cpp:378
 msgctxt "main|"
@@ -1001,12 +999,12 @@ msgctxt "main|"
 msgid ""
 "Group to look in. Use \"<default>\" for the root group, or use repeatedly "
 "for nested groups."
-msgstr ""
+msgstr "Tī tsit-ê kûn-tsoo lāi-té tshuē. Iōng \"<default>\" lâi tshuē root kûn-tsoo, á-sī tîng-ho̍k sú-iōng lâi tshuē nested ê kûn-tsoo."
 
 #: kreadconfig/kreadconfig.cpp:52 kreadconfig/kwriteconfig.cpp:31
 msgctxt "main|"
 msgid "Key to look for"
-msgstr ""
+msgstr "Ài tshuē ê kiān"
 
 #: kreadconfig/kreadconfig.cpp:53
 msgctxt "main|"
@@ -1016,12 +1014,12 @@ msgstr "Ū-siat ti̍t"
 #: kreadconfig/kreadconfig.cpp:54
 msgctxt "main|"
 msgid "Type of variable"
-msgstr ""
+msgstr "Piàn-sòo ê luī-hîng"
 
 #: kreadconfig/kreadconfig.cpp:55
 msgctxt "main|"
 msgid "Dump all entries"
-msgstr ""
+msgstr "Tó-tshut sóo-ū ê hāng-bo̍k"
 
 #: kreadconfig/kreadconfig.cpp:58
 msgctxt "main|"
@@ -1035,19 +1033,19 @@ msgstr ""
 #: kreadconfig/kreadconfig.cpp:89 kreadconfig/kwriteconfig.cpp:71
 msgctxt "main|"
 msgid "Group name cannot be empty, use \"<default>\" for the root group"
-msgstr ""
+msgstr "Kûn-tsoo miâ bē-sái sī khang ê, ài tsí-tīng root kûn-tsoo tshiánn iōng \"<default>\""
 
 #: kreadconfig/kwriteconfig.cpp:34
 msgctxt "main|"
 msgid ""
 "Type of variable. Use \"bool\" for a boolean, otherwise it is treated as a "
 "string"
-msgstr ""
+msgstr "Piàn-sòo ê luī-hîng. Iōng \"bool\" lâi tsí-tīng pòo-lîn-ti̍t, kî-tha ê ti̍t lóng sī tòng-tsò jī-tshng."
 
 #: kreadconfig/kwriteconfig.cpp:36
 msgctxt "main|"
 msgid "Delete the designated key if enabled"
-msgstr ""
+msgstr "Nā khé-iōng, thâi-tiāu tsí-tīng ê kiān"
 
 #: kreadconfig/kwriteconfig.cpp:37
 msgctxt "notify|"
