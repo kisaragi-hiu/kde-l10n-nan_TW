@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kconfigwidgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-18 00:40+0000\n"
-"PO-Revision-Date: 2026-05-20 23:56+0900\n"
+"PO-Revision-Date: 2026-05-25 23:53+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -255,7 +255,7 @@ msgstr "Kā 剪貼簿的內容貼起去"
 
 #: kstandardaction_p.h:80
 msgid "C&lear"
-msgstr ""
+msgstr "清除(&L)"
 
 #: kstandardaction_p.h:81
 msgid "Select &All"
@@ -283,7 +283,7 @@ msgstr "取代(&R)…"
 
 #: kstandardaction_p.h:88
 msgid "Zoom to &Actual Size"
-msgstr ""
+msgstr "放大到實際大細(&A)"
 
 #: kstandardaction_p.h:88
 msgid "View document at its actual size"
@@ -315,15 +315,15 @@ msgstr ""
 
 #: kstandardaction_p.h:92
 msgid "Zoom &In"
-msgstr ""
+msgstr "放大(&I)"
 
 #: kstandardaction_p.h:93
 msgid "Zoom &Out"
-msgstr ""
+msgstr "縮小(&O)"
 
 #: kstandardaction_p.h:94
 msgid "&Zoom…"
-msgstr ""
+msgstr "放大縮小(&Z)…"
 
 #: kstandardaction_p.h:94
 msgid "Select zoom level"

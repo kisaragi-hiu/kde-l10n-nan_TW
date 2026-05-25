@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-08 00:51+0000\n"
-"PO-Revision-Date: 2026-05-20 20:26+0900\n"
+"PO-Revision-Date: 2026-05-25 22:40+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -22,12 +22,12 @@ msgstr "Ing-gí (Bí-kok)"
 #: src/language_files/af/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Afrikaans"
-msgstr ""
+msgstr "Afrikaans-gí"
 
 #: src/language_files/am/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Amharic"
-msgstr ""
+msgstr "Amhara-gí"
 
 #: src/language_files/ar/kf6_entry.desktop:2
 msgctxt "Name"
@@ -37,17 +37,17 @@ msgstr "A-lá-pik-gí"
 #: src/language_files/as/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Assamese"
-msgstr ""
+msgstr "Assamese-gí"
 
 #: src/language_files/ast/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Asturian"
-msgstr ""
+msgstr "Asturias-gí"
 
 #: src/language_files/az/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Azerbaijan-gí"
 
 #: src/language_files/be/kf6_entry.desktop:2
 msgctxt "Name"
@@ -57,7 +57,7 @@ msgstr "Pe̍h-lô-su-gí"
 #: src/language_files/be@latin/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Belarusian Latin"
-msgstr "Pe̍h-lô-su-gí (Latin bûn-jī)"
+msgstr "Pe̍h-lô-su-gí (Lô-má-jī)"
 
 #: src/language_files/bg/kf6_entry.desktop:2
 msgctxt "Name"
@@ -67,17 +67,17 @@ msgstr "Pó-ka-lī-a-gí"
 #: src/language_files/bn_IN/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Bengali (India)"
-msgstr ""
+msgstr "Bengal-gí (Ìn-tōo)"
 
 #: src/language_files/bn/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Bengali"
-msgstr ""
+msgstr "Bengal-gí"
 
 #: src/language_files/br/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Breton"
-msgstr ""
+msgstr "Breton-gí"
 
 #: src/language_files/bs/kf6_entry.desktop:2
 msgctxt "Name"
@@ -87,22 +87,22 @@ msgstr "Pho-sū-nî-a-gí"
 #: src/language_files/ca/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Catalan"
-msgstr ""
+msgstr "Catalunya-gí"
 
 #: src/language_files/ca@valencia/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Catalan (Valencian)"
-msgstr ""
+msgstr "Catalunya-gí (Valencia)"
 
 #: src/language_files/crh/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Crimean Tatar"
-msgstr ""
+msgstr "Krym Tatar-gí"
 
 #: src/language_files/csb/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Kashubian"
-msgstr ""
+msgstr "Kashubia-gí"
 
 #: src/language_files/cs/kf6_entry.desktop:2
 msgctxt "Name"
@@ -112,12 +112,12 @@ msgstr "Chia̍p-khek-gí"
 #: src/language_files/cy/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Welsh"
-msgstr ""
+msgstr "Ui-li̍k-sū-gí"
 
 #: src/language_files/da/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Danish"
-msgstr ""
+msgstr "Tan-be̍h-gí"
 
 #: src/language_files/de/kf6_entry.desktop:2
 msgctxt "Name"
@@ -137,7 +137,7 @@ msgstr "Ing-gí (Ing-kok)"
 #: src/language_files/eo/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Esperanto"
-msgstr ""
+msgstr "Sè-kài-gí"
 
 #: src/language_files/es/kf6_entry.desktop:2
 msgctxt "Name"
@@ -147,17 +147,17 @@ msgstr "Se-pan-gâ-gí"
 #: src/language_files/et/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Estonian"
-msgstr ""
+msgstr "Estonia-gí"
 
 #: src/language_files/eu/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Basque"
-msgstr ""
+msgstr "Basque-gí"
 
 #: src/language_files/fa/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Farsi"
-msgstr ""
+msgstr "Pho-su-gí"
 
 #: src/language_files/fi/kf6_entry.desktop:2
 msgctxt "Name"
@@ -172,7 +172,7 @@ msgstr "Huat-gí"
 #: src/language_files/fy/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Frisian"
-msgstr ""
+msgstr "Frisia-gí"
 
 #: src/language_files/ga/kf6_entry.desktop:2
 msgctxt "Name"
@@ -182,27 +182,27 @@ msgstr "Ài-ní-lân-gí"
 #: src/language_files/gd/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "Soo-kat-lân Gael-gí"
 
 #: src/language_files/gl/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Galician"
-msgstr ""
+msgstr "Galicia-gí"
 
 #: src/language_files/gu/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Gujarati"
-msgstr ""
+msgstr "Gujarat-gí"
 
 #: src/language_files/ha/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Hausa"
-msgstr ""
+msgstr "Hausa-gí"
 
 #: src/language_files/he/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Hebrew"
-msgstr ""
+msgstr "Hi-pik-lâi-gí"
 
 #: src/language_files/hi/kf6_entry.desktop:2
 msgctxt "Name"
@@ -212,17 +212,17 @@ msgstr "Hindi-gí"
 #: src/language_files/hne/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Chhattisgarhi"
-msgstr ""
+msgstr "Chhattisgarhi-gí"
 
 #: src/language_files/hr/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Croatian"
-msgstr ""
+msgstr "Croatia-gí"
 
 #: src/language_files/hsb/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Upper Sorbian"
-msgstr ""
+msgstr "Siōng Sorbia-gí"
 
 #: src/language_files/hu/kf6_entry.desktop:2
 msgctxt "Name"
@@ -237,7 +237,7 @@ msgstr "A-bí-nî-a-gí"
 #: src/language_files/ia/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Interlingua"
-msgstr ""
+msgstr "Interlingua"
 
 #: src/language_files/id/kf6_entry.desktop:2
 msgctxt "Name"
@@ -247,12 +247,12 @@ msgstr "Ìn-nî-gí"
 #: src/language_files/ie/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Interlingue"
-msgstr ""
+msgstr "Interlingue"
 
 #: src/language_files/is/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Icelandic"
-msgstr ""
+msgstr "Ping-tó-gí"
 
 #: src/language_files/it/kf6_entry.desktop:2
 msgctxt "Name"
@@ -267,22 +267,22 @@ msgstr "Ji̍t-pún-gí"
 #: src/language_files/ka/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Georgian"
-msgstr ""
+msgstr "Gruzia-gí"
 
 #: src/language_files/kk/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Kazakh"
-msgstr ""
+msgstr "Kazakh-gí"
 
 #: src/language_files/km/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Khmer"
-msgstr ""
+msgstr "Khmer-gí"
 
 #: src/language_files/kn/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada-gí"
 
 #: src/language_files/ko/kf6_entry.desktop:2
 msgctxt "Name"
@@ -292,42 +292,42 @@ msgstr "Hân-kok-gí"
 #: src/language_files/ku/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Kurdish"
-msgstr ""
+msgstr "Kurd-gí"
 
 #: src/language_files/lb/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Luxembourgish"
-msgstr ""
+msgstr "Luxembourg-gí"
 
 #: src/language_files/lt/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lietuva-gí"
 
 #: src/language_files/lv/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Latvian"
-msgstr ""
+msgstr "Latvia-gí"
 
 #: src/language_files/mai/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Maithili"
-msgstr ""
+msgstr "Maithili-gí"
 
 #: src/language_files/mk/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Macedonian"
-msgstr ""
+msgstr "Macedonia-gí"
 
 #: src/language_files/ml/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Malayalam"
-msgstr ""
+msgstr "Malayalam-gí"
 
 #: src/language_files/mr/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Marathi"
-msgstr ""
+msgstr "Marathi-gí"
 
 #: src/language_files/ms/kf6_entry.desktop:2
 msgctxt "Name"
@@ -342,12 +342,12 @@ msgstr "Bián-tiān-gí"
 #: src/language_files/nb/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Norwegian Bokmål"
-msgstr ""
+msgstr "Ná-ui-gí (Bokmål)"
 
 #: src/language_files/nds/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Low Saxon"
-msgstr ""
+msgstr "Kē-tē Saxon-gí"
 
 #: src/language_files/ne/kf6_entry.desktop:2
 msgctxt "Name"
@@ -357,27 +357,27 @@ msgstr "Nî-phik-ní-gí"
 #: src/language_files/nl/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Dutch"
-msgstr ""
+msgstr "Hô-lân-gí"
 
 #: src/language_files/nn/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "Ná-ui-gí (Nynorsk)"
 
 #: src/language_files/oc/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Occitan"
-msgstr ""
+msgstr "Occitan-gí"
 
 #: src/language_files/or/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Oriya"
-msgstr ""
+msgstr "Odia-gí"
 
 #: src/language_files/pa/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Punjabi"
-msgstr ""
+msgstr "Punjab-gí"
 
 #: src/language_files/pl/kf6_entry.desktop:2
 msgctxt "Name"
@@ -387,7 +387,7 @@ msgstr "Pho-lân-gí"
 #: src/language_files/ps/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Pashto"
-msgstr ""
+msgstr "Pashto-gí"
 
 #: src/language_files/pt_BR/kf6_entry.desktop:2
 msgctxt "Name"
@@ -412,22 +412,22 @@ msgstr "Gô-lô-su-gí"
 #: src/language_files/se/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Northern Sami"
-msgstr ""
+msgstr "Pak-pōo Sami-gí"
 
 #: src/language_files/si/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Sinhala"
-msgstr ""
+msgstr "Sinhala-gí"
 
 #: src/language_files/sk/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Slovak"
-msgstr ""
+msgstr "Slovak-gí"
 
 #: src/language_files/sl/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Slovenian"
-msgstr ""
+msgstr "Slovene-gí"
 
 #: src/language_files/sq/kf6_entry.desktop:2
 msgctxt "Name"
@@ -437,22 +437,22 @@ msgstr "A-ní-pa-nî-a-gí"
 #: src/language_files/sr@ijekavian/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Serbian Ijekavian"
-msgstr ""
+msgstr "Serbia-gí (Ijekavia)"
 
 #: src/language_files/sr@ijekavianlatin/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Serbian Ijekavian Latin"
-msgstr ""
+msgstr "Serbia-gí (Ijekavia, Lô-má-jī)"
 
 #: src/language_files/sr/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Serbian"
-msgstr "Sài-ní-uî-a-gí"
+msgstr "Serbia-gí"
 
 #: src/language_files/sr@latin/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Serbian Latin"
-msgstr "Sài-ní-uî-a-gí (Latin bûn-jī)"
+msgstr "Serbia-gí (Lô-má-jī)"
 
 #: src/language_files/sv/kf6_entry.desktop:2
 msgctxt "Name"
@@ -462,17 +462,17 @@ msgstr "Sūi-tián-gí"
 #: src/language_files/ta/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil-gí"
 
 #: src/language_files/te/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu-gí"
 
 #: src/language_files/tg/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Tajik"
-msgstr ""
+msgstr "Tajik-gí"
 
 #: src/language_files/th/kf6_entry.desktop:2
 msgctxt "Name"
@@ -482,7 +482,7 @@ msgstr "Thài-kok-gí"
 #: src/language_files/tok/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Toki Pona"
-msgstr ""
+msgstr "Toki Pona"
 
 #: src/language_files/tr/kf6_entry.desktop:2
 msgctxt "Name"
@@ -492,12 +492,12 @@ msgstr "Thóo-ní-kî-gí"
 #: src/language_files/tt/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Tatar"
-msgstr ""
+msgstr "Tatar-gí"
 
 #: src/language_files/ug/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Uyghur"
-msgstr ""
+msgstr "Uyghur-gí"
 
 #: src/language_files/uk/kf6_entry.desktop:2
 msgctxt "Name"
@@ -507,12 +507,12 @@ msgstr "Oo-khik-lân-gí"
 #: src/language_files/uz@cyrillic/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Uzbek (Cyrillic)"
-msgstr ""
+msgstr "Uzbek-gí (Kilil bûn-jī)"
 
 #: src/language_files/uz/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbek-gí"
 
 #: src/language_files/vi/kf6_entry.desktop:2
 msgctxt "Name"
@@ -522,12 +522,12 @@ msgstr "Ua̍t-lâm-gí"
 #: src/language_files/wa/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Walloon"
-msgstr ""
+msgstr "Wallon-gí"
 
 #: src/language_files/xh/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Xhosa"
-msgstr ""
+msgstr "Xhosa-gí"
 
 #: src/language_files/zh_CN/kf6_entry.desktop:2
 msgctxt "Name"

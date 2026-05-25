@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-23 00:39+0000\n"
-"PO-Revision-Date: 2026-05-22 00:00+0900\n"
+"PO-Revision-Date: 2026-05-26 00:02+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -55,6 +55,8 @@ msgid ""
 "Could not create symlink \"%1\".\n"
 "The destination filesystem (%2) doesn't support symlinks."
 msgstr ""
+"Bô-huat-tōo kiàn-li̍p hû-hō-liân-kiat \"%1\".\n"
+"Bo̍k-ti̍k-tē tóng-àn hē-thóng (%2) bô tsi-uān hû-hō-liân-kiat."
 
 #: core/copyjob.cpp:202
 #, kde-format
@@ -493,12 +495,12 @@ msgid "The process for the %1 protocol died unexpectedly."
 msgstr ""
 
 #: core/job_error.cpp:164
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Error. Out of memory.\n"
 "%1"
 msgstr ""
-"Tshò-gōo. Bô memory --ah.\n"
+"Tshò-gōo. Bô kì-ik-thé--ah.\n"
 "%1"
 
 #: core/job_error.cpp:167
@@ -588,6 +590,8 @@ msgid ""
 "Could not create symlink %1.\n"
 "Please check permissions."
 msgstr ""
+"Bô-huat-tōo kiàn-li̍p hû-hō-liân-kiat %1.\n"
+"Tshiánn kiám-tsa khuân-hān."
 
 #: core/job_error.cpp:214
 #, kde-format
@@ -595,11 +599,13 @@ msgid ""
 "Cannot create symlinks at %1.\n"
 "The destination filesystem doesn't support symlinks."
 msgstr ""
+"Bô-huat-tōo tī %1 kiàn-li̍p hû-hō-liân-kiat.\n"
+"Bo̍k-ti̍k-tē tóng-àn hē-thóng bô tsi-uān hû-hō-liân-kiat."
 
 #: core/job_error.cpp:220
 #, kde-format
 msgid "There is not enough space on the disk to write %1."
-msgstr ""
+msgstr "Tsû-tia̍p khang-king bô-kàu siá-ji̍p %1."
 
 #: core/job_error.cpp:223
 #, kde-format
@@ -749,7 +755,7 @@ msgstr ""
 #: core/job_error.cpp:381
 #, kde-format
 msgid "Contact the administrator of the server for further assistance."
-msgstr ""
+msgstr "Tshiánn liân-lo̍k sù-ho̍k-khì kuán-lí-tsiá hōo i tàu-sann-kāng."
 
 #: core/job_error.cpp:384
 #, kde-format
@@ -901,12 +907,12 @@ msgstr ""
 #: core/job_error.cpp:460
 #, kde-format
 msgid "Cannot Launch Process required by the %1 Protocol"
-msgstr ""
+msgstr "Bô-huat-tōo Khí-tōng %1 Hia̍p-tīng su-iàu ê Tîng-sū"
 
 #: core/job_error.cpp:461
 #, kde-format
 msgid "Unable to Launch Process"
-msgstr ""
+msgstr "Bô-huat-tōo Khí-tōng Tîng-sū"
 
 #: core/job_error.cpp:463
 #, kde-format
@@ -930,7 +936,7 @@ msgstr ""
 #: core/job_error.cpp:477
 #, kde-format
 msgid "Internal Error"
-msgstr ""
+msgstr "Luē-pōo Tshò-gōo"
 
 #: core/job_error.cpp:479
 #, kde-format
@@ -1052,7 +1058,7 @@ msgstr ""
 #: core/job_error.cpp:552
 #, kde-format
 msgid "This may be an error on the server side."
-msgstr ""
+msgstr "Tse khó-lîng sī sù-ho̍k-khì hit-pîng ê būn-tê."
 
 #: core/job_error.cpp:557
 #, kde-format
@@ -1288,7 +1294,7 @@ msgstr ""
 #: core/job_error.cpp:717
 #, kde-format
 msgid "Connection to Server Refused"
-msgstr ""
+msgstr "Sù-ho̍k-khì Kī-tsua̍t Liân-suànn"
 
 #: core/job_error.cpp:719
 #, kde-format
@@ -1433,6 +1439,10 @@ msgid ""
 "user. Even such things as having an open browser window on a location on "
 "this device may cause the device to remain in use."
 msgstr ""
+"Tsong-tì khó-lîng tī-leh bô-îng, ì-sù sī kóng koh ū ìng-iōng-tîng-sik á-sī iōn"
+"g-tsiá tī sú-iōng. Tshin-tshiūnn khui--ê liû-lám-khì sī-thang á-sī khui--ê tsi"
+"t-ê tsong-tì tíng-kuân ê uī-tì lóng ū khó-lîng ē hōo tsit-ê tsong-tì piàn-tsò "
+"sú-iōng-tiong."
 
 #: core/job_error.cpp:805
 #, kde-format
@@ -1687,7 +1697,7 @@ msgstr ""
 #: core/job_error.cpp:1030
 #, kde-format
 msgid "Out of Memory"
-msgstr ""
+msgstr "Bô Kì-ik-thé--ah"
 
 #: core/job_error.cpp:1032
 #, kde-format
@@ -1695,6 +1705,8 @@ msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol could not obtain the memory required to continue."
 msgstr ""
+"Lí ê tiān-náu thê-kiong <strong>%1</strong> hia̍p-tīng tsûn-tshú ê tîng-sik tī"
+" tshú-tit su-iàu ê kì-ik-thé ê sî-tsūn sit-pāi."
 
 #: core/job_error.cpp:1041
 #, kde-format
@@ -1872,17 +1884,17 @@ msgstr ""
 #: core/job_error.cpp:1182
 #, kde-format
 msgid "Could Not Create Link"
-msgstr ""
+msgstr "Bô-huat-tōo Kiàn-li̍p Liân-kiat"
 
 #: core/job_error.cpp:1183
 #, kde-format
 msgid "Could Not Create Symbolic Link"
-msgstr ""
+msgstr "Bô-huat-tōo Kiàn-li̍p Hû-hō-liân-kiat"
 
 #: core/job_error.cpp:1184
 #, kde-format
 msgid "The requested symbolic link %1 could not be created."
-msgstr ""
+msgstr "Iau-kiû ê hû-hō-liân-kiat %1 bô-huat-tōo kiàn-li̍p."
 
 #: core/job_error.cpp:1190
 #, kde-format
@@ -1892,7 +1904,7 @@ msgstr "Bô Lāi-iông"
 #: core/job_error.cpp:1195
 #, kde-format
 msgid "Disk Full"
-msgstr ""
+msgstr "Tsû-tia̍p Buán--ah"
 
 #: core/job_error.cpp:1197
 #, kde-format
@@ -1900,6 +1912,8 @@ msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
 "inadequate disk space."
 msgstr ""
+"Iau-kiû ê tóng-àn <strong>%1</strong> bô-huat-tōo siá-ji̍p, in-uī tsû-tia̍p kh"
+"ang-king bô-kàu."
 
 #: core/job_error.cpp:1201
 #, kde-format
@@ -1908,7 +1922,7 @@ msgid ""
 "archiving files to removable media storage such as CD-Recordable discs; or "
 "3) obtain more storage capacity."
 msgstr ""
-"Tshiánn sian kā tû-tsûn iông-liōng khang hōo tshut-lâi, ē-sái (1) thâi-tiāu "
+"Tshiánn sian kā tsû-tia̍p khang-king khang hōo tshut-lâi, ē-sái (1) thâi-tiāu "
 "tsi̍t-kuá bô su-iàu ê tsiām-sî ê tóng-àn; (2) kā tóng-àn hong-tsûn kàu CD-R "
 "kong-tia̍p tsit-khuán ē-sái î-tû ê muî-thé; á-sī (3) an-tsong koh-khah tsē ê "
 "tû-tsûn khong-kan."
@@ -1916,7 +1930,7 @@ msgstr ""
 #: core/job_error.cpp:1208
 #, kde-format
 msgid "Source and Destination Files Identical"
-msgstr ""
+msgstr "Lâi-guân kap Bo̍k-piau Tóng-àn Kāng-khuán"
 
 #: core/job_error.cpp:1210
 #, kde-format
@@ -2053,6 +2067,8 @@ msgid ""
 "Malformed URL\n"
 "%1"
 msgstr ""
+"Put-tsìng ê URL\n"
+"%1"
 
 #: core/mimetypefinderjob.cpp:224
 #, kde-format
@@ -2179,7 +2195,7 @@ msgstr ""
 #: core/worker.cpp:335
 #, kde-format
 msgid "Unknown protocol '%1'."
-msgstr ""
+msgstr "M̄-tsai ê hia̍p-tīng '%1'."
 
 #: core/worker.cpp:346
 #, kde-format
@@ -2467,30 +2483,30 @@ msgstr "A-Z"
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Oldest First"
-msgstr ""
+msgstr "Kū ê tī Thâu-tsîng"
 
 #: filewidgets/kdiroperator.cpp:2394
 #, kde-format
 msgctxt "Sort descending"
 msgid "Newest First"
-msgstr ""
+msgstr "Sin ê tī Thâu-tsîng"
 
 #: filewidgets/kdiroperator.cpp:2397
 #, kde-format
 msgctxt "Sort descending"
 msgid "Largest First"
-msgstr ""
+msgstr "Tuā ê tī Thâu-tsîng"
 
 #: filewidgets/kdiroperator.cpp:2398
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Smallest First"
-msgstr ""
+msgstr "Sé ê tī Thâu-tsîng"
 
 #: filewidgets/kencodingfiledialog.cpp:73
 #, kde-format
 msgid "Encoding:"
-msgstr ""
+msgstr "Pian-bé:"
 
 #: filewidgets/kencodingfiledialog.cpp:123
 #: filewidgets/kencodingfiledialog.cpp:137
@@ -2821,7 +2837,7 @@ msgstr "Thè-tshut(&E)"
 #: filewidgets/kfileplacesmodel.cpp:1502
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
-msgstr ""
+msgstr "Tsong-tì '%1' m̄-sī tsû-tia̍p, bô-huat-tōo thè-tshut."
 
 #: filewidgets/kfileplacesmodel.cpp:1538
 #, kde-format
@@ -2885,7 +2901,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
-msgstr ""
+msgstr "Tshing-tû Pùn-sò-tháng"
 
 #: filewidgets/kfileplacesview.cpp:1252
 #, kde-format
@@ -2958,31 +2974,31 @@ msgctxt ""
 "@item:inmenu Auto set icon size based on available space inthe Places side-"
 "panel"
 msgid "Auto Resize"
-msgstr ""
+msgstr "Tsū-tōng Tshiâu Tuā-sè"
 
 #: filewidgets/kfileplacesview.cpp:1451
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
-msgstr ""
+msgstr "Sè (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1454
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
-msgstr ""
+msgstr "Tiong (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1457
 #, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
-msgstr ""
+msgstr "Tuā (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1460
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
-msgstr ""
+msgstr "Tsiok-tuā (%1x%1)"
 
 #: filewidgets/kfilewidget.cpp:637
 #, kde-format
@@ -3185,7 +3201,7 @@ msgstr "Sóo-ū ê Tsu-liāu-giap-á"
 #: filewidgets/kfilewidget.cpp:2079
 #, kde-format
 msgid "Current Directory: %1"
-msgstr ""
+msgstr "Tsit-má ê Bo̍k-lo̍k: %1"
 
 #: filewidgets/kfilewidget.cpp:2208 widgets/kfileitemactions.cpp:847
 #, kde-format
@@ -3195,22 +3211,22 @@ msgstr "Phah-khui(&O)"
 #: filewidgets/kfilewidget.cpp:2307
 #, kde-format
 msgid "Icon size: %1 pixels"
-msgstr ""
+msgstr "Tôo-sī Tuā-sè: %1 uē-sòo"
 
 #: filewidgets/kfilewidget.cpp:2474
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
-msgstr ""
+msgstr "Tsū-tōng suán hù-tóng-miâ(&X) (%1)"
 
 #: filewidgets/kfilewidget.cpp:2475
 #, kde-format
 msgid "the extension <b>%1</b>"
-msgstr ""
+msgstr "hù-tóng-miâ <b>%1</b>"
 
 #: filewidgets/kfilewidget.cpp:2481
 #, kde-format
 msgid "Automatically select filename e&xtension"
-msgstr ""
+msgstr "Tsū-tōng suán hù-tóng-miâ(&X)"
 
 #: filewidgets/kfilewidget.cpp:2482
 #, kde-format
@@ -3652,7 +3668,7 @@ msgstr "Uī-tio̍h an-tsuân, bē-sái tī tsit-ê lāi-bûn tsip-hîng tóng-à
 msgid ""
 "The program \"%1\" needs to have executable permission before it can be "
 "launched."
-msgstr ""
+msgstr "Tîng-sik \"%1\" su-iàu ū tsip-hîng khuân-hān tsiah ē-sái khí-tōng."
 
 #: gui/openurljob.cpp:456
 #, kde-format
@@ -3908,6 +3924,12 @@ msgid ""
 "%2\n"
 "\n"
 msgstr ""
+"Thuân khì ê sìn-sit:\n"
+"Ting-ji̍p iōng-tsiá-miâ=%1, bi̍t-bé=[ún-tsông]\n"
+"\n"
+"Sù-ho̍k-khì huê-tap:\n"
+"%2\n"
+"\n"
 
 #: kioworkers/ftp/ftp.cpp:568 kioworkers/http/http.cpp:329
 #, kde-format
@@ -4197,7 +4219,7 @@ msgstr "Bāng-lōo"
 #: kioworkers/trash/kio_trash.cpp:604
 #, kde-format
 msgid "Malformed URL %1"
-msgstr ""
+msgstr "Put-tsìng ê URL %1"
 
 #: kioworkers/trash/kio_trash.cpp:136
 #, kde-format
@@ -4207,6 +4229,10 @@ msgid ""
 "and use the restore operation again, or drag the item anywhere else to "
 "restore it."
 msgstr ""
+"Bo̍k-lo̍k %1 bô-khì--ah, sóo-í bô-huat-tōo kā tsit-ê hāng-bo̍k hue-ho̍k kàu gu"
+"ân-pún ê sóo-tsāi. Lí ē-sái sin ka-kī koh-tsài kiàn-li̍p hit-ê bo̍k-lo̍k koh-l"
+"âi iōng hue-ho̍k tshau-tsok, á-sī mā ē-sái kā hāng-bo̍k thua kàu pa̍t-ê sóo-ts"
+"āi lâi kā i hue-ho̍k kàu hiah."
 
 #: kioworkers/trash/kio_trash.cpp:189 kioworkers/trash/kio_trash.cpp:210
 #, kde-format
@@ -4246,6 +4272,7 @@ msgstr ""
 #, kde-format
 msgid "Restore a trashed file to its original location"
 msgstr ""
+"Kā tàn li̍p-khì pùn-sò-tháng ê tóng-àn hue-ho̍k kàu guân-pún ê sóo-tsāi"
 
 #: kioworkers/trash/trashimpl.cpp:1305
 #, kde-format
@@ -4499,7 +4526,7 @@ msgstr "Iōng %1 Phah-khui(&O)"
 #: widgets/executablefileopendialog.ui:26
 #, kde-format
 msgid "Would you like to launch this file?"
-msgstr ""
+msgstr "Lí kám ài khí-tōng tsit-ê tóng-àn?"
 
 #: widgets/fileundomanager.cpp:126
 #, kde-format
@@ -4704,7 +4731,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
-msgstr ""
+msgstr "Tshing-tû Pùn-sò-tháng"
 
 #: widgets/jobuidelegate.cpp:270 widgets/widgetsaskuseractionhandler.cpp:305
 #, kde-kuit-format
@@ -5322,7 +5349,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopadvbase.ui:130
 #, kde-format
 msgid "Discrete GPU"
-msgstr ""
+msgstr "To̍k-li̍p GPU"
 
 #. i18n: ectx: property (text), widget (QCheckBox, discreteGpuCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:136
@@ -5546,6 +5573,8 @@ msgid ""
 "Click here to modify the way this application will run, launch feedback, D-"
 "Bus options or to run it as a different user."
 msgstr ""
+"Tshi̍h tsia lâi kái-piàn tsit-ê ìng-iōng-tîng-sik ē án-ná tsip-hîng, khí-tōng "
+"huê-kuī, kap D-Bus suán-hāng, á-sī iōng pa̍t-ê iōng-tsiá lâi kā i tsip-hîng."
 
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: widgets/kpropertiesdesktopbase.ui:281
@@ -5584,7 +5613,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:tab File properties"
 msgid "&General"
-msgstr ""
+msgstr "It-puann(&G)"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:363
 #, kde-format
@@ -5863,7 +5892,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1395
 #, kde-format
 msgid "This flag allows viewing the content of the folder."
-msgstr ""
+msgstr "Tsit-ê flag ún-tsún piáu-sī tsu-liāu-giap-á ê lāi-iông."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1397
 #, kde-format
@@ -5873,7 +5902,7 @@ msgstr "Tho̍k-tshú"
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1398
 #, kde-format
 msgid "The Read flag allows viewing the content of the file."
-msgstr ""
+msgstr "Tho̍k-tshú flag ún-tsún piáu-sī tóng-àn ê lāi-iông."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1404
 #, kde-format
@@ -5890,6 +5919,8 @@ msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
 "and renaming can be limited using the Sticky flag."
 msgstr ""
+"Tsit-ê flag ún-tsún thiam tóng-àn, hōo tóng-àn kái-miâ á-sī thâi-tiāu tóng-àn."
+" Tshiánn tsù-ì, thâi-tiāu kap kái-miâ ē-sái iōng Sticky flag lâi hān-tsè."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1409
 #, kde-format
@@ -5899,7 +5930,7 @@ msgstr "Siá-ji̍p"
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1410
 #, kde-format
 msgid "The Write flag allows modifying the content of the file."
-msgstr ""
+msgstr "Siá-ji̍p flat ún-tsún siu-kái tóng-àn ê lāi-iông."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1416
 #, kde-format
@@ -5935,6 +5966,8 @@ msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
 msgstr ""
+"Ti̍k-pia̍t ê flag. Tuì kui-ê tsu-liāu-giap-á ū-hāu, tsit-ê flag si̍t-tsè ê ì-s"
+"ù ē-sái khuànn tsiànn-tshiú-pîng ê lân-uī."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1437
 #, kde-format
@@ -5942,6 +5975,8 @@ msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
 msgstr ""
+"Ti̍k-pia̍t ê flag. Tsit-ê flag si̍t-tsè ê ì-sù ē-sái khuànn tsiànn-tshiú-pîng "
+"ê lân-uī."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1442
 #, kde-format
@@ -5959,6 +5994,8 @@ msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
 "files."
 msgstr ""
+"Nā siat tsit-ê flag, tsit-ê tsu-liāu-giap-á ê sóo-iú-tsiá ē siat tsò sóo-ū sin"
+" tóng-àn ê sóo-iú-tsiá."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1461
 #, kde-format
@@ -5966,12 +6003,16 @@ msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the owner."
 msgstr ""
+"Nā uì tsip-hîng-tóng siat tsit-ê flag, i leh tsip-hîng ê sî-tsūn ē iōng i ê só"
+"o-iú-tsiá ê khuân-hān lâi tsip-hîng."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1468
 #, kde-format
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
+"Nā siat tsit-ê flag, tsit-ê tsu-liāu-giap-á ê kûn-tsoo ē siat tsò sóo-ū sin tó"
+"ng-àn ê kûn-tsoo."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1472
 #, kde-format
@@ -5979,6 +6020,8 @@ msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the group."
 msgstr ""
+"Nā uì tsip-hîng-tóng siat tsit-ê flag, i leh tsip-hîng ê sî-tsūn ē iōng i ê kû"
+"n-tsoo ê khuân-hān lâi tsip-hîng."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1479
 #, kde-format
@@ -5986,6 +6029,9 @@ msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
 "rename files. Otherwise everybody with write permissions can do this."
 msgstr ""
+"Nā tuì tsu-liāu-giap-á siat Sticky flag, tse tāi-piáu tsí-ū sóo-iú-tsiá kap ro"
+"ot ē-sái thâi-tiāu tóng-àn á-sī hōo tóng-àn kái-miâ. Nā bô siat, sóo-ū ū siá-j"
+"i̍p khuân-hān ê láng lóng ē-sái thâi-tiāu tóng-àn á-sī hōo tóng-àn kái-miâ."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1484
 #, kde-format
@@ -5993,22 +6039,24 @@ msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
 "systems"
 msgstr ""
+"Tóng-àn ê Sticky flag tī Linux bô hāu-kó, m̄-koh tī pa̍t-ê hē-thóng tíng-kuân "
+"khó-lîng ū lōo-iōng."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1545
 #, kde-format
 msgid "Set UID"
-msgstr ""
+msgstr "Siat-tīng UID"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1549
 #, kde-format
 msgid "Set GID"
-msgstr ""
+msgstr "Siat-tīng GID"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1553
 #, kde-format
 msgctxt "File permission"
 msgid "Sticky"
-msgstr ""
+msgstr "Sticky"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1666
 #, kde-format
@@ -6052,18 +6100,18 @@ msgstr "Bô-hāu ê kiám-tsa-bé."
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The given input is not a valid MD5, SHA1 or SHA256 checksum."
-msgstr ""
+msgstr "Thê-kiong ê su-ji̍p m̄-sī ū-hāu ê MD5, SHA1 á-sī SHA256 kiám-tsa-bé."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2382
 #, kde-format
 msgid "Checksums match."
-msgstr ""
+msgstr "Kiám-tsa-bé hû-ha̍p."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2385
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum match."
-msgstr ""
+msgstr "Kè-sǹg ê kiám-tsa-bé kap kî-thāi ê kiám-tsa-bé hû-ha̍p."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2397
 #, kde-format
@@ -6077,7 +6125,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum differ."
-msgstr ""
+msgstr "Kè-sǹg ê kiám-tsa-bé kap kî-thāi ê kiám-tsa-bé bô-kâng."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2411
 #, kde-format
@@ -6088,7 +6136,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2440
 #, kde-format
 msgid "The checksums of all files are identical."
-msgstr ""
+msgstr "Sóo-ū tóng-àn ê kiám-tsa-bé lóng kāng-khuán."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2445
 #, kde-format
@@ -6295,7 +6343,7 @@ msgstr "Tah--khí-khì"
 #, kde-format
 msgctxt "@label"
 msgid "Data format:"
-msgstr ""
+msgstr "Tsu-liāu keh-sik:"
 
 #: widgets/pastedialog.cpp:68
 #, kde-format
@@ -6362,14 +6410,16 @@ msgstr "Thiàu-kuè(&S)"
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē "
+"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē"
+" "
 "hāng-bo̍k"
 
 #: widgets/renamedialog.cpp:300
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
+"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo"
+"̍k"
 
 #: widgets/renamedialog.cpp:311
 #, kde-format
@@ -6686,7 +6736,7 @@ msgstr "Tshú-tāi"
 #: widgets/skipdialog.cpp:54
 #, kde-format
 msgid "Retry"
-msgstr ""
+msgstr "Tîng-tshì"
 
 #: widgets/skipdialog.cpp:61
 #, kde-format
@@ -6884,7 +6934,7 @@ msgstr "Bái koh būn--ah"
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not show this message again"
-msgstr ""
+msgstr "Bái koh hiān-sî tsi̍t-ê sìn-sit"
 
 #: widgets/widgetsaskuseractionhandler.cpp:572
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:49+0000\n"
-"PO-Revision-Date: 2026-05-20 23:30+0900\n"
+"PO-Revision-Date: 2026-05-26 00:02+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:2
 msgctxt "comment"
 msgid "CD audio"
-msgstr ""
+msgstr "CD im-sìn"
 
 #: kde6.xml.podir/kde6.xml.in.h:3
 msgctxt "comment"
@@ -45,7 +45,7 @@ msgstr "KDE phuè-sik hong-àn"
 #: kde6.xml.podir/kde6.xml.in.h:6
 msgctxt "comment"
 msgid "KNewStuff package"
-msgstr "KNewStuff pau"
+msgstr "KNewStuff thò-kiānn"
 
 #: kde6.xml.podir/kde6.xml.in.h:8
 msgctxt "comment"
@@ -70,7 +70,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:12
 msgctxt "comment"
 msgid "Calligra Plan work package document"
-msgstr "Calligra Plan kang-tsok pau bûn-kiānn"
+msgstr "Calligra Plan kang-tsok thò-kiānn bûn-kiānn"
 
 #: kde6.xml.podir/kde6.xml.in.h:13
 msgctxt "comment"
@@ -80,7 +80,7 @@ msgstr "KPlato tsuan-àn kuán-lí bûn-kiānn"
 #: kde6.xml.podir/kde6.xml.in.h:14
 msgctxt "comment"
 msgid "KPlato project management work package"
-msgstr "KPlato tsuan-àn kuán-lí kang-tsok pau"
+msgstr "KPlato tsuan-àn kuán-lí kang-tsok thò-kiānn"
 
 #: kde6.xml.podir/kde6.xml.in.h:15
 msgctxt "comment"
@@ -110,7 +110,7 @@ msgstr "HDR iánn-siōng"
 #: kde6.xml.podir/kde6.xml.in.h:22
 msgctxt "comment"
 msgid "KDE raw image formats"
-msgstr ""
+msgstr "KDE raw iánn-siōng keh-sik"
 
 #: kde6.xml.podir/kde6.xml.in.h:23
 msgctxt "comment"
@@ -130,7 +130,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:26
 msgctxt "comment"
 msgid "fonts package"
-msgstr "jī-hîng pau"
+msgstr "jī-hîng thò-kiānn"
 
 #: kde6.xml.podir/kde6.xml.in.h:27
 msgctxt "comment"
@@ -255,7 +255,7 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:53
 msgctxt "comment"
 msgid "Microsoft Media Format"
-msgstr ""
+msgstr "Microsoft Muî-thé Keh-sik"
 
 #: kde6.xml.podir/kde6.xml.in.h:55
 msgctxt "comment"

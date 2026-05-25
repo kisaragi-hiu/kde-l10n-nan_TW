@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-23 00:52+0000\n"
-"PO-Revision-Date: 2026-05-20 21:15+0900\n"
+"PO-Revision-Date: 2026-05-25 23:07+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -92,7 +92,7 @@ msgstr "Su-ji̍p bûn-jī tóng-àn ê miâ:"
 #: src/schemehandlers/telnet/ktelnetservice6.desktop:9
 msgctxt "Name"
 msgid "KTelnetService"
-msgstr ""
+msgstr "KTelnetService"
 
 #: src/urifilters/ikws/searchproviders/7digital.desktop:5
 msgctxt "Name"
@@ -157,7 +157,7 @@ msgstr "https://www.allmusic.com/search/all/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/archpkg.desktop:3
 msgctxt "Name"
 msgid "Arch Linux Package Search"
-msgstr ""
+msgstr "Arch Linux Thò-kiānn Tshiau-tshuē"
 
 #: src/urifilters/ikws/searchproviders/archpkg.desktop:72
 msgctxt "Query"
@@ -407,7 +407,7 @@ msgstr "https://dict.leo.org/?lp=frde&search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/deb.desktop:3
 msgctxt "Name"
 msgid "Debian Package Search"
-msgstr ""
+msgstr "Debian Thò-kiānn Tshiau-tshuē"
 
 #: src/urifilters/ikws/searchproviders/deb.desktop:101
 msgctxt "Query"
@@ -563,7 +563,7 @@ msgstr "https://www.facebook.com/search/?q=\\\\{@}&init=quick"
 #: src/urifilters/ikws/searchproviders/fedora.desktop:2
 msgctxt "Name"
 msgid "Fedora Packages"
-msgstr ""
+msgstr "Fedora Thò-kiānn"
 
 #: src/urifilters/ikws/searchproviders/fedora.desktop:49
 msgctxt "Query"
@@ -980,10 +980,12 @@ msgstr ""
 msgctxt "Query"
 msgid ""
 "https://forum.kde.org/search.php?keywords=\\\\{@}"
-"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&countlimit=100&t=0&submit=Search"
+"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&count"
+"limit=100&t=0&submit=Search"
 msgstr ""
 "https://forum.kde.org/search.php?keywords=\\\\{@}"
-"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&countlimit=100&t=0&submit=Search"
+"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&count"
+"limit=100&t=0&submit=Search"
 
 #: src/urifilters/ikws/searchproviders/kde_store.desktop:5
 msgctxt "Name"
@@ -1189,7 +1191,7 @@ msgstr "https://uptime.netcraft.com/up/graph?site=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/nixpkgs.desktop:3
 msgctxt "Name"
 msgid "Nix Packages"
-msgstr ""
+msgstr "Nix Thò-kiānn"
 
 #: src/urifilters/ikws/searchproviders/nixpkgs.desktop:49
 msgctxt "Query"
@@ -1545,7 +1547,7 @@ msgstr "https://www.tv.com/search.php?type=11&stype=all&qs=\\\\{@}&x=0&y=0"
 #: src/urifilters/ikws/searchproviders/ubuntu.desktop:2
 msgctxt "Name"
 msgid "Ubuntu Package Search"
-msgstr ""
+msgstr "Ubuntu Thò-kiānn Tshiau-tshuē"
 
 #: src/urifilters/ikws/searchproviders/ubuntu.desktop:67
 msgctxt "Query"

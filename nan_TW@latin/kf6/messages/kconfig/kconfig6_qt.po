@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-20 22:56+0900\n"
+"PO-Revision-Date: 2026-05-26 00:06+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -98,12 +98,12 @@ msgstr "Iōng sin-ê miâ tû-tsûn bûn-kiānn"
 #: gui/kstandardactions_p.h:69
 msgctxt "KStandardActions|"
 msgid "Re&vert"
-msgstr ""
+msgstr "Hue-ho̍k(&V)"
 
 #: gui/kstandardactions_p.h:69
 msgctxt "KStandardActions|"
 msgid "Revert unsaved changes made to document"
-msgstr ""
+msgstr "Kā bûn-kiānn iáu-buē tû-tsûn ê piàn-king hue-ho̍k--tiāu"
 
 #: gui/kstandardactions_p.h:70
 msgctxt "KStandardActions|"
@@ -218,7 +218,7 @@ msgstr "T&suān suán"
 #: gui/kstandardactions_p.h:83
 msgctxt "KStandardActions|"
 msgid "Dese&lect"
-msgstr ""
+msgstr "Bái Suán(&L)"
 
 #: gui/kstandardactions_p.h:84
 msgctxt "KStandardActions|"
@@ -248,37 +248,37 @@ msgstr "Hòng-tuā kàu Si̍t-tsè Tuā-sè(&A)"
 #: gui/kstandardactions_p.h:89
 msgctxt "KStandardActions|"
 msgid "View document at its actual size"
-msgstr ""
+msgstr "Iōng si̍t-tsè ê tuā-sè kiám-sī bûn-kiānn"
 
 #: gui/kstandardactions_p.h:90
 msgctxt "KStandardActions|"
 msgid "&Fit to Page"
-msgstr ""
+msgstr "Hû-ha̍p Ia̍h(&F)"
 
 #: gui/kstandardactions_p.h:90
 msgctxt "KStandardActions|"
 msgid "Zoom to fit page in window"
-msgstr ""
+msgstr "Hòng-tuā kàu ia̍h hû-ha̍p sī-thang tuā-sè"
 
 #: gui/kstandardactions_p.h:91
 msgctxt "KStandardActions|"
 msgid "Fit to Page &Width"
-msgstr ""
+msgstr "Hû-ha̍p Ia̍h Khuan(&W)"
 
 #: gui/kstandardactions_p.h:91
 msgctxt "KStandardActions|"
 msgid "Zoom to fit page width in window"
-msgstr ""
+msgstr "Hòng-tuā kàu ia̍h ê khuah-tōo hû-ha̍p sī-thang"
 
 #: gui/kstandardactions_p.h:92
 msgctxt "KStandardActions|"
 msgid "Fit to Page &Height"
-msgstr ""
+msgstr "Hû-ha̍p Ia̍h Kuân(&H)"
 
 #: gui/kstandardactions_p.h:92
 msgctxt "KStandardActions|"
 msgid "Zoom to fit page height in window"
-msgstr ""
+msgstr "Hòng-tuā kàu ia̍h ê kuân-tōo hû-ha̍p sī-thang"
 
 #: gui/kstandardactions_p.h:93
 msgctxt "KStandardActions|"
@@ -298,7 +298,7 @@ msgstr "Hòng-tuā Sok-sió(&Z)…"
 #: gui/kstandardactions_p.h:95
 msgctxt "KStandardActions|"
 msgid "Select zoom level"
-msgstr ""
+msgstr "Suán hòng-tuā thîng-tōo"
 
 #: gui/kstandardactions_p.h:96
 msgctxt "KStandardActions|"
@@ -408,12 +408,12 @@ msgstr "Pian-tsi̍p Su-tshiam(&E)…"
 #: gui/kstandardactions_p.h:116
 msgctxt "KStandardActions|"
 msgid "&Spelling…"
-msgstr ""
+msgstr "Kiám-t&sa Phing-jī…"
 
 #: gui/kstandardactions_p.h:116
 msgctxt "KStandardActions|"
 msgid "Check spelling in document"
-msgstr ""
+msgstr "Kiám-tsa bûn-kiānn phing-jī"
 
 #: gui/kstandardactions_p.h:118
 msgctxt "KStandardActions|"
@@ -591,12 +591,12 @@ msgstr "Kā Suán-ti̍k-khu Tah--khí-khì"
 #: gui/kstandardshortcut.cpp:97
 msgctxt "KStandardShortcut|@action"
 msgid "Select All"
-msgstr "Tsuān suán"
+msgstr "Tsuān Suán"
 
 #: gui/kstandardshortcut.cpp:98
 msgctxt "KStandardShortcut|@action"
 msgid "Deselect"
-msgstr "Bái-suán"
+msgstr "Bái Suán"
 
 #: gui/kstandardshortcut.cpp:101
 msgctxt "KStandardShortcut|@action"
@@ -706,12 +706,12 @@ msgstr "Thiam Su-tshiam"
 #: gui/kstandardshortcut.cpp:286
 msgctxt "KStandardShortcut|@action"
 msgid "Zoom In"
-msgstr ""
+msgstr "Hòng-tuā"
 
 #: gui/kstandardshortcut.cpp:287
 msgctxt "KStandardShortcut|@action"
 msgid "Zoom Out"
-msgstr ""
+msgstr "Sok-sió"
 
 #: gui/kstandardshortcut.cpp:290
 msgctxt "KStandardShortcut|@action"
@@ -721,17 +721,17 @@ msgstr "Tsuân-îng-bōo Bôo-sik"
 #: gui/kstandardshortcut.cpp:301
 msgctxt "KStandardShortcut|@action"
 msgid "Show Menu Bar"
-msgstr ""
+msgstr "Hián-sī Suán-tuann-lia̍t"
 
 #: gui/kstandardshortcut.cpp:304
 msgctxt "KStandardShortcut|@action"
 msgid "Activate Next Tab"
-msgstr ""
+msgstr "Tshiat-uānn Kàu Ē-tsi̍t-ê Hun-ia̍h"
 
 #: gui/kstandardshortcut.cpp:312
 msgctxt "KStandardShortcut|@action"
 msgid "Activate Previous Tab"
-msgstr ""
+msgstr "Tshiat-uānn Kàu Tíng-tsi̍t-ê Hun-ia̍h"
 
 #: gui/kstandardshortcut.cpp:320
 msgctxt "KStandardShortcut|@action"
@@ -786,7 +786,7 @@ msgstr "Iōng Pa̍t-ê Miâ Tû-tsûn"
 #: gui/kstandardshortcut.cpp:384
 msgctxt "KStandardShortcut|@action"
 msgid "Revert"
-msgstr ""
+msgstr "Hue-ho̍k"
 
 #: gui/kstandardshortcut.cpp:385
 msgctxt "KStandardShortcut|@action"
@@ -806,27 +806,27 @@ msgstr "Tshing-tû"
 #: gui/kstandardshortcut.cpp:390
 msgctxt "KStandardShortcut|@action"
 msgid "Zoom to Actual Size"
-msgstr ""
+msgstr "Hòng-tuā kàu Si̍t-tsè Tuā-sè"
 
 #: gui/kstandardshortcut.cpp:396
 msgctxt "KStandardShortcut|@action"
 msgid "Fit To Page"
-msgstr ""
+msgstr "Hû-ha̍p Ia̍h"
 
 #: gui/kstandardshortcut.cpp:397
 msgctxt "KStandardShortcut|@action"
 msgid "Fit To Width"
-msgstr ""
+msgstr "Hû-ha̍p Khuah-tōo"
 
 #: gui/kstandardshortcut.cpp:398
 msgctxt "KStandardShortcut|@action"
 msgid "Fit To Height"
-msgstr ""
+msgstr "Hû-ha̍p Kuân-tōo"
 
 #: gui/kstandardshortcut.cpp:399
 msgctxt "KStandardShortcut|@action"
 msgid "Zoom"
-msgstr ""
+msgstr "Hòng-tuā Sok-sió"
 
 #: gui/kstandardshortcut.cpp:400
 msgctxt "KStandardShortcut|@action"
@@ -856,7 +856,7 @@ msgstr "Pian-tsi̍p Su-tshiam"
 #: gui/kstandardshortcut.cpp:426
 msgctxt "KStandardShortcut|@action"
 msgid "Spelling"
-msgstr ""
+msgstr "Kiám-tsa Phing-jī"
 
 #: gui/kstandardshortcut.cpp:427
 msgctxt "KStandardShortcut|@action"
@@ -974,12 +974,12 @@ msgstr ""
 #: kconf_update/kconf_update.cpp:378
 msgctxt "main|"
 msgid "File(s) to read update instructions from"
-msgstr ""
+msgstr "Uì tsit-ê tóng-àn tha̍k king-sin tsí-līng"
 
 #: kconfig_compiler/kconfig_compiler.cpp:732
 msgctxt "main|"
 msgid "Directory to generate files in [.]"
-msgstr ""
+msgstr "Ài sán-sing tóng-àn kàu ê bo̍k-lo̍k [.]"
 
 #: kconfig_compiler/kconfig_compiler.cpp:733
 msgctxt "main|"
@@ -994,7 +994,7 @@ msgstr "Hián-sī nńg-thé siū-khuân."
 #: kreadconfig/kreadconfig.cpp:46 kreadconfig/kwriteconfig.cpp:25
 msgctxt "main|"
 msgid "Use <file> instead of global config"
-msgstr ""
+msgstr "Iōng <file>, bái iōng tsuân-i̍k siat-tīng"
 
 #: kreadconfig/kreadconfig.cpp:49 kreadconfig/kwriteconfig.cpp:28
 msgctxt "main|"
@@ -1029,6 +1029,8 @@ msgid ""
 "Include globals; by default, the global config files are not read if a file "
 "is specified"
 msgstr ""
+"Pau-kuat tsuân-i̍k siat-tīng; ū-siat sī tī ū tsí-tīng tóng-àn ê sî-tsūn bē tho"
+"̍k-tshú tsuán-i̍k siat-tīng tóng-àn"
 
 #: kreadconfig/kreadconfig.cpp:89 kreadconfig/kwriteconfig.cpp:71
 msgctxt "main|"
