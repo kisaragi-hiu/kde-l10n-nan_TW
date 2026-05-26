@@ -2115,6 +2115,54 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-155">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>status</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>tsōng-thài</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-156">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>connection</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>liân-suànn</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-157">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>hostname</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>tsú-ki-miâ</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-158">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>search engine</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>tshiau-tshuē ia̋n-jín</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>

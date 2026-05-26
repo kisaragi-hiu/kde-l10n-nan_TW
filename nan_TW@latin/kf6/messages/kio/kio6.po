@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-23 00:39+0000\n"
-"PO-Revision-Date: 2026-05-26 00:02+0900\n"
+"PO-Revision-Date: 2026-05-26 16:46+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -44,7 +44,7 @@ msgstr ""
 #: core/connectionbackend.cpp:107
 #, kde-format
 msgid "Unable to create KIO worker: %1"
-msgstr ""
+msgstr "Bô-huat-tōo kiàn-li̍p KIO kang-tsok-khí: %1"
 
 #: core/copyjob.cpp:190 kioworkers/file/file_unix.cpp:1008
 #, kde-format
@@ -67,6 +67,11 @@ msgid ""
 "Selecting Replace will replace any invalid characters (in the destination "
 "folder name) with an underscore \"_\"."
 msgstr ""
+"Bô-huat-tōo kiàn-li̍p \"%1\".\n"
+"Bo̍k-ti̍k-tē tóng-àn hē-thóng (%2) put-tsún tī tsu-liāu-giap-á miâ iōng í-hā j"
+"ī-guân: %3\n"
+"Suán Tshú-tāi ē kā bo̍k-ti̍k-tē tsu-liāu-giap-á miâ bô-hāu ê jī-guân lóng tshú"
+"-tāi tsò \"_\"."
 
 #: core/copyjob.cpp:210
 #, kde-format
@@ -77,6 +82,11 @@ msgid ""
 "Selecting Replace will replace any invalid characters (in the destination "
 "file name) with an underscore \"_\"."
 msgstr ""
+"Bô-huat-tōo kiàn-li̍p \"%1\".\n"
+"Bo̍k-ti̍k-tē tóng-àn hē-thóng (%2) put-tsún tī tóng-miâ iōng í-hā jī-guân: %3"
+"\n"
+"Suán Tshú-tāi ē kā bo̍k-ti̍k-tē tóng-miâ bô-hāu ê jī-guân lóng tshú-tāi tsò \""
+"_\"."
 
 #: core/copyjob.cpp:1426 core/job_error.cpp:588
 #, kde-format
@@ -107,18 +117,18 @@ msgstr "%1 lāi-té bô Exec lân-uī"
 #: core/desktopexecparser.cpp:360
 #, kde-format
 msgid "Could not find the program '%1'"
-msgstr ""
+msgstr "Tshuē-bô tîng-sik '%1'"
 
 #: core/desktopexecparser.cpp:363
 #, kde-format
 msgid ""
 "The program '%1' was found at '%2' but it is missing executable permissions."
-msgstr ""
+msgstr "Tîng-sik '%1' tī '%2' ū tshuē-tio̍h, m̄-koh i bô tsip-hîng khuân-hān."
 
 #: core/desktopexecparser.cpp:365
 #, kde-format
 msgid "The program '%1' is missing executable permissions."
-msgstr ""
+msgstr "Tîng-sik '%1' bô tsip-hîng khuân-hān."
 
 #: core/desktopexecparser.cpp:379
 #, kde-format
@@ -327,7 +337,7 @@ msgstr "%1 sī tóng-àn, á-sī tsia kî-thāi ê sī tsu-liāu-giap-á."
 #: core/job_error.cpp:68
 #, kde-format
 msgid "The file or folder %1 does not exist."
-msgstr ""
+msgstr "Tóng-àn á-sī tsu-liāu-giap-á %1 bô tsûn-tsāi."
 
 #: core/job_error.cpp:71
 #, kde-format
@@ -342,7 +352,7 @@ msgstr "Kiò-tsò %1 ê tsu-liāu-giap-á í-king ū--ah."
 #: core/job_error.cpp:77
 #, kde-format
 msgid "No hostname specified."
-msgstr ""
+msgstr "Bô tsí-tīng tsú-ki-miâ."
 
 #: core/job_error.cpp:77
 #, kde-format
@@ -386,17 +396,17 @@ msgstr "Khóo-pih %1 ê sî-tsūn tshuē-tio̍h sûn-khuân liân-kiat."
 #: core/job_error.cpp:98
 #, kde-format
 msgid "Could not create socket for accessing %1."
-msgstr ""
+msgstr "Bô-huat-tōo uī-tio̍h tsûn-tshú %1 kiàn-li̍p socket."
 
 #: core/job_error.cpp:101
 #, kde-format
 msgid "Could not connect to host %1."
-msgstr ""
+msgstr "Bô-huat-tōo liân-suànn tsú-ki %1."
 
 #: core/job_error.cpp:104
 #, kde-format
 msgid "Connection to host %1 is broken."
-msgstr ""
+msgstr "Tuì tsú-ki %1 ê liân-suànn tn̄g-khì--ah."
 
 #: core/job_error.cpp:107
 #, kde-format
@@ -452,12 +462,12 @@ msgstr "Bô-huat-tōo tsûn-tshú %1."
 #: core/job_error.cpp:137
 #, kde-format
 msgid "Could not terminate listing %1."
-msgstr ""
+msgstr "Bô-huat-tōo tiong-tsí kā %1 piáu-lia̍t."
 
 #: core/job_error.cpp:140
 #, kde-format
 msgid "Could not make folder %1."
-msgstr ""
+msgstr "Bô-huat-tōo kiàn-li̍p tsu-liāu-giap-á %1."
 
 #: core/job_error.cpp:143
 #, kde-format
@@ -472,17 +482,17 @@ msgstr "Bô-huat-tōo kè-sio̍k tóng-àn %1."
 #: core/job_error.cpp:149
 #, kde-format
 msgid "Could not rename file %1."
-msgstr ""
+msgstr "Bô-huat-tōo kā tóng-àn %1 kái-miâ."
 
 #: core/job_error.cpp:152
 #, kde-format
 msgid "Could not change permissions for %1."
-msgstr ""
+msgstr "Bô-huat-tōo kái-piàn %1 ê khuân-hān."
 
 #: core/job_error.cpp:155
 #, kde-format
 msgid "Could not change ownership for %1."
-msgstr ""
+msgstr "Bô-huat-tōo kái-piàn %1 ê sóo-iú-tsiá."
 
 #: core/job_error.cpp:158
 #, kde-format
@@ -492,7 +502,7 @@ msgstr "Bô-huat-tōo thâi-tiāu tóng-àn %1."
 #: core/job_error.cpp:161
 #, kde-format
 msgid "The process for the %1 protocol died unexpectedly."
-msgstr ""
+msgstr "Hia̍p-tīng %1 ê tîng-sū hiông-hiông bô-khì--ah."
 
 #: core/job_error.cpp:164
 #, kde-format
@@ -509,11 +519,13 @@ msgid ""
 "Unknown proxy host\n"
 "%1"
 msgstr ""
+"M̄-tsai ê tāi-lí tsú-ki\n"
+"%1"
 
 #: core/job_error.cpp:170
 #, kde-format
 msgid "Authorization failed, %1 authentication not supported"
-msgstr ""
+msgstr "Siū-khuân sit-pāi, %1 jīn-tsìng bô tsi-uān"
 
 #: core/job_error.cpp:176
 #, kde-format
@@ -613,6 +625,8 @@ msgid ""
 "The source and destination are the same file.\n"
 "%1"
 msgstr ""
+"Lâi-guân kap bo̍k-piau sī kâng tsi̍t-ē tóng-àn.\n"
+"%1"
 
 #: core/job_error.cpp:231
 #, kde-format
@@ -648,7 +662,7 @@ msgstr ""
 #: core/job_error.cpp:249
 #, kde-format
 msgid "Unable to create KIO worker. %1"
-msgstr ""
+msgstr "Bô-huat-tōo kiàn-li̍p KIO kang-tsok-khí. %1"
 
 #: core/job_error.cpp:253
 #, kde-kuit-format
@@ -675,6 +689,8 @@ msgstr "Tóng-àn siōng tuā, bô-huat-tōo suá-khì pùn-sò-tháng."
 #, kde-format
 msgid "A trash folder could not be found or created for this location."
 msgstr ""
+"Bô-huat-tōo tshuē-tio̍h á-sī kiàn-li̍p tsit-ê uī-tì ê pùn-sò-tháng tsu-liāu-gi"
+"ap-á."
 
 #: core/job_error.cpp:267
 #, kde-format
@@ -837,6 +853,8 @@ msgid ""
 "There may have been a problem with your network configuration. If you have "
 "been accessing the Internet with no problems recently, this is unlikely."
 msgstr ""
+"Lí ê bāng-lōo siat-tīng khó-lîng ū būn-tê. M̄-kò nā lí kīn-lâi iōng bāng-lōo b"
+"ô tú-tio̍h būn-tê, khó-lîng tio̍h m̄-sī án-ne."
 
 #: core/job_error.cpp:422
 #, kde-format
@@ -844,36 +862,38 @@ msgid ""
 "There may have been a problem at some point along the network path between "
 "the server and this computer."
 msgstr ""
+"Khó-lîng tī sù-ho̍k-khì kàu tsit-ê tiān-náu ê bāng-lōo suànn-lōo ū būn-tê."
 
 #: core/job_error.cpp:424
 #, kde-format
 msgid "Try again, either now or at a later time."
-msgstr ""
+msgstr "Tshiánn tîng-tshì, m̄-kuán sī tsit-má á-sī pa̍t-ê sî-tsūn."
 
 #: core/job_error.cpp:425
 #, kde-format
 msgid "A protocol error or incompatibility may have occurred."
-msgstr ""
+msgstr "Khó-lîng ū huat-sing hia̍p-tīng tshò-gōo á-sī bô siong-iông ê būn-tê."
 
 #: core/job_error.cpp:426
 #, kde-format
 msgid "Ensure that the resource exists, and try again."
-msgstr ""
+msgstr "Tshiánn khak-tīng tsu-guân tsûn-tsāi, jiân-āu koh tîng-tshì."
 
 #: core/job_error.cpp:427
 #, kde-format
 msgid "The specified resource may not exist."
-msgstr ""
+msgstr "Tsí-tīng ê tsu-guân khó-lîng bô tsûn-tsāi."
 
 #: core/job_error.cpp:429
 #, kde-format
 msgid "Double-check that you have entered the correct location and try again."
 msgstr ""
+"Tshiánn tsú-sè kiám-tsa lí ū su-ji̍p tio̍h ê uī-tì, jiân-āu koh tîng-tshì."
 
 #: core/job_error.cpp:431
 #, kde-format
 msgid "Check your network connection status."
-msgstr ""
+msgstr "Tshiánn kiám-tsa lí ê bāng-lōo liân-suànn tsōng-thài."
 
 #: core/job_error.cpp:435
 #, kde-format
@@ -948,7 +968,7 @@ msgstr ""
 #: core/job_error.cpp:487
 #, kde-format
 msgid "Improperly Formatted URL"
-msgstr ""
+msgstr "Keh-sik Bô Tsìng-khak ê URL"
 
 #: core/job_error.cpp:489
 #, kde-format
@@ -2136,7 +2156,7 @@ msgstr ""
 #: core/slavebase.cpp:820
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
-msgstr ""
+msgstr "Bô tsi-uān uì %1 tshú-tit MIME luī-pia̍t tsu-sìn."
 
 #: core/slavebase.cpp:822
 #, kde-format
@@ -2925,7 +2945,7 @@ msgstr "Khui tī Sin Sī-thang"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Entry…"
-msgstr ""
+msgstr "Thiam Hāng-bo̍k…"
 
 #: filewidgets/kfileplacesview.cpp:1280
 #, kde-format
@@ -2943,7 +2963,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Hide"
-msgstr ""
+msgstr "Ún-tsông(&H)"
 
 #: filewidgets/kfileplacesview.cpp:1297
 #, kde-format
@@ -2960,7 +2980,7 @@ msgstr ""
 #: filewidgets/kfileplacesview.cpp:1305
 #, kde-format
 msgid "&Show All Entries"
-msgstr ""
+msgstr "Hián-sī &Sóo-ū Hāng-bo̍k"
 
 #: filewidgets/kfileplacesview.cpp:1310
 #, kde-format
@@ -3003,17 +3023,17 @@ msgstr "Tsiok-tuā (%1x%1)"
 #: filewidgets/kfilewidget.cpp:637
 #, kde-format
 msgid "You can only select one file"
-msgstr ""
+msgstr "Tsí ē-sái suán tsi̍t-ē tóng-àn"
 
 #: filewidgets/kfilewidget.cpp:637
 #, kde-format
 msgid "More than one file provided"
-msgstr ""
+msgstr "Thê-kiong--ah siōng-tsē tóng-àn"
 
 #: filewidgets/kfilewidget.cpp:813
 #, kde-format
 msgid "You can only select local files"
-msgstr ""
+msgstr "Tsí ē-sái suán pún-tē tóng-àn"
 
 #: filewidgets/kfilewidget.cpp:813
 #, kde-format
@@ -3029,16 +3049,17 @@ msgid_plural ""
 "The selected URL uses an unsupported scheme. Please use one of the following "
 "schemes: %2"
 msgstr[0] ""
+"Suán ê URL iōng ê sī bô tsi-uān ê URL hong-àn. Tshiánn iōng í-hā ê hong-àn: %2"
 
 #: filewidgets/kfilewidget.cpp:826
 #, kde-format
 msgid "Unsupported URL scheme"
-msgstr ""
+msgstr "Bô tsi-uān ê URL hong-àn"
 
 #: filewidgets/kfilewidget.cpp:847
 #, kde-format
 msgid "The file \"%1\" could not be found"
-msgstr ""
+msgstr "Tshuē-bô tóng-àn \"%1\""
 
 #: filewidgets/kfilewidget.cpp:847
 #, kde-format
@@ -3171,7 +3192,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
-msgstr ""
+msgstr "Uī-tì"
 
 #: filewidgets/kfilewidget.cpp:1763
 #, kde-format
@@ -3545,7 +3566,7 @@ msgstr ""
 #: gui/applicationlauncherjob.cpp:125 gui/kprocessrunner.cpp:244
 #, kde-format
 msgid "You are not authorized to execute this file."
-msgstr ""
+msgstr "Lí bô khuân-hān tsip-hîng tsit-ê tóng-àn."
 
 #: gui/applicationlauncherjob.cpp:136 gui/commandlauncherjob.cpp:117
 #, kde-format
@@ -3566,6 +3587,8 @@ msgstr ""
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr ""
+"Lí bô khuân-hān lâi suán ài iōng tó-tsi̍t-ê ìng-iōng-tîng-sik khui tsit-ê tóng"
+"-àn."
 
 #: gui/applicationlauncherjob.cpp:299
 #, kde-format
@@ -3981,7 +4004,7 @@ msgstr ""
 #: kioworkers/ftp/ftp.cpp:2501
 #, kde-format
 msgid "Proxy Authentication Failed."
-msgstr ""
+msgstr "Tāi-lí Jīn-tsìng Sit-pāi."
 
 #: kioworkers/help/kio_help.cpp:112
 #, kde-format
@@ -4813,7 +4836,7 @@ msgstr "Hāng-bo̍k Luī"
 #: widgets/kacleditwidget.cpp:394
 #, kde-format
 msgid "Default for new files in this folder"
-msgstr ""
+msgstr "Tsit-ê tsu-liāu-giap-á ê sin tóng-àn ê ū-siat"
 
 #: widgets/kacleditwidget.cpp:401
 #, kde-format
@@ -4891,12 +4914,12 @@ msgstr ""
 #: widgets/kbuildsycocaprogressdialog.cpp:30
 #, kde-format
 msgid "Updating System Configuration"
-msgstr ""
+msgstr "Leh King-sin Hē-thóng Siat-tīng"
 
 #: widgets/kbuildsycocaprogressdialog.cpp:30
 #, kde-format
 msgid "Updating system configuration…"
-msgstr ""
+msgstr "Leh king-sin hē-thóng siat-tīng…"
 
 #: widgets/kdirmodel.cpp:1256
 #, kde-format
@@ -5663,6 +5686,8 @@ msgid ""
 "Calculating... %1 (%2)\n"
 "%3, %4"
 msgstr ""
+"Leh Kè-sǹg… %1 (%2)\n"
+"%3, %4"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:696
 #: widgets/kpropertiesdialogbuiltin_p.cpp:711
@@ -5823,7 +5848,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1227
 #, kde-format
 msgid "Delete or rename:"
-msgstr ""
+msgstr "Thâi-tiāu á-sī kái-miâ:"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1227
 #, kde-format
@@ -6604,7 +6629,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "@info replace as in replacing [value] with [value]"
 msgid "Replacing:"
-msgstr ""
+msgstr "Kā tse:"
 
 #: widgets/renamefiledialog.cpp:316
 #, kde-format
@@ -6616,7 +6641,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info with as in replacing [value] with [value]"
 msgid "With:"
-msgstr ""
+msgstr "Tshú-tāi tsò:"
 
 #: widgets/renamefiledialog.cpp:322
 #, kde-format
@@ -6806,13 +6831,13 @@ msgstr "Hōo Sìn-lāi:"
 #: widgets/sslinfo.ui:183
 #, kde-format
 msgid "Validity period:"
-msgstr ""
+msgstr "Ū-hāu kî-kan:"
 
 #. i18n: ectx: property (text), widget (QLabel, serialTag)
 #: widgets/sslinfo.ui:203
 #, kde-format
 msgid "Serial number:"
-msgstr ""
+msgstr "Sū-hō:"
 
 #. i18n: ectx: property (text), widget (QLabel, digestTag)
 #: widgets/sslinfo.ui:223
@@ -6861,6 +6886,8 @@ msgid_plural ""
 "Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis "
 "strong='true'>This action cannot be undone.</emphasis>"
 msgstr[0] ""
+"Lí kám tsin-tsiànn ài íng-uán kā tse %1 ê hāng-bo̍k thâi-tiāu?<nl/><nl/><empha"
+"sis strong='true'>Tsit-ê tōng-tsok bô-huat-tōo ho̍k-guân.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:253
 #, kde-kuit-format

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-23 00:52+0000\n"
-"PO-Revision-Date: 2026-05-25 23:07+0900\n"
+"PO-Revision-Date: 2026-05-26 16:55+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -187,7 +187,7 @@ msgstr "https://www.ardmediathek.de/suche/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/backports.desktop:3
 msgctxt "Name"
 msgid "Debian Backports Search"
-msgstr ""
+msgstr "Debian Backports Tshiau-tshuē"
 
 #: src/urifilters/ikws/searchproviders/backports.desktop:97
 msgctxt "Query"
@@ -257,7 +257,7 @@ msgstr "https://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/call.desktop:5
 msgctxt "Name"
 msgid "QRZ.com Callsign Database"
-msgstr ""
+msgstr "QRZ.com Callsign Tsu-liāu-khòo"
 
 #: src/urifilters/ikws/searchproviders/call.desktop:99
 msgctxt "Query"
@@ -277,7 +277,7 @@ msgstr "https://caniuse.com/?search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/cia.desktop:4
 msgctxt "Name"
 msgid "CIA World Fact Book"
-msgstr ""
+msgstr "CIA World Fact Book"
 
 #: src/urifilters/ikws/searchproviders/cia.desktop:97
 msgctxt "Query"
@@ -331,7 +331,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/cplusplus.desktop:2
 msgctxt "Name"
 msgid "CPlusPlus"
-msgstr ""
+msgstr "CPlusPlus"
 
 #: src/urifilters/ikws/searchproviders/cplusplus.desktop:67
 msgctxt "Query"
@@ -385,7 +385,7 @@ msgstr "https://bugs.debian.org/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/de2en.desktop:5
 msgctxt "Name"
 msgid "dict.cc Translation: German to English"
-msgstr ""
+msgstr "dict.cc Huan-i̍k: Tik-gí kàu Ing-gí"
 
 #: src/urifilters/ikws/searchproviders/de2en.desktop:100
 #: src/urifilters/ikws/searchproviders/en2de.desktop:100
@@ -447,7 +447,7 @@ msgstr "https://www.docbook.org/tdg/en/html/\\\\{1}.html"
 #: src/urifilters/ikws/searchproviders/dockerhub.desktop:3
 msgctxt "Name"
 msgid "Docker Hub"
-msgstr ""
+msgstr "Docker Hub"
 
 #: src/urifilters/ikws/searchproviders/dockerhub.desktop:49
 msgctxt "Query"
@@ -497,7 +497,7 @@ msgstr "https://duckduckgo.com/?q=\\\\{@}&v=s&t=kde"
 #: src/urifilters/ikws/searchproviders/ecosia.desktop:3
 msgctxt "Name"
 msgid "Ecosia search engine"
-msgstr ""
+msgstr "Ecosia tshiau-tshuē ia̋n-jín"
 
 #: src/urifilters/ikws/searchproviders/ecosia.desktop:84
 msgctxt "Query"
@@ -507,48 +507,48 @@ msgstr "https://ecosia.org/search.php?q=\\\\{@}&meta=normal"
 #: src/urifilters/ikws/searchproviders/en2de.desktop:5
 msgctxt "Name"
 msgid "dict.cc Translation: English to German"
-msgstr ""
+msgstr "dict.cc Huan-i̍k: Ing-gí kàu Tik-gí"
 
 #: src/urifilters/ikws/searchproviders/en2es.desktop:5
 msgctxt "Name"
 msgid "WordReference.com Translation: English to Spanish"
-msgstr ""
+msgstr "WordReference.com Huan-i̍k: Ing-gí kàu Se-pan-gâ-gí"
 
 #: src/urifilters/ikws/searchproviders/en2es.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/es/translation.asp?tranword=\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/es/translation.asp?tranword=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/en2fr.desktop:5
 msgctxt "Name"
 msgid "WordReference.com Translation: English to French"
-msgstr ""
+msgstr "WordReference.com Huan-i̍k: Ing-gí kàu Huat-gí"
 
 #: src/urifilters/ikws/searchproviders/en2fr.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/enfr/\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/enfr/\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/en2it.desktop:5
 msgctxt "Name"
 msgid "WordReference.com Translation: English to Italian"
-msgstr ""
+msgstr "WordReference.com Huan-i̍k: Ing-gí kàu Ì-tāi-lī-gí"
 
 #: src/urifilters/ikws/searchproviders/en2it.desktop:100
 #: src/urifilters/ikws/searchproviders/it2en.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/iten/\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/iten/\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/es2en.desktop:5
 msgctxt "Name"
 msgid "WordReference.com Translation: Spanish to English"
-msgstr ""
+msgstr "WordReference.com Huan-i̍k: Se-pan-gâ-gí kàu Ing-gí"
 
 #: src/urifilters/ikws/searchproviders/es2en.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/es/en/translation.asp?spen=\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/es/en/translation.asp?spen=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/facebook.desktop:5
 msgctxt "Name"
@@ -585,13 +585,12 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/flathub.desktop:3
 msgctxt "Name"
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/urifilters/ikws/searchproviders/flathub.desktop:25
-#, fuzzy
 msgctxt "Query"
 msgid "https://flathub.org/apps/search?q=\\\\{@}"
-msgstr "https://hub.docker.com/search?q=\\\\{@}"
+msgstr "https://flathub.org/apps/search?q=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/flatpak.desktop:2
 msgctxt "Name"
@@ -604,11 +603,13 @@ msgid ""
 "https://docs.flatpak.org/en/latest/search.html?q=\\\\{@}"
 "&check_keywords=yes&area=default"
 msgstr ""
+"https://docs.flatpak.org/en/latest/search.html?q=\\\\{@}"
+"&check_keywords=yes&area=default"
 
 #: src/urifilters/ikws/searchproviders/flickrcc.desktop:5
 msgctxt "Name"
 msgid "Flickr Creative Commons"
-msgstr ""
+msgstr "Flickr Creative Commons"
 
 #: src/urifilters/ikws/searchproviders/flickrcc.desktop:85
 msgctxt "Query"
@@ -643,7 +644,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/fr2en.desktop:5
 msgctxt "Name"
 msgid "WordReference.com Translation: French to English"
-msgstr ""
+msgstr "WordReference.com Huan-i̍k: Huat-gí kàu Ing-gí"
 
 #: src/urifilters/ikws/searchproviders/fr2en.desktop:100
 msgctxt "Query"
@@ -1567,7 +1568,7 @@ msgstr "https://www.urbandictionary.com/define.php?term=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/uspto.desktop:5
 msgctxt "Name"
 msgid "U.S. Patent Database"
-msgstr ""
+msgstr "Bí-kok Tsuan-lī Tsu-liāu-khòo"
 
 #: src/urifilters/ikws/searchproviders/uspto.desktop:101
 msgctxt "Query"
@@ -1765,7 +1766,7 @@ msgstr "https://www.youtube.com/results?search_query=\\\\{@}&search_type=&aq=f"
 #: src/urifilters/ikws/searchproviders/zdf.desktop:5
 msgctxt "Name"
 msgid "ZDF Mediathek"
-msgstr ""
+msgstr "ZDF Mediathek"
 
 #: src/urifilters/ikws/searchproviders/zdf.desktop:25
 msgctxt "Query"
@@ -1780,9 +1781,9 @@ msgstr ""
 #: templates/kioworker6/kioworker6.kdevtemplate:2
 msgctxt "Name"
 msgid "C++ Worker (KF6)"
-msgstr ""
+msgstr "C++ Kang-tsok-khì (KF6)"
 
 #: templates/kioworker6/kioworker6.kdevtemplate:54
 msgctxt "Comment"
 msgid "KIO Worker Template"
-msgstr ""
+msgstr "KIO Kang-tsok-khì Pang-pôo"
