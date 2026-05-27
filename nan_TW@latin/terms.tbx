@@ -2367,6 +2367,57 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-175">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>popup</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>tuânn-tshut</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-176">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>forum</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>lūn-tuânn</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-177">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>thesaurus</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>tông-gí-sû-tián</term>
+          </tig>
+          <tig>
+            <term>同義詞典</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-178">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>identifier</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>si̍k-pia̍t-bé</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
