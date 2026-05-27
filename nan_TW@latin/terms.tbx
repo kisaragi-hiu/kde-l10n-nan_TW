@@ -2418,6 +2418,18 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-179">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>dump</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>tó-tshut</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
