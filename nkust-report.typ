@@ -8,7 +8,7 @@ I wish KDE software can be translated into Taiwanese (Taigi) so that users have 
 
 == What is Taiwanese Taigi
 
-Taiwanese (Taigi) is one of several national languages of Taiwan (ROC). It is a Hokkien language, and is mutually intelligible with Amoy Hokkien, though it has its own ethnolinguistic identity @CR2021045_support. The language is facing an inheritance crisis: while 92.1% of Taiwanese people in their 50s can understand the language, only 38.9% of those in their teens understand it @MOC20250616. There is thus a revitalization effort to keep the language alive, such as the National Languages Development Plan @MOC20240708.
+Taiwanese (Taigi) is one of several national languages of Taiwan (ROC). It is a Hokkien language, and is mutually intelligible with Amoy Hokkien, though it has its own ethnolinguistic identity @CR2021045-support. The language is facing an inheritance crisis: while 92.1% of Taiwanese people in their 50s can understand the language, only 38.9% of those in their teens understand it @MOC20250616. There is thus a revitalization effort to keep the language alive, such as the National Languages Development Plan @MOC20240708.
 
 The language name is a subject of much debate. Its endonym is primarily Tâi-gí (Taiwan-language, corresponds to "Taiwanese" in English), but this is criticized, as Taigi itself is a language relatively recently introduced to the region now known as Taiwan during Qing rule. It is alternatively referred to as Bân-lâm-gí (Minnan-language, corresponds to "Min Nan" or "Hokkien" in English), but this is criticized, as Bân (閩) is seen as having negative connotations. This entire debate is succinctly summarized by the National Language Development Report from the #cite(<MOC20250616>, form: "prose", supplement: "p. 57"), in which the conclusion is that:
 
@@ -82,9 +82,23 @@ This may look like an unthinkably large number of writing systems, but indeed th
 - No one actually writes exclusively with Han characters. As noted by Tân Kiàn-tiong @kiantiong20230908, even the Ministry of Education occasionally writes in mixed script in its Taigi dictionary @kautian when encountering certain loanwords. Apart from loanwords, the fact that the third person possessive pronoun 𪜶 (/in/) is poorly supported by fonts also means in practice it remains more convenient to fall back to writing words in romanization even when there is a preference to write as much in Han characters as practical.
 - While Pe̍h-ōe-jī and Tâi-lô are often treated as separate systems, in reality Tâi-lô is a minor spelling reform on top of Pe̍h-ōe-jī. The way tones are marked remains identical; the convention of separating syllables within one compound with "-" instead of spaces is the same too. The only difference is that some consonants and vowels are spelled differently, such as `ch` in Pe̍h-ōe-jī being spelled `ts` in Tâi-lô, or `oe` in Pe̍h-ōe-jī being spelled `ue` in Tâi-lô, but the differences are one-to-one and unambiguous.
 
-This leaves us with two systems: mixed script (hàn-lô) and exclusively romanization (tsuân-lô).
+This leaves us with two systems: *mixed script (hàn-lô)* and *exclusively romanization (tsuân-lô)*.
 
-==
+=== Pe̍h-ōe-jī or Tâi-lô?
+
+There is still a question of whether I should use Pe̍h-ōe-jī or Tâi-lô. This question itself can get contentious, but I still need to make a choice and move on, as I consider them similar enough that it isn't worth the effort to support both (which would double the number of scripts to support from 2 to 4).
+
+Ultimately I chose Tâi-lô because that's what the Ministry of Education, which I already refer to as an authority when deciding which Han characters are correct, has chosen on this topic. Since Pe̍h-ōe-jī and Tâi-lô are compatible with each other, it would be totally fine if one day another translator joins the project and decides to prefer Pe̍h-ōe-jī: mixed Tâi-lô and Pe̍h-ōe-jī might be inconsistent but would not be ambiguous. Moreover, software for automatically converting between the two already exist @ithuan-kesi, so if this choice ever needs to be revisited it will be trivial to switch.
+
+== Glibc locale
+
+Glibc (the GNU C Library) provides core libraries for many Linux systems @glibc, and includes a system of "locales", which define the name, date/time format, numeric format, territory, etc. of a given language variant.
+
+A decision on this has already been made before me, in fact. A `nan_TW` locale has been available since 2013 @glibc-nan_TW, and a `nan_TW@latin` locale has been available since 2009 @glibc-nan_TW_latin. To quote the submittion of `nan_TW@latin`:
+
+#quote(block: true, attribution: [Arne Goetje])[
+  Minnan can be written using Latin or traditional Han script. Therefor this locale has \@latin to clarify which script we use.
+]
 
 #bibliography("bibliography.bib")
 
