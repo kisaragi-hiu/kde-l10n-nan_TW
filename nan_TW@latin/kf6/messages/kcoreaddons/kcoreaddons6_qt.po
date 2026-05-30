@@ -68,11 +68,11 @@ msgstr "<p>Tsit-ê tîng-sik sī iōng %1 ê tiâu-khuán sàn-pòo ê.</p>"
 #, qt-format
 msgctxt "KAboutLicense|"
 msgid ""
-"<p>You can find the full terms on <a href=\"https://spdx.org/licenses/%1."
-"html\">the SPDX website</a>.</p>"
+"<p>You can find the full terms on <a href=\"https://spdx.org/licenses/"
+"%1.html\">the SPDX website</a>.</p>"
 msgstr ""
-"<p>Uân-tsíng tiâu-khuán ē-sái tī <a href=\"https://spdx.org/licenses/%1.html\""
-">SPDX bāng-tsām</a> tha̍k.</p>"
+"<p>Uân-tsíng tiâu-khuán ē-sái tī <a href=\"https://spdx.org/licenses/"
+"%1.html\">SPDX bāng-tsām</a> tha̍k.</p>"
 
 #: lib/kaboutdata.cpp:296
 msgctxt "KAboutLicense|"
@@ -82,8 +82,8 @@ msgid ""
 "licensing terms.\n"
 msgstr ""
 "Tsit-ê tîng-sik bô tsí-tīng siū-khuân-tiâu-khuán. \n"
-"Tshiánn tshuē khuànn-māi i ê bûn-kiānn á-sī guân-sí-bé kám ū siū-khuân-tiâu-kh"
-"uán ê suat-bîng.\n"
+"Tshiánn tshuē khuànn-māi i ê bûn-kiānn á-sī guân-sí-bé kám ū siū-khuân-tiâu-"
+"khuán ê suat-bîng.\n"
 
 #: lib/kaboutdata.cpp:304
 #, qt-format
@@ -256,14 +256,12 @@ msgctxt "KAboutData|replace this with information about your translation team"
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the "
 "translation teams all over the world.</p><p>For more information on KDE "
-"internationalization visit <a href=\"https://l10n.kde.org\">https://l10n.kde."
-"org</a></p>"
+"internationalization visit <a href=\"https://l10n.kde.org\">https://"
+"l10n.kde.org</a></p>"
 msgstr ""
-"<p>KDE iû sè-kài kok-tē ê huan-i̍k thuân-tuī ê piànn-sè lâi huan-i̍k tsò tsiok"
-" tsē gí-giân.</p> "
-"<p>KDE kok-tsè-huà ê tsu-sìn ē-sái tsham-khó <a href=\"https://l10n.kde.org\">"
-"https://l10n.kde."
-"org</a></p>"
+"<p>KDE iû sè-kài kok-tē ê huan-i̍k thuân-tuī ê piànn-sè lâi huan-i̍k tsò tsiok "
+"tsē gí-giân.</p> <p>KDE kok-tsè-huà ê tsu-sìn ē-sái tsham-khó <a "
+"href=\"https://l10n.kde.org\">https://l10n.kde.org</a></p>"
 
 #: lib/kaboutdata.cpp:1317
 msgctxt "KAboutData CLI|"
@@ -290,18 +288,18 @@ msgctxt "KAboutData CLI|"
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "Tsit-ê ìng-iōng-tîng-sik ê tsok-tsiá hi-bāng li̍k-miâ."
 
-#: lib/kaboutdata.cpp:1333
+#: lib/kaboutdata.cpp:1339
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "%1 was written by:"
 msgstr "%1 ê tsok-tsiá:"
 
-#: lib/kaboutdata.cpp:1344
+#: lib/kaboutdata.cpp:1350
 msgctxt "KAboutData CLI|"
 msgid "Please use https://bugs.kde.org to report bugs."
 msgstr "Tshiánn iōng https://bugs.kde.org lâi huê-pò tshò-gōo."
 
-#: lib/kaboutdata.cpp:1346
+#: lib/kaboutdata.cpp:1352
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "Please report bugs to %1."

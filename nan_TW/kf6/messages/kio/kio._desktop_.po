@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-23 00:52+0000\n"
+"POT-Creation-Date: 2026-05-30 00:52+0000\n"
 "PO-Revision-Date: 2026-05-20 23:54+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
@@ -179,7 +179,7 @@ msgctxt "Name"
 msgid "ARD Mediathek"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/ard.desktop:25
+#: src/urifilters/ikws/searchproviders/ard.desktop:27
 msgctxt "Query"
 msgid "https://www.ardmediathek.de/suche/\\\\{@}"
 msgstr "https://www.ardmediathek.de/suche/\\\\{@}"
@@ -587,7 +587,7 @@ msgctxt "Name"
 msgid "Flathub"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/flathub.desktop:25
+#: src/urifilters/ikws/searchproviders/flathub.desktop:27
 msgctxt "Query"
 msgid "https://flathub.org/apps/search?q=\\\\{@}"
 msgstr "https://flathub.org/apps/search?q=\\\\{@}"
@@ -708,17 +708,17 @@ msgstr ""
 msgctxt "Query"
 msgid ""
 "https://www.google.com/search?as_q=\\\\{all,@}&num=\\\\{num,\"10\"}"
-"&btnG=Google+Search&as_epq=\\\\{exact,\"\"}&as_oq=\\\\{any,\"\"}&as_eq=\\"
-"\\{without,\"\"}&lr=\\\\{lang,\"\"}&as_ft=\\\\{ft,\"i\"}&as_filetype=\\"
-"\\{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}"
-"&as_dt=\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,\"active\"}"
+"&btnG=Google+Search&as_epq=\\\\{exact,\"\"}&as_oq=\\\\{any,\"\"}&as_eq=\\\\"
+"{without,\"\"}&lr=\\\\{lang,\"\"}&as_ft=\\\\{ft,\"i\"}&as_filetype=\\\\"
+"{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}&as_dt=\\"
+"\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,\"active\"}"
 "&ie=UTF-8&oe=UTF-8"
 msgstr ""
 "https://www.google.com/search?as_q=\\\\{all,@}&num=\\\\{num,\"10\"}"
-"&btnG=Google+Search&as_epq=\\\\{exact,\"\"}&as_oq=\\\\{any,\"\"}&as_eq=\\"
-"\\{without,\"\"}&lr=\\\\{lang,\"\"}&as_ft=\\\\{ft,\"i\"}&as_filetype=\\"
-"\\{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}"
-"&as_dt=\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,\"active\"}"
+"&btnG=Google+Search&as_epq=\\\\{exact,\"\"}&as_oq=\\\\{any,\"\"}&as_eq=\\\\"
+"{without,\"\"}&lr=\\\\{lang,\"\"}&as_ft=\\\\{ft,\"i\"}&as_filetype=\\\\"
+"{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}&as_dt=\\"
+"\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,\"active\"}"
 "&ie=UTF-8&oe=UTF-8"
 
 #: src/urifilters/ikws/searchproviders/google_code.desktop:5
@@ -1248,7 +1248,7 @@ msgctxt "Name"
 msgid "OpenStreetMap"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/openstreetmap.desktop:25
+#: src/urifilters/ikws/searchproviders/openstreetmap.desktop:27
 msgctxt "Query"
 msgid "https://www.openstreetmap.org/search?query=\\\\{@}"
 msgstr "https://www.openstreetmap.org/search?query=\\\\{@}"
@@ -1485,18 +1485,18 @@ msgstr "SourceForge"
 #: src/urifilters/ikws/searchproviders/sourceforge.desktop:102
 msgctxt "Query"
 msgid ""
-"https://sourceforge.net/search/?type_of_search=\\\\{type,\"soft\"}&exact=\\"
-"\\{exact,\"0\"}&words=\\\\{@}"
+"https://sourceforge.net/search/?type_of_search=\\\\{type,\"soft\"}&exact=\\\\"
+"{exact,\"0\"}&words=\\\\{@}"
 msgstr ""
-"https://sourceforge.net/search/?type_of_search=\\\\{type,\"soft\"}&exact=\\"
-"\\{exact,\"0\"}&words=\\\\{@}"
+"https://sourceforge.net/search/?type_of_search=\\\\{type,\"soft\"}&exact=\\\\"
+"{exact,\"0\"}&words=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/startpage.desktop:3
 msgctxt "Name"
 msgid "Startpage"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/startpage.desktop:25
+#: src/urifilters/ikws/searchproviders/startpage.desktop:27
 msgctxt "Query"
 msgid "https://www.startpage.com/sp/search?query=\\\\{@}"
 msgstr "https://www.startpage.com/sp/search?query=\\\\{@}"
@@ -1677,11 +1677,11 @@ msgstr "Yahoo"
 #: src/urifilters/ikws/searchproviders/yahoo.desktop:88
 msgctxt "Query"
 msgid ""
-"https://search.yahoo.com/search?toggle=1&cop=mss&ei=UTF-8&fr=yfp-t-701&p=\\"
-"\\{@}&x=0&y=0&=Web+Search"
+"https://search.yahoo.com/search?toggle=1&cop=mss&ei=UTF-8&fr=yfp-t-701&p=\\\\"
+"{@}&x=0&y=0&=Web+Search"
 msgstr ""
-"https://search.yahoo.com/search?toggle=1&cop=mss&ei=UTF-8&fr=yfp-t-701&p=\\"
-"\\{@}&x=0&y=0&=Web+Search"
+"https://search.yahoo.com/search?toggle=1&cop=mss&ei=UTF-8&fr=yfp-t-701&p=\\\\"
+"{@}&x=0&y=0&=Web+Search"
 
 #: src/urifilters/ikws/searchproviders/yahoo_image.desktop:5
 msgctxt "Name"
@@ -1717,13 +1717,13 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/yahoo_shopping.desktop:85
 msgctxt "Query"
 msgid ""
-"https://shopping.yahoo.com/search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;"
-"_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQDVjEwOQ--?cop=mss&ei=UTF-8&p=\\\\{@}"
-"&fr2=tab-video&fr=yfp-t-701"
+"https://shopping.yahoo.com/"
+"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQDVjEwOQ--?"
+"cop=mss&ei=UTF-8&p=\\\\{@}&fr2=tab-video&fr=yfp-t-701"
 msgstr ""
-"https://shopping.yahoo.com/search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;"
-"_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQDVjEwOQ--?cop=mss&ei=UTF-8&p=\\\\{@}"
-"&fr2=tab-video&fr=yfp-t-701"
+"https://shopping.yahoo.com/"
+"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQDVjEwOQ--?"
+"cop=mss&ei=UTF-8&p=\\\\{@}&fr2=tab-video&fr=yfp-t-701"
 
 #: src/urifilters/ikws/searchproviders/yahoo_video.desktop:5
 msgctxt "Name"
@@ -1764,7 +1764,7 @@ msgctxt "Name"
 msgid "ZDF Mediathek"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/zdf.desktop:25
+#: src/urifilters/ikws/searchproviders/zdf.desktop:27
 msgctxt "Query"
 msgid "https://www.zdf.de/suche?q=\\\\{@}"
 msgstr "https://www.zdf.de/suche?q=\\\\{@}"

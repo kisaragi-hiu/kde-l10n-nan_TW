@@ -68,8 +68,8 @@ msgstr ""
 #, qt-format
 msgctxt "KAboutLicense|"
 msgid ""
-"<p>You can find the full terms on <a href=\"https://spdx.org/licenses/%1."
-"html\">the SPDX website</a>.</p>"
+"<p>You can find the full terms on <a href=\"https://spdx.org/licenses/"
+"%1.html\">the SPDX website</a>.</p>"
 msgstr ""
 
 #: lib/kaboutdata.cpp:296
@@ -251,8 +251,8 @@ msgctxt "KAboutData|replace this with information about your translation team"
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the "
 "translation teams all over the world.</p><p>For more information on KDE "
-"internationalization visit <a href=\"https://l10n.kde.org\">https://l10n.kde."
-"org</a></p>"
+"internationalization visit <a href=\"https://l10n.kde.org\">https://"
+"l10n.kde.org</a></p>"
 msgstr ""
 
 #: lib/kaboutdata.cpp:1317
@@ -280,18 +280,18 @@ msgctxt "KAboutData CLI|"
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr ""
 
-#: lib/kaboutdata.cpp:1333
+#: lib/kaboutdata.cpp:1339
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "%1 was written by:"
 msgstr "%1 ê 作者："
 
-#: lib/kaboutdata.cpp:1344
+#: lib/kaboutdata.cpp:1350
 msgctxt "KAboutData CLI|"
 msgid "Please use https://bugs.kde.org to report bugs."
 msgstr "請用 https://bugs.kde.org 來回報錯誤。"
 
-#: lib/kaboutdata.cpp:1346
+#: lib/kaboutdata.cpp:1352
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "Please report bugs to %1."

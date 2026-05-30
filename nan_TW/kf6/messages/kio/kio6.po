@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-23 00:39+0000\n"
+"POT-Creation-Date: 2026-05-29 00:39+0000\n"
 "PO-Revision-Date: 2026-05-25 23:53+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
@@ -933,8 +933,8 @@ msgstr ""
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered was not properly formatted. The format "
-"of a URL is generally as follows:<blockquote><strong>protocol://user:"
-"password@www.example.org:port/folder/filename.extension?query=value</"
+"of a URL is generally as follows:<blockquote><strong>protocol://"
+"user:password@www.example.org:port/folder/filename.extension?query=value</"
 "strong></blockquote>"
 msgstr ""
 
@@ -2034,20 +2034,20 @@ msgstr ""
 msgid "Unable to determine the type of file for %1"
 msgstr ""
 
-#: core/openwith.cpp:90
+#: core/openwith.cpp:91
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
 "name."
 msgstr ""
 
-#: core/openwith.cpp:142
+#: core/openwith.cpp:143
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> does not appear to be an executable program."
 msgstr ""
 
-#: core/openwith.cpp:143
+#: core/openwith.cpp:144
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2577,9 +2577,9 @@ msgstr "佇 tsia 輸入說明描述"
 #, kde-format
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
-"edit box you can browse to an appropriate URL.</qt>"
+"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://"
+"ftp.kde.org/pub/kde/stable<br /><br />By clicking on the button next to the "
+"text edit box you can browse to an appropriate URL.</qt>"
 msgstr ""
 
 #: filewidgets/kfileplaceeditdialog.cpp:98
@@ -3462,6 +3462,13 @@ msgstr "較濟"
 msgctxt "@action:button opening a list of locations"
 msgid "Go to Location on Path"
 msgstr ""
+
+#: filewidgets/kurlnavigatorplacesselector.cpp:49
+#, fuzzy, kde-format
+msgctxt ""
+"@action:button accessible name for the places selector in the URL navigator"
+msgid "Places"
+msgstr "取代"
 
 #: filewidgets/kurlnavigatorschemecombo.cpp:155
 #, kde-format
