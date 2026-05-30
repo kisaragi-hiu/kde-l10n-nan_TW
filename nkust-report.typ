@@ -1,5 +1,11 @@
 #set heading(numbering: "1.1.")
 
+// TODO authorship, 指導老師
+// Editing this file: use typst-ts-mode, then use typst-preview-mode for real time preview
+// Throw links/articles that you may want to reference into bibliography.bib
+
+// This probably still needs at least 5 hours of work. Probably 10.
+
 #title("Translating KDE Software Into Taiwanese Taigi")
 
 = Introduction
@@ -99,6 +105,41 @@ A decision on this has already been made before me, in fact. A `nan_TW` locale h
 #quote(block: true, attribution: [Arne Goetje])[
   Minnan can be written using Latin or traditional Han script. Therefor this locale has \@latin to clarify which script we use.
 ]
+
+= TODO Process
+
+Pull translation files and other languages for reference
+Translate within Lokalize with all projects in one place and glossary and translation memory
+Look up words on ChhoeTaigi, Lohankha, and my own aggregated dictionary frontend Kemdict
+Refer to prior art, especially Kian-ting's Mastodon translation and the PTS Taigi TV 台語新詞詞庫
+Fall back to borrowing from English (directly) or Mandarin (as hàn-jī-sû)
+
+= TODO Result
+
+As of 2026-05-31:
+
+- Required QLocale submission not done yet
+- Of the base libraries (kconfig, kconfigwidgets, kcoreaddons, kio, kxmlgui), they are 67% translated overall, with `nan_TW@latin` being 84% translated and `nan_TW` being 50% translated, according to statistics collected with pocount from Translate Toolkit @pocount.
+- Large number of probably-good-enough terminology documented in glossary files
+
+= TODO Acknowledgements
+= Declarations
+== AI usage
+
+- I occasionally ask a chatbot for a second opinion on the translation of specific words.
+- There are 106 strings in `kconfigwidgets._desktop_.po`, which are all language names. Through my own search I've filled 44 of them already. The rest seems like I would have to copy from Hokkien Wikipedia.
+
+  I tried using Gemini CLI for this task once, using gemini-3-flash-preview with this prompt: #quote[./words.po is a Gettext PO file that contains a list of languages in English. Please fill in their translations in Taiwanese Hokkien#footnote[I would prefer "Taigi", but figured the model would understand "Taiwanese Hokkien" better.]. Use your search tool if available.]
+
+  I then reviewed the result and incorporated them as appropriate. Almost all strings turned out to need further tweaking by me looking them up on Hokkien Wikipedia again myself. This helped in only three minor ways:
+
+  - By having 62 complete but slightly wrong strings, this motivated me to go through each of them and figure out something better, instead of being intimidated by 62 empty strings.
+  - I learned that Crimea is better borrowed into Taigi directly from Ukrainian, such that Crimean Tatar is _Krym Tatar-gí_
+  - I realized that I could translate Latin (script) into "Lô-má-jī" (literally "Rome characters") instead of the clumsy "La-ting bûn-jī".
+
+== Potential conflict of interest
+
+I am a prior KDE translator and have been working on Taiwanese Mandarin (known as "Traditional Chinese" but has the language code `zh_TW`) translations for KDE for the last 5 years. I am a KDE e.V. voting member because of this work.
 
 #bibliography("bibliography.bib")
 
