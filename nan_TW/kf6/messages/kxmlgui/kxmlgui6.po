@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-12 00:41+0000\n"
-"PO-Revision-Date: 2026-05-20 23:49+0900\n"
+"PO-Revision-Date: 2026-05-31 08:37+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -79,6 +79,12 @@ msgid ""
 "<a href=\"%3\">%3</a> for more information about the KDE community and the "
 "software we produce.</html>"
 msgstr ""
+"<html><b>KDE</b> 是一个世界 ê 社群，包括軟體工程師、藝術家、作家、翻譯者 kah 其他創作者，做伙拍拚開發<a href=\"%1\">"
+"自由軟體</a>。KDE 做 ê 有 Plasma 桌面環境、成百 ê 應用程式、kah 支援 in ê 足濟軟體函式庫。<br /><br />KDE 是"
+"合作事業：無單一 ê 人猶是組織控制 KDE ài 做啥物產品猶是 ài uì 佗位去。阮做伙拍拚來達成製造世界上好 ê 自由軟體 ê 共同目標。阮歡迎任何"
+"人<a href=\"%2\">加入 kah 貢獻</a>予 KDE - 這當然 mā 包括你！<br /><br />Nā ài 看閣較濟 ê KDE 社"
+"群 kap 阮做 ê 軟體 ê 資訊，請拜訪 <a href=\"%3\""
+">%3</a>。</html>"
 
 #: kaboutkdedialog_p.cpp:66
 #, kde-format
@@ -91,6 +97,10 @@ msgid ""
 "improvement then you are welcome to use the bug tracking system to register "
 "your wish. Make sure you use the severity called \"Wishlist\".</html>"
 msgstr ""
+"<html>軟體永遠有會使閣較好 ê 所在，KDE 團隊 mā 準備好勢會使 kā KDE 軟體改閣較好。毋過阮需要用者，mā tio̍h-sī 恁，來佇有"
+"出問題猶是有所在會使改善 ê 時陣 kā 阮講。<br /><br />KDE 有一个追蹤問題 ê 系統 (bug tracking "
+"system)。請拜訪 <a href=\"%1\">%1</a> 猶是用「說明」選單內底 ê「回報錯誤」對話框來回報問題。<br /><br />Nā 你"
+"有改善軟體 ê 建議 mā 會使用問題追蹤系統來予阮知影你 ê 願望。這款時陣請用 \"Wishlist\" 這个 severity 選項。</html>"
 
 #: kaboutkdedialog_p.cpp:85
 #, kde-format
@@ -103,6 +113,9 @@ msgid ""
 "documentation, then a visit to <a href=\"%2\">%2</a> will provide you with "
 "what you need.</html>"
 msgstr ""
+"<html>你毋免做軟體開發者 mā 會使做 KDE 團隊 ê 一部份。你會使加入翻譯團隊來翻譯程式介面；猶是提供圖形設計、主題、音效、猶是改善文件。這攏會"
+"使家己決定！<br /><br />請拜訪 <a href=\"%1\">%1</a> 來看會使參加啥物專案。<br /><br />若你需要閣較濟資訊猶是"
+"說明文件，mā 會使拜訪 <a href=\"%2\">%2</a>。</html>"
 
 #: kaboutkdedialog_p.cpp:108
 #, kde-format
@@ -120,6 +133,11 @@ msgid ""
 "described at <a href=\"%2\">%2</a>.<br /><br />Thank you very much in "
 "advance for your support.</html>"
 msgstr ""
+"<html>KDE 軟體這馬是免錢--ê，以後 mā 攏會是免錢 ê，毋過阮製造這軟體毋是免開錢--ê。<br /><br />為著支援開發工作，KDE 社"
+"群組織--ah KDE e.V. 這个佇德國法律成立 ê 非營利事業。KDE e.V. 佇法律 kap 金融事務頂懸代表規个 KDE 社群。KDE e.V."
+" ê 資訊請看<a href=\"%1\">%1</a>。<br /><br />各種貢獻對 KDE 攏真好，包括金錢 ê 貢獻。阮用寄付來 ê 錢來補助成"
+"員 kah 其他 ê 人貢獻 ê 時陣開 ê 錢。閣較濟 ê 錢會用佇法律支援 kah 組織會議 kap 研討會。<br /><br />阮歡迎你用佇 <a"
+" href=\"%2\">%2</a> 說明 ê 方法 kā 阮寄付。<br /><br />先多謝你 ê 支援。</html>"
 
 #: kaboutkdedialog_p.cpp:128
 #, kde-format
@@ -182,7 +200,7 @@ msgstr "Qt"
 #, kde-format
 msgctxt "@info"
 msgid "Cross-platform application development framework."
-msgstr ""
+msgstr "跨平台應用程式開發框架。"
 
 #: kabstractaboutdialog_p.cpp:130
 #, kde-format
@@ -217,7 +235,7 @@ msgstr "發行方法。"
 #, kde-format
 msgctxt "@info"
 msgid "Underlying platform."
-msgstr ""
+msgstr "基礎平台。"
 
 #: kabstractaboutdialog_p.cpp:176
 #, kde-format
@@ -275,8 +293,7 @@ msgctxt "Reference to website"
 msgid ""
 "Please use %1 to report bugs.<br/>If you have questions or need help, please "
 "visit %2.<br/>"
-msgstr ""
-"請用 %1 來回報錯誤。<br/>若是有問題猶是需要人 kā 你鬥相共，會使拜訪 %2。<br/>"
+msgstr "請用 %1 來回報錯誤。<br/>若是有問題猶是需要人 kā 你鬥相共，會使拜訪 %2。<br/>"
 
 #: kabstractaboutdialog_p.cpp:324
 #, kde-format
@@ -532,12 +549,12 @@ msgstr "改變文字(&X)…"
 #: kedittoolbar.cpp:1196
 #, kde-format
 msgid "--- separator ---"
-msgstr ""
+msgstr "--- 分離器 ---"
 
 #: kedittoolbar.cpp:1197
 #, kde-format
 msgid "--- expanding spacer ---"
-msgstr ""
+msgstr "--- 擴充空間 ---"
 
 #: kedittoolbar.cpp:1219
 #, kde-format
@@ -676,12 +693,12 @@ msgstr[0] "快速齒 '%2' kap tsia-ê 齒組合有衝突：\n"
 msgctxt "%1 is the number of shortcuts with which there is a conflict"
 msgid "Conflict with Registered Global Shortcut"
 msgid_plural "Conflict with Registered Global Shortcuts"
-msgstr[0] ""
+msgstr[0] "Kā 有註冊 ê 全域快速齒有衝突"
 
 #: kkeysequencewidget.cpp:304
 #, kde-format
 msgid "Reserved Shortcut"
-msgstr ""
+msgstr "Hōo 保留 ê 快速齒"
 
 #: kkeysequencewidget.cpp:306
 #, kde-format
@@ -690,6 +707,8 @@ msgid ""
 "shortcut.\n"
 "Please choose another one."
 msgstr ""
+"F12 齒佇 Windows 已經予保留--ah，無法度用做全域快速齒。\n"
+"請選別个齒。"
 
 #: kkeysequencewidget.cpp:349
 #, kde-format
@@ -890,8 +909,7 @@ msgstr "設定齒盤快速齒"
 msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
-msgstr ""
-"佇遮輸入快速齒 ê 名（例：Khóo-pih）猶是齒組合（例：Ctrl+C）來 kā in 搜揣。"
+msgstr "佇遮輸入快速齒 ê 名（例：Khóo-pih）猶是齒組合（例：Ctrl+C）來 kā in 搜揣。"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:23
@@ -1060,8 +1078,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
-msgstr ""
-"這是應用程式主要 ê 語言，若是一个詞佇這个語言無 ê 時陣才會試其他 ê 語言。"
+msgstr "這是應用程式主要 ê 語言，若是一个詞佇這个語言無 ê 時陣才會試其他 ê 語言。"
 
 #: kswitchlanguagedialog_p.cpp:390
 #, kde-format
@@ -1195,8 +1212,7 @@ msgstr "%1 (%2)"
 msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
-msgstr ""
-"<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
+msgstr "<small><font color=\"%1\">揤 <b>Shift</b> 來看 kha 濟資料。</font></small>"
 
 #: ktooltiphelper.cpp:295
 #, kde-format

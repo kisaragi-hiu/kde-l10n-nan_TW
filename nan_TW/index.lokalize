@@ -4,7 +4,6 @@ BranchDir=../stable.nan_TW
 LangCode=nan_TW
 LanguageSource=Project
 MailingList=zh-l10n@lists.slat.org
-PotBaseDir=../../templates
 PotBranchDir=../stable.templates
 ProjLangTeam=Taiwanese Hokkien <zh-l10n@lists.slat.org>
 ProjectID=kde-translations-nan_TW

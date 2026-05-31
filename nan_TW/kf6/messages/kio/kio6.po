@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-29 00:39+0000\n"
-"PO-Revision-Date: 2026-05-25 23:53+0900\n"
+"PO-Revision-Date: 2026-05-31 09:37+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -103,23 +103,23 @@ msgstr "%1 內底無 Exec 欄位"
 #: core/desktopexecparser.cpp:360
 #, kde-format
 msgid "Could not find the program '%1'"
-msgstr ""
+msgstr "揣無程式「%1」"
 
 #: core/desktopexecparser.cpp:363
 #, kde-format
 msgid ""
 "The program '%1' was found at '%2' but it is missing executable permissions."
-msgstr ""
+msgstr "程式「%1」佇「%2」有揣著，毋過伊無執行權限。"
 
 #: core/desktopexecparser.cpp:365
 #, kde-format
 msgid "The program '%1' is missing executable permissions."
-msgstr ""
+msgstr "程式「%1」無執行權限。"
 
 #: core/desktopexecparser.cpp:379
 #, kde-format
 msgid "Syntax error in command %1 coming from %2"
-msgstr ""
+msgstr "%2 ê 指令 %1 內底有語法錯誤"
 
 #: core/desktopexecparser.cpp:509
 #, kde-format
@@ -129,7 +129,7 @@ msgstr "愛執行 %2 ê 時陣揣無終端機 %1"
 #: core/desktopexecparser.cpp:526
 #, kde-format
 msgid "Syntax error in command %1 while trying to run %2"
-msgstr ""
+msgstr "Tī-leh 執行 %2 ê 時陣佇指令 %1 內底有語法錯誤"
 
 #: core/global.cpp:79
 #, kde-format
@@ -239,19 +239,19 @@ msgstr "檔案"
 #, kde-format
 msgctxt "@title job"
 msgid "Examining"
-msgstr ""
+msgstr "Tī-leh 檢查"
 
 #: core/job.cpp:149
 #, kde-format
 msgctxt "@title job"
 msgid "Transferring"
-msgstr ""
+msgstr "Tī-leh 傳輸"
 
 #: core/job.cpp:156
 #, kde-format
 msgctxt "@title job"
 msgid "Mounting"
-msgstr ""
+msgstr "Tī-leh 掛載"
 
 #: core/job.cpp:156
 #, kde-format
@@ -261,13 +261,13 @@ msgstr "裝置"
 #: core/job.cpp:156 core/job.cpp:161
 #, kde-format
 msgid "Mountpoint"
-msgstr ""
+msgstr "掛載點"
 
 #: core/job.cpp:161
 #, kde-format
 msgctxt "@title job"
 msgid "Unmounting"
-msgstr ""
+msgstr "Tī-leh 卸載"
 
 #: core/job_error.cpp:37
 #, kde-format
@@ -338,7 +338,7 @@ msgstr "已經有別个叫做 %1 ê 資料鋏仔--ah。"
 #: core/job_error.cpp:77
 #, kde-format
 msgid "No hostname specified."
-msgstr ""
+msgstr "無指定主機名。"
 
 #: core/job_error.cpp:77
 #, kde-format
@@ -382,17 +382,17 @@ msgstr "Khóo-pih %1 ê 時陣揣著循環連結。"
 #: core/job_error.cpp:98
 #, kde-format
 msgid "Could not create socket for accessing %1."
-msgstr ""
+msgstr "無法度 uī-tio̍h 存取 %1 建立 socket。"
 
 #: core/job_error.cpp:101
 #, kde-format
 msgid "Could not connect to host %1."
-msgstr ""
+msgstr "無法度連線主機 %1。"
 
 #: core/job_error.cpp:104
 #, kde-format
 msgid "Connection to host %1 is broken."
-msgstr ""
+msgstr "Tuì 主機 %1 ê 連線斷去--ah。"
 
 #: core/job_error.cpp:107
 #, kde-format
@@ -406,6 +406,9 @@ msgid ""
 "The reported error was:\n"
 "%1"
 msgstr ""
+"無法度掛載裝置。\n"
+"回報 ê 錯誤是：\n"
+"%1"
 
 #: core/job_error.cpp:113
 #, kde-format
@@ -414,6 +417,9 @@ msgid ""
 "The reported error was:\n"
 "%1"
 msgstr ""
+"無法度卸載裝置。\n"
+"回報 ê 錯誤是：\n"
+"%1"
 
 #: core/job_error.cpp:116
 #, kde-format
@@ -428,12 +434,12 @@ msgstr "無法度寫入檔案 %1。"
 #: core/job_error.cpp:122
 #, kde-format
 msgid "Could not bind %1."
-msgstr ""
+msgstr "無法度綁定 %1。"
 
 #: core/job_error.cpp:125
 #, kde-format
 msgid "Could not listen %1."
-msgstr ""
+msgstr "無法度監聽 %1。"
 
 #: core/job_error.cpp:128
 #, kde-format
@@ -448,12 +454,12 @@ msgstr "無法度存取 %1。"
 #: core/job_error.cpp:137
 #, kde-format
 msgid "Could not terminate listing %1."
-msgstr ""
+msgstr "無法度中止 kā %1 表列。"
 
 #: core/job_error.cpp:140
 #, kde-format
 msgid "Could not make folder %1."
-msgstr ""
+msgstr "無法度建立資料鋏仔 %1。"
 
 #: core/job_error.cpp:143
 #, kde-format
@@ -468,17 +474,17 @@ msgstr "無法度繼續檔案 %1。"
 #: core/job_error.cpp:149
 #, kde-format
 msgid "Could not rename file %1."
-msgstr ""
+msgstr "無法度 kā 檔案 %1 改名。"
 
 #: core/job_error.cpp:152
 #, kde-format
 msgid "Could not change permissions for %1."
-msgstr ""
+msgstr "無法度改變 %1 ê 權限。"
 
 #: core/job_error.cpp:155
 #, kde-format
 msgid "Could not change ownership for %1."
-msgstr ""
+msgstr "無法度改變 %1 ê 所有者。"
 
 #: core/job_error.cpp:158
 #, kde-format
@@ -488,7 +494,7 @@ msgstr "無法度刣掉檔案 %1。"
 #: core/job_error.cpp:161
 #, kde-format
 msgid "The process for the %1 protocol died unexpectedly."
-msgstr ""
+msgstr "協定 %1 ê 程序 hiông-hiông 無去--ah。"
 
 #: core/job_error.cpp:164
 #, kde-format
@@ -496,6 +502,8 @@ msgid ""
 "Error. Out of memory.\n"
 "%1"
 msgstr ""
+"錯誤。無記憶體--ah。\n"
+"%1"
 
 #: core/job_error.cpp:167
 #, kde-format
@@ -503,11 +511,13 @@ msgid ""
 "Unknown proxy host\n"
 "%1"
 msgstr ""
+"毋知 ê 代理主機\n"
+"%1"
 
 #: core/job_error.cpp:170
 #, kde-format
 msgid "Authorization failed, %1 authentication not supported"
-msgstr ""
+msgstr "授權失敗，%1 認證無支援"
 
 #: core/job_error.cpp:176
 #, kde-format
@@ -533,6 +543,8 @@ msgid ""
 "Timeout on server\n"
 "%1"
 msgstr ""
+"伺服器 timeout--ah\n"
+"%1"
 
 #: core/job_error.cpp:185
 #, kde-format
@@ -549,6 +561,8 @@ msgid ""
 "Unknown interrupt\n"
 "%1"
 msgstr ""
+"毋知 ê 中斷\n"
+"%1"
 
 #: core/job_error.cpp:199
 #, kde-format
@@ -556,6 +570,8 @@ msgid ""
 "Could not delete original file %1.\n"
 "Please check permissions."
 msgstr ""
+"無法度刣掉原本 ê 檔案 %1。\n"
+"請檢查權限。"
 
 #: core/job_error.cpp:202
 #, kde-format
@@ -563,6 +579,8 @@ msgid ""
 "Could not delete partial file %1.\n"
 "Please check permissions."
 msgstr ""
+"無法度刣掉部份檔案 %1。\n"
+"請檢查權限。"
 
 #: core/job_error.cpp:205
 #, kde-format
@@ -570,6 +588,8 @@ msgid ""
 "Could not rename original file %1.\n"
 "Please check permissions."
 msgstr ""
+"無法度 kā 原本 ê 檔案 %1 改名。\n"
+"請檢查權限。"
 
 #: core/job_error.cpp:208
 #, kde-format
@@ -577,6 +597,8 @@ msgid ""
 "Could not rename partial file %1.\n"
 "Please check permissions."
 msgstr ""
+"無法度 kā 部份檔案 %1 改名。\n"
+"請檢查權限。"
 
 #: core/job_error.cpp:211
 #, kde-format
@@ -584,6 +606,8 @@ msgid ""
 "Could not create symlink %1.\n"
 "Please check permissions."
 msgstr ""
+"無法度建立符號連結 %1。\n"
+"請檢查權限。"
 
 #: core/job_error.cpp:214
 #, kde-format
@@ -591,11 +615,13 @@ msgid ""
 "Cannot create symlinks at %1.\n"
 "The destination filesystem doesn't support symlinks."
 msgstr ""
+"無法度佇 %1 建立符號連結。\n"
+"目的地檔案系統無支援符號連結。"
 
 #: core/job_error.cpp:220
 #, kde-format
 msgid "There is not enough space on the disk to write %1."
-msgstr ""
+msgstr "磁碟空間無夠寫入 %1。"
 
 #: core/job_error.cpp:223
 #, kde-format
@@ -603,42 +629,44 @@ msgid ""
 "The source and destination are the same file.\n"
 "%1"
 msgstr ""
+"來源 kap 目標是仝一个檔案。\n"
+"%1"
 
 #: core/job_error.cpp:231
 #, kde-format
 msgid "%1 is required by the server, but is not available."
-msgstr ""
+msgstr "伺服器需要 %1，suah 無法度用。"
 
 #: core/job_error.cpp:234
 #, kde-format
 msgid "Access to restricted port in POST denied."
-msgstr ""
+msgstr "POST 請求存取受限制 ê 埠頭予拒絕--ah。"
 
 #: core/job_error.cpp:237
 #, kde-format
 msgid ""
 "The required content size information was not provided for a POST operation."
-msgstr ""
+msgstr "POST 操作 ê 需要 ê 內容大細資訊無提供。"
 
 #: core/job_error.cpp:240
 #, kde-format
 msgid "A file or folder cannot be dropped onto itself"
-msgstr ""
+msgstr "檔案猶是資料鋏仔無法度擲落去家己頂懸"
 
 #: core/job_error.cpp:243
 #, kde-format
 msgid "A folder cannot be moved into itself"
-msgstr ""
+msgstr "資料鋏仔無法度徙入去家己內底"
 
 #: core/job_error.cpp:246
 #, kde-format
 msgid "Communication with the local password server failed"
-msgstr ""
+msgstr "Kā 本地密碼伺服器 ê 通訊失敗--ah"
 
 #: core/job_error.cpp:249
 #, kde-format
 msgid "Unable to create KIO worker. %1"
-msgstr ""
+msgstr "無法度建立 KIP 工作器。%1"
 
 #: core/job_error.cpp:253
 #, kde-kuit-format
@@ -646,7 +674,7 @@ msgctxt "@info"
 msgid ""
 "Cannot transfer <filename>%1</filename> because it is too large. The "
 "destination filesystem only supports files up to 4GiB"
-msgstr ""
+msgstr "無法度傳輸 <filename>%1</filename>, 因為伊 siunn 大--ah。目的地檔案系統只支援上大 4GiB ê 檔案"
 
 #: core/job_error.cpp:258
 #, kde-format
@@ -1864,19 +1892,19 @@ msgstr ""
 #: core/job_error.cpp:1190
 #, kde-format
 msgid "No Content"
-msgstr ""
+msgstr "無內容"
 
 #: core/job_error.cpp:1195
 #, kde-format
 msgid "Disk Full"
-msgstr ""
+msgstr "磁碟滿--ah"
 
 #: core/job_error.cpp:1197
 #, kde-format
 msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
 "inadequate disk space."
-msgstr ""
+msgstr "要求 ê 檔案 <strong>%1</strong> 無法度寫入，因為磁碟空間無夠。"
 
 #: core/job_error.cpp:1201
 #, kde-format
@@ -1891,7 +1919,7 @@ msgstr ""
 #: core/job_error.cpp:1208
 #, kde-format
 msgid "Source and Destination Files Identical"
-msgstr ""
+msgstr "來源 kap 目標檔案仝款"
 
 #: core/job_error.cpp:1210
 #, kde-format
@@ -2269,7 +2297,7 @@ msgstr "向前"
 #: filewidgets/kdiroperator.cpp:2064
 #, kde-format
 msgid "Home Folder"
-msgstr ""
+msgstr "家目錄"
 
 #: filewidgets/kdiroperator.cpp:2068
 #, kde-format
@@ -2297,47 +2325,47 @@ msgstr "刣掉"
 #: filewidgets/kdiroperator.cpp:2094
 #, kde-format
 msgid "Sorting"
-msgstr ""
+msgstr "順序"
 
 #: filewidgets/kdiroperator.cpp:2099
 #, kde-format
 msgid "Sort by Name"
-msgstr ""
+msgstr "用名來排序"
 
 #: filewidgets/kdiroperator.cpp:2105
 #, kde-format
 msgid "Sort by Size"
-msgstr ""
+msgstr "用大細來排序"
 
 #: filewidgets/kdiroperator.cpp:2111
 #, kde-format
 msgid "Sort by Date"
-msgstr ""
+msgstr "用日期來排序"
 
 #: filewidgets/kdiroperator.cpp:2117
 #, kde-format
 msgid "Sort by Type"
-msgstr ""
+msgstr "用類來排序"
 
 #: filewidgets/kdiroperator.cpp:2126
 #, kde-format
 msgid "Ascending"
-msgstr ""
+msgstr "增序"
 
 #: filewidgets/kdiroperator.cpp:2133
 #, kde-format
 msgid "Descending"
-msgstr ""
+msgstr "減序"
 
 #: filewidgets/kdiroperator.cpp:2140
 #, kde-format
 msgid "Folders First"
-msgstr ""
+msgstr "資料鋏仔佇頭前"
 
 #: filewidgets/kdiroperator.cpp:2146
 #, kde-format
 msgid "Hidden Files Last"
-msgstr ""
+msgstr "隱藏檔案佇上尾"
 
 #: filewidgets/kdiroperator.cpp:2153
 #, kde-format
@@ -2397,7 +2425,7 @@ msgstr ""
 #: filewidgets/kdiroperator.cpp:2249
 #, kde-format
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "顯示隱藏檔案"
 
 #: filewidgets/kdiroperator.cpp:2256
 #, kde-format
@@ -2440,30 +2468,30 @@ msgstr "A-Z"
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Oldest First"
-msgstr ""
+msgstr "舊 ê 佇頭前"
 
 #: filewidgets/kdiroperator.cpp:2394
 #, kde-format
 msgctxt "Sort descending"
 msgid "Newest First"
-msgstr ""
+msgstr "新 ê 佇頭前"
 
 #: filewidgets/kdiroperator.cpp:2397
 #, kde-format
 msgctxt "Sort descending"
 msgid "Largest First"
-msgstr ""
+msgstr "大 ê 佇頭前"
 
 #: filewidgets/kdiroperator.cpp:2398
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Smallest First"
-msgstr ""
+msgstr "細 ê 佇頭前"
 
 #: filewidgets/kencodingfiledialog.cpp:73
 #, kde-format
 msgid "Encoding:"
-msgstr ""
+msgstr "編碼："
 
 #: filewidgets/kencodingfiledialog.cpp:123
 #: filewidgets/kencodingfiledialog.cpp:137
@@ -2495,7 +2523,7 @@ msgstr "徙去"
 #, kde-format
 msgctxt "@title:menu"
 msgid "Home Folder"
-msgstr ""
+msgstr "家目錄"
 
 #: filewidgets/kfilecopytomenu.cpp:110
 #, kde-format
@@ -2507,7 +2535,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu in Copy To or Move To submenu"
 msgid "Browse…"
-msgstr ""
+msgstr "瀏覽…"
 
 #: filewidgets/kfilecopytomenu.cpp:225
 #, kde-format
@@ -2652,7 +2680,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item"
 msgid "Tags"
-msgstr ""
+msgstr "標籤"
 
 #: filewidgets/kfileplacesitem.cpp:344
 #, kde-format
@@ -2663,7 +2691,7 @@ msgstr "%1 (uì %2)"
 #: filewidgets/kfileplacesmodel.cpp:158
 msgctxt "KFile System Bookmarks"
 msgid "All tags"
-msgstr ""
+msgstr "所有 ê 標籤"
 
 #. i18nc calls has to be "KFile System Bookmarks".
 #. The real i18nc call is made later, with this context, so the two must match.
@@ -2675,7 +2703,7 @@ msgstr "頭頁"
 #: filewidgets/kfileplacesmodel.cpp:263
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
-msgstr ""
+msgstr "桌面"
 
 #: filewidgets/kfileplacesmodel.cpp:270
 msgctxt "KFile System Bookmarks"
@@ -2685,12 +2713,12 @@ msgstr "文件"
 #: filewidgets/kfileplacesmodel.cpp:277
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
-msgstr ""
+msgstr "下載"
 
 #: filewidgets/kfileplacesmodel.cpp:282
 msgctxt "KFile System Bookmarks"
 msgid "Network"
-msgstr ""
+msgstr "網路"
 
 #: filewidgets/kfileplacesmodel.cpp:287
 msgctxt "KFile System Bookmarks"
@@ -2700,37 +2728,37 @@ msgstr "糞埽桶"
 #: filewidgets/kfileplacesmodel.cpp:348
 msgctxt "KFile System Bookmarks"
 msgid "Music"
-msgstr ""
+msgstr "音樂"
 
 #: filewidgets/kfileplacesmodel.cpp:355
 msgctxt "KFile System Bookmarks"
 msgid "Pictures"
-msgstr ""
+msgstr "圖片"
 
 #: filewidgets/kfileplacesmodel.cpp:364
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
-msgstr ""
+msgstr "影片"
 
 #: filewidgets/kfileplacesmodel.cpp:391
 msgctxt "KFile System Bookmarks"
 msgid "Recent Files"
-msgstr ""
+msgstr "近來 ê 檔案"
 
 #: filewidgets/kfileplacesmodel.cpp:396
 msgctxt "KFile System Bookmarks"
 msgid "Recent Locations"
-msgstr ""
+msgstr "近來 ê 位置"
 
 #: filewidgets/kfileplacesmodel.cpp:419
 msgctxt "KFile System Bookmarks"
 msgid "Modified Today"
-msgstr ""
+msgstr "今仔日修改--ê"
 
 #: filewidgets/kfileplacesmodel.cpp:423
 msgctxt "KFile System Bookmarks"
 msgid "Modified Yesterday"
-msgstr ""
+msgstr "昨昏修改--ê"
 
 #: filewidgets/kfileplacesmodel.cpp:1130
 #, kde-format
@@ -2753,48 +2781,48 @@ msgstr "設定…"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Releasing…"
-msgstr ""
+msgstr "Tī-leh 退出…"
 
 #: filewidgets/kfileplacesmodel.cpp:1418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Release"
-msgstr ""
+msgstr "退出(&R)"
 
 #: filewidgets/kfileplacesmodel.cpp:1422
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Safely Removing…"
-msgstr ""
+msgstr "Tī-leh 安全退出…"
 
 #: filewidgets/kfileplacesmodel.cpp:1424
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
-msgstr ""
+msgstr "安全退出(&S)"
 
 #: filewidgets/kfileplacesmodel.cpp:1429
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmounting…"
-msgstr ""
+msgstr "Tī-leh 卸載…"
 
 #: filewidgets/kfileplacesmodel.cpp:1431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Unmount"
-msgstr ""
+msgstr "卸載(&U)"
 
 #: filewidgets/kfileplacesmodel.cpp:1455
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Eject"
-msgstr ""
+msgstr "退出(&E)"
 
 #: filewidgets/kfileplacesmodel.cpp:1502
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
-msgstr ""
+msgstr "裝置「%1」毋是磁碟，無法度退出。"
 
 #: filewidgets/kfileplacesmodel.cpp:1538
 #, kde-format
@@ -2934,45 +2962,45 @@ msgstr ""
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
-msgstr ""
+msgstr "細 (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1454
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
-msgstr ""
+msgstr "中 (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1457
 #, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
-msgstr ""
+msgstr "大 (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1460
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
-msgstr ""
+msgstr "足大 (%1x%1)"
 
 #: filewidgets/kfilewidget.cpp:637
 #, kde-format
 msgid "You can only select one file"
-msgstr ""
+msgstr "只會使選一个檔案"
 
 #: filewidgets/kfilewidget.cpp:637
 #, kde-format
 msgid "More than one file provided"
-msgstr ""
+msgstr "提供--ah 上濟檔案"
 
 #: filewidgets/kfilewidget.cpp:813
 #, kde-format
 msgid "You can only select local files"
-msgstr ""
+msgstr "只會使選本地檔案"
 
 #: filewidgets/kfilewidget.cpp:813
 #, kde-format
 msgid "Remote files not accepted"
-msgstr ""
+msgstr "無接受遠端檔案"
 
 #: filewidgets/kfilewidget.cpp:820
 #, kde-format
@@ -2997,7 +3025,7 @@ msgstr ""
 #: filewidgets/kfilewidget.cpp:847
 #, kde-format
 msgid "Cannot open file"
-msgstr ""
+msgstr "無法度開檔案"
 
 #: filewidgets/kfilewidget.cpp:1216
 #, kde-format
@@ -3125,7 +3153,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
-msgstr ""
+msgstr "位置"
 
 #: filewidgets/kfilewidget.cpp:1763
 #, kde-format
@@ -3226,12 +3254,12 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox Prompt for new file of type"
 msgid "Enter %1 filename:"
-msgstr ""
+msgstr "輸入 %1 檔名："
 
 #: filewidgets/knewfilemenu.cpp:538
 #, kde-format
 msgid "Sorry"
-msgstr ""
+msgstr "歹勢"
 
 #: filewidgets/knewfilemenu.cpp:549
 #, kde-format
@@ -3241,12 +3269,12 @@ msgstr ""
 #: filewidgets/knewfilemenu.cpp:700 filewidgets/knewfilemenu.cpp:765
 #, kde-format
 msgid "Name for new link:"
-msgstr ""
+msgstr "新連結 ê 名："
 
 #: filewidgets/knewfilemenu.cpp:703
 #, kde-format
 msgid "Create Symlink"
-msgstr ""
+msgstr "建立符號連結"
 
 #: filewidgets/knewfilemenu.cpp:769
 #, kde-format
@@ -3438,12 +3466,12 @@ msgstr "編輯"
 #: filewidgets/kurlnavigator.cpp:650
 #, kde-format
 msgid "Navigate"
-msgstr ""
+msgstr "瀏覽"
 
 #: filewidgets/kurlnavigator.cpp:665
 #, kde-format
 msgid "Show Full Path"
-msgstr ""
+msgstr "顯示完整路徑"
 
 #: filewidgets/kurlnavigator.cpp:826
 #, kde-kuit-format
@@ -3474,7 +3502,7 @@ msgstr "取代"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Devices"
-msgstr ""
+msgstr "裝置"
 
 #: filewidgets/kurlnavigatorschemecombo.cpp:159
 #, kde-format
@@ -3591,7 +3619,7 @@ msgstr "揣無終端機"
 #: gui/openurljob.cpp:163
 #, kde-format
 msgid "Failed to open %1"
-msgstr ""
+msgstr "開 %1 失敗"
 
 #: gui/openurljob.cpp:301
 #, kde-format
@@ -3667,17 +3695,17 @@ msgstr "檔案變--ah"
 #: kioexec/kioexecd.cpp:88 kioexec/main.cpp:251
 #, kde-format
 msgid "Upload"
-msgstr ""
+msgstr "上傳"
 
 #: kioexec/kioexecd.cpp:89 kioexec/main.cpp:252
 #, kde-format
 msgid "Do Not Upload"
-msgstr ""
+msgstr "Bái 上傳"
 
 #: kioexec/main.cpp:58
 #, kde-format
 msgid "Invalid URL: %1"
-msgstr ""
+msgstr "無效 ê URL：%1"
 
 #: kioexec/main.cpp:64
 #, kde-format
@@ -3690,6 +3718,8 @@ msgid ""
 "The URL %1\n"
 "is malformed"
 msgstr ""
+"URL %1\n"
+"不正"
 
 #: kioexec/main.cpp:83
 #, kde-format
@@ -3697,6 +3727,8 @@ msgid ""
 "Remote URL %1\n"
 "not allowed with --tempfiles switch"
 msgstr ""
+"遠端 URL %1\n"
+"佇用 --tempfiles 選項 ê 時陣袂使用"
 
 #: kioexec/main.cpp:239
 #, kde-format
@@ -3706,11 +3738,15 @@ msgid ""
 "has been modified.\n"
 "Do you still want to delete it?"
 msgstr ""
+"應該 ài 是暫時 ê 檔案\n"
+"%1\n"
+"已經予改變--ah。\n"
+"你敢閣 ài kā 伊刣掉？"
 
 #: kioexec/main.cpp:242
 #, kde-format
 msgid "Do Not Delete"
-msgstr ""
+msgstr "Bái 刣掉"
 
 #: kioexec/main.cpp:249
 #, kde-format
@@ -3724,7 +3760,7 @@ msgstr ""
 #: kioexec/main.cpp:302
 #, kde-format
 msgid "KIOExec"
-msgstr ""
+msgstr "KIOExec"
 
 #: kioexec/main.cpp:304
 #, kde-format
@@ -3744,22 +3780,22 @@ msgstr "David Faure"
 #: kioexec/main.cpp:308
 #, kde-format
 msgid "Stephan Kulow"
-msgstr ""
+msgstr "Stephan Kulow"
 
 #: kioexec/main.cpp:309
 #, kde-format
 msgid "Bernhard Rosenkraenzer"
-msgstr ""
+msgstr "Bernhard Rosenkraenzer"
 
 #: kioexec/main.cpp:310
 #, kde-format
 msgid "Waldo Bastian"
-msgstr ""
+msgstr "Waldo Bastian"
 
 #: kioexec/main.cpp:311
 #, kde-format
 msgid "Oswald Buddenhagen"
-msgstr ""
+msgstr "Oswald Buddenhagen"
 
 #: kioexec/main.cpp:316
 #, kde-format
@@ -3774,7 +3810,7 @@ msgstr ""
 #: kioexec/main.cpp:319
 #, kde-format
 msgid "Command to execute"
-msgstr ""
+msgstr "Ài 執行 ê 指令"
 
 #: kioexec/main.cpp:320
 #, kde-format
@@ -3885,7 +3921,7 @@ msgstr ""
 #: kioworkers/ftp/ftp.cpp:689
 #, kde-format
 msgid "Could not login to %1."
-msgstr ""
+msgstr "無法度登入到 %1。"
 
 #: kioworkers/ftp/ftp.cpp:1045
 #, kde-format
@@ -3904,7 +3940,7 @@ msgstr ""
 #: kioworkers/ftp/ftp.cpp:2498 kioworkers/http/http.cpp:383
 #, kde-format
 msgid "Proxy:"
-msgstr ""
+msgstr "代理："
 
 #: kioworkers/ftp/ftp.cpp:2501
 #, kde-format
@@ -4828,7 +4864,7 @@ msgstr "名"
 #, kde-format
 msgctxt "@title:column"
 msgid "Size"
-msgstr ""
+msgstr "大細"
 
 #: widgets/kdirmodel.cpp:1260
 #, kde-format
@@ -4858,7 +4894,7 @@ msgstr "群組"
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"
-msgstr ""
+msgstr "類"
 
 #: widgets/kfileitemactions.cpp:448
 #, kde-format
@@ -4881,13 +4917,13 @@ msgstr "動作(&A)"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Open Folder With…"
-msgstr ""
+msgstr "用程式開資料鋏仔(&O)…"
 
 #: widgets/kfileitemactions.cpp:756
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Open With…"
-msgstr ""
+msgstr "用程式開(&O)…"
 
 #: widgets/kfileitemactions.cpp:814
 #, kde-format
@@ -4909,13 +4945,13 @@ msgstr "用 %1 Phah-khui(&O)"
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open Folder With"
-msgstr ""
+msgstr "用程式開資料鋏仔(&O)"
 
 #: widgets/kfileitemactions.cpp:868
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
-msgstr ""
+msgstr "用程式開(&O)"
 
 #: widgets/kfileitemactions.cpp:879
 #, kde-format
@@ -4940,7 +4976,7 @@ msgstr "毋知"
 #: widgets/kfilepropspluginwidget.ui:88
 #, kde-format
 msgid "Type:"
-msgstr ""
+msgstr "類："
 
 #. i18n: ectx: property (text), widget (QLabel, contentLabel)
 #: widgets/kfilepropspluginwidget.ui:118
@@ -4952,7 +4988,7 @@ msgstr "內容："
 #: widgets/kfilepropspluginwidget.ui:138
 #, kde-format
 msgid "Open With:"
-msgstr ""
+msgstr "用程式開："
 
 #. i18n: ectx: property (text), widget (QPushButton, configureMimeBtn)
 #: widgets/kfilepropspluginwidget.ui:192
@@ -4964,13 +5000,13 @@ msgstr "改變..."
 #: widgets/kfilepropspluginwidget.ui:204 widgets/kurlrequesterdialog.cpp:44
 #, kde-format
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 #. i18n: ectx: property (text), widget (QLabel, sizeLabelLeft)
 #: widgets/kfilepropspluginwidget.ui:233
 #, kde-format
 msgid "Size:"
-msgstr ""
+msgstr "大細："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, calculateSizeBtn)
 #: widgets/kfilepropspluginwidget.ui:282
@@ -4982,7 +5018,7 @@ msgstr ""
 #: widgets/kfilepropspluginwidget.ui:289
 #, kde-format
 msgid "Stop"
-msgstr ""
+msgstr "停"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopCalculateSizeBtn)
 #: widgets/kfilepropspluginwidget.ui:295
@@ -5313,8 +5349,7 @@ msgstr ""
 msgid ""
 "Type a generic name for the application here. Examples: an image viewing "
 "application would be \"Image Viewer\"."
-msgstr ""
-"請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
+msgstr "請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: widgets/kpropertiesdesktopbase.ui:42
@@ -6287,7 +6322,7 @@ msgstr ""
 #: widgets/renamedialog.cpp:298
 #, kde-format
 msgid "&Skip"
-msgstr ""
+msgstr "跳過(&S)"
 
 #: widgets/renamedialog.cpp:299
 #, kde-format
@@ -6303,7 +6338,7 @@ msgstr "Bái khóo-pi̍h 猶是 suá 這个檔案，直接處理後一个項目"
 #, kde-format
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
-msgstr ""
+msgstr "寫入去(&W)"
 
 #: widgets/renamedialog.cpp:314
 #, kde-format

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-30 00:52+0000\n"
-"PO-Revision-Date: 2026-05-20 23:54+0900\n"
+"PO-Revision-Date: 2026-05-31 09:18+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -42,7 +42,7 @@ msgstr "Su-ji̍p khang-ê tóng-àn ê miâ:"
 #: src/new_file_templates/HTMLFile.desktop:2
 msgctxt "Name"
 msgid "HTML File..."
-msgstr "HTML Tóng-àn..."
+msgstr "HTML 檔案..."
 
 #: src/new_file_templates/HTMLFile.desktop:98
 msgctxt "Comment"
@@ -52,7 +52,7 @@ msgstr "Su-ji̍p HTML ê tóng-àn-miâ:"
 #: src/new_file_templates/linkPath.desktop:2
 msgctxt "Name"
 msgid "Link to File or Directory..."
-msgstr "Tóng-àn Á-sī Tsu-liāu-giap-á ê Liân-kiat…"
+msgstr "檔案猶是資料鋏仔 ê 連結…"
 
 #: src/new_file_templates/linkPath.desktop:67
 msgctxt "Comment"
@@ -62,27 +62,27 @@ msgstr "Ài liân-kiat kàu ê tóng-àn á-sī tsu-liāu-giap-á:"
 #: src/new_file_templates/linkProgram.desktop:2
 msgctxt "Name"
 msgid "Link to Application..."
-msgstr "Ìng-iōng-tîng-sik ê Liân-kiat…"
+msgstr "應用程式 ê 連結…"
 
 #: src/new_file_templates/linkProgram.desktop:95
 msgctxt "Comment"
 msgid "New Link to Application"
-msgstr "Ìng-iōng-tîng-sik ê Sin Liân-kiat"
+msgstr "應用程式 ê 新連結"
 
 #: src/new_file_templates/linkURL.desktop:2
 msgctxt "Name"
 msgid "Link to Location (URL)..."
-msgstr "Uī-tì (URL) ê Liân-kiat…"
+msgstr "位置 (URL) ê 連結…"
 
 #: src/new_file_templates/linkURL.desktop:97
 msgctxt "Comment"
 msgid "URL location to link to:"
-msgstr "Ài liân-kiat tio̍h ê URL bo̍k-ti̍k-tē:"
+msgstr "Ài 連結著 ê URL 目的地："
 
 #: src/new_file_templates/TextFile.desktop:2
 msgctxt "Name"
 msgid "Text File..."
-msgstr "Bûn-jī Tóng-àn..."
+msgstr "文字檔案…"
 
 #: src/new_file_templates/TextFile.desktop:97
 msgctxt "Comment"
@@ -92,7 +92,7 @@ msgstr "Su-ji̍p bûn-jī tóng-àn ê miâ:"
 #: src/schemehandlers/telnet/ktelnetservice6.desktop:9
 msgctxt "Name"
 msgid "KTelnetService"
-msgstr ""
+msgstr "KTelnetService"
 
 #: src/urifilters/ikws/searchproviders/7digital.desktop:5
 msgctxt "Name"
@@ -109,7 +109,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/acronym.desktop:3
 msgctxt "Name"
 msgid "Acronym Database"
-msgstr ""
+msgstr "Acronym Database"
 
 #: src/urifilters/ikws/searchproviders/acronym.desktop:99
 msgctxt "Query"
@@ -147,7 +147,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/amg.desktop:4
 msgctxt "Name"
 msgid "All Music Guide"
-msgstr ""
+msgstr "All Music Guide"
 
 #: src/urifilters/ikws/searchproviders/amg.desktop:98
 msgctxt "Query"
@@ -157,7 +157,7 @@ msgstr "https://www.allmusic.com/search/all/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/archpkg.desktop:3
 msgctxt "Name"
 msgid "Arch Linux Package Search"
-msgstr ""
+msgstr "Arch Linux 套件搜揣"
 
 #: src/urifilters/ikws/searchproviders/archpkg.desktop:72
 msgctxt "Query"
@@ -177,7 +177,7 @@ msgstr "https://wiki.archlinux.org/index.php?search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/ard.desktop:5
 msgctxt "Name"
 msgid "ARD Mediathek"
-msgstr ""
+msgstr "ARD Mediathek"
 
 #: src/urifilters/ikws/searchproviders/ard.desktop:27
 msgctxt "Query"
@@ -187,7 +187,7 @@ msgstr "https://www.ardmediathek.de/suche/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/backports.desktop:3
 msgctxt "Name"
 msgid "Debian Backports Search"
-msgstr ""
+msgstr "Debian Backports 搜揣"
 
 #: src/urifilters/ikws/searchproviders/backports.desktop:97
 msgctxt "Query"
@@ -247,7 +247,7 @@ msgstr "https://bugzilla.opensuse.org/show_bug.cgi?id=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/bug.desktop:3
 msgctxt "Name"
 msgid "KDE Bugs"
-msgstr "KDE Tshò-gōo"
+msgstr "KDE Bugs"
 
 #: src/urifilters/ikws/searchproviders/bug.desktop:68
 msgctxt "Query"
@@ -257,7 +257,7 @@ msgstr "https://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/call.desktop:5
 msgctxt "Name"
 msgid "QRZ.com Callsign Database"
-msgstr ""
+msgstr "QRZ.com Callsign 資料庫"
 
 #: src/urifilters/ikws/searchproviders/call.desktop:99
 msgctxt "Query"
@@ -277,7 +277,7 @@ msgstr "https://caniuse.com/?search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/cia.desktop:4
 msgctxt "Name"
 msgid "CIA World Fact Book"
-msgstr ""
+msgstr "CIA World Fact Book"
 
 #: src/urifilters/ikws/searchproviders/cia.desktop:97
 msgctxt "Query"
@@ -375,7 +375,7 @@ msgstr "https://ctan.org/search?phrase=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/dbug.desktop:3
 msgctxt "Name"
 msgid "Debian BTS Bug Search"
-msgstr "Debian BTS Tshò-gōo Tshiau-tshuē"
+msgstr "Debian BTS 錯誤搜揣"
 
 #: src/urifilters/ikws/searchproviders/dbug.desktop:97
 msgctxt "Query"
@@ -396,7 +396,7 @@ msgstr "https://www.dict.cc/?s=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/de2fr.desktop:3
 msgctxt "Name"
 msgid "LEO - Translate Between German and French"
-msgstr ""
+msgstr "LEO - 德語 kah 法語之間 ê 翻譯"
 
 #: src/urifilters/ikws/searchproviders/de2fr.desktop:99
 #: src/urifilters/ikws/searchproviders/fr2de.desktop:99
@@ -407,7 +407,7 @@ msgstr "https://dict.leo.org/?lp=frde&search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/deb.desktop:3
 msgctxt "Name"
 msgid "Debian Package Search"
-msgstr ""
+msgstr "Debian 套件搜揣"
 
 #: src/urifilters/ikws/searchproviders/deb.desktop:101
 msgctxt "Query"
@@ -437,7 +437,7 @@ msgstr "https://www.cnrtl.fr/definition/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/docbook.desktop:5
 msgctxt "Name"
 msgid "DocBook - The Definitive Guide"
-msgstr ""
+msgstr "DocBook - The Definitive Guide"
 
 #: src/urifilters/ikws/searchproviders/docbook.desktop:102
 msgctxt "Query"
@@ -447,7 +447,7 @@ msgstr "https://www.docbook.org/tdg/en/html/\\\\{1}.html"
 #: src/urifilters/ikws/searchproviders/dockerhub.desktop:3
 msgctxt "Name"
 msgid "Docker Hub"
-msgstr ""
+msgstr "Docker Hub"
 
 #: src/urifilters/ikws/searchproviders/dockerhub.desktop:49
 msgctxt "Query"
@@ -457,7 +457,7 @@ msgstr "https://hub.docker.com/search?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/doi.desktop:5
 msgctxt "Name"
 msgid "Digital Object Identifier"
-msgstr ""
+msgstr "數位物件識別碼 (DOI)"
 
 #: src/urifilters/ikws/searchproviders/doi.desktop:99
 msgctxt "Query"
@@ -477,7 +477,7 @@ msgstr "https://duckduckgo.com/?q=\\\\{@}&t=kde"
 #: src/urifilters/ikws/searchproviders/duckduckgo_info.desktop:5
 msgctxt "Name"
 msgid "Duck Duck Go Info"
-msgstr ""
+msgstr "Duck Duck Go Info"
 
 #: src/urifilters/ikws/searchproviders/duckduckgo_info.desktop:84
 msgctxt "Query"
@@ -487,7 +487,7 @@ msgstr "https://duckduckgo.com/?q=\\\\{@}&v=r&t=kde"
 #: src/urifilters/ikws/searchproviders/duckduckgo_shopping.desktop:5
 msgctxt "Name"
 msgid "Duck Duck Go Shopping"
-msgstr ""
+msgstr "Duck Duck Go Shopping"
 
 #: src/urifilters/ikws/searchproviders/duckduckgo_shopping.desktop:85
 msgctxt "Query"
@@ -497,7 +497,7 @@ msgstr "https://duckduckgo.com/?q=\\\\{@}&v=s&t=kde"
 #: src/urifilters/ikws/searchproviders/ecosia.desktop:3
 msgctxt "Name"
 msgid "Ecosia search engine"
-msgstr ""
+msgstr "Ecosia 搜揣 ia̋n-jín"
 
 #: src/urifilters/ikws/searchproviders/ecosia.desktop:84
 msgctxt "Query"
@@ -517,7 +517,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/en2es.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/es/translation.asp?tranword=\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/es/translation.asp?tranword=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/en2fr.desktop:5
 msgctxt "Name"
@@ -527,7 +527,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/en2fr.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/enfr/\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/enfr/\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/en2it.desktop:5
 msgctxt "Name"
@@ -538,22 +538,22 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/it2en.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/iten/\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/iten/\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/es2en.desktop:5
 msgctxt "Name"
 msgid "WordReference.com Translation: Spanish to English"
-msgstr ""
+msgstr "WordReference.com 翻譯：西班牙語 kàu 英語"
 
 #: src/urifilters/ikws/searchproviders/es2en.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/es/en/translation.asp?spen=\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/es/en/translation.asp?spen=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/facebook.desktop:5
 msgctxt "Name"
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: src/urifilters/ikws/searchproviders/facebook.desktop:86
 msgctxt "Query"
@@ -563,7 +563,7 @@ msgstr "https://www.facebook.com/search/?q=\\\\{@}&init=quick"
 #: src/urifilters/ikws/searchproviders/fedora.desktop:2
 msgctxt "Name"
 msgid "Fedora Packages"
-msgstr ""
+msgstr "Fedora 套件"
 
 #: src/urifilters/ikws/searchproviders/fedora.desktop:49
 msgctxt "Query"
@@ -595,7 +595,7 @@ msgstr "https://flathub.org/apps/search?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/flatpak.desktop:2
 msgctxt "Name"
 msgid "Flatpak Documentation"
-msgstr ""
+msgstr "Flatpak 文件"
 
 #: src/urifilters/ikws/searchproviders/flatpak.desktop:67
 msgctxt "Query"
@@ -603,6 +603,8 @@ msgid ""
 "https://docs.flatpak.org/en/latest/search.html?q=\\\\{@}"
 "&check_keywords=yes&area=default"
 msgstr ""
+"https://docs.flatpak.org/en/latest/search.html?q=\\\\{@}"
+"&check_keywords=yes&area=default"
 
 #: src/urifilters/ikws/searchproviders/flickrcc.desktop:5
 msgctxt "Name"
@@ -637,7 +639,7 @@ msgstr "https://foldoc.org/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/fr2de.desktop:3
 msgctxt "Name"
 msgid "LEO - Translate Between French and German"
-msgstr ""
+msgstr "LEO - 法語 kah 德語之間 ê 翻譯"
 
 #: src/urifilters/ikws/searchproviders/fr2en.desktop:5
 msgctxt "Name"
@@ -647,7 +649,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/fr2en.desktop:100
 msgctxt "Query"
 msgid "https://www.wordreference.com/fren/\\\\{@}"
-msgstr ""
+msgstr "https://www.wordreference.com/fren/\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/freecode.desktop:3
 msgctxt "Name"
@@ -702,7 +704,7 @@ msgstr "https://gitlab.com/search?search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/google_advanced.desktop:3
 msgctxt "Name"
 msgid "Google Advanced Search"
-msgstr ""
+msgstr "Google 進階搜揣"
 
 #: src/urifilters/ikws/searchproviders/google_advanced.desktop:103
 msgctxt "Query"
@@ -724,7 +726,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/google_code.desktop:5
 msgctxt "Name"
 msgid "Google Code"
-msgstr ""
+msgstr "Google Code"
 
 #: src/urifilters/ikws/searchproviders/google_code.desktop:85
 msgctxt "Query"
@@ -744,7 +746,7 @@ msgstr "https://www.google.com/search?q=\\\\{@}&ie=UTF-8"
 #: src/urifilters/ikws/searchproviders/google_groups.desktop:3
 msgctxt "Name"
 msgid "Google Groups"
-msgstr ""
+msgstr "Google 群組"
 
 #: src/urifilters/ikws/searchproviders/google_groups.desktop:104
 msgctxt "Query"
@@ -754,7 +756,7 @@ msgstr "https://groups.google.com/groups?oi=djq&as_q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/google_images.desktop:3
 msgctxt "Name"
 msgid "Google Image Search"
-msgstr ""
+msgstr "Google 影像搜揣"
 
 #: src/urifilters/ikws/searchproviders/google_images.desktop:104
 msgctxt "Query"
@@ -778,7 +780,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/google_maps.desktop:3
 msgctxt "Name"
 msgid "Google Maps"
-msgstr ""
+msgstr "Google 地圖"
 
 #: src/urifilters/ikws/searchproviders/google_maps.desktop:85
 msgctxt "Query"
@@ -788,7 +790,7 @@ msgstr "https://maps.google.com/maps?q=\\\\{@}&ie=UTF8&iwloc=addr"
 #: src/urifilters/ikws/searchproviders/google_movie.desktop:3
 msgctxt "Name"
 msgid "Google Movies"
-msgstr ""
+msgstr "Google 電影"
 
 #: src/urifilters/ikws/searchproviders/google_movie.desktop:104
 msgctxt "Query"
@@ -798,7 +800,7 @@ msgstr "https://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #: src/urifilters/ikws/searchproviders/google_news.desktop:3
 msgctxt "Name"
 msgid "Google News"
-msgstr ""
+msgstr "Google 新聞"
 
 #: src/urifilters/ikws/searchproviders/google_news.desktop:104
 msgctxt "Query"
@@ -808,12 +810,12 @@ msgstr "https://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #: src/urifilters/ikws/searchproviders/google_shopping.desktop:3
 msgctxt "Name"
 msgid "Google Shopping"
-msgstr ""
+msgstr "Google Shopping"
 
 #: src/urifilters/ikws/searchproviders/google_shopping.desktop:79
 msgctxt "Query"
 msgid "https://www.google.com/search?hl=en&tbm=shop&q=\\\\{@}"
-msgstr ""
+msgstr "https://www.google.com/search?hl=en&tbm=shop&q=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/grec.desktop:5
 msgctxt "Name"
@@ -828,7 +830,7 @@ msgstr "http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/hyperdictionary.desktop:3
 msgctxt "Name"
 msgid "HyperDictionary.com"
-msgstr ""
+msgstr "HyperDictionary.com"
 
 #: src/urifilters/ikws/searchproviders/hyperdictionary.desktop:102
 msgctxt "Query"
@@ -838,7 +840,7 @@ msgstr "http://www.hyperdictionary.com/search.aspx?define=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/hyperdictionary_thesaurus.desktop:3
 msgctxt "Name"
 msgid "HyperDictionary.com Thesaurus"
-msgstr ""
+msgstr "HyperDictionary.com 同義詞辭典"
 
 #: src/urifilters/ikws/searchproviders/hyperdictionary_thesaurus.desktop:101
 msgctxt "Query"
@@ -848,7 +850,7 @@ msgstr "http://www.hyperdictionary.com/search.aspx?Dict=T&define=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/identica_groups.desktop:5
 msgctxt "Name"
 msgid "Identi.ca Groups"
-msgstr ""
+msgstr "Identi.ca 群組"
 
 #: src/urifilters/ikws/searchproviders/identica_groups.desktop:85
 msgctxt "Query"
@@ -858,7 +860,7 @@ msgstr "https://identi.ca/search/group?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/identica_notices.desktop:5
 msgctxt "Name"
 msgid "Identi.ca Notices"
-msgstr ""
+msgstr "Identi.ca 通知"
 
 #: src/urifilters/ikws/searchproviders/identica_notices.desktop:85
 msgctxt "Query"
@@ -868,7 +870,7 @@ msgstr "https://identi.ca/search/notice?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/identica_people.desktop:5
 msgctxt "Name"
 msgid "Identi.ca People"
-msgstr ""
+msgstr "Identi.ca 人物"
 
 #: src/urifilters/ikws/searchproviders/identica_people.desktop:85
 msgctxt "Query"
@@ -878,7 +880,7 @@ msgstr "https://identi.ca/search/people?q=\\\\{@}&search=Search"
 #: src/urifilters/ikws/searchproviders/imdb.desktop:3
 msgctxt "Name"
 msgid "Internet Movie Database"
-msgstr ""
+msgstr "網路電影資料庫 (IMDB)"
 
 #: src/urifilters/ikws/searchproviders/imdb.desktop:101
 msgctxt "Query"
@@ -908,7 +910,7 @@ msgstr "https://invent.kde.org/search?scope=issues&search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/invent_mr.desktop:3
 msgctxt "Name"
 msgid "KDE Invent Merge Requests"
-msgstr ""
+msgstr "KDE Invent 合併請求"
 
 #: src/urifilters/ikws/searchproviders/invent_mr.desktop:64
 msgctxt "Query"
@@ -918,7 +920,7 @@ msgstr "https://invent.kde.org/search?scope=merge_requests&search=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/invent_repo.desktop:3
 msgctxt "Name"
 msgid "KDE Invent Repositories"
-msgstr "KDE Invent Pán-pún-khòo"
+msgstr "KDE Invent 版本庫"
 
 #: src/urifilters/ikws/searchproviders/invent_repo.desktop:67
 msgctxt "Query"
@@ -928,7 +930,7 @@ msgstr "https://invent.kde.org/explore/projects/starred?name=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/it2en.desktop:5
 msgctxt "Name"
 msgid "WordReference.com Translation: Italian to English"
-msgstr ""
+msgstr "WordReference.com 翻譯：義大利語 kàu 英語"
 
 #: src/urifilters/ikws/searchproviders/jamendo.desktop:5
 msgctxt "Name"
@@ -938,7 +940,7 @@ msgstr "Jamendo"
 #: src/urifilters/ikws/searchproviders/jamendo.desktop:87
 msgctxt "Query"
 msgid "https://www.jamendo.com/en/search?qs=q=\\\\{@}"
-msgstr ""
+msgstr "https://www.jamendo.com/en/search?qs=q=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/jeeves.desktop:3
 msgctxt "Name"
@@ -953,7 +955,7 @@ msgstr "https://www.ask.com/web?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/kde_apps.desktop:3
 msgctxt "Name"
 msgid "Plasma Add-Ons and Extensions"
-msgstr ""
+msgstr "Plasma Addon kap 擴充功能"
 
 #: src/urifilters/ikws/searchproviders/kde_apps.desktop:49
 msgctxt "Query"
@@ -963,7 +965,7 @@ msgstr "https://store.kde.org/browse?tag=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/kde.desktop:6
 msgctxt "Name"
 msgid "KDE API Documentation"
-msgstr ""
+msgstr "KDE API 文件"
 
 #: src/urifilters/ikws/searchproviders/kde.desktop:103
 msgctxt "Query"
@@ -973,16 +975,18 @@ msgstr "https://api.kde.org/search.html?query=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/kde_forums.desktop:5
 msgctxt "Name"
 msgid "KDE Forums"
-msgstr ""
+msgstr "KDE 論壇"
 
 #: src/urifilters/ikws/searchproviders/kde_forums.desktop:85
 msgctxt "Query"
 msgid ""
 "https://forum.kde.org/search.php?keywords=\\\\{@}"
-"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&countlimit=100&t=0&submit=Search"
+"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&count"
+"limit=100&t=0&submit=Search"
 msgstr ""
 "https://forum.kde.org/search.php?keywords=\\\\{@}"
-"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&countlimit=100&t=0&submit=Search"
+"&terms=all&author=&tags=&sv=0&sc=1&sf=all&sr=posts&sk=t&sd=d&st=0&ch=300&count"
+"limit=100&t=0&submit=Search"
 
 #: src/urifilters/ikws/searchproviders/kde_store.desktop:5
 msgctxt "Name"
@@ -1027,12 +1031,12 @@ msgstr "https://www.reddit.com/r/kde/search/?q=\\\\{@}&restrict_sr=1"
 #: src/urifilters/ikws/searchproviders/krita.desktop:2
 msgctxt "Name"
 msgid "Krita Manual"
-msgstr ""
+msgstr "Krita 手冊"
 
 #: src/urifilters/ikws/searchproviders/krita.desktop:67
 msgctxt "Query"
 msgid "https://docs.krita.org/en/search.html?q=\\\\{@}"
-msgstr ""
+msgstr "https://docs.krita.org/en/search.html?q=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/learncpp.desktop:2
 msgctxt "Name"
@@ -1047,7 +1051,7 @@ msgstr "https://www.learncpp.com/gsearch/?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/leo.desktop:3
 msgctxt "Name"
 msgid "LEO-Translate"
-msgstr ""
+msgstr "LEO-Translate"
 
 #: src/urifilters/ikws/searchproviders/leo.desktop:102
 msgctxt "Query"
@@ -1067,7 +1071,7 @@ msgstr "https://www.linguee.com/search?source=auto&query=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/magnatune.desktop:5
 msgctxt "Name"
 msgid "Magnatune"
-msgstr ""
+msgstr "Magnatune"
 
 #: src/urifilters/ikws/searchproviders/magnatune.desktop:86
 msgctxt "Query"
@@ -1082,12 +1086,12 @@ msgstr "Mozilla 開發者網路 (MDN)"
 #: src/urifilters/ikws/searchproviders/mdn.desktop:49
 msgctxt "Query"
 msgid "https://developer.mozilla.org/en-US/search?q=\\\\{@}"
-msgstr ""
+msgstr "https://developer.mozilla.org/en-US/search?q=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/metacrawler.desktop:3
 msgctxt "Name"
 msgid "MetaCrawler"
-msgstr ""
+msgstr "MetaCrawler"
 
 #: src/urifilters/ikws/searchproviders/metacrawler.desktop:103
 msgctxt "Query"
@@ -1098,7 +1102,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:2
 msgctxt "Name"
 msgid "Microsoft C++ Documentation"
-msgstr ""
+msgstr "Microsoft C++ 文件"
 
 #: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:66
 msgctxt "Query"
@@ -1108,17 +1112,17 @@ msgstr "https://docs.microsoft.com/search/?terms=\\\\{@}&scope=C%2B%2B"
 #: src/urifilters/ikws/searchproviders/msdn.desktop:3
 msgctxt "Name"
 msgid "Microsoft Developer Network Search"
-msgstr ""
+msgstr "Microsoft 開發者網路搜揣"
 
 #: src/urifilters/ikws/searchproviders/msdn.desktop:101
 msgctxt "Query"
 msgid "https://social.msdn.microsoft.com/Search/en-US?query=\\\\{@}"
-msgstr ""
+msgstr "https://social.msdn.microsoft.com/Search/en-US?query=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/multitran-deru.desktop:4
 msgctxt "Name"
 msgid "Multitran - Translate Between German and Russian"
-msgstr ""
+msgstr "Multitran - 德語 kah 俄羅斯語之間 ê 翻譯"
 
 #: src/urifilters/ikws/searchproviders/multitran-deru.desktop:98
 msgctxt "Query"
@@ -1128,7 +1132,7 @@ msgstr "https://multitran.ru/c/m.exe?l1=3&s=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/multitran-enru.desktop:4
 msgctxt "Name"
 msgid "Multitran - Translate Between English and Russian"
-msgstr ""
+msgstr "Multitran - 英語 kah 俄羅斯語之間 ê 翻譯"
 
 #: src/urifilters/ikws/searchproviders/multitran-enru.desktop:98
 msgctxt "Query"
@@ -1138,7 +1142,7 @@ msgstr "https://multitran.ru/c/m.exe?l1=1&l2=2&s=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/multitran-esru.desktop:4
 msgctxt "Name"
 msgid "Multitran - Translate Between Spanish and Russian"
-msgstr ""
+msgstr "Multitran - 西班牙語 kah 俄羅斯語之間 ê 翻譯"
 
 #: src/urifilters/ikws/searchproviders/multitran-esru.desktop:98
 msgctxt "Query"
@@ -1148,7 +1152,7 @@ msgstr "https://multitran.ru/c/m.exe?l1=5&s=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/multitran-frru.desktop:4
 msgctxt "Name"
 msgid "Multitran - Translate Between French and Russian"
-msgstr ""
+msgstr "Multitran - 法語 kah 俄羅斯語之間 ê 翻譯"
 
 #: src/urifilters/ikws/searchproviders/multitran-frru.desktop:98
 msgctxt "Query"
@@ -1158,7 +1162,7 @@ msgstr "https://multitran.ru/c/m.exe?l1=4&s=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/multitran-itru.desktop:4
 msgctxt "Name"
 msgid "Multitran - Translate Between Italian and Russian"
-msgstr ""
+msgstr "Multitran - 義大利語 kah 俄羅斯語之間 ê 翻譯"
 
 #: src/urifilters/ikws/searchproviders/multitran-itru.desktop:98
 msgctxt "Query"
@@ -1168,7 +1172,7 @@ msgstr "https://multitran.ru/c/m.exe?l1=23&s=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/multitran-nlru.desktop:4
 msgctxt "Name"
 msgid "Multitran - Translate Between Dutch and Russian"
-msgstr ""
+msgstr "Multitran - 荷蘭語 kah 俄羅斯語之間 ê 翻譯"
 
 #: src/urifilters/ikws/searchproviders/multitran-nlru.desktop:98
 msgctxt "Query"
@@ -1188,7 +1192,7 @@ msgstr "https://uptime.netcraft.com/up/graph?site=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/nixpkgs.desktop:3
 msgctxt "Name"
 msgid "Nix Packages"
-msgstr ""
+msgstr "Nix 套件"
 
 #: src/urifilters/ikws/searchproviders/nixpkgs.desktop:49
 msgctxt "Query"
@@ -1200,7 +1204,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/nl-telephone.desktop:2
 msgctxt "Name"
 msgid "Telephonebook Search Provider"
-msgstr ""
+msgstr "Telephonebook 搜揣提供者"
 
 #: src/urifilters/ikws/searchproviders/nl-telephone.desktop:98
 msgctxt "Query"
@@ -1214,7 +1218,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/nl-teletekst.desktop:2
 msgctxt "Name"
 msgid "Teletekst Search Provider"
-msgstr ""
+msgstr "Teletekst 搜揣提供者"
 
 #: src/urifilters/ikws/searchproviders/nl-teletekst.desktop:100
 msgctxt "Query"
@@ -1246,7 +1250,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/openstreetmap.desktop:4
 msgctxt "Name"
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
 #: src/urifilters/ikws/searchproviders/openstreetmap.desktop:27
 msgctxt "Query"
@@ -1256,7 +1260,7 @@ msgstr "https://www.openstreetmap.org/search?query=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/opensuse.desktop:2
 msgctxt "Name"
 msgid "openSUSE Software"
-msgstr "openSUSE Nńg-thé"
+msgstr "openSUSE 軟體"
 
 #: src/urifilters/ikws/searchproviders/opensuse.desktop:66
 msgctxt "Query"
@@ -1266,7 +1270,7 @@ msgstr "https://software.opensuse.org/search?utf8=%E2%9C%93&q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/pgpkeys.desktop:3
 msgctxt "Name"
 msgid "OpenPGP Key Search"
-msgstr ""
+msgstr "OpenPGP 鎖匙搜揣"
 
 #: src/urifilters/ikws/searchproviders/pgpkeys.desktop:100
 msgctxt "Query"
@@ -1286,7 +1290,7 @@ msgstr "https://secure.php.net/manual-lookup.php?pattern=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/protondb.desktop:2
 msgctxt "Name"
 msgid "ProtonDB"
-msgstr ""
+msgstr "ProtonDB"
 
 #: src/urifilters/ikws/searchproviders/protondb.desktop:67
 msgctxt "Query"
@@ -1296,7 +1300,7 @@ msgstr "https://www.protondb.com/search?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/pypi.desktop:5
 msgctxt "Name"
 msgid "PyPI"
-msgstr ""
+msgstr "PyPI"
 
 #: src/urifilters/ikws/searchproviders/pypi.desktop:58
 msgctxt "Query"
@@ -1306,7 +1310,7 @@ msgstr "https://pypi.org/search/?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/python.desktop:5
 msgctxt "Name"
 msgid "Python Reference Manual"
-msgstr ""
+msgstr "Python 參考手冊"
 
 #: src/urifilters/ikws/searchproviders/python.desktop:102
 msgctxt "Query"
@@ -1350,7 +1354,7 @@ msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=web"
 #: src/urifilters/ikws/searchproviders/qwant_images.desktop:3
 msgctxt "Name"
 msgid "Qwant Images"
-msgstr "Qwant Iánn-siōng"
+msgstr "Qwant 影像"
 
 #: src/urifilters/ikws/searchproviders/qwant_images.desktop:75
 msgctxt "Query"
@@ -1370,7 +1374,7 @@ msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=news"
 #: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:3
 msgctxt "Name"
 msgid "Qwant Shopping"
-msgstr ""
+msgstr "Qwant Shopping"
 
 #: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:75
 msgctxt "Query"
@@ -1380,7 +1384,7 @@ msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=shopping"
 #: src/urifilters/ikws/searchproviders/qwant_social.desktop:3
 msgctxt "Name"
 msgid "Qwant Social"
-msgstr ""
+msgstr "Qwant 社交"
 
 #: src/urifilters/ikws/searchproviders/qwant_social.desktop:76
 msgctxt "Query"
@@ -1390,7 +1394,7 @@ msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=social"
 #: src/urifilters/ikws/searchproviders/qwant_videos.desktop:3
 msgctxt "Name"
 msgid "Qwant Videos"
-msgstr "Qwant Iánn-phìnn"
+msgstr "Qwant 影片"
 
 #: src/urifilters/ikws/searchproviders/qwant_videos.desktop:75
 msgctxt "Query"
@@ -1420,7 +1424,7 @@ msgstr "https://academia.gal/dicionario/-/termo/busca/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/reddit.desktop:2
 msgctxt "Name"
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: src/urifilters/ikws/searchproviders/reddit.desktop:66
 msgctxt "Query"
@@ -1430,7 +1434,7 @@ msgstr "https://www.reddit.com/search/?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/rfc.desktop:3
 msgctxt "Name"
 msgid "IETF Requests for Comments"
-msgstr ""
+msgstr "IETF 評論請求 (RFC)"
 
 #: src/urifilters/ikws/searchproviders/rfc.desktop:97
 msgctxt "Query"
@@ -1440,7 +1444,7 @@ msgstr "https://datatracker.ietf.org/doc/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/rpmfind.desktop:3
 msgctxt "Name"
 msgid "RPM-Find"
-msgstr ""
+msgstr "RPM-Find"
 
 #: src/urifilters/ikws/searchproviders/rpmfind.desktop:102
 msgctxt "Query"
@@ -1450,17 +1454,17 @@ msgstr "https://www.rpmfind.net/linux/rpm2html/search.php?query=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/ruby_application_archive.desktop:3
 msgctxt "Name"
 msgid "Ruby Application Archive"
-msgstr ""
+msgstr "Ruby 應用程式封存"
 
 #: src/urifilters/ikws/searchproviders/ruby_application_archive.desktop:102
 msgctxt "Query"
 msgid "https://www.ruby-lang.org/en/raa-list.rhtml?name=\\\\{@}"
-msgstr ""
+msgstr "https://www.ruby-lang.org/en/raa-list.rhtml?name=\\\\{@}"
 
 #: src/urifilters/ikws/searchproviders/rust.desktop:2
 msgctxt "Name"
 msgid "Rust STD Documentation"
-msgstr ""
+msgstr "Rust STD 文件"
 
 #: src/urifilters/ikws/searchproviders/rust.desktop:65
 msgctxt "Query"
@@ -1494,7 +1498,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/startpage.desktop:3
 msgctxt "Name"
 msgid "Startpage"
-msgstr ""
+msgstr "Startpage"
 
 #: src/urifilters/ikws/searchproviders/startpage.desktop:27
 msgctxt "Query"
@@ -1514,7 +1518,7 @@ msgstr "https://technorati.com/search?return=sites&authority=high&q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/technoratitags.desktop:3
 msgctxt "Name"
 msgid "Technorati Tags"
-msgstr ""
+msgstr "Technorati 標籤"
 
 #: src/urifilters/ikws/searchproviders/technoratitags.desktop:98
 msgctxt "Query"
@@ -1544,7 +1548,7 @@ msgstr "https://www.tv.com/search.php?type=11&stype=all&qs=\\\\{@}&x=0&y=0"
 #: src/urifilters/ikws/searchproviders/ubuntu.desktop:2
 msgctxt "Name"
 msgid "Ubuntu Package Search"
-msgstr ""
+msgstr "Ubuntu 套件搜揣"
 
 #: src/urifilters/ikws/searchproviders/ubuntu.desktop:67
 msgctxt "Query"
@@ -1554,7 +1558,7 @@ msgstr "https://packages.ubuntu.com/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/urbandictionary.desktop:5
 msgctxt "Name"
 msgid "Urban Dictionary"
-msgstr ""
+msgstr "Urban Dictionary"
 
 #: src/urifilters/ikws/searchproviders/urbandictionary.desktop:84
 msgctxt "Query"
@@ -1564,7 +1568,7 @@ msgstr "https://www.urbandictionary.com/define.php?term=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/uspto.desktop:5
 msgctxt "Name"
 msgid "U.S. Patent Database"
-msgstr ""
+msgstr "美國專利資料庫"
 
 #: src/urifilters/ikws/searchproviders/uspto.desktop:101
 msgctxt "Query"
@@ -1578,7 +1582,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/vimeo.desktop:5
 msgctxt "Name"
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: src/urifilters/ikws/searchproviders/vimeo.desktop:86
 msgctxt "Query"
@@ -1588,7 +1592,7 @@ msgstr "https://vimeo.com/search?q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/voila.desktop:3
 msgctxt "Name"
 msgid "Voila"
-msgstr ""
+msgstr "Voila"
 
 #: src/urifilters/ikws/searchproviders/voila.desktop:104
 msgctxt "Query"
@@ -1608,7 +1612,7 @@ msgstr "https://www.merriam-webster.com/dictionary/\\\\{@}"
 #: src/urifilters/ikws/searchproviders/wikia.desktop:5
 msgctxt "Name"
 msgid "Wikia"
-msgstr ""
+msgstr "Wikia"
 
 #: src/urifilters/ikws/searchproviders/wikia.desktop:85
 msgctxt "Query"
@@ -1622,22 +1626,22 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/wikipedia.desktop:4
 msgctxt "Name"
 msgid "Wikipedia"
-msgstr ""
+msgstr "Wikipedia"
 
 #: src/urifilters/ikws/searchproviders/wikipedia.desktop:51
 msgctxt "Query"
 msgid "https://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
-msgstr ""
+msgstr "https://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 
 #: src/urifilters/ikws/searchproviders/wiktionary.desktop:3
 msgctxt "Name"
 msgid "Wiktionary - The Free Dictionary"
-msgstr ""
+msgstr "Wiktionary - 自由 ê 字典 kap 辭典"
 
 #: src/urifilters/ikws/searchproviders/wiktionary.desktop:101
 msgctxt "Query"
 msgid "https://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
-msgstr ""
+msgstr "https://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 
 #: src/urifilters/ikws/searchproviders/wine.desktop:2
 msgctxt "Name"
@@ -1712,17 +1716,19 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/yahoo_shopping.desktop:5
 msgctxt "Name"
 msgid "Yahoo Shopping"
-msgstr ""
+msgstr "Yahoo Shopping"
 
 #: src/urifilters/ikws/searchproviders/yahoo_shopping.desktop:85
 msgctxt "Query"
 msgid ""
 "https://shopping.yahoo.com/"
-"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQDVjEwOQ--?"
+"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQD"
+"VjEwOQ--?"
 "cop=mss&ei=UTF-8&p=\\\\{@}&fr2=tab-video&fr=yfp-t-701"
 msgstr ""
 "https://shopping.yahoo.com/"
-"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQDVjEwOQ--?"
+"search;_ylt=A0SO8ZgG65ZLyX8AsLX7w8QF;_ylu=X3oDMTBpcjIxMDllBHNlYwN0YWJzBHZ0aWQD"
+"VjEwOQ--?"
 "cop=mss&ei=UTF-8&p=\\\\{@}&fr2=tab-video&fr=yfp-t-701"
 
 #: src/urifilters/ikws/searchproviders/yahoo_video.desktop:5
@@ -1762,7 +1768,7 @@ msgstr "https://www.youtube.com/results?search_query=\\\\{@}&search_type=&aq=f"
 #: src/urifilters/ikws/searchproviders/zdf.desktop:5
 msgctxt "Name"
 msgid "ZDF Mediathek"
-msgstr ""
+msgstr "ZDF Mediathek"
 
 #: src/urifilters/ikws/searchproviders/zdf.desktop:27
 msgctxt "Query"
@@ -1772,14 +1778,14 @@ msgstr "https://www.zdf.de/suche?q=\\\\{@}"
 #: src/widgets/konqpopupmenuplugin.desktop:4
 msgctxt "Comment"
 msgid "Plugin for the Konqueror Popup Menu"
-msgstr ""
+msgstr "Konqueror 彈出選單 ê 外掛程式"
 
 #: templates/kioworker6/kioworker6.kdevtemplate:2
 msgctxt "Name"
 msgid "C++ Worker (KF6)"
-msgstr ""
+msgstr "C++ 工作器 (KF6)"
 
 #: templates/kioworker6/kioworker6.kdevtemplate:54
 msgctxt "Comment"
 msgid "KIO Worker Template"
-msgstr ""
+msgstr "KIO 工作器枋模"
