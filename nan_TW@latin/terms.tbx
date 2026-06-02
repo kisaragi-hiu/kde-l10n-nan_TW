@@ -2430,6 +2430,30 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-180">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>remove</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>î-tû</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-181">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>panel</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>bīn-pán</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
