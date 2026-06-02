@@ -19,4 +19,3 @@ Use =make install= to compile PO files to MO and install them into ~~/.local/sha
 
 ** TODO fix sut-tshut typo
 ** TODO fix various kā instead of kah/kap
-** TODO fix pòo-lîn-ti̍t typo in kconfig6 (should be pòo-lîm-ti̍t)
