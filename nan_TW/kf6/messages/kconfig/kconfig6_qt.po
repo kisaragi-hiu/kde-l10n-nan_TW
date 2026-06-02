@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-31 09:42+0900\n"
+"PO-Revision-Date: 2026-06-02 14:19+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -964,7 +964,7 @@ msgctxt "main|"
 msgid ""
 "For unit tests only: do not write the done entries, so that with every re-"
 "run, the scripts are executed again"
-msgstr ""
+msgstr "單位測試用：bái 寫完成 ê 項目，按呢逐擺重新執行測試 ê 時陣，劇本 mā ē 做伙重新執行"
 
 #: kconf_update/kconf_update.cpp:375
 msgctxt "main|"
@@ -974,12 +974,12 @@ msgstr "檢查設定檔案本身敢需要更新"
 #: kconf_update/kconf_update.cpp:378
 msgctxt "main|"
 msgid "File(s) to read update instructions from"
-msgstr ""
+msgstr "Uì 這个檔案讀更新指令"
 
 #: kconfig_compiler/kconfig_compiler.cpp:732
 msgctxt "main|"
 msgid "Directory to generate files in [.]"
-msgstr ""
+msgstr "Ài 產生檔案 kàu ê 目錄 [.]"
 
 #: kconfig_compiler/kconfig_compiler.cpp:733
 msgctxt "main|"
@@ -994,14 +994,14 @@ msgstr "顯示軟體授權。"
 #: kreadconfig/kreadconfig.cpp:46 kreadconfig/kwriteconfig.cpp:25
 msgctxt "main|"
 msgid "Use <file> instead of global config"
-msgstr ""
+msgstr "用 <file>，䆀用全域設定"
 
 #: kreadconfig/kreadconfig.cpp:49 kreadconfig/kwriteconfig.cpp:28
 msgctxt "main|"
 msgid ""
 "Group to look in. Use \"<default>\" for the root group, or use repeatedly "
 "for nested groups."
-msgstr ""
+msgstr "佇這个群組內底揣。用 \"<default>\" 來揣 root 群組，猶是重復使用來揣 nested ê 群組。"
 
 #: kreadconfig/kreadconfig.cpp:52 kreadconfig/kwriteconfig.cpp:31
 msgctxt "main|"
@@ -1028,7 +1028,7 @@ msgctxt "main|"
 msgid ""
 "Include globals; by default, the global config files are not read if a file "
 "is specified"
-msgstr ""
+msgstr "包括全域設定；預設是佇有指定檔案 ê 時陣袂讀取全域設定檔案"
 
 #: kreadconfig/kreadconfig.cpp:89 kreadconfig/kwriteconfig.cpp:71
 msgctxt "main|"

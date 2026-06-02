@@ -19,3 +19,8 @@ Use =make install= to compile PO files to MO and install them into ~~/.local/sha
 
 ** TODO fix sut-tshut typo
 ** TODO fix various kā instead of kah/kap
+** TODO apply root = kin / 根 translation
+** TODO 重復?
+** kolf course should be kiû-tiûnn, ending with 2 n not 1
+** 宣告 suan-kò not suan-kòo
+** monitor "kiam-sī-khì" seems wronog

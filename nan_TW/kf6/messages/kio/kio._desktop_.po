@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-30 00:52+0000\n"
-"PO-Revision-Date: 2026-05-31 09:18+0900\n"
+"PO-Revision-Date: 2026-06-02 14:34+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -27,7 +27,7 @@ msgstr "資料鋏仔內..."
 #: src/new_file_templates/Directory.desktop:98
 msgctxt "Comment"
 msgid "Enter folder name:"
-msgstr "Su-ji̍p tsu-liāu-giap-á ê miâ:"
+msgstr "輸入資料鋏仔 ê 名："
 
 #: src/new_file_templates/EmptyFile.desktop:2
 msgctxt "Name"
@@ -37,7 +37,7 @@ msgstr "空的檔案…"
 #: src/new_file_templates/EmptyFile.desktop:64
 msgctxt "Comment"
 msgid "Enter name for empty file:"
-msgstr "Su-ji̍p khang-ê tóng-àn ê miâ:"
+msgstr "輸入空 ê 檔案 ê 名："
 
 #: src/new_file_templates/HTMLFile.desktop:2
 msgctxt "Name"
@@ -47,7 +47,7 @@ msgstr "HTML 檔案..."
 #: src/new_file_templates/HTMLFile.desktop:98
 msgctxt "Comment"
 msgid "Enter HTML filename:"
-msgstr "Su-ji̍p HTML ê tóng-àn-miâ:"
+msgstr "輸入 HTML ê 檔案名："
 
 #: src/new_file_templates/linkPath.desktop:2
 msgctxt "Name"
@@ -57,7 +57,7 @@ msgstr "檔案猶是資料鋏仔 ê 連結…"
 #: src/new_file_templates/linkPath.desktop:67
 msgctxt "Comment"
 msgid "File or directory to link to:"
-msgstr "Ài liân-kiat kàu ê tóng-àn á-sī tsu-liāu-giap-á:"
+msgstr "愛連結到 ê 檔案猶是資料鋏仔："
 
 #: src/new_file_templates/linkProgram.desktop:2
 msgctxt "Name"
@@ -87,7 +87,7 @@ msgstr "文字檔案…"
 #: src/new_file_templates/TextFile.desktop:97
 msgctxt "Comment"
 msgid "Enter text filename:"
-msgstr "Su-ji̍p bûn-jī tóng-àn ê miâ:"
+msgstr "輸入文字檔案 ê 名："
 
 #: src/schemehandlers/telnet/ktelnetservice6.desktop:9
 msgctxt "Name"
@@ -331,7 +331,7 @@ msgstr ""
 #: src/urifilters/ikws/searchproviders/cplusplus.desktop:2
 msgctxt "Name"
 msgid "CPlusPlus"
-msgstr ""
+msgstr "CPlusPlus"
 
 #: src/urifilters/ikws/searchproviders/cplusplus.desktop:67
 msgctxt "Query"
@@ -351,7 +351,7 @@ msgstr "https://duckduckgo.com/?sites=cppreference.com&q=\\\\{@}"
 #: src/urifilters/ikws/searchproviders/ctan_cat.desktop:3
 msgctxt "Name"
 msgid "CTAN Catalog"
-msgstr ""
+msgstr "CTAN 目錄"
 
 #: src/urifilters/ikws/searchproviders/ctan_cat.desktop:100
 msgctxt "Query"

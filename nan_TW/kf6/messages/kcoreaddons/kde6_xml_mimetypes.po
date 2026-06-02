@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:49+0000\n"
-"PO-Revision-Date: 2026-05-20 23:55+0900\n"
+"PO-Revision-Date: 2026-06-02 14:32+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -20,32 +20,32 @@ msgstr ""
 #: kde6.xml.podir/kde6.xml.in.h:1
 msgctxt "comment"
 msgid "RELAX NG"
-msgstr ""
+msgstr "RELAX NG"
 
 #: kde6.xml.podir/kde6.xml.in.h:2
 msgctxt "comment"
 msgid "CD audio"
-msgstr ""
+msgstr "CD 音訊"
 
 #: kde6.xml.podir/kde6.xml.in.h:3
 msgctxt "comment"
 msgid "SNF bitmap font"
-msgstr ""
+msgstr "SNF bitmap 字型"
 
 #: kde6.xml.podir/kde6.xml.in.h:4
 msgctxt "comment"
 msgid "Java applet"
-msgstr ""
+msgstr "Java 小程式"
 
 #: kde6.xml.podir/kde6.xml.in.h:5
 msgctxt "comment"
 msgid "KDE color scheme"
-msgstr ""
+msgstr "KDE 配色方案"
 
 #: kde6.xml.podir/kde6.xml.in.h:6
 msgctxt "comment"
 msgid "KNewStuff package"
-msgstr ""
+msgstr "KNewStuff 套件"
 
 #: kde6.xml.podir/kde6.xml.in.h:8
 msgctxt "comment"
@@ -55,7 +55,7 @@ msgstr "KWallet 錢包"
 #: kde6.xml.podir/kde6.xml.in.h:9
 msgctxt "comment"
 msgid "plasmoid"
-msgstr ""
+msgstr "plasmoid"
 
 #: kde6.xml.podir/kde6.xml.in.h:10
 msgctxt "comment"
@@ -65,22 +65,22 @@ msgstr "SuperKaramba 主題"
 #: kde6.xml.podir/kde6.xml.in.h:11
 msgctxt "comment"
 msgid "Calligra Plan project management document"
-msgstr ""
+msgstr "Calligra Plan 專案管理文件"
 
 #: kde6.xml.podir/kde6.xml.in.h:12
 msgctxt "comment"
 msgid "Calligra Plan work package document"
-msgstr ""
+msgstr "Calligra Plan 工作套件文件"
 
 #: kde6.xml.podir/kde6.xml.in.h:13
 msgctxt "comment"
 msgid "KPlato project management document"
-msgstr ""
+msgstr "KPlato 專案管理文件"
 
 #: kde6.xml.podir/kde6.xml.in.h:14
 msgctxt "comment"
 msgid "KPlato project management work package"
-msgstr ""
+msgstr "KPlato 專案管理工作套件"
 
 #: kde6.xml.podir/kde6.xml.in.h:15
 msgctxt "comment"
@@ -95,12 +95,12 @@ msgstr "網路封存"
 #: kde6.xml.podir/kde6.xml.in.h:17
 msgctxt "comment"
 msgid "W3C XML schema"
-msgstr ""
+msgstr "W3C XML schema"
 
 #: kde6.xml.podir/kde6.xml.in.h:19
 msgctxt "comment"
 msgid "KPhotoAlbum import"
-msgstr ""
+msgstr "KPhotoAlbum 匯入"
 
 #: kde6.xml.podir/kde6.xml.in.h:21
 msgctxt "comment"
@@ -110,37 +110,37 @@ msgstr "HDR 影像"
 #: kde6.xml.podir/kde6.xml.in.h:22
 msgctxt "comment"
 msgid "KDE raw image formats"
-msgstr ""
+msgstr "KDE raw 影像格式"
 
 #: kde6.xml.podir/kde6.xml.in.h:23
 msgctxt "comment"
 msgid "Intel® hexadecimal object file"
-msgstr ""
+msgstr "Intel® 十六進位物件檔案"
 
 #: kde6.xml.podir/kde6.xml.in.h:24
 msgctxt "comment"
 msgid "Kate file list loader plugin list"
-msgstr ""
+msgstr "Kate 檔案單載入器外掛程式 ê 單"
 
 #: kde6.xml.podir/kde6.xml.in.h:25
 msgctxt "comment"
 msgid "abc musical notation file"
-msgstr ""
+msgstr "abc 音譜檔案"
 
 #: kde6.xml.podir/kde6.xml.in.h:26
 msgctxt "comment"
 msgid "fonts package"
-msgstr ""
+msgstr "字型套件"
 
 #: kde6.xml.podir/kde6.xml.in.h:27
 msgctxt "comment"
 msgid "Windows server"
-msgstr ""
+msgstr "Windows 伺服器"
 
 #: kde6.xml.podir/kde6.xml.in.h:28
 msgctxt "comment"
 msgid "Windows workgroup"
-msgstr ""
+msgstr "Windows 工作組"
 
 #: kde6.xml.podir/kde6.xml.in.h:30
 msgctxt "comment"
@@ -160,22 +160,22 @@ msgstr "Quanta 專案"
 #: kde6.xml.podir/kde6.xml.in.h:33
 msgctxt "comment"
 msgid "Kommander file"
-msgstr ""
+msgstr "Kommander 檔案"
 
 #: kde6.xml.podir/kde6.xml.in.h:34
 msgctxt "comment"
 msgid "potato"
-msgstr ""
+msgstr "potato"
 
 #: kde6.xml.podir/kde6.xml.in.h:35
 msgctxt "comment"
 msgid "Kolf saved game"
-msgstr ""
+msgstr "Kolf 遊戲儲存檔"
 
 #: kde6.xml.podir/kde6.xml.in.h:36
 msgctxt "comment"
 msgid "Kolf course"
-msgstr ""
+msgstr "Kolf 球場"
 
 #: kde6.xml.podir/kde6.xml.in.h:37
 msgctxt "comment"
@@ -185,22 +185,22 @@ msgstr "Okular 文件封存"
 #: kde6.xml.podir/kde6.xml.in.h:38
 msgctxt "comment"
 msgid "Cabri figure"
-msgstr ""
+msgstr "Cabri 圖形"
 
 #: kde6.xml.podir/kde6.xml.in.h:39
 msgctxt "comment"
 msgid "Dr. Geo figure"
-msgstr ""
+msgstr "Dr. Geo 圖形"
 
 #: kde6.xml.podir/kde6.xml.in.h:40
 msgctxt "comment"
 msgid "KGeo figure"
-msgstr ""
+msgstr "KGeo 圖形"
 
 #: kde6.xml.podir/kde6.xml.in.h:41
 msgctxt "comment"
 msgid "Kig figure"
-msgstr ""
+msgstr "Kig 圖形"
 
 #: kde6.xml.podir/kde6.xml.in.h:42
 msgctxt "comment"
@@ -210,7 +210,7 @@ msgstr "KSeg 文件"
 #: kde6.xml.podir/kde6.xml.in.h:43
 msgctxt "comment"
 msgid "vocabulary trainer document"
-msgstr ""
+msgstr "詞彙練習文件"
 
 #: kde6.xml.podir/kde6.xml.in.h:44
 msgctxt "comment"
@@ -220,17 +220,17 @@ msgstr "KmPlot 檔案"
 #: kde6.xml.podir/kde6.xml.in.h:45
 msgctxt "comment"
 msgid "KWordQuiz vocabulary"
-msgstr ""
+msgstr "KWordQuiz 詞彙"
 
 #: kde6.xml.podir/kde6.xml.in.h:46
 msgctxt "comment"
 msgid "Cachegrind/Callgrind profile dump"
-msgstr ""
+msgstr "Cachegrind/Callgrind 效能分析倒出"
 
 #: kde6.xml.podir/kde6.xml.in.h:47
 msgctxt "comment"
 msgid "Umbrello UML Modeller file"
-msgstr ""
+msgstr "Umbrello UML Modeller 檔案"
 
 #: kde6.xml.podir/kde6.xml.in.h:48
 msgctxt "comment"
@@ -240,22 +240,22 @@ msgstr "Windows 連結"
 #: kde6.xml.podir/kde6.xml.in.h:49
 msgctxt "comment"
 msgid "KGet download list"
-msgstr ""
+msgstr "KGet 下載單"
 
 #: kde6.xml.podir/kde6.xml.in.h:50
 msgctxt "comment"
 msgid "Kopete emoticons archive"
-msgstr ""
+msgstr "Kopete 表情符號封存"
 
 #: kde6.xml.podir/kde6.xml.in.h:51
 msgctxt "comment"
 msgid "ICQ contact"
-msgstr ""
+msgstr "ICQ 聯絡人"
 
 #: kde6.xml.podir/kde6.xml.in.h:53
 msgctxt "comment"
 msgid "Microsoft Media Format"
-msgstr ""
+msgstr "Microsoft 媒體格式"
 
 #: kde6.xml.podir/kde6.xml.in.h:55
 msgctxt "comment"
@@ -270,24 +270,24 @@ msgstr "Softimage PIC 影像"
 #: kde6.xml.podir/kde6.xml.in.h:58
 msgctxt "comment"
 msgid "KConfigXT Configuration Options"
-msgstr ""
+msgstr "KConfigXT 設定選項"
 
 #: kde6.xml.podir/kde6.xml.in.h:59
 msgctxt "comment"
 msgid "KConfigXT Code Generation Options"
-msgstr ""
+msgstr "KConfigXT 程式碼產生選項"
 
 #: kde6.xml.podir/kde6.xml.in.h:60
 msgctxt "comment"
 msgid "KXMLGUI UI Declaration"
-msgstr ""
+msgstr "KXMLGUI 介面宣告"
 
 #: kde6.xml.podir/kde6.xml.in.h:61
 msgctxt "comment"
 msgid "KNotification Declaration"
-msgstr ""
+msgstr "KNotification 宣告"
 
 #: kde6.xml.podir/kde6.xml.in.h:62
 msgctxt "comment"
 msgid "KCrash Report"
-msgstr ""
+msgstr "KCrash 報告"
