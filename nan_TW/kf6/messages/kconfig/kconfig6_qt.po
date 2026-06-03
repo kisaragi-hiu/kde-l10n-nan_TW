@@ -30,17 +30,17 @@ msgctxt "KEMailSettings|"
 msgid "Default"
 msgstr "預設"
 
-#: gui/kstandardactions.cpp:49
+#: gui/kstandardactions.cpp:48
 msgctxt "go back|"
 msgid "&Back"
 msgstr "轉去(&B)"
 
-#: gui/kstandardactions.cpp:56
+#: gui/kstandardactions.cpp:55
 msgctxt "go forward|"
 msgid "&Forward"
 msgstr "向前(&F)"
 
-#: gui/kstandardactions.cpp:63
+#: gui/kstandardactions.cpp:62
 msgctxt "home page|"
 msgid "&Home"
 msgstr "頭頁(&H)"
@@ -964,7 +964,9 @@ msgctxt "main|"
 msgid ""
 "For unit tests only: do not write the done entries, so that with every re-"
 "run, the scripts are executed again"
-msgstr "單位測試用：bái 寫完成 ê 項目，按呢逐擺重新執行測試 ê 時陣，劇本 mā ē 做伙重新執行"
+msgstr ""
+"單位測試用：bái 寫完成 ê 項目，按呢逐擺重新執行測試 ê 時陣，劇本 mā ē 做伙重"
+"新執行"
 
 #: kconf_update/kconf_update.cpp:375
 msgctxt "main|"
@@ -1001,7 +1003,9 @@ msgctxt "main|"
 msgid ""
 "Group to look in. Use \"<default>\" for the root group, or use repeatedly "
 "for nested groups."
-msgstr "佇這个群組內底揣。用 \"<default>\" 來揣 root 群組，猶是重復使用來揣 nested ê 群組。"
+msgstr ""
+"佇這个群組內底揣。用 \"<default>\" 來揣 root 群組，猶是重復使用來揣 nested ê "
+"群組。"
 
 #: kreadconfig/kreadconfig.cpp:52 kreadconfig/kwriteconfig.cpp:31
 msgctxt "main|"

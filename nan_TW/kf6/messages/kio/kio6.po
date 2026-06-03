@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-29 00:39+0000\n"
+"POT-Creation-Date: 2026-05-31 00:40+0000\n"
 "PO-Revision-Date: 2026-06-02 14:35+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
@@ -676,7 +676,9 @@ msgctxt "@info"
 msgid ""
 "Cannot transfer <filename>%1</filename> because it is too large. The "
 "destination filesystem only supports files up to 4GiB"
-msgstr "無法度傳輸 <filename>%1</filename>, 因為伊 siunn 大--ah。目的地檔案系統只支援上大 4GiB ê 檔案"
+msgstr ""
+"無法度傳輸 <filename>%1</filename>, 因為伊 siunn 大--ah。目的地檔案系統只支援"
+"上大 4GiB ê 檔案"
 
 #: core/job_error.cpp:258
 #, kde-format
@@ -3533,7 +3535,7 @@ msgstr ""
 msgid "Click to Edit Location"
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:125 gui/kprocessrunner.cpp:244
+#: gui/applicationlauncherjob.cpp:125 gui/kprocessrunner.cpp:247
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr ""
@@ -3594,7 +3596,7 @@ msgstr ""
 msgid "No mail client found"
 msgstr ""
 
-#: gui/kprocessrunner.cpp:122
+#: gui/kprocessrunner.cpp:125
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -3602,12 +3604,12 @@ msgid ""
 "is not valid."
 msgstr ""
 
-#: gui/kprocessrunner.cpp:291
+#: gui/kprocessrunner.cpp:294
 #, kde-format
 msgid "Launching %1"
 msgstr ""
 
-#: gui/kprocessrunner.cpp:463
+#: gui/kprocessrunner.cpp:478
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The command <command>%1</command> could not be found."
@@ -5351,7 +5353,8 @@ msgstr ""
 msgid ""
 "Type a generic name for the application here. Examples: an image viewing "
 "application would be \"Image Viewer\"."
-msgstr "請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
+msgstr ""
+"請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: widgets/kpropertiesdesktopbase.ui:42
