@@ -148,6 +148,16 @@ A decision on this has already been made before me, in fact. A `nan_TW` locale h
 
 = TODO Process
 
+== KDE translation process
+
+The normal KDE translation process @kde-translation-howto can be summarized like this:
+
+Developers write software with user-facing strings clearly marked for translation; the xgettext program from GNU gettext @gnu-gettext is used to extract these strings into "PO Template" files; then the msgmerge program from GNU gettext is used to merge the newly extracted template with the current translations, as "PO" files, if they exist. These translation files are stored in the KDE Subversion repository @websvn-kde.
+
+Translators then take existing PO files from the Subversion repository, translate them, then submit them. Some translators have direct commit access to the Subversion repository, so they can, after responsibly reviewing their submission, directly push translations into the repository; these translators are language coordinators of their translation teams. Other translators may send their translations to language coordinators, in whichever way each language coordinator or translation team sees fit. For example, the Simplified Chinese team gathers translations via their own Crowdin project, and their language coordinator periodically synchronizes the translations on their Crowdin project with the `zh_CN` translations in the KDE Subversion repository.
+
+The translated
+
 Pull translation files and other languages for reference
 Translate within Lokalize with all projects in one place and glossary and translation memory
 Look up words on ChhoeTaigi, Lohankha, and my own aggregated dictionary frontend Kemdict
@@ -162,7 +172,8 @@ As of 2026-05-31:
 - Of the base libraries (kconfig, kconfigwidgets, kcoreaddons, kio, kxmlgui), they are 67% translated overall, with `nan_TW@latin` being 84% translated and `nan_TW` being 50% translated, according to statistics collected with pocount from Translate Toolkit @pocount.
 - Large number of probably-good-enough terminology documented in glossary files
 
-= TODO Acknowledgements
+= TODO Discussion
+
 = Declarations
 == AI usage
 
@@ -181,7 +192,7 @@ As of 2026-05-31:
 
 I am a prior KDE translator and have been working on Taiwanese Mandarin (known as "Traditional Chinese" but has the language code `zh_TW`) translations for KDE for the last 5 years. I am a KDE e.V. voting member because of this work.
 
-#bibliography("bibliography.bib")
+#bibliography("bibliography.bib", style: "apa")
 
 // Local Variables:
 // typst-preview--master-file: "/home/kisaragi-hiu/kde-translations/l10n-nan_TW-repo/nkust-report.typ"
