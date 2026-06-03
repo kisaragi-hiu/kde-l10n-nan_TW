@@ -1,12 +1,46 @@
 #set heading(numbering: "1.1.")
+#set document(
+  title: [Translating KDE Software Into Taiwanese Taigi],
+  keywords: ("translation", "Taiwanese", "Taigi", "Min Nan Chinese"),
+  author: "Shen Yu-hsiang",
+)
 
-// TODO authorship, 指導老師
 // Editing this file: use typst-ts-mode, then use typst-preview-mode for real time preview
 // Throw links/articles that you may want to reference into bibliography.bib
 
 // This probably still needs at least 5 hours of work. Probably 10.
 
-#title("Translating KDE Software Into Taiwanese Taigi")
+#align(center)[
+  #title()
+]
+
+#let orcid(id) = {
+  [ORCID: #link("https://orcid.org/" + id)[#id]]
+}
+
+#grid(
+  columns: (1fr, 1fr),
+  align(left)[Student: Shen Yu-hsiang\
+    #link("mailto:mail@kisaragi-hiu.com")\
+    #orcid("0000-0002-0293-7943")
+  ],
+  align(right)[Advisor: Dr. Wu Yi-ping\
+    #link("mailto:yipingwu@nkust.edu.tw")
+  ],
+)
+
+Report for independent study project (practical work)\
+Department of English, National Kaohsiung University of Science and Technology\
+2026/06/04\
+Kaohsiung, Taiwan
+
+#heading(numbering: none, outlined: false)[Abstract]
+
+This report documents the work done with the goal of creating a Taiwanese Taigi translation team for the KDE project. A brief description of the context and challenges is included.
+
+_*Keywords*: #context (document.keywords.join(", "))_
+
+#outline()
 
 = Introduction
 
