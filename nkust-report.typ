@@ -4,6 +4,7 @@
   keywords: ("translation", "Taiwanese", "Taigi", "Min Nan Chinese"),
   author: "Shen Yu-hsiang",
 )
+#set page(numbering: "i")
 
 // Editing this file: use typst-ts-mode, then use typst-preview-mode for real time preview
 // Throw links/articles that you may want to reference into bibliography.bib
@@ -34,13 +35,18 @@ Department of English, National Kaohsiung University of Science and Technology\
 2026/06/04\
 Kaohsiung, Taiwan
 
-#heading(numbering: none, outlined: false)[Abstract]
+#heading(numbering: none)[Abstract]
 
 This report documents the work done with the goal of creating a Taiwanese Taigi translation team for the KDE project. A brief description of the context and challenges is included.
 
 _*Keywords*: #context (document.keywords.join(", "))_
 
-#outline()
+#outline(title: "Table of Contents")
+
+#heading(numbering: none)[TODO Acknowledgements]
+
+#set page(numbering: "1")
+#counter(page).update(1)
 
 = Introduction
 
