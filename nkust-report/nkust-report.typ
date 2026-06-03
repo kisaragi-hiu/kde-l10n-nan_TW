@@ -37,13 +37,17 @@ Kaohsiung, Taiwan
 
 #heading(numbering: none)[Abstract]
 
-This report documents the work done with the goal of creating a Taiwanese Taigi translation team for the KDE project. A brief description of the context and challenges is included.
+This report documents the work done with the goal of creating a Taiwanese Taigi translation team for the KDE project. A brief description of the context and challenges is included, as well as a discussion of the results.
 
 _*Keywords*: #context (document.keywords.join(", "))_
 
-#outline(title: "Table of Contents")
+#pagebreak()
+#heading(numbering: none)[Table of Contents]
+#outline(title: none)
 
-#heading(numbering: none)[TODO Acknowledgements]
+#pagebreak()
+#heading(numbering: none)[Figures]
+#outline(title: none, target: figure.where(kind: image))
 
 #set page(numbering: "1")
 #counter(page).update(1)
@@ -77,17 +81,13 @@ There are a few existing Taigi software translation projects, or software (or we
 - Kiàn-ting also translated the (more widely used) social media Mastodon into Taiwanese Taigi in 2025 @kianting20250604. The translation is initially merged into Mastodon in February 2026 and he presumably continues to maintain it.
 - The Hokkien Wikipedia, while specifically for Hokkien (Minnan), still serves as prior art of Taigi translation as the two languages are mutually intelligible.
 
-== What it takes to translate KDE software into another language
-
-Translations of KDE software are managed in a centuralized system @kde_l10n and has an established procedure. Each language has a _translation team_, which translates strings extracted from the source code; the translated strings are then pulled into each individual project and used for displaying messages to users.
-
-TODO: do we mention translating kcoreaddons/kxmlgui/kio, and the glibc locale, and the QLocale?
-
 = Foundational choices
 
 Before translation can start, there are a few foundational questions that I had to answer. These are: what should I call this language? Which language code should I use for it? And which writing system should I use?
 
 == Language name
+
+*Final choice: _Taiwanese Taigi_ or _Taigi_ if possible, _Min Nan Chinese_ where I must*
 
 Although the National Language Development Report @MOC20250616 has settled this question in Taiwan ("Taiwanese Taigi" or "Taigi" in English, "臺灣台語" in Mandarin), this is not the established norm outside of Taiwan.
 
@@ -99,11 +99,14 @@ There is hope, however: a ISO 639-3 Change Request that establishes Taigi as its
 
 == Language code
 
+*Final choice: _nan_TW_ for now*
+
 Adjacent to the choice of the name of the language, software translations (including KDE) also requires choosing a short name for the language or regional dialect. For example, British English is `en_GB`, and Japanese is `ja`. The international standard for this is ISO 639, with the de-facto standard being a mix of ISO 639-3 (comprehensive three-letter codes) and ISO 639-1 (two-letter codes).
 
 The choice here is obvious, as Taigi doesn't have its own code yet (pending the aforementioned Change Request 2021-044 @iso639-3-CR2021-044), the next best code is `nan` for Min Nan Chinese, with a region code of `TW` to denote Taiwanese Minnan, ie. Taiwanese Hokkien.
 
 == Writing system
+*Final choice: two systems, mixed script (hàn-lô) and all-romanized (tsuân-lô), both using Tāi-lô orthography*
 
 Compared to the vast number of people who speak Hokkien natively, it is historically rarely written down. This is related to how traditional Chinese writing used to only write things in Literary Chinese. The same can be said for Taigi as well.
 
@@ -115,10 +118,7 @@ Before I can translate anything, I have to decide on one (or two, as we'll see b
 
 - *Using Han characters exclusively but with an actually standardized set of characters*, also referred to as tsuân-hàn (全漢). Currently the regulator for which characters are correct is the Taiwan (ROC) Ministry of Education, but there is also a history of Taigi works in Han characters that don't depend on ad-hoc Mandarin pronunciations. Examples of the latter that I've seen include List Of Plants Of Formosa @sasaki1928 and 商用台語 @wu1994. Most Ministry of Education material is written in this style.
 
-- *Using exclusively Latin characters*, or romanization (also referred to as 全羅). This is similar to the present Vietnamese writing system. There are two main systems for this: the aforementioned Pe̍h-ōe-jī, or the relatively new Tâi-lô. Pe̍h-ōe-jī was developed throughout the late 19th century by Christian missionaries, and is useful both as a transcription scheme for annotating Han characters and as a primary writing system.
-
-  TODO: quote tâi-oân-hú-siâⁿ kàu-hōe-pò
-  TODO: mention how Tâi-lô is a minor spelling reform over Pe̍h-ōe-jī
+- *Using exclusively Latin characters*, or romanization (also referred to as 全羅). This is similar to the present Vietnamese writing system. There are two main systems for this: the aforementioned Pe̍h-ōe-jī, or the relatively new Tâi-lô. Pe̍h-ōe-jī was developed throughout the late 19th century by Christian missionaries, and is useful both as a transcription scheme for annotating Han characters as well as being used as a primary writing system. Taiwan's first newspaper, Tâi-oân-hú-siâⁿ Kàu-hōe-pò @tohskhp18850712 (Taiwan Prefecture City Church Newspaper, now called Taiwan Church News) was written in this style for the first several decades of its life.
 
 - *Using a mix of Han characters and Latin characters*, also referred to as hàn-lô (漢羅). This is similar to Japanese mixed script: write each word in whichever script that suits it best. The Latin characters are written in either Pe̍h-ōe-jī or Tâi-lô, but writers who write in this style always use standardized Han characters.
 
@@ -134,7 +134,7 @@ This leaves us with two systems: *mixed script (hàn-lô)* and *exclusively roma
 
 There is still a question of whether I should use Pe̍h-ōe-jī or Tâi-lô. This question itself can get contentious, but I still need to make a choice and move on, as I consider them similar enough that it isn't worth the effort to support both (which would double the number of scripts to support from 2 to 4).
 
-Ultimately I chose Tâi-lô because that's what the Ministry of Education, which I already refer to as an authority when deciding which Han characters are correct, has chosen on this topic. Since Pe̍h-ōe-jī and Tâi-lô are compatible with each other, it would be totally fine if one day another translator joins the project and decides to prefer Pe̍h-ōe-jī: mixed Tâi-lô and Pe̍h-ōe-jī might be inconsistent but would not be ambiguous. Moreover, software for automatically converting between the two already exist @ithuan-kesi, so if this choice ever needs to be revisited it will be trivial to switch.
+Ultimately I chose Tâi-lô because that's what the Ministry of Education, which I already refer to as an authority when deciding which Han characters are correct, has chosen on this topic. Since Pe̍h-ōe-jī and Tâi-lô are compatible with each other as Tâi-lô does not conflict with Pe̍h-ōe-jī characters @iunn2021, it would be totally fine if one day another translator joins the project and decides to prefer Pe̍h-ōe-jī: mixed Tâi-lô and Pe̍h-ōe-jī might be inconsistent but would not be ambiguous. Moreover, software for automatically converting between the two already exist @ithuan-kesi, so if this choice ever needs to be revisited it will be trivial to switch.
 
 == Glibc locale
 
@@ -172,7 +172,9 @@ As a Taiwanese Taigi language team does not already exist, I have to merge trans
 
 Lokalize provides translation memory (suggestions for translation from other similar source text entries), glossary management, seeing other languages for reference, and tracking translation progress across a whole tree of translation files, all for an offline folder of PO files without requiring a server while translating, without which this translation process would've likely been far more tedious.
 
-The translation "workspace" that I set up looks like this:
+=== Setting up translation workspace
+
+My translation folder, which I've come to refer to as my translation "workspace", is set up like this:
 
 - *\~/kde-translations/l10n-templates*: a clone of the templates repository @kde-l10n-templates, which has been migrated off Subversion and is now tracked in a Git repository.
 - *\~/kde-translations/kde-svn*: a partial checkout of the Subversion repository, utilizing the `svn update --set-depth <depth>` feature @svn-redbook-depth to avoid downloading the entire repository's head revision. I set it up such that the partial checkout has this directory structure:
@@ -188,7 +190,7 @@ The translation "workspace" that I set up looks like this:
     - kf5: symbolic link to ../kde-svn/trunk/l10n-kf5/zh_TW
     - kf6: symbolic link to ../kde-svn/trunk/l10n-kf6/zh_TW
     - index.lokalize: the Lokalize project declaration file, created using Lokalize's Create Project functionality
-- *\~/kde-translations/ja*: a directory for Japanese with the same directory structure as *\~/kde-translations/zh_TW*. Since I don't translate for Japanese, this is not initialized as a Lokalize project, but merely with files in the same directory structure so that Lokalize can find them and show them as Alternative Translations.
+- *\~/kde-translations/ja*: a directory for Japanese with the same directory structure as \~/kde-translations/zh_TW. Since I don't translate for Japanese, this is not initialized as a Lokalize project, but merely with files in the same directory structure so that Lokalize can find them and show them as Alternative Translations.
   - ja
     - kf5: symbolic link to ../kde-svn/trunk/l10n-kf5/ja
     - kf6: symbolic link to ../kde-svn/trunk/l10n-kf6/ja
@@ -210,10 +212,42 @@ The translation "workspace" that I set up looks like this:
 
 This directory structure allows me to utilize Lokalize to the fullest extent.
 
+=== Translating in Lokalize
 
-Look up words on ChhoeTaigi, Lohankha, and my own aggregated dictionary frontend Kemdict
-Refer to prior art, especially Kian-ting's Mastodon translation and the PTS Taigi TV 台語新詞詞庫
-Fall back to borrowing from English (directly) or Mandarin (as hàn-jī-sû)
+#figure(
+  image("20260604T053624+0900-lokalize-project-overview.png"),
+  caption: [Lokalize project overview],
+) <img-overview>
+#figure(
+  image("20260604T053022+0900-lokalize-translate-nan_TW.png"),
+  caption: [Translating a nan_TW (Hàn-lô) string in Lokalize.],
+) <img-nan_TW>
+
+#figure(
+  image("20260604T053057+0900-lokalize-translate-nan_TW@latin.png"),
+  caption: [Translating a nan_TW\@latin (Tsuân-lô) string in Lokalize.],
+) <img-nan_TW-latin>
+
+#figure(
+  image("20260604T053115+0900-lokalize-glossary.png"),
+  caption: [The glossary view in Lokalize.],
+) <img-glossary>
+
+In @img-overview, the project overview is showing translation progress for each file. Files that exist in templates but don't exist in this translation project are nevertheless shown as 0% translated files, instead of being omitted.
+
+In @img-nan_TW, the project is set up to use the nan_TW\@latin project as its source of alternate translations, so the translation of the corresponding entry shows up in the Alternate Translations widget.
+
+In @img-nan_TW-latin, I have set Japanese as the source of alternate translations for nan_TW\@latin, so Alternate Translations shows a Japanese translation of this string. The Translation Memory widget shows suggested translations that have similar source language strings.
+
+Finally, in @img-glossary, the interface shows the glossary entries which I have created to help maintain some level of consistency as I translate.
+
+=== Word choices
+
+As I translate, I may need to look up how to say a phrase or word in Taigi, in which case I may look it up on ChhoeTaigi #footnote[unified search interface for several Taigi sources and dictionaries. @chhoetaigi], Lohankha loanword transliteration system @lohankha-loanword, or my own Kemdict #footnote[unified search interface for many dictionaries for Taigi, Mandarin, and Hakka, including some Taigi sources not included by ChhoeTaigi, as well as providing fuzzy Taigi search that allows omitting tone marks. @kemdict]. Kemdict in particular allows me to search the Taiwan Public Television Service's Taigi TV New Words Collection (台語新詞詞庫) @pts-taigitv-new-words together with other dictionaries, which is why I rely on it just as much as on ChhoeTaigi.
+
+I also try to refer to prior art where it exists. For software translation I have not found much reference, except for Tân Kiàn-ting's Mastodon translation @kianting20250604 which is immensely helpful where the same concepts have been mentioned.
+
+When I cannot find what a concept should directly correspond with, I fall back to borrowing from English, or orthographically borrowing the word from Mandarin (such as using si̍t-thé to correspond to _entity_ or _instance_).
 
 = TODO Result
 
@@ -228,24 +262,34 @@ As of 2026-05-31:
 = Declarations
 == AI usage
 
-- I occasionally ask a chatbot for a second opinion on the translation of specific words.
+- I have occasionally asked a chatbot for a second opinion on the translation of specific words. The results are always judged by my knowledge of the language (I only use them as a reminder), and I have been trying this less and less, as I found this to rarely be as passably correct than simply borrowing from another language.
 - There are 106 strings in `kconfigwidgets._desktop_.po`, which are all language names. Through my own search I've filled 44 of them already. The rest seems like I would have to copy from Hokkien Wikipedia.
 
-  I tried using Gemini CLI for this task once, using gemini-3-flash-preview with this prompt: #quote[./words.po is a Gettext PO file that contains a list of languages in English. Please fill in their translations in Taiwanese Hokkien#footnote[I would prefer "Taigi", but figured the model would understand "Taiwanese Hokkien" better.]. Use your search tool if available.]
+  I tried using Gemini CLI for this task once, using gemini-3-flash-preview with this prompt: #quote(block: true)[./words.po is a Gettext PO file that contains a list of languages in English. Please fill in their translations in Taiwanese Hokkien#footnote[I would prefer "Taigi", but figured the model would understand "Taiwanese Hokkien" better.]. Use your search tool if available.]
 
   I then reviewed the result and incorporated them as appropriate. Almost all strings turned out to need further tweaking by me looking them up on Hokkien Wikipedia again myself. This helped in only three minor ways:
 
-  - By having 62 complete but slightly wrong strings, this motivated me to go through each of them and figure out something better, instead of being intimidated by 62 empty strings.
+  - By having 62 filled-in but slightly wrong strings, this motivated me to go through each of them and figure out something better, instead of being intimidated by 62 empty strings.
   - I learned that Crimea is better borrowed into Taigi directly from Ukrainian, such that Crimean Tatar is _Krym Tatar-gí_
   - I realized that I could translate Latin (script) into "Lô-má-jī" (literally "Rome characters") instead of the clumsy "La-ting bûn-jī".
 
 == Potential conflict of interest
 
-I am a prior KDE translator and have been working on Taiwanese Mandarin (known as "Traditional Chinese" but has the language code `zh_TW`) translations for KDE for the last 5 years. I am a KDE e.V. voting member because of this work.
+I am already a KDE translator for Traditional Chinese (Taiwanese Mandarin), and have been for the last 5 years. I am a KDE e.V. voting member because of this work.
+
+#heading(numbering: none)[Acknowledgements]
+
+This work is built on the shoulder of many giants.
+
+On the software side, I would like to thank Lokalize developers for making such a crutial piece of my workflow (especially Finley Watson for reviewing my occasional Merge Requests); as well as Typst, for being a fast and easy alternative to LaTeX, with as much flexibility as the Lisp-based documentation systems that I've used in the past while having a lot more batteries included. The table of contents is a one-liner
+
+Software: Lokalize, KDE translation infrastructure, Typst
+
+Prior work on Taigi revitalization: the already-present Glibc locales, the stalled-but-still-pending pending ChhoeTaigi, all the dictionaries, especially Kautian, Maryknoll, Taijit, pts-taigitv
 
 #bibliography("bibliography.bib", style: "ieee")
 
 // Local Variables:
-// typst-preview--master-file: "/home/kisaragi-hiu/kde-translations/l10n-nan_TW-repo/nkust-report.typ"
+// typst-preview--master-file: "/home/kisaragi-hiu/kde-translations/l10n-nan_TW-repo/nkust-report/nkust-report.typ"
 // citar-bibliography: ("bibliography.bib")
 // End:
