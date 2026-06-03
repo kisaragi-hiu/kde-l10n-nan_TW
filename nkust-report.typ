@@ -150,14 +150,67 @@ A decision on this has already been made before me, in fact. A `nan_TW` locale h
 
 == KDE translation process
 
-The normal KDE translation process @kde-translation-howto can be summarized like this:
+For some background, the normal KDE translation process @kde-translation-howto can be summarized like this:
 
-Developers write software with user-facing strings clearly marked for translation; the xgettext program from GNU gettext @gnu-gettext is used to extract these strings into "PO Template" files; then the msgmerge program from GNU gettext is used to merge the newly extracted template with the current translations, as "PO" files, if they exist. These translation files are stored in the KDE Subversion repository @websvn-kde.
+1. Development and extraction: Developers write software with user-facing strings clearly marked for translation; the xgettext program from GNU gettext @gnu-gettext is used to extract these strings into "PO Template" files; then the msgmerge program from GNU gettext is used to merge the newly extracted template with the current translations, as "PO" files, if they exist. These translation files are stored in the KDE Subversion repository @websvn-kde.
 
-Translators then take existing PO files from the Subversion repository, translate them, then submit them. Some translators have direct commit access to the Subversion repository, so they can, after responsibly reviewing their submission, directly push translations into the repository; these translators are language coordinators of their translation teams. Other translators may send their translations to language coordinators, in whichever way each language coordinator or translation team sees fit. For example, the Simplified Chinese team gathers translations via their own Crowdin project, and their language coordinator periodically synchronizes the translations on their Crowdin project with the `zh_CN` translations in the KDE Subversion repository.
+2. Translate: Translators then take existing PO files from the Subversion repository, translate them, then submit them. Some translators have direct commit access to the Subversion repository, so they can, after responsibly reviewing their submission, directly push translations into the repository; these translators are language coordinators of their translation teams. Other translators may send their translations to language coordinators, in whichever way each language coordinator or translation team sees fit. For example, the Simplified Chinese team gathers translations via their own Crowdin project, and their language coordinator periodically synchronizes the translations on their Crowdin project with the `zh_CN` translations in the KDE Subversion repository.
 
-Pull translation files and other languages for reference
-Translate within Lokalize with all projects in one place and glossary and translation memory
+3. Push: The translated PO files are then pushed into the source repositories of KDE software, so that the next time they are built they will use the newly translated strings.
+
+The process to extract strings from source repositories, merge them with existing translations, then push existing translations back into source repositories is automated by a _localization and internationalization service bot_ that runs daily called Scripty @scripty.
+
+== Requirements for creating a language team
+
+Creating a new language team for KDE roughly requires providing the developers the information needed for it, as well as some initial translations for some KDE components. In particular, the modules `kcoreaddons`, `kio`, and `kxmlgui` need to be translated first @kde-translation-howto-starting.
+
+A compromise also had to be made for the language name: although Taiwanese Taigi is now the officially recommended formal name of this language, this has not been recognized by international standards such as ISO 639-3, or by systems that treat Taiwanese Hokkien as a regional variant of Min Nan Chinese and does not allow a regional variant to have a separate name, as seems to be the case for glibc locales. Thus, for the time being, until if and when ISO 639-3 CR 2021-044 @iso639-3-CR2021-044 (establish Taigi as its own language with code `ftg`) is accepted, this language would have to be added with `nan_TW` as the language code and "Min Nan Chinese" as the English name.
+
+== Translating for Taiwanese Taigi
+
+As a Taiwanese Taigi language team does not already exist, I have to merge translation templates with my translations with my own automation. I also have to set up a translation "workspace" myself to most effectively utilize the capabilities of the Lokalize computer-aided translation system (also itself a KDE application) @lokalize.
+
+Lokalize provides translation memory (suggestions for translation from other similar source text entries), glossary management, seeing other languages for reference, and tracking translation progress across a whole tree of translation files, all for an offline folder of PO files without requiring a server while translating, without which this translation process would've likely been far more tedious.
+
+The translation "workspace" that I set up looks like this:
+
+- *\~/kde-translations/l10n-templates*: a clone of the templates repository @kde-l10n-templates, which has been migrated off Subversion and is now tracked in a Git repository.
+- *\~/kde-translations/kde-svn*: a partial checkout of the Subversion repository, utilizing the `svn update --set-depth <depth>` feature @svn-redbook-depth to avoid downloading the entire repository's head revision. I set it up such that the partial checkout has this directory structure:
+  - kde-svn/trunk/
+    - l10n-kf5
+      - ja
+      - zh_TW
+    - l10n-kf6
+      - ja
+      - zh_TW
+- *\~/kde-translations/zh_TW*: a Lokalize project directory for Traditional Chinese, using symbolic links to make Lokalize see files from `~/kde-translations/kde-svn` in one project. This is useful for my work as a KDE translator for Traditional Chinese, but for Taiwanese Taigi this is here for reference. It has this directory structure:
+  - zh_TW
+    - kf5: symbolic link to ../kde-svn/trunk/l10n-kf5/zh_TW
+    - kf6: symbolic link to ../kde-svn/trunk/l10n-kf6/zh_TW
+    - index.lokalize: the Lokalize project declaration file, created using Lokalize's Create Project functionality
+- *\~/kde-translations/ja*: a directory for Japanese with the same directory structure as *\~/kde-translations/zh_TW*. Since I don't translate for Japanese, this is not initialized as a Lokalize project, but merely with files in the same directory structure so that Lokalize can find them and show them as Alternative Translations.
+  - ja
+    - kf5: symbolic link to ../kde-svn/trunk/l10n-kf5/ja
+    - kf6: symbolic link to ../kde-svn/trunk/l10n-kf6/ja
+- *\~/kde-translations/templates*: a directory with two symlinks to the templates repository, to make Lokalize see these templates the same directory structure.
+  - templates
+    - kf5: symbolic link to ../l10n-templates/trunk5
+    - kf6: symbolic link to ../l10n-templates/trunk6
+- *\~/kde-translations/l10n-nan_TW-repo*: a Git repository for storing my current Taiwanese Taigi translated result. This has to be a separate folder and symlinked, like the setup with kde-svn and ja/zh_TW folders, because I want to keep both `nan_TW` and `nan_TW@latin` translations in the same Git repository.
+  - l10n-nan_TW-repo
+    - nan_TW
+      - kf5: does not exist (yet) because this initial translation does not require any project corresponding to this folder
+      - kf6: newly translated PO files
+      - index.lokalize: the Lokalize project declaration file
+    - nan_TW\@latin
+      - kf5: does not exist (yet) for the same reason
+      - kf6: newly translated PO files
+      - index.lokalize: the Lokalize project declaration file
+- *\~/kde-translations/nan_TW* and *\~/kde-translations/nan_TW\@latin*: symlinks to l10n-nan_TW-repo/nan_TW and l10n-nan_TW-repo/nan_TW\@latin, respectively.
+
+This directory structure allows me to utilize Lokalize to the fullest extent.
+
+
 Look up words on ChhoeTaigi, Lohankha, and my own aggregated dictionary frontend Kemdict
 Refer to prior art, especially Kian-ting's Mastodon translation and the PTS Taigi TV 台語新詞詞庫
 Fall back to borrowing from English (directly) or Mandarin (as hàn-jī-sû)
@@ -190,7 +243,7 @@ As of 2026-05-31:
 
 I am a prior KDE translator and have been working on Taiwanese Mandarin (known as "Traditional Chinese" but has the language code `zh_TW`) translations for KDE for the last 5 years. I am a KDE e.V. voting member because of this work.
 
-#bibliography("bibliography.bib", style: "apa")
+#bibliography("bibliography.bib", style: "ieee")
 
 // Local Variables:
 // typst-preview--master-file: "/home/kisaragi-hiu/kde-translations/l10n-nan_TW-repo/nkust-report.typ"
