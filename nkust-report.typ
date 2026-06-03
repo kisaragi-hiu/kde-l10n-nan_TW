@@ -146,7 +146,7 @@ A decision on this has already been made before me, in fact. A `nan_TW` locale h
   Minnan can be written using Latin or traditional Han script. Therefor this locale has \@latin to clarify which script we use.
 ]
 
-= TODO Process
+= Process
 
 == KDE translation process
 
@@ -155,8 +155,6 @@ The normal KDE translation process @kde-translation-howto can be summarized like
 Developers write software with user-facing strings clearly marked for translation; the xgettext program from GNU gettext @gnu-gettext is used to extract these strings into "PO Template" files; then the msgmerge program from GNU gettext is used to merge the newly extracted template with the current translations, as "PO" files, if they exist. These translation files are stored in the KDE Subversion repository @websvn-kde.
 
 Translators then take existing PO files from the Subversion repository, translate them, then submit them. Some translators have direct commit access to the Subversion repository, so they can, after responsibly reviewing their submission, directly push translations into the repository; these translators are language coordinators of their translation teams. Other translators may send their translations to language coordinators, in whichever way each language coordinator or translation team sees fit. For example, the Simplified Chinese team gathers translations via their own Crowdin project, and their language coordinator periodically synchronizes the translations on their Crowdin project with the `zh_CN` translations in the KDE Subversion repository.
-
-The translated
 
 Pull translation files and other languages for reference
 Translate within Lokalize with all projects in one place and glossary and translation memory
