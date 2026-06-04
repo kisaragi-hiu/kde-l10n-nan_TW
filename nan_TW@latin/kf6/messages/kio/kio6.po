@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-31 00:40+0000\n"
-"PO-Revision-Date: 2026-06-04 11:26+0900\n"
+"PO-Revision-Date: 2026-06-04 11:59+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -2128,7 +2128,7 @@ msgstr ""
 #: core/job_error.cpp:1230
 #, kde-format
 msgid "Folder moved into itself"
-msgstr ""
+msgstr "Kā tsu-liāu-giap-á suá kàu ka-kī lāi-té--ah"
 
 #: core/job_error.cpp:1232
 #, kde-format
@@ -2136,6 +2136,8 @@ msgid ""
 "The operation could not be completed because the source can not be moved "
 "into itself."
 msgstr ""
+"Bô-huat-tōo uân-sîng tsit-ê tshau-tsok, in-uī lâi-guân bē-tàng suá--ji̍p-khì k"
+"a-kī lāi-té."
 
 #: core/job_error.cpp:1234
 #, kde-format
@@ -2145,7 +2147,7 @@ msgstr "Kā hāng-bo̍k suá--ji̍p-khì pa̍t-ê tsu-liāu-giap-á."
 #: core/job_error.cpp:1238
 #, kde-format
 msgid "Could not communicate with password server"
-msgstr ""
+msgstr "Bô-huat-tōo kap bi̍t-bé sù-ho̍k-khì thong-sìn"
 
 #: core/job_error.cpp:1240
 #, kde-format
@@ -2158,6 +2160,8 @@ msgstr ""
 #, kde-format
 msgid "Try restarting your session, or look in the logs for errors from kiod."
 msgstr ""
+"Tshiánn tîng-khí-tōng lí ê kang-tsok-kai-tuānn, á-sī tī kì-lio̍k lāi-té tshuē "
+"uì kiod lâi ê tshò-gōo."
 
 #: core/job_error.cpp:1246
 #, kde-format
@@ -2187,7 +2191,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot transfer <filename>%1</filename>"
-msgstr ""
+msgstr "Bô-huat-tōo thuân-su <filename>%1</filename>"
 
 #: core/job_error.cpp:1262
 #, kde-kuit-format
@@ -2207,7 +2211,7 @@ msgstr ""
 #: core/job_error.cpp:1270
 #, kde-format
 msgid "Undocumented Error"
-msgstr ""
+msgstr "Bô siá--ji̍p-khì bûn-kiānn lâi ê tshò-gōo"
 
 #: core/kfileitem.cpp:1481
 #, kde-format
@@ -2222,7 +2226,7 @@ msgstr "(%1, kàu %2 ê liân-kiat)"
 #: core/kfileitem.cpp:1486
 #, kde-format
 msgid " (Points to %1)"
-msgstr ""
+msgstr " (liân-kiat bo̍k-piau: %1)"
 
 #: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:150
 #: widgets/renamedialog.cpp:677
@@ -2237,7 +2241,7 @@ msgstr ""
 #: core/mimetypefinderjob.cpp:224
 #, kde-format
 msgid "Unable to determine the type of file for %1"
-msgstr ""
+msgstr "Bô-huat-tōo uī-tio̍h %1 phuànn-tuàn tóng-àn luī"
 
 #: core/openwith.cpp:91
 #, kde-format
@@ -3291,7 +3295,7 @@ msgstr "Miâ(&N):"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Undo filename change"
-msgstr ""
+msgstr "Ho̍k-guân tóng-miâ kái-piàn"
 
 #: filewidgets/kfilewidget.cpp:1393
 #, kde-format
@@ -3345,17 +3349,17 @@ msgstr "Uī-tì"
 #: filewidgets/kfilewidget.cpp:1763
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-msgstr ""
+msgstr "Tóng-àn \"%1\" í-king ū--ah. Lí kám ài kā i tshú-tāi tiāu?"
 
 #: filewidgets/kfilewidget.cpp:1764
 #, kde-format
 msgid "Overwrite File?"
-msgstr ""
+msgstr "Tshú-tāi Tóng-àn?"
 
 #: filewidgets/kfilewidget.cpp:1961
 #, kde-format
 msgid "You can only select local files."
-msgstr ""
+msgstr "Tsí ē-sái suán pún-tē tóng-àn."
 
 #: filewidgets/kfilewidget.cpp:1961
 #, kde-format
@@ -3400,7 +3404,7 @@ msgstr "Tsū-tōng suán hù-tóng-miâ(&X)"
 #: filewidgets/kfilewidget.cpp:2482
 #, kde-format
 msgid "a suitable extension"
-msgstr ""
+msgstr "sik-ha̍p ê hù-tóng-miâ"
 
 #: filewidgets/kfilewidget.cpp:2490
 #, kde-format
@@ -3637,13 +3641,13 @@ msgstr "Tah--khí-khì"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open \"%1\" in New Tab"
-msgstr ""
+msgstr "Tī Sin ê Hun-ia̍h Khui \"%1\""
 
 #: filewidgets/kurlnavigator.cpp:638
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open \"%1\" in New Window"
-msgstr ""
+msgstr "Tī Sin ê Sī-thang Khui \"%1\""
 
 #: filewidgets/kurlnavigator.cpp:647
 #, kde-format
@@ -3711,12 +3715,12 @@ msgstr "Pian-tsi̍p bôo-sik"
 #: filewidgets/kurlnavigatortogglebutton.cpp:80
 #, kde-format
 msgid "Click for Location Navigation"
-msgstr ""
+msgstr "Tshi̍h tsia lâi iōng Uī-tì Liû-lám"
 
 #: filewidgets/kurlnavigatortogglebutton.cpp:82
 #, kde-format
 msgid "Click to Edit Location"
-msgstr ""
+msgstr "Tshi̍h tsia lâi Pian-tsi̍p Uī-tì"
 
 #: gui/applicationlauncherjob.cpp:125 gui/kprocessrunner.cpp:247
 #, kde-format
@@ -3785,7 +3789,7 @@ msgstr ""
 #: gui/kemailclientlauncherjob.cpp:92
 #, kde-format
 msgid "No mail client found"
-msgstr ""
+msgstr "Tshuē-bô tiān-tsú phue-sìn ê client"
 
 #: gui/kprocessrunner.cpp:125
 #, kde-format
@@ -4859,7 +4863,7 @@ msgstr ""
 #: widgets/fileundomanager.cpp:916
 #, kde-format
 msgid "Undo File Copy Confirmation"
-msgstr ""
+msgstr "Khak-tīng Ho̍k-guân Tóng-àn Khóo-pih"
 
 #: widgets/jobuidelegate.cpp:230
 #, kde-kuit-format
@@ -4869,6 +4873,9 @@ msgid ""
 "filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</"
 "emphasis>"
 msgstr ""
+"Lí kám tsin-tsiànn ài kā tsit-ê hāng-bo̍k íng-uán thâi-tiāu?<nl/><filename>%1<"
+"/filename><nl/><nl/> "
+"<emphasis strong='true'>Tsit-ê tōng-tsok bô-huat-tōo ho̍k-guân.</emphasis>"
 
 #: widgets/jobuidelegate.cpp:233 widgets/jobuidelegate.cpp:247
 #: widgets/jobuidelegate.cpp:259 widgets/widgetsaskuseractionhandler.cpp:203
@@ -4905,6 +4912,9 @@ msgid ""
 "Do you want to permanently delete all items from the Trash?<nl/><nl/"
 "><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
+"Lí kám tsin-tsiànn ài kā Pùn-sò-tháng lāi-té sóo-ū ê hāng-bo̍k lóng-tsóng thâi"
+"-tiāu?<nl/><nl/><emphasis strong='true'>Tsit-ê tōng-tsok bô-huat-tōo ho̍k-guân"
+".</emphasis>"
 
 #: widgets/jobuidelegate.cpp:260 widgets/widgetsaskuseractionhandler.cpp:299
 #, kde-format
@@ -4919,12 +4929,14 @@ msgid ""
 "Do you really want to move this item to the Trash?<nl/><filename>%1</"
 "filename>"
 msgstr ""
+"Lí kám tsin-tsiànn ài kā tsit-ê hāng-bo̍k suá-khì Pùn-sò-tháng?<nl/><filename>"
+"%1</filename>"
 
 #: widgets/jobuidelegate.cpp:279
 #, kde-format
 msgid "Do you really want to move this item to the Trash?"
 msgid_plural "Do you really want to move these %1 items to the Trash?"
-msgstr[0] ""
+msgstr[0] "Lí kám tsin-tsiànn ài kā tse %1 ê hāng-bo̍k suá-khì Pùn-sò-tháng?"
 
 #: widgets/kacleditwidget.cpp:71
 #, kde-format
@@ -5235,7 +5247,7 @@ msgstr "Tuā-sè:"
 #: widgets/kfilepropspluginwidget.ui:282
 #, kde-format
 msgid "Determine the folder size"
-msgstr ""
+msgstr "Phuànn-tuàn tsu-liāu-giap-á tuā-sè"
 
 #. i18n: ectx: property (text), widget (QPushButton, stopCalculateSizeBtn)
 #: widgets/kfilepropspluginwidget.ui:289
@@ -5247,7 +5259,7 @@ msgstr "Thîng"
 #: widgets/kfilepropspluginwidget.ui:295
 #, kde-format
 msgid "Stop determining the folder size"
-msgstr ""
+msgstr "Tiong-tsí phuànn-tuàn tsu-liāu-giap-á tuā-sè"
 
 #. i18n: ectx: property (text), widget (QPushButton, sizeDetailsBtn)
 #: widgets/kfilepropspluginwidget.ui:302
@@ -5401,6 +5413,18 @@ msgid ""
 "%m - the mini-icon\n"
 "%c - the comment"
 msgstr ""
+"Tī tsí-līng āu-piah lí ē-sái iōng kui-ê tsiàm-uī-hû, in ē tī tîng-sik si̍t-tsè"
+" tsip-hîng ê sî-tsūn tshú-tāi tsò si̍t-tsè ê ti̍t:\n"
+"%f - tsi̍t-ê tóng-miâ\n"
+"%F - tsi̍t lia̍t ê tóng-miâ; nā tîng-sik ē-sái kâng-sî khui kuí-lō-ê pún-tē tó"
+"ng-àn, tshiánn iōng tsit-ê\n"
+"%u - tsi̍t-ê URL\n"
+"%U - tsi̍t lia̍t URL\n"
+"%d - ài khui ê tóng-àn ê bo̍k-lo̍k\n"
+"%D - tsi̍t lia̍t bo̍k-lo̍k\n"
+"%i - tôo-sī\n"
+"%m - sè ê tôo-sī\n"
+"%c - tsù-kái"
 
 #: widgets/kopenwithdialog.cpp:742
 #, kde-format
@@ -5534,7 +5558,7 @@ msgstr "To̍k-li̍p GPU"
 #: widgets/kpropertiesdesktopadvbase.ui:136
 #, kde-format
 msgid "Run using dedicated graphics card"
-msgstr ""
+msgstr "Iōng to̍k-li̍p hián-sī-khah tsip-hîng"
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
 #: widgets/kpropertiesdesktopadvbase.ui:146
@@ -5602,7 +5626,7 @@ msgstr ""
 #: widgets/kpropertiesdesktopbase.ui:62
 #, kde-format
 msgid "Comm&ent:"
-msgstr ""
+msgstr "Tsù-kái(&E):"
 
 #. i18n: ectx: property (text), widget (QLabel, labelenvvars)
 #: widgets/kpropertiesdesktopbase.ui:79
@@ -6332,7 +6356,7 @@ msgstr "Sóo-ū tóng-àn ê kiám-tsa-bé lóng kāng-khuán."
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2445
 #, kde-format
 msgid "The selected files have different checksums."
-msgstr ""
+msgstr "Suán ê tóng-àn ê kiám-tsa-bé bô-kâng."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2451
 #, kde-format
@@ -6375,7 +6399,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2987
 #, kde-format
 msgid "Only executables on local file systems are supported."
-msgstr ""
+msgstr "Tsí tsi-uān pún-tē tóng-àn hē-thóng siōng ê tsip-hîng-tóng."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:3002
 #, kde-format
@@ -6397,12 +6421,12 @@ msgstr ""
 #, kde-format
 msgctxt "The authority that issued the SSL certificate"
 msgid "Issuer"
-msgstr ""
+msgstr "Huat-hîng-tsiá"
 
 #: widgets/ksslinfodialog.cpp:82
 #, kde-format
 msgid "Current connection is secured with SSL."
-msgstr ""
+msgstr "Tsit-má ê liân-suànn siū-tio̍h SSL pó-hōo."
 
 #: widgets/ksslinfodialog.cpp:86
 #, kde-format
@@ -6418,7 +6442,7 @@ msgstr ""
 #: widgets/ksslinfodialog.cpp:97
 #, kde-format
 msgid "Current connection is not secured with SSL."
-msgstr ""
+msgstr "Tsit-má ê liân-suànn bô iōng SSL pó-hōo."
 
 #: widgets/ksslinfodialog.cpp:139
 #, kde-format
@@ -6498,6 +6522,9 @@ msgid ""
 "The clipboard has changed since you used 'paste': the chosen data format is "
 "no longer applicable. Please copy again what you wanted to paste."
 msgstr ""
+"Lí iōng 'tah--khí-khì' í-lâi, tsián-tah-phōo lāi-iông í-king ū kái-piàn--ah: s"
+"uán ê tsu-liāu keh-sik put-tsài sī sik-ha̍p ê. Tshiánn tîng-sin khóo-pih lí gu"
+"ân-pún siūnn-beh tah ê mi̍h-kiānn."
 
 #: widgets/paste.cpp:250
 #, kde-format
@@ -6549,7 +6576,7 @@ msgstr "Tsián-tah-phōo lāi-iông ê tóng-miâ:"
 #: widgets/pastejob.cpp:89
 #, kde-format
 msgid "Filename for dropped contents:"
-msgstr ""
+msgstr "Pàng--lo̍h-lâi ê lāi-iông ê tóng-miâ:"
 
 #: widgets/renamedialog.cpp:73
 #, kde-format
@@ -6590,7 +6617,7 @@ msgstr "Kái-miâ(&R)"
 #: widgets/renamedialog.cpp:292
 #, kde-format
 msgid "Suggest New &Name"
-msgstr ""
+msgstr "Kiàn-gī Si&n-ê Miâ"
 
 #: widgets/renamedialog.cpp:298
 #, kde-format
@@ -6760,13 +6787,13 @@ msgstr "<filename>%1</filename> m̄-sī ū-hāu ê tóng-miâ."
 msgctxt "@label:textbox"
 msgid "Rename the %1 selected item to:"
 msgid_plural "Rename the %1 selected items to:"
-msgstr[0] ""
+msgstr[0] "Kā %1 ê í-king suán-ti̍k ê hāng-bo̍k kái-miâ tsò:"
 
 #: widgets/renamefiledialog.cpp:167
 #, kde-format
 msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
-msgstr ""
+msgstr "# ē tshú-tāi tsò tsing-sū ê sòo-jī, uì tsit-ê sòo-jī khai-sí:"
 
 #: widgets/renamefiledialog.cpp:176
 #, kde-format
@@ -6783,6 +6810,8 @@ msgid ""
 "Invalid filename: The new name should contain one sequence of #, unless all "
 "the files have different file extensions."
 msgstr ""
+"Bô-hāu ê tóng-miâ: sin ê miâ su-iàu ū tsi̍t-lia̍t #, tû-hui sóo-ū tóng-àn ê hù"
+"-tóng-miâ lóng bô-kâng."
 
 #: widgets/renamefiledialog.cpp:310
 #, kde-format
@@ -6801,7 +6830,7 @@ msgstr "Kā tse:"
 #, kde-format
 msgctxt "@info placeholder text"
 msgid "Pattern"
-msgstr ""
+msgstr "Iūnn-sik"
 
 #: widgets/renamefiledialog.cpp:320
 #, kde-format
@@ -6813,13 +6842,13 @@ msgstr "Tshú-tāi tsò:"
 #, kde-format
 msgctxt "@info placeholder text"
 msgid "Replacement"
-msgstr ""
+msgstr "Tshú-tāi tsò"
 
 #: widgets/renamefiledialog.cpp:369
 #, kde-format
 msgctxt "@info pattern as in text replacement pattern"
 msgid "No file name contains the pattern."
-msgstr ""
+msgstr "Bô tóng-miâ ū pau-kuat iūnn-sik."
 
 #: widgets/renamefiledialog.cpp:378
 #, kde-kuit-format
@@ -6912,7 +6941,7 @@ msgstr "Ī-lám:"
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> cannot be renamed to an empty file name."
-msgstr ""
+msgstr "<filename>%1</filename> bô-huat-tōo kái-miâ tsò khang ê tóng-miâ."
 
 #: widgets/skipdialog.cpp:29
 #, kde-format
@@ -7063,6 +7092,9 @@ msgid ""
 "><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>This action "
 "cannot be undone.</emphasis>"
 msgstr ""
+"Pùn-sò-tháng siōng buán--ah, bô-huat-tōo tsiap-siū tsit-ê tóng-àn. Lí kám ài k"
+"ái-tsò íng-uán kā i thâi-tiāu?<nl/><nl/><filename>%1</filename><nl/><nl/><emph"
+"asis strong='true'>Tsit-ê tōng-tsok bô-huat-tōo ho̍k-guân.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:260
 #, kde-kuit-format
@@ -7075,6 +7107,9 @@ msgid_plural ""
 "instead?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</"
 "emphasis>"
 msgstr[0] ""
+"Pùn-sò-tháng siōng buán--ah, bô-huat-tōo tsiap-siū tse %1 ê tóng-àn. Lí kám ài"
+" kái-tsò íng-uán kā in thâi-tiāu?<nl/><nl/><filename>%1</filename><nl/><nl/><e"
+"mphasis strong='true'>Tsit-ê tōng-tsok bô-huat-tōo ho̍k-guân.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:275
 #, kde-kuit-format
