@@ -249,7 +249,7 @@ I also try to refer to prior art where it exists. For software translation I hav
 
 When I cannot find what a concept should directly correspond with, I fall back to borrowing from English, or orthographically borrowing the word from Mandarin (such as using si̍t-thé to correspond to _entity_ or _instance_).
 
-= Result
+= Results
 
 // TODO: expand
 
