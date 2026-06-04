@@ -18,6 +18,5 @@ Since this is not submitted yet we don't have Scripty keeping the PO files up to
 Use =make install= to compile PO files to MO and install them into ~~/.local/share/locales~. Then use ~env {LANGUAGE,LANG}=nan_TW <command>~ to test it. ($LANG would be used as a fallback after $LANGUAGE is exhausted, so setting it like this avoids that.)
 
 ** TODO fix sut-tshut typo
-** TODO fix various kā instead of kah/kap
 ** TODO apply root = kin / 根 translation
 ** TODO 重復?

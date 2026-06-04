@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-31 00:40+0000\n"
-"PO-Revision-Date: 2026-06-04 11:21+0900\n"
+"PO-Revision-Date: 2026-06-04 11:26+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -763,7 +763,7 @@ msgstr "<li>Hia̍p-tīng: %1</li>"
 #: core/job_error.cpp:314
 #, kde-format
 msgid "<li>Date and time: %1</li>"
-msgstr "<li>Ji̍t-kî kā sî-kan: %1</li>"
+msgstr "<li>Ji̍t-kî kap sî-kan: %1</li>"
 
 #: core/job_error.cpp:314
 #, kde-format
@@ -4113,7 +4113,7 @@ msgstr ""
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
-"Ài thê-kiong iōng-tsiá-miâ kā bi̍t-bé tsiah ē-sái tsûn-tshú tsit-ê bāng-tsām."
+"Ài thê-kiong iōng-tsiá-miâ kap bi̍t-bé tsiah ē-sái tsûn-tshú tsit-ê bāng-tsām."
 
 #: kioworkers/ftp/ftp.cpp:570 kioworkers/http/http.cpp:331
 #, kde-format
@@ -5594,7 +5594,8 @@ msgid ""
 "an image viewing application would be \"View and edit images\"."
 msgstr ""
 "Tshiánn tī tsia i ìng-iōng-tîng-sik ê iōng-tôo su-ji̍p i ê suat-bîng. Lē: "
-"kiám-sī iánn-siōng ê thîng-sik ē-sái sū-su̍t tsò \"Kiám-sī kā pian-tsi̍p iánn-"
+"kiám-sī iánn-siōng ê thîng-sik ē-sái sū-su̍t tsò \"Kiám-sī kap pian-tsi̍p iánn"
+"-"
 "siōng\"."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
@@ -5916,7 +5917,7 @@ msgstr "Tsí Ē-sái Kiám-sī"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1076
 msgid "Can View & Modify"
-msgstr "Ē-sái Kiám-sī kā Kái-piàn"
+msgstr "Ē-sái Kiám-sī kap Kái-piàn"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1077
 msgid "Can Only View Content"
@@ -5924,7 +5925,7 @@ msgstr "Tsí Ē-sái Kiám-sī Lāi-iông"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1077
 msgid "Can View & Modify Content"
-msgstr "Ē-sái Kiám-sī kā Kái-piàn Lāi-iông"
+msgstr "Ē-sái Kiám-sī kap Kái-piàn Lāi-iông"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1079
 msgid "Can Only View/Read Content"
@@ -5932,7 +5933,7 @@ msgstr "Tsí Ē-sái Kiám-sī/Tho̍k-tshú Lāi-iông"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1079
 msgid "Can View/Read & Modify/Write"
-msgstr "Ē-sái Kiám-sī/Tho̍k-tshú kā Kái-piàn/Siá-ji̍p"
+msgstr "Ē-sái Kiám-sī/Tho̍k-tshú kap Kái-piàn/Siá-ji̍p"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1178
 #, kde-format
