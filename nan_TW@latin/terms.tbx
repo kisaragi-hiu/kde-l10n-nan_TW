@@ -2478,6 +2478,18 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-184">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>monitor</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>kàm-sī-khì</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
