@@ -107,11 +107,73 @@
 
 #pagebreak()
 
-== TODO a
-== TODO b
-== TODO c
-== TODO d
-== TODO e
+== Language name
+
+#text(size: 30pt)[
+  - National Language Development Report recommended formal name:\
+    "Taiwanese Taigi" or "Taigi"
+  - ISO 639-3 etc. classifies as nan_TW, formal name: "Min Nan Chinese"
+  - Can't fight that apart from CR 2021-044
+  - → "Taiwanese Taigi" / "Taigi" if possible,\
+    otherwise "Min Nan Chinese"
+]
+
+#pagebreak()
+
+== aside: ISO 639-3 Change Request 2021-044
+
+#text(size: 28pt)[
+  - Split Taigi out from Min Nan Chinese (`nan`) and give it `ftg`
+  - Would officially call Taigi "Taigi"
+  - Submitted by Ìthuân Khoki (意傳科技) in 2021
+  - Still pending as of 2026-06-04
+  - Fingers crossed?
+]
+
+#pagebreak()
+
+== Language code
+
+- → `nan_TW` for now
+- Hopefully CR 2021-044 will get accepted?\
+  If so we'd get to use `ftg`
+
+#pagebreak()
+
+== Writing system
+
+- "No standard writing system"?
+- Pe̍h-ōe-jī was de facto standard (Taiwan Church News wrote in all-POJ in 1885\~1969)
+- Tâi-lô + standard Han characters is already standard
+- Choose two:\
+  Mixed: Tāi-lô + standard Han characters for Taigi\
+  All-romanized: all Tāi-lô
+
+#pagebreak()
+
+== Writing: mixed, all-Han, or all-Roman
+
+- Tsuân-hàn (all Han characters) is infeasible (even nominally all-Han MOE dictionary has mixed script @kiantiong20230908 (eg. oo-tóo-bái))
+- Tsuân-lô (all romanized): decades of publishing
+- Hàn-lô (mixed script): decades of publishing
+- → Both *mixed script* and *all romanized*
+
+#pagebreak()
+
+== Writing system: POJ or TL
+
+- Tāi-lô (MOE's version of POJ) is MOE's standard
+- "It's a transcription scheme" kind of, unfortunate naming
+- Really a minor spelling reform over POJ (be more like IPA, support more Taigi dialects)
+- No conflict between both (p is always p, 1-to-1 differences)
+
+#pagebreak()
+
+== Glibc locale
+
+- Provides name, datetime format, numeric format, etc. metadata
+- `nan_TW` locale already available since 2013 @glibc-nan_TW
+- `nan_TW@latin` locale already available since 2009 @glibc-nan_TW_latin
 
 #pagebreak()
 
@@ -121,22 +183,26 @@
 
 #pagebreak()
 
-== TODO a
-== TODO b
-== TODO c
-== TODO d
-== TODO e
+== TODO KDE translation process
+== TODO Creating a new language team
+== TODO Translating: using Lokalize
+== TODO Translating: setting up workspace
+== TODO Translating in Lokalize
 
 #pagebreak()
 
 #titleslide[
-  = Results
+  = TODO Results
 ]
 
 #pagebreak()
 
+== TODO describe
+
+#pagebreak()
+
 #titleslide[
-  = Discussion
+  = TODO Discussion
 ]
 
 #pagebreak()
