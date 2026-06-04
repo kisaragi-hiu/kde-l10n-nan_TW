@@ -79,7 +79,7 @@ There are a few existing Taigi software translation projects, or software (or we
 
 - Tân Kiàn-ting wrote about translating the free software social media Pleroma into Taiwanese Taigi in 2015 @kianting20150503. He also mention having worked on translating parts of the Caja file manager for Linux.
 - Kiàn-ting also translated the (more widely used) social media Mastodon into Taiwanese Taigi in 2025 @kianting20250604. The translation is initially merged into Mastodon in February 2026 and he presumably continues to maintain it.
-- The Hokkien Wikipedia, while specifically for Hokkien (Minnan), still serves as prior art of Taigi translation as the two languages are mutually intelligible.
+- The Southern Min Wikipedia, while specifically for Southern Min (Hokkien / Minnan), still serves as prior art of Taigi translation as the two languages are mutually intelligible. @wikipedia-zh-min-nan
 
 = Foundational choices
 
