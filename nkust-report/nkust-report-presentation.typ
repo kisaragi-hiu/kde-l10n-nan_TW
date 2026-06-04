@@ -9,6 +9,10 @@
   footnote(text(size: 20pt)[#it])
 }
 #set page(fill: rgb("#F7F4FA"))
+#set page(footer: context [
+  #set align(right)
+  #counter(page).display("1")
+])
 #let titleslide(content) = [
   #slide[
     // #set page(fill: black)
