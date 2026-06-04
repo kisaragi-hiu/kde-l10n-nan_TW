@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-31 00:40+0000\n"
-"PO-Revision-Date: 2026-06-04 11:04+0900\n"
+"PO-Revision-Date: 2026-06-04 11:21+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -1104,6 +1104,10 @@ msgid ""
 "one of these situations. This is a rare event, and is likely to indicate a "
 "programming error."
 msgstr ""
+"KDE ē-sái tī hia̍p-tīng lāi-té thàu-kè hia̍p-tīng tsò thong-sìn. Tsí-tīng ê hi"
+"a̍p-tīng sī tsí-ū tī hit-khuán tsōng-hóng tsiah ē-sái iōng ê hia̍p-tīng, m̄-ko"
+"h tsit-má m̄-sī hit-khuán tsōng-hóng. Tse-sī tsi̍t-ê tsiok hi-hán ê tsîng-hîng"
+", ing-kai sī tāi-piáu ū tó-uī ê tîng-sik siá m̄-tio̍h-khì--ah."
 
 #: core/job_error.cpp:532
 #, kde-format
@@ -1439,6 +1443,8 @@ msgid ""
 "The server, while currently connected to the Internet, may not be configured "
 "to allow requests."
 msgstr ""
+"Sù-ho̍k-khì sui-jiân ū liân-suànn kàu bāng-lōo, m̄-koh khó-lîng bô siat-tīng ú"
+"n-tsún tshíng-kiû."
 
 #: core/job_error.cpp:726
 #, kde-format
@@ -1446,6 +1452,8 @@ msgid ""
 "The server, while currently connected to the Internet, may not be running "
 "the requested service (%1)."
 msgstr ""
+"Sù-ho̍k-khì sui-jiân ū liân-suànn kàu bāng-lōo, m̄-koh khó-lîng bô leh tsip-hî"
+"ng iau-kiû ê ho̍k-bū (%1)."
 
 #: core/job_error.cpp:730
 #, kde-format
@@ -1454,11 +1462,14 @@ msgid ""
 "protecting your network or the network of the server, may have intervened, "
 "preventing this request."
 msgstr ""
+"Tsi̍t-ê bāng-lōo hông-hué-tshiûnn (hān-tsè bāng-lōo tshíng-kiû ê tsong-tì), m̄"
+"-tsai sī leh pó-hōo lí ê bāng-lōo á-sī sù-ho̍k-khì ê bāng-lōo, khó-lîng kài-ji"
+"̍p--ah, hōo tsit-ê tshíng-kiû bô-huat-tōo uân-sîng."
 
 #: core/job_error.cpp:737
 #, kde-format
 msgid "Connection to Server Closed Unexpectedly"
-msgstr ""
+msgstr "Tuì Sù-ho̍k-khì ê Liân-suànn Hiông-hiông Bô-khì--ah"
 
 #: core/job_error.cpp:739
 #, kde-format
@@ -1466,6 +1477,8 @@ msgid ""
 "Although a connection was established to <strong>%1</strong>, the connection "
 "was closed at an unexpected point in the communication."
 msgstr ""
+"Sui-jiân guân-pún í-king kiàn-li̍p kàu <strong>%1</strong> ê liân-suànn, i sua"
+"h leh thong-sìn ê m̄-tsai siánn-mih sî-tsūn hōo kuainn-tiāu--ah."
 
 #: core/job_error.cpp:745
 #, kde-format
@@ -1473,6 +1486,8 @@ msgid ""
 "A protocol error may have occurred, causing the server to close the "
 "connection as a response to the error."
 msgstr ""
+"Khó-lîng sī ū huat-sing hia̍p-tīng tshò-gōo, hōo sù-ho̍k-khì huán-ìng tshò-gōo"
+" lâi kuainn-tiāu liân-suànn."
 
 #: core/job_error.cpp:751
 #, kde-format
@@ -1666,7 +1681,7 @@ msgstr ""
 #: core/job_error.cpp:886
 #, kde-format
 msgid "You may not have permissions to accept the connection."
-msgstr ""
+msgstr "Lí khó-lîng bô khuân-hān ē-sái tsiap-siū liân-suànn."
 
 #: core/job_error.cpp:891
 #, kde-format
@@ -1677,12 +1692,12 @@ msgstr "Bô-huat-tōo Ting-ji̍p: %1"
 #, kde-format
 msgid ""
 "An attempt to login to perform the requested operation was unsuccessful."
-msgstr ""
+msgstr "Uī-tio̍h tsò iau-kiû ê tshau-tsok lâi ting-ji̍p ê sî-tsūn sit-pāi--ah."
 
 #: core/job_error.cpp:909
 #, kde-format
 msgid "Could Not Determine Resource Status"
-msgstr ""
+msgstr "Bô-huat-tōo Phuànn-tuàn Tsu-guân Tsōng-thài"
 
 #: core/job_error.cpp:910
 #, kde-format

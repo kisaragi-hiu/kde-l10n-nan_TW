@@ -2466,6 +2466,18 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-183">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>firewall</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>hông-hué-tshiûnn</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
