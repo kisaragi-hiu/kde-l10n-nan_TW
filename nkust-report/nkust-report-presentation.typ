@@ -1,12 +1,24 @@
 #import "@preview/polylux:0.4.0": *
 
 #set page(paper: "presentation-16-9")
+#set page(numbering: "1")
 #set text(size: 32pt)
 
 #set cite(form: "full")
 #show cite: it => {
   footnote(text(size: 20pt)[#it])
 }
+#set page(fill: rgb("#F7F4FA"))
+#let titleslide(content) = [
+  #slide[
+    // #set page(fill: black)
+    #set page(fill: rgb("#171518"))
+    #set text(fill: white)
+    #align(horizon)[
+      #content
+    ]
+  ]
+]
 
 #align(horizon)[
   \
@@ -18,13 +30,13 @@
 
 #pagebreak()
 
-#align(horizon)[
+#titleslide[
   = Introduction
 ]
 
 #pagebreak()
 
-= Who am I
+== Who am I
 
 - Shen Yu-hsiang
 - Kisaragi Hiu
@@ -32,15 +44,15 @@
 
 #pagebreak()
 
-= Why
+== Why
 
 - No Taiwanese Taigi user interface translations available
 - I already contribute zh_TW translations to KDE
-- Help keep the language alive
+- I can help? Probably?
 
 #pagebreak()
 
-= What
+== What
 
 - "Taiwanese Taigi"?
 - What is KDE anyways
@@ -48,7 +60,7 @@
 
 #pagebreak()
 
-= What: Taiwanese Taigi
+== What: Taiwanese Taigi
 
 - Mutually intelligible with Hokkien; also known as Taiwanese Hokkien
 - Ususally "Taiwanese" in English but could confuse as the one canonical language of Taiwan
@@ -56,7 +68,7 @@
 
 #pagebreak()
 
-= What: KDE
+== What: KDE
 
 #text(size: 30pt)[
   - Was "K Desktop Environment", FOSS computing environment for Linux and other OSs
@@ -67,7 +79,7 @@
 
 #pagebreak()
 
-= What work
+== What work
 
 - Start translating KDE software into Taiwanese Taigi
 - Establish a language team
@@ -75,7 +87,7 @@
 
 #pagebreak()
 
-= Taigi software prior work
+== Taigi software prior work
 
 #text(size: 28pt)[
   - Pleroma translated by Tân Kiàn-ting in 2015 @kianting20150503
@@ -85,31 +97,49 @@
 
 #pagebreak()
 
-#align(horizon)[
+#titleslide[
   = Foundational choices
 ]
 
 #pagebreak()
 
-#align(horizon)[
+== TODO a
+== TODO b
+== TODO c
+== TODO d
+== TODO e
+
+#pagebreak()
+
+#titleslide[
   = Translation process
 ]
 
 #pagebreak()
 
-#align(horizon)[
+== TODO a
+== TODO b
+== TODO c
+== TODO d
+== TODO e
+
+#pagebreak()
+
+#titleslide[
   = Results
 ]
 
 #pagebreak()
 
-#align(horizon)[
+#titleslide[
   = Discussion
 ]
 
 #pagebreak()
 
-#bibliography("bibliography.bib", style: "apa")
+== Bibliography
+#set text(size: 16pt)
+#bibliography("bibliography.bib", style: "apa", title: none)
 
 // Local Variables:
 // typst-preview--master-file: "/home/kisaragi-hiu/kde-translations/l10n-nan_TW-repo/nkust-report/nkust-report-presentation.typ"
