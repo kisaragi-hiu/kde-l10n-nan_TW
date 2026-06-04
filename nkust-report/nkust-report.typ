@@ -136,6 +136,11 @@ There is still a question of whether I should use Pe̍h-ōe-jī or Tâi-lô. Thi
 
 Ultimately I chose Tâi-lô because that's what the Ministry of Education, which I already refer to as an authority when deciding which Han characters are correct, has chosen on this topic. Since Pe̍h-ōe-jī and Tâi-lô are compatible with each other as Tâi-lô does not conflict with Pe̍h-ōe-jī characters @iunn2021, it would be totally fine if one day another translator joins the project and decides to prefer Pe̍h-ōe-jī: mixed Tâi-lô and Pe̍h-ōe-jī might be inconsistent but would not be ambiguous. Moreover, software for automatically converting between the two already exist @ithuan-kesi, so if this choice ever needs to be revisited it will be trivial to switch.
 
+#figure(
+  image("20260604T105105+0900-mixed-tl-poj.png"),
+  caption: [Example of Tāi-lô and Pe̍h-ōe-jī being mixed in the same context. Screenshot from Southern Min Wikipedia's menu],
+)
+
 == Glibc locale
 
 Glibc (the GNU C Library) provides core libraries for many Linux systems @glibc, and includes a system of "locales", which define the name, date/time format, numeric format, territory, etc. of a given language variant.
