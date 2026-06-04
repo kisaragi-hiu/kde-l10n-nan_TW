@@ -243,21 +243,26 @@ Finally, in @img-glossary, the interface shows the glossary entries which I have
 
 === Word choices
 
-As I translate, I may need to look up how to say a phrase or word in Taigi, in which case I may look it up on ChhoeTaigi #footnote[unified search interface for several Taigi sources and dictionaries. @chhoetaigi], Lohankha loanword transliteration system @lohankha-loanword, or my own Kemdict #footnote[unified search interface for many dictionaries for Taigi, Mandarin, and Hakka, including some Taigi sources not included by ChhoeTaigi, as well as providing fuzzy Taigi search that allows omitting tone marks. @kemdict]. Kemdict in particular allows me to search the Taiwan Public Television Service's Taigi TV New Words Collection (台語新詞詞庫) @pts-taigitv-new-words together with other dictionaries, which is why I rely on it just as much as on ChhoeTaigi.
+As I translate, I may need to look up how to say a phrase or word in Taigi, in which case I may look it up on ChhoeTaigi #footnote[unified search interface for several Taigi sources and dictionaries. @chhoetaigi], Lohankha loanword transliteration system @lohankha-loanword, or my own Kemdict #footnote[unified search interface for many dictionaries for Taigi, Mandarin, and Hakka, including some Taigi sources not included by ChhoeTaigi, as well as providing fuzzy Taigi search that allows omitting tone marks. @kemdict]. Kemdict in particular allows me to search the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) @pts-taigitv-new-words together with other dictionaries, which is why I rely on it just as much as on ChhoeTaigi.
 
 I also try to refer to prior art where it exists. For software translation I have not found much reference, except for Tân Kiàn-ting's Mastodon translation @kianting20250604 which is immensely helpful where the same concepts have been mentioned.
 
 When I cannot find what a concept should directly correspond with, I fall back to borrowing from English, or orthographically borrowing the word from Mandarin (such as using si̍t-thé to correspond to _entity_ or _instance_).
 
-= TODO Result
+= Result
 
-As of 2026-05-31:
+// TODO: expand
 
-- Required QLocale submission not done yet
-- Of the base libraries (kconfig, kconfigwidgets, kcoreaddons, kio, kxmlgui), they are 67% translated overall, with `nan_TW@latin` being 84% translated and `nan_TW` being 50% translated, according to statistics collected with pocount from Translate Toolkit @pocount.
-- Large number of probably-good-enough terminology documented in glossary files
+There may still be more work to do other than the translation itself, such as there being a requirement that a QLocale entry be created. More work will be needed in this regard, perhaps with the guidance of other KDE developers.
+
+While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I found that two other modules `kconfig` and `kconfigwidgets` seem just as helpful to translate when building a foundation for the overall translation. As of 2026-06-04, these 5 modules are currently 78% translated overall, with `nan_TW@latin` being 87% translated and `nan_TW` being 69% translated, according to statistics collected with pocount from Translate Toolkit @pocount.
+
+These translations are currently available on GitHub:\
+https://github.com/kisaragi-hiu/kde-l10n-nan_tw
 
 = TODO Discussion
+
+It would be a shame if Taiwanese Taigi as a language were lost as less and less people speak it
 
 = Declarations
 == AI usage
@@ -277,15 +282,16 @@ As of 2026-05-31:
 
 I am already a KDE translator for Traditional Chinese (Taiwanese Mandarin), and have been for the last 5 years. I am a KDE e.V. voting member because of this work.
 
+#pagebreak()
 #heading(numbering: none)[Acknowledgements]
 
 This work is built on the shoulder of many giants.
 
-On the software side, I would like to thank Lokalize developers for making such a crutial piece of my workflow (especially Finley Watson for reviewing my occasional Merge Requests); as well as Typst, for being a fast and easy alternative to LaTeX, with as much flexibility as the Lisp-based documentation systems that I've used in the past while having a lot more batteries included. The table of contents is a one-liner
+On the software side, I would like to thank Lokalize developers for making such a crutial piece of my workflow (especially Finley Watson for reviewing my occasional Merge Requests); as well as Typst, for being a fast and easy alternative to LaTeX, with as much flexibility as the Lisp-based documentation systems that I've used in the past while having a lot more batteries included. The table of contents is a one-liner and required barely any bookkeeping, allowing me to focus on translating and writing this report.
 
-Software: Lokalize, KDE translation infrastructure, Typst
+On the Taigi side, I would like to thank Arne Goetje @glibc-nan_TW_latin and Wei-Lun Chao @glibc-nan_TW for contributing Taigi locales (as Min Nan Chinese) into glibc ages ago, in 2009 and 2013, respectively; Ìthuân Khoki, for submitting ISO 639-3 CR 2021-044 @iso639-3-CR2021-044; Dr. Iûⁿ Ún-giân, ChhoeTaigi and the Tâi-bûn Ke-si Mī project, and countless others for all the work on Taigi revitalization; and all those who made the dictionaries that I've been relying on, especially the Ministry of Education's Dictionary of Frequently-Used Taiwanese Taigi @kautian, the Maryknoll Taiwanese-English Dictionary @maryknoll1976, the Comprehensive Taiwanese-Japanese Dictionary by 小川尚義 @taijit and its Taigi translation by Elder Lîm Chùn-io̍k @taijit-taigi, as well as the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) @pts-taigitv-new-words.
 
-Prior work on Taigi revitalization: the already-present Glibc locales, the stalled-but-still-pending pending ChhoeTaigi, all the dictionaries, especially Kautian, Maryknoll, Taijit, pts-taigitv
+// TODO Lastly, on a more personal note...
 
 #bibliography("bibliography.bib", style: "ieee")
 
