@@ -260,7 +260,7 @@ When I cannot find what a concept should directly correspond with, I fall back t
 
 There may still be more work to do other than the translation itself, such as there being a requirement that a QLocale entry be created. More work will be needed in this regard, perhaps with the guidance of other KDE developers.
 
-While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I found that two other modules `kconfig` and `kconfigwidgets` seem just as helpful to translate when building a foundation for the overall translation. As of 2026-06-04, these 5 modules are currently 78% translated overall, with `nan_TW@latin` being 87% translated and `nan_TW` being 69% translated, according to statistics collected with pocount from Translate Toolkit @pocount.
+While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I found that two other modules `kconfig` and `kconfigwidgets` seem just as helpful to translate when building a foundation for the overall translation. As of 2026-06-04, these 5 modules are currently 82% translated overall, with `nan_TW@latin` being 90% translated and `nan_TW` being 75% translated, according to statistics collected with pocount from Translate Toolkit @pocount.
 
 These translations are currently available on GitHub:\
 https://github.com/kisaragi-hiu/kde-l10n-nan_tw
