@@ -2454,6 +2454,18 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-182">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>other</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>kî-thann</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>

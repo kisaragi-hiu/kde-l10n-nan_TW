@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-31 00:40+0000\n"
-"PO-Revision-Date: 2026-06-02 14:10+0900\n"
+"PO-Revision-Date: 2026-06-04 11:04+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -70,7 +70,8 @@ msgstr ""
 "Bô-huat-tōo kiàn-li̍p \"%1\".\n"
 "Bo̍k-ti̍k-tē tóng-àn hē-thóng (%2) put-tsún tī tsu-liāu-giap-á miâ iōng í-hā "
 "jī-guân: %3\n"
-"Suán Tshú-tāi ē kā bo̍k-ti̍k-tē tsu-liāu-giap-á miâ bô-hāu ê jī-guân lóng tshú-"
+"Suán Tshú-tāi ē kā bo̍k-ti̍k-tē tsu-liāu-giap-á miâ bô-hāu ê jī-guân lóng tshú"
+"-"
 "tāi tsò \"_\"."
 
 #: core/copyjob.cpp:210
@@ -83,7 +84,8 @@ msgid ""
 "file name) with an underscore \"_\"."
 msgstr ""
 "Bô-huat-tōo kiàn-li̍p \"%1\".\n"
-"Bo̍k-ti̍k-tē tóng-àn hē-thóng (%2) put-tsún tī tóng-miâ iōng í-hā jī-guân: %3\n"
+"Bo̍k-ti̍k-tē tóng-àn hē-thóng (%2) put-tsún tī tóng-miâ iōng í-hā jī-guân: %3"
+"\n"
 "Suán Tshú-tāi ē kā bo̍k-ti̍k-tē tóng-miâ bô-hāu ê jī-guân lóng tshú-tāi tsò "
 "\"_\"."
 
@@ -688,7 +690,8 @@ msgid ""
 "Cannot transfer <filename>%1</filename> because it is too large. The "
 "destination filesystem only supports files up to 4GiB"
 msgstr ""
-"Bô-huat-tōo tsuán-su <filename>%1</filename>, in-uī i siunn tuā--ah. Bo̍k-ti̍k-"
+"Bô-huat-tōo tsuán-su <filename>%1</filename>, in-uī i siunn tuā--ah. Bo̍k-ti̍k"
+"-"
 "tē tóng-àn hē-thóng tsí tsi-uān siōng tuā 4GiB ê tóng-àn"
 
 #: core/job_error.cpp:258
@@ -765,7 +768,7 @@ msgstr "<li>Ji̍t-kî kā sî-kan: %1</li>"
 #: core/job_error.cpp:314
 #, kde-format
 msgid "<li>Additional information: %1</li>"
-msgstr "<li>Kî-tha ê tsū-sìn: %1</li>"
+msgstr "<li>Kî-thann ê tsū-sìn: %1</li>"
 
 #: core/job_error.cpp:316
 #, kde-format
@@ -825,14 +828,15 @@ msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
 msgstr ""
-"Tshiánn kiám-tsa bô kî-tha tîng-sik á-sī ióng-tsiá tī iōng tsit-ê tóng-àn á-"
+"Tshiánn kiám-tsa bô kî-thann tîng-sik á-sī ióng-tsiá tī iōng tsit-ê tóng-àn á-"
 "sī kā i só-tīng--ah."
 
 #: core/job_error.cpp:395
 #, kde-format
 msgid "Although unlikely, a hardware error may have occurred."
 msgstr ""
-"Sui-jiân ing-kai m̄-sī án-ne, m̄-koh iáu-sī ū khó-lîng sī ngē-thé tī tshut būn-"
+"Sui-jiân ing-kai m̄-sī án-ne, m̄-koh iáu-sī ū khó-lîng sī ngē-thé tī tshut būn"
+"-"
 "tê."
 
 #: core/job_error.cpp:397
@@ -869,9 +873,10 @@ msgid ""
 "website</a>. If not, take note of the details given above, and include them "
 "in your bug report, along with as many other details as you think might help."
 msgstr ""
-"Nā-sī kî-tha ê hong-huat lóng bô-hāu, tshiánn khó-lū thê-kiong uân-tsíng ê "
+"Nā-sī kî-thann ê hong-huat lóng bô-hāu, tshiánn khó-lū thê-kiong uân-tsíng ê "
 "bug report lâi hia̍p-tsōo KDE thuân-tuī á-sī tse nńg-thé ê uî-hōo-tsiá. Nā "
-"tse nńg-thé m̄-sī KDE tsò ê, tshiánn ti̍t-tsiap kā in liân-lo̍k. M̄-bô tshiánn "
+"tse nńg-thé m̄-sī KDE tsò ê, tshiánn ti̍t-tsiap kā in liân-lo̍k. M̄-bô tshiánn"
+" "
 "sin khì <a href=\"https://bugs.kde.org/\">KDE bug report bāng-tsām</a> "
 "tshiau-tshuē lâi khak-tīng bô kî-tha ê lâng huê-pò tsit-ê būn-tê, jiân-āu nā "
 "bô koh-lâi siá tsi̍t-ê bug report, pau-kuat tíng-kuân ê siông-sè tsu-sìn kap "
@@ -923,7 +928,8 @@ msgstr "Tsí-tīng ê tsu-guân khó-lîng bô tsûn-tsāi."
 #, kde-format
 msgid "Double-check that you have entered the correct location and try again."
 msgstr ""
-"Tshiánn tsú-sè kiám-tsa lí ū su-ji̍p tio̍h ê uī-tì, jiân-āu koh tshì tsi̍t-pái."
+"Tshiánn tsú-sè kiám-tsa lí ū su-ji̍p tio̍h ê uī-tì, jiân-āu koh tshì tsi̍t-pái"
+"."
 
 #: core/job_error.cpp:431
 #, kde-format
@@ -1026,7 +1032,8 @@ msgid ""
 "strong></blockquote>"
 msgstr ""
 "Lí su-ji̍p ê URL (Ing-gí: <strong>U</strong>niform <strong>R</strong>esource "
-"<strong>L</strong>ocator) ê keh-sik m̄-tio̍h. URL ê keh-sik ki-pún-siōng sī án-"
+"<strong>L</strong>ocator) ê keh-sik m̄-tio̍h. URL ê keh-sik ki-pún-siōng sī án"
+"-"
 "ne: <blockquote><strong>hia̍p-tīng://iōng-tsiá:bi̍t-bé@www.example.org:poo-"
 "thâu/tsu-liāu-giap-á/tóng-miâ.hù-tóng-miâ?query=value</strong></blockquote>"
 
@@ -1216,7 +1223,8 @@ msgstr ""
 #: core/job_error.cpp:595
 #, kde-format
 msgid "Delete the current folder and try again."
-msgstr "Tshiánn thâi-tiāu tsit-má ê tsu-liāu-giap-á jiân-āu koh tshì tsi̍t-pái."
+msgstr ""
+"Tshiánn thâi-tiāu tsit-má ê tsu-liāu-giap-á jiân-āu koh tshì tsi̍t-pái."
 
 #: core/job_error.cpp:595
 #, kde-format
@@ -1299,7 +1307,8 @@ msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
 "folder <strong>%1</strong> was rejected."
 msgstr ""
-"Tse tāi-piáu ji̍p-khì iau-kiû ê tsu-liāu-giap-á (mā tio̍h-sī kā i phah-khui) ê "
+"Tse tāi-piáu ji̍p-khì iau-kiû ê tsu-liāu-giap-á (mā tio̍h-sī kā i phah-khui) ê"
+" "
 "tōng-tsok hōo kī-tsua̍t--ah."
 
 #: core/job_error.cpp:655
@@ -1337,7 +1346,8 @@ msgid ""
 "itself."
 msgstr ""
 "UNIX khuân-kíng thong-siông ē-sái kā tóng-àn á-sī tsu-liāu-giap-á liân-kiat "
-"kàu pa̍t-ê miâ á-sī sóo-tsāi. KDE kiám-tsa tio̍h ē piàn-tsò bû-hān sûn-khuân ê "
+"kàu pa̍t-ê miâ á-sī sóo-tsāi. KDE kiám-tsa tio̍h ē piàn-tsò bû-hān sûn-khuân ê"
+" "
 "liân-kiat, tio̍h-sī kóng tóng-àn tsuè-āu liân-kiat kàu ka-kī pún-sin."
 
 #: core/job_error.cpp:673 core/job_error.cpp:699
@@ -1581,7 +1591,7 @@ msgstr ""
 #, kde-format
 msgid "Check that no applications are accessing the device, and try again."
 msgstr ""
-"Tshiánn khak-tīng bô kî-tha ê îng-ióng-tîng-sik teh tsûn-tshú tsit-ê tsong-"
+"Tshiánn khak-tīng bô îng-ióng-tîng-sik teh tsûn-tshú tsit-ê tsong-"
 "tì, jiân-āu koh tshì tsi̍t-pái."
 
 #: core/job_error.cpp:816
@@ -1864,7 +1874,8 @@ msgstr ""
 #, kde-format
 msgid "Double-check your proxy settings and try again."
 msgstr ""
-"Tshiánn kiám-tsa lí ê tāi-lí siat-tīng kám ū tio̍h, jiân-āu koh tshì tsi̍t-pái."
+"Tshiánn kiám-tsa lí ê tāi-lí siat-tīng kám ū tio̍h, jiân-āu koh tshì tsi̍t-pái"
+"."
 
 #: core/job_error.cpp:1057
 #, kde-format
@@ -3675,7 +3686,7 @@ msgstr "Subversion"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Other"
-msgstr "Kî-tha"
+msgstr "Kî-thann"
 
 #: filewidgets/kurlnavigatortogglebutton.cpp:28
 #, kde-format
@@ -4381,7 +4392,8 @@ msgid ""
 "and use the restore operation again, or drag the item anywhere else to "
 "restore it."
 msgstr ""
-"Bo̍k-lo̍k %1 bô-khì--ah, sóo-í bô-huat-tōo kā tsit-ê hāng-bo̍k hue-ho̍k kàu guân-"
+"Bo̍k-lo̍k %1 bô-khì--ah, sóo-í bô-huat-tōo kā tsit-ê hāng-bo̍k hue-ho̍k kàu gu"
+"ân-"
 "pún ê sóo-tsāi. Lí ē-sái sin ka-kī koh-tsài kiàn-li̍p hit-ê bo̍k-lo̍k koh-lâi "
 "iōng hue-ho̍k tshau-tsok, á-sī mā ē-sái kā hāng-bo̍k thua kàu pa̍t-ê sóo-tsāi "
 "lâi kā i hue-ho̍k kàu hiah."
@@ -4423,7 +4435,8 @@ msgstr ""
 #: kioworkers/trash/ktrash.cpp:33
 #, kde-format
 msgid "Restore a trashed file to its original location"
-msgstr "Kā tàn ji̍p-khì pùn-sò-tháng ê tóng-àn hue-ho̍k kàu guân-pún ê sóo-tsāi"
+msgstr ""
+"Kā tàn ji̍p-khì pùn-sò-tháng ê tóng-àn hue-ho̍k kàu guân-pún ê sóo-tsāi"
 
 #: kioworkers/trash/trashimpl.cpp:1305
 #, kde-format
@@ -4932,7 +4945,7 @@ msgstr "Sóo-ū ê Kûn-tsoo"
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Others"
-msgstr "Kî-tha"
+msgstr "Kî-thann"
 
 #: widgets/kacleditwidget.cpp:239
 #, kde-format
@@ -4979,7 +4992,7 @@ msgstr "Sóo-ū ê Kûn-tsoo"
 #: widgets/kacleditwidget.cpp:411 widgets/kpropertiesdialogbuiltin_p.cpp:1450
 #, kde-format
 msgid "Others"
-msgstr "Kî-tha"
+msgstr "Kî-thann"
 
 #: widgets/kacleditwidget.cpp:416
 #, kde-format
@@ -5152,7 +5165,7 @@ msgstr "Iōng Tîng-sik Khui(&O)"
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application…"
-msgstr "Kî-tha Ìng-iōng-tîng-sik(&O)…"
+msgstr "Kî-thann Ìng-iōng-tîng-sik(&O)…"
 
 #: widgets/kfileitemdelegate.cpp:211
 #, kde-format
@@ -5795,7 +5808,7 @@ msgstr "Su-ji̍p bo̍k-piau uī-tì"
 #, kde-kuit-format
 msgctxt "@info:tooltip Go to path %1"
 msgid "Show <filename>%1</filename>"
-msgstr ""
+msgstr "Hián-sī <filename>%1</filename>"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:561
 #, kde-format
@@ -5829,7 +5842,7 @@ msgstr[0] "%1 ê tóng-àn"
 #, kde-format
 msgid "1 sub-folder"
 msgid_plural "%1 sub-folders"
-msgstr[0] ""
+msgstr[0] "%1 ê tsú tsu-liāu-giap-á"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:725
 #, kde-format
@@ -5849,12 +5862,12 @@ msgstr "Sin ê tóng-miâ sī khang ê."
 #: widgets/kpropertiesdialogbuiltin_p.cpp:992
 #, kde-format
 msgid "No registered file type"
-msgstr ""
+msgstr "Bô tsù-tsheh kuè ê tóng-àn luī"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:994
 #, kde-format
 msgid "No associated application"
-msgstr ""
+msgstr "Bô siòng kuan-liân ê ìng-iōng-tîng-sik"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1000
 #, kde-format
@@ -5937,7 +5950,7 @@ msgstr "Sóo-iú-tsiá(&W)："
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1210
 #, kde-format
 msgid "Specifies the actions that the owner is allowed to do."
-msgstr ""
+msgstr "Tsí-tīng sóo-iú-tsiá hōo ún-tsún ē-sái tsò ê tōng-tsok."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1213
 #, kde-format
@@ -5947,12 +5960,12 @@ msgstr "Kûn-tsoo(&U)："
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1215
 #, kde-format
 msgid "Specifies the actions that the members of the group are allowed to do."
-msgstr ""
+msgstr "Tsí-tīng kûn-tsoo sîng-uân hōo ún-tsún ē-sái tsò ê tōng-tsok."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1218
 #, kde-format
 msgid "O&thers:"
-msgstr "Kî-tha(&T)："
+msgstr "Kî-thann(&T)："
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1221
 #, kde-format
@@ -5960,6 +5973,9 @@ msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
 "group, are allowed to do."
 msgstr ""
+"Tsí-tīng kî-thann m̄-sī sóo-iú-tsiá mā m̄-sī tī kûn-tsoo lāi-té ê iōng-tsiá ū "
+"hō"
+"o ún-tsún ē-sái tsò ê tōng-tsok."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1225
 #, kde-format
@@ -5971,7 +5987,7 @@ msgstr ""
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1225
 #, kde-format
 msgid "Allow &executing file as program"
-msgstr ""
+msgstr "Ún-tsún kā tóng-àn tòng-tsò tîng-sik tsip-hîng(&E)"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1227
 #, kde-format
@@ -5990,6 +6006,9 @@ msgid ""
 "contained files and folders. Other users can only add new files, which "
 "requires the 'Modify Content' permission."
 msgstr ""
+"Khé-iōng tse suán-hāng lâi hōo tsu-liāu-giap-á ê sóo-iú-tsiá í-guā ê iōng-tsiá"
+" lóng bē-sái kā lāi-té ê tóng-àn kap tsu-liāu-giap-á thâi-tiāu á-sī kái-miâ. K"
+"î-tha ê"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1232
 #, kde-format
@@ -6119,7 +6138,8 @@ msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
 msgstr ""
-"Ti̍k-pia̍t ê flag. Tuì kui-ê tsu-liāu-giap-á ū-hāu, tsit-ê flag si̍t-tsè ê ì-sù "
+"Ti̍k-pia̍t ê flag. Tuì kui-ê tsu-liāu-giap-á ū-hāu, tsit-ê flag si̍t-tsè ê ì-s"
+"ù "
 "ē-sái khuànn tsiànn-tshiú-pîng ê lân-uī."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1437
@@ -6128,7 +6148,8 @@ msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
 msgstr ""
-"Ti̍k-pia̍t ê flag. Tsit-ê flag si̍t-tsè ê ì-sù ē-sái khuànn tsiànn-tshiú-pîng ê "
+"Ti̍k-pia̍t ê flag. Tsit-ê flag si̍t-tsè ê ì-sù ē-sái khuànn tsiànn-tshiú-pîng "
+"ê "
 "lân-uī."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1442
@@ -6564,14 +6585,16 @@ msgstr "Thiàu-kuè(&S)"
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē "
+"Bái khóo-pi̍h iah-sī suá tsit-ê tsu-liāu-giap-á, ti̍t-tsiap tshú-lí āu tsi̍t-ē"
+" "
 "hāng-bo̍k"
 
 #: widgets/renamedialog.cpp:300
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
-"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo̍k"
+"Bái khóo-pi̍h iah-sī suá tsit-ê tóng-àn, ti̍t-tsiap tshú-lí āu tsi̍t-ē hāng-bo"
+"̍k"
 
 #: widgets/renamedialog.cpp:311
 #, kde-format

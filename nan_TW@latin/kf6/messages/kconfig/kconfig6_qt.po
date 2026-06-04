@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-06-02 13:44+0900\n"
+"PO-Revision-Date: 2026-06-04 11:03+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -1049,7 +1049,7 @@ msgid ""
 "Type of variable. Use \"bool\" for a boolean, otherwise it is treated as a "
 "string"
 msgstr ""
-"Piàn-sòo ê luī-hîng. Iōng \"bool\" lâi tsí-tīng pòo-lîm-ti̍t, kî-tha ê ti̍t "
+"Piàn-sòo ê luī-hîng. Iōng \"bool\" lâi tsí-tīng pòo-lîm-ti̍t, kî-thann ê ti̍t "
 "lóng sī tòng-tsò jī-tshng."
 
 #: kreadconfig/kwriteconfig.cpp:36
