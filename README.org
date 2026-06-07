@@ -22,3 +22,4 @@ Use =make install= to compile PO files to MO and install them into ~~/.local/sha
 ** TODO 重復?
 ** TODO Dictionary of the Spanish Academy (RAE) nan_TW@latin has wrong acronym
 ** TODO Use 工作階段 kang-tsok kai-tuānn for session
+** TODO ióng-tsiá typo

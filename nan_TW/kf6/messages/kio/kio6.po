@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-05 00:39+0000\n"
-"PO-Revision-Date: 2026-06-04 12:26+0900\n"
+"PO-Revision-Date: 2026-06-07 17:02+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -65,6 +65,9 @@ msgid ""
 "Selecting Replace will replace any invalid characters (in the destination "
 "folder name) with an underscore \"_\"."
 msgstr ""
+"無法度建立「%1」。\n"
+"目的地檔案系統 (%2) 不准佇資料鋏仔名用以下字元：%3\n"
+"選「取代」會 kā 目的地資料鋏仔名無效 ê 字元攏取代做 \"_\"。"
 
 #: core/copyjob.cpp:210
 #, kde-format
@@ -75,6 +78,9 @@ msgid ""
 "Selecting Replace will replace any invalid characters (in the destination "
 "file name) with an underscore \"_\"."
 msgstr ""
+"無法度建立「%1」。\n"
+"目的地檔案系統 (%2) 不准佇檔名用以下字元：%3\n"
+"選「取代」會 kā 目的地檔名無效 ê 字元攏取代做 \"_\"。"
 
 #: core/copyjob.cpp:1426 core/job_error.cpp:588
 #, kde-format
@@ -687,6 +693,8 @@ msgid ""
 "'%1' is owned by the current user.\n"
 "Please retry after changing permissions."
 msgstr ""
+"因為「%1」ê 所有者已經是這馬 ê 用者--ah，所以無需要提升權限。\n"
+"請佇改變權限了後 koh 重試。"
 
 #: core/job_error.cpp:261
 #, kde-format
@@ -696,7 +704,7 @@ msgstr "檔案上大，無法度徙去糞埽桶。"
 #: core/job_error.cpp:264
 #, kde-format
 msgid "A trash folder could not be found or created for this location."
-msgstr ""
+msgstr "無法度揣著猶是建立這个位置 ê 糞埽桶資料鋏仔。"
 
 #: core/job_error.cpp:267
 #, kde-format
@@ -705,6 +713,9 @@ msgid ""
 "%2\n"
 "Please send a full bug report at https://bugs.kde.org."
 msgstr ""
+"毋知 ê 錯誤代碼 %1\n"
+"%2\n"
+"請傳完整 ê bug report 予 https://bugs.kde.org。"
 
 #: core/job_error.cpp:298
 #, kde-format
@@ -721,42 +732,42 @@ msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 #: core/job_error.cpp:308
 #, kde-format
 msgid "<b>Technical reason</b>: "
-msgstr ""
+msgstr "<b>技術原因</b>："
 
 #: core/job_error.cpp:310
 #, kde-format
 msgid "<b>Details of the request</b>:"
-msgstr ""
+msgstr "<b>請求 ê 詳細</b>："
 
 #: core/job_error.cpp:310
 #, kde-format
 msgid "<li>URL: %1</li>"
-msgstr ""
+msgstr "<li>URL：%1</li>"
 
 #: core/job_error.cpp:312
 #, kde-format
 msgid "<li>Protocol: %1</li>"
-msgstr ""
+msgstr "<li>協定：%1</li>"
 
 #: core/job_error.cpp:314
 #, kde-format
 msgid "<li>Date and time: %1</li>"
-msgstr ""
+msgstr "<li>日期 kap 時間：%1</li>"
 
 #: core/job_error.cpp:314
 #, kde-format
 msgid "<li>Additional information: %1</li>"
-msgstr ""
+msgstr "<li>其他 ê 資訊：%1</li>"
 
 #: core/job_error.cpp:316
 #, kde-format
 msgid "<b>Possible causes</b>:"
-msgstr ""
+msgstr "<b>可能 ê 原因</b>："
 
 #: core/job_error.cpp:320
 #, kde-format
 msgid "<b>Possible solutions</b>:"
-msgstr ""
+msgstr "<b>可能 ê 解決辦法</b>："
 
 #: core/job_error.cpp:364
 #, kde-format
@@ -769,30 +780,30 @@ msgstr "(毋知)"
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
-msgstr ""
+msgstr "請聯絡你 ê 電腦 ê 支援系統（親像系統管理者猶是技術支援群組）予人鬥相共。"
 
 #: core/job_error.cpp:381
 #, kde-format
 msgid "Contact the administrator of the server for further assistance."
-msgstr ""
+msgstr "請聯絡伺服器管理者予伊鬥相共。"
 
 #: core/job_error.cpp:384
 #, kde-format
 msgid "Check your access permissions on this resource."
-msgstr ""
+msgstr "請檢查你對這个資源 ê 存取權。"
 
 #: core/job_error.cpp:386
 #, kde-format
 msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
-msgstr ""
+msgstr "你 ê 存取權可能無夠來 uì 這个資源執行請求 ê 動作。"
 
 #: core/job_error.cpp:389
 #, kde-format
 msgid ""
 "The file may be in use (and thus locked) by another user or application."
-msgstr ""
+msgstr "檔案可能因為佇予別个用者猶是程式使用所以予鎖定。"
 
 #: core/job_error.cpp:392
 #, kde-format
@@ -1005,7 +1016,7 @@ msgstr ""
 #: core/job_error.cpp:517
 #, kde-format
 msgid "URL Does Not Refer to a Resource."
-msgstr ""
+msgstr "URL 無指向一个資源。"
 
 #: core/job_error.cpp:518
 #, kde-format
@@ -1226,7 +1237,7 @@ msgstr ""
 #: core/job_error.cpp:666
 #, kde-format
 msgid "Cyclic Link Detected"
-msgstr ""
+msgstr "發見循環連結"
 
 #: core/job_error.cpp:668
 #, kde-format
@@ -2853,8 +2864,7 @@ msgid ""
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
-msgstr[0] ""
-"這个裝置頂懸有檔案猶予這寡應用程式開--leh：<application>%2</application>。"
+msgstr[0] "這个裝置頂懸有檔案猶予這寡應用程式開--leh：<application>%2</application>。"
 
 #: filewidgets/kfileplacesmodel.cpp:1573
 #, kde-format
@@ -5356,8 +5366,7 @@ msgstr ""
 msgid ""
 "Type a generic name for the application here. Examples: an image viewing "
 "application would be \"Image Viewer\"."
-msgstr ""
-"請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
+msgstr "請佇 tsia 輸入應用程式 ê 通用名。例：檢視影像 ê 程式會叫做「影像檢視器」。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: widgets/kpropertiesdesktopbase.ui:42
