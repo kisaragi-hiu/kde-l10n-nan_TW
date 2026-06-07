@@ -2511,6 +2511,21 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="kisaragi_hiu-186">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>session</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW@latin">
+          <tig>
+            <term>kang-tsok-kai-tuānn</term>
+          </tig>
+          <tig>
+            <term>工作階段</term>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>

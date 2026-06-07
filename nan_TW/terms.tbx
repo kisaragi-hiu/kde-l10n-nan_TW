@@ -1714,6 +1714,9 @@
           <tig>
             <term>tshiau-tshuē-thê-kiong-tsiá</term>
           </tig>
+          <tig>
+            <term>搜揣提供者</term>
+          </tig>
         </langSet>
       </termEntry>
       <termEntry id="kisaragi_hiu-124">
@@ -2324,7 +2327,7 @@
             <term>kio kang-tsok-khì</term>
           </tig>
           <tig>
-            <term></term>
+            <term>kio 工作器</term>
           </tig>
         </langSet>
       </termEntry>
@@ -2490,6 +2493,36 @@
         <langSet xml:lang="nan-TW">
           <tig>
             <term>kàm-sī-khì</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-185">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>root</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>root (user)</term>
+          </tig>
+          <tig>
+            <term>kin- (adjective, like "root group")</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-186">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>session</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>kang-tsok-kai-tuānn</term>
+          </tig>
+          <tig>
+            <term>工作階段</term>
           </tig>
         </langSet>
       </termEntry>
