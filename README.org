@@ -17,9 +17,5 @@ Since this is not submitted yet we don't have Scripty keeping the PO files up to
 
 Use =make install= to compile PO files to MO and install them into ~~/.local/share/locales~. Then use ~env {LANGUAGE,LANG}=nan_TW <command>~ to test it. ($LANG would be used as a fallback after $LANGUAGE is exhausted, so setting it like this avoids that.)
 
-** DONE fix sut-tshut typo
-** DONE apply root = kin / 根 translation
-** TODO 重復?
-** TODO Dictionary of the Spanish Academy (RAE) nan_TW@latin has wrong acronym
 ** TODO Use 工作階段 kang-tsok kai-tuānn for session
 ** TODO ióng-tsiá typo

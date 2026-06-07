@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-05 00:52+0000\n"
-"PO-Revision-Date: 2026-06-04 11:24+0900\n"
+"PO-Revision-Date: 2026-06-08 02:00+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -1402,7 +1402,7 @@ msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=videos"
 #: src/urifilters/ikws/searchproviders/rae.desktop:5
 msgctxt "Name"
 msgid "Dictionary of the Spanish Academy (RAE)"
-msgstr "Se-pan-gâ-gí Gián-kiù-īnn Sû-tián (RAG)"
+msgstr "Se-pan-gâ-gí Gián-kiù-īnn Sû-tián (RAE)"
 
 #: src/urifilters/ikws/searchproviders/rae.desktop:102
 msgctxt "Query"
