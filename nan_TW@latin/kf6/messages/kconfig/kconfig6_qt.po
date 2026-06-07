@@ -957,7 +957,7 @@ msgstr "King-sin iōng-tsiá siat-tīng tóng-àn iōng ê KDE kang-kū"
 #: kconf_update/kconf_update.cpp:370
 msgctxt "main|"
 msgid "Keep output results from scripts"
-msgstr "Pó-liû uì kio̍k-pún sut-tshut ê kiat-kó"
+msgstr "Pó-liû uì kio̍k-pún su-tshut ê kiat-kó"
 
 #: kconf_update/kconf_update.cpp:373
 msgctxt "main|"
