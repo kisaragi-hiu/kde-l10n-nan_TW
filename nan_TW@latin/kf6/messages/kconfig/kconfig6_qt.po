@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-06-04 11:03+0900\n"
+"PO-Revision-Date: 2026-06-08 01:52+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -1004,7 +1004,7 @@ msgid ""
 "Group to look in. Use \"<default>\" for the root group, or use repeatedly "
 "for nested groups."
 msgstr ""
-"Tī tsit-ê kûn-tsoo lāi-té tshuē. Iōng \"<default>\" lâi tshuē root kûn-tsoo, "
+"Tī tsit-ê kûn-tsoo lāi-té tshuē. Iōng \"<default>\" lâi tshuē kin-kûn-tsoo, "
 "á-sī tîng-ho̍k sú-iōng lâi tshuē nested ê kûn-tsoo."
 
 #: kreadconfig/kreadconfig.cpp:52 kreadconfig/kwriteconfig.cpp:31
@@ -1040,7 +1040,7 @@ msgstr ""
 msgctxt "main|"
 msgid "Group name cannot be empty, use \"<default>\" for the root group"
 msgstr ""
-"Kûn-tsoo miâ bē-sái sī khang ê, ài tsí-tīng root kûn-tsoo tshiánn iōng "
+"Kûn-tsoo miâ bē-sái sī khang ê, ài tsí-tīng kin-kûn-tsoo tshiánn iōng "
 "\"<default>\""
 
 #: kreadconfig/kwriteconfig.cpp:34

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-05 00:39+0000\n"
-"PO-Revision-Date: 2026-06-07 17:02+0900\n"
+"PO-Revision-Date: 2026-06-08 01:58+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -2193,6 +2193,8 @@ msgid ""
 "elevated permissions, can not be guaranteed because users other than root "
 "have permission to modify it at %2."
 msgstr ""
+"協定「%1」ê KIO 工作器平常會要求提高權限，毋過伊 ê 安全 suah 無法度保證，因為 root 以外 ê 用者 mā 有權限佇 %2 kā 伊修改"
+"。"
 
 #: core/worker.cpp:335
 #, kde-format
@@ -5971,6 +5973,8 @@ msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
 "rename files. Otherwise everybody with write permissions can do this."
 msgstr ""
+"若對資料鋏仔設 Sticky flag，這代表只有所有者 kap root 會使刣掉檔案猶是予檔案改名。若無設，所有有寫入權限 ê 人攏會使刣掉檔案猶是予檔"
+"案改名。"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1484
 #, kde-format
