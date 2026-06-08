@@ -1798,6 +1798,9 @@
           <tig>
             <term>tsián-tah-phōo</term>
           </tig>
+          <tig>
+            <term>剪貼簿</term>
+          </tig>
         </langSet>
       </termEntry>
       <termEntry id="kisaragi_hiu-130">
@@ -2523,6 +2526,114 @@
           </tig>
           <tig>
             <term>工作階段</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-187">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>initiate</term>
+          </tig>
+          <tig>
+            <term>initialize</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>初期化</term>
+          </tig>
+          <tig>
+            <term>tshoo-kî-huà</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-188">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>timeout</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>kuè-sî</term>
+          </tig>
+          <tig>
+            <term>過時</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-189">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>arguments</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tsham-sòo</term>
+          </tig>
+          <tig>
+            <term>參數</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-190">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>properties</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>sio̍k-sìng</term>
+          </tig>
+          <tig>
+            <term>屬性</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-191">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>mask</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>jia-tà</term>
+          </tig>
+          <tig>
+            <term>遮罩</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-192">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>parent</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>tíng-tsàn</term>
+          </tig>
+          <tig>
+            <term>頂層</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="kisaragi_hiu-193">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>parsed</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="nan-TW">
+          <tig>
+            <term>hun-thiah</term>
+          </tig>
+          <tig>
+            <term>分拆</term>
           </tig>
         </langSet>
       </termEntry>

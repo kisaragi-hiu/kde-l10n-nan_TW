@@ -17,14 +17,19 @@ fix-plurals:
 	find . -path '*.po' -execdir sed -i s/'"Plural-Forms: nplurals=2; plural=n != 1;\\n"'/'"Plural-Forms: nplurals=1; plural=0;\\n"'/ '{}' ';'
 
 sync-glossaries:
+	@true # silence echoing command for this target
 	# find the newer glossary. %T@ means "mtime as unix time", %P means file path
 	# sort -n for numeric sort, and -r to put the larger value on top (= newer)
 	# head -1 to keep just the first one
-	newer=$$(find . -name 'terms.tbx' -printf '%T@ %P\n' | env LC_ALL=C sort -nr | head -1)
+	newer=$$(find . -name 'terms.tbx' -printf '%T@ %P\n' | env LC_ALL=C sort -nr | head -1 | cut -d' ' -f2)
 	# if the newer file is @latin, copy it over with @latin removed
 	if $$(echo $$newer | grep -q latin); then
+		older=nan_TW/terms.tbx
+		echo copying $$newer to $$older...
 		sed s/'xml:lang="nan-TW@latin"'/'xml:lang="nan-TW"'/ nan_TW@latin/terms.tbx > nan_TW/terms.tbx
 	# otherwise copy the non-latin version over with @latin added
 	else
+		older=nan_TW@latin/terms.tbx
+		echo copying $$newer to $$older...
 		sed s/'xml:lang="nan-TW"'/'xml:lang="nan-TW@latin"'/ nan_TW/terms.tbx > nan_TW@latin/terms.tbx
 	fi
