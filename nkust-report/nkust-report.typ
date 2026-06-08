@@ -301,6 +301,6 @@ On the Taigi side, I would like to thank Arne Goetje @glibc-nan_TW_latin and Wei
 #bibliography("bibliography.bib", style: "ieee")
 
 // Local Variables:
-// typst-preview--master-file: "/home/kisaragi-hiu/kde-translations/l10n-nan_TW-repo/nkust-report/nkust-report.typ"
+// typst-preview--master-file: "nkust-report.typ"
 // citar-bibliography: ("bibliography.bib")
 // End:
