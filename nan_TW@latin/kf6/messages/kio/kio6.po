@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-05 00:39+0000\n"
-"PO-Revision-Date: 2026-06-08 13:24+0900\n"
+"PO-Revision-Date: 2026-06-08 13:29+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW@latin\n"
@@ -1298,7 +1298,7 @@ msgstr "Kī-tsua̍t Siá-ji̍p Tsûn-tshú"
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
 "rejected."
-msgstr "Tse tāi-piáu siá-ji̍p iau-kiû ê tóng-àn ê tōng-tsok hōo kī-tsua̍t--ah."
+msgstr "Tse tāi-piáu siá-ji̍p tóng-àn <strong>%1</strong> ê tōng-tsok hōo kī-tsua̍t--ah."
 
 #: core/job_error.cpp:645
 #, kde-format
@@ -1310,10 +1310,7 @@ msgstr "Bô-huat-tōo Ji̍p-khì Tsu-liāu-giap-á"
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
 "folder <strong>%1</strong> was rejected."
-msgstr ""
-"Tse tāi-piáu ji̍p-khì iau-kiû ê tsu-liāu-giap-á (mā tio̍h-sī kā i phah-khui) ê"
-" "
-"tōng-tsok hōo kī-tsua̍t--ah."
+msgstr "Tse tāi-piáu ji̍p-khì iau-kiû ê tsu-liāu-giap-á <strong>%1</strong> (mā tio̍h-sī kā i phah-khui) ê tōng-tsok hōo kī-tsua̍t--ah."
 
 #: core/job_error.cpp:655
 #, kde-format
@@ -2022,9 +2019,7 @@ msgid ""
 "The requested operation required the creation of a temporary file in which "
 "to save the new file while being downloaded. This temporary file <strong>%1</"
 "strong> could not be deleted."
-msgstr ""
-"Iau-kiû ê tshau-tsok su-iàu kiàn-li̍p tsiām-sî-tóng-àn pó-tsûn leh hā-tsài ê s"
-"in tóng-àn. M̄-koh tse tsiām-sî tóng-àn suah bô-huat-tōo thâi-tiāu."
+msgstr "Iau-kiû ê tshau-tsok su-iàu kiàn-li̍p tsiām-sî-tóng-àn pó-tsûn leh hā-tsài ê sin tóng-àn. M̄-koh tse tsiām-sî tóng-àn <strong>%1</strong> suah bô-huat-tōo thâi-tiāu."
 
 #: core/job_error.cpp:1160
 #, kde-format
