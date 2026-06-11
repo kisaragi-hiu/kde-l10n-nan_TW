@@ -263,9 +263,15 @@ While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I fou
 These translations are currently available on GitHub:\
 https://github.com/kisaragi-hiu/kde-l10n-nan_tw
 
-= TODO Discussion
+= DRAFT DRAFT DRAFT Discussion DRAFT DRAFT DRAFT
 
-It would be a shame if Taiwanese Taigi as a language were lost as less and less people speak it
+It would be a shame if Taigi were lost as a language, but as in the National Languages Development Report @MOC20250616 Taigi would be on its way to obscurity without revitalization efforts. One of the most important parts of revitalizing a language is the written language
+
+This effort that I have attempted to undertake (and which I utilized a free research project to provide the extrinsic motivation to keep going for) is built on a lot of prior work --- there are multiple dictionaries that I have been able to freely reference throughout.
+
+
+
+Challenges. This is two language variants to be maintained. This is doable. There is precedant. It's fine if it's not complete. With Lokalize I believe we can go through 1000s of strings no problem (though apps with 10000s of strings themselves like Krita or Kdenlive or (outside of KDE) Blender or Godot would be much harder). I already effectively maintain KDE zh_TW translations :meltingface: with intermittent translation efforts. It's faster than elementary OS but slower than Blender.
 
 = Declarations
 == AI usage
