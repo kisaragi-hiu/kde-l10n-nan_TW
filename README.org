@@ -16,3 +16,5 @@ Setup: make the folders like this:
 Since this is not submitted yet we don't have Scripty keeping the PO files up to date with the latest templates. Use =make update= (which just uses =fd= to run =msgmerge= on the appropriate files) to do it instead. You can run it before each translating session.
 
 Use =make install= to compile PO files to MO and install them into ~~/.local/share/locales~. Then use ~env LANGUAGE=<nan_TW or nan_TW@latin> LANG=nan_TW <command>~ to test it. (Both need to be set; =LANG= should always be ~nan_TW~ regardless of script.)
+
+** uì / uī typo
