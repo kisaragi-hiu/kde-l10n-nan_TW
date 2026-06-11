@@ -369,7 +369,9 @@ On the software side, I would like to thank Lokalize developers for making such 
 
 On the Taigi side, I would like to thank Arne Goetje #footnoteCite(<glibc-nan_TW_latin>) and Wei-Lun Chao #footnoteCite(<glibc-nan_TW>) for contributing Taigi locales (as Min Nan Chinese) into glibc ages ago, in 2009 and 2013, respectively; Ìthuân Khoki, for submitting ISO 639-3 CR 2021-044 #footnoteCite(<iso639-3-CR2021-044>); Dr. Iûⁿ Ún-giân, ChhoeTaigi and the Tâi-bûn Ke-si Mī project, and countless others for all the work on Taigi revitalization; and all those who made the dictionaries that I've been relying on, especially the Ministry of Education's Dictionary of Frequently-Used Taiwanese Taigi #footnoteCite(<kautian>), the Maryknoll Taiwanese-English Dictionary #footnoteCite(<maryknoll1976>), the Comprehensive Taiwanese-Japanese Dictionary by 小川尚義 #footnoteCite(<taijit>) and its Taigi translation by Elder Lîm Chùn-io̍k #footnoteCite(<taijit-taigi>), as well as the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) #footnoteCite(<pts-taigitv-new-words>).
 
-Lastly, on a more personal note, I would like to thank my advisor, Dr. Wu Yi-ping, for being willing to take on the advisor role for this independent study in my 8th year of my 4 year undergraduate college study, as well as express my gratitude for every other professor and instructor that have
+Lastly, on a more personal note, I would like to thank my advisor, Dr. Wu Yi-ping, for being willing to take on the advisor role for this independent study in my 8th year of my 4 year undergraduate college study, as well as express my gratitude for every professor and instructor in the English department, who have greatly helped in my studies.
+
+I would also like my parents for financially supporting me 4 years past my originally scheduled graduation date.
 
 #pagebreak()
 #heading(numbering: none)[Bibliography]
