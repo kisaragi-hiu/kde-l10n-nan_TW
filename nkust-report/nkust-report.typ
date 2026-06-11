@@ -15,6 +15,8 @@
     return footnote(cite(target, form: "full", ..args))
 }
 
+#let today = datetime(year: 2026, month: 6, day: 11)
+
 // Editing this file: use typst-ts-mode, then use typst-preview-mode for real time preview
 // Throw links/articles that you may want to reference into bibliography.bib
 
@@ -41,7 +43,7 @@
 
 Report for independent study project (practical work)\
 Department of English, National Kaohsiung University of Science and Technology\
-2026/06/04\
+#today.display("[month repr:long] [day], [year]")\
 Kaohsiung, Taiwan
 
 #heading(numbering: none)[Abstract]
@@ -194,7 +196,7 @@ As a Taiwanese Taigi language team does not already exist, I have to merge trans
 
 Lokalize provides translation memory (suggestions for translation from other similar source text entries), glossary management, seeing other languages for reference, and tracking translation progress across a whole tree of translation files, all for an offline folder of PO files without requiring a server while translating, without which this translation process would've likely been far more tedious.
 
-=== Setting up translation workspace
+=== Setting up translation workspace <set-up-workspace>
 
 My translation folder, which I've come to refer to as my translation "workspace", is set up like this:
 
@@ -275,7 +277,7 @@ In the view for each file, I then go through each text entry --- which correspon
 
 === Word choices
 
-As I translate, I often need to look up how to say a phrase or word in Taigi, in which case I may look it up on ChhoeTaigi #footnoteCite(<chhoetaigi>), Lohankha loanword transliteration system #footnoteCite(<lohankha-loanword>), or my own Kemdict #footnote[unified search interface for many dictionaries for Taigi, Mandarin, and Hakka, including some Taigi sources not included by ChhoeTaigi, as well as providing fuzzy Taigi search that allows omitting tone marks. @kemdict]. In particular, Kemdict allows me to search the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) #footnoteCite(<pts-taigitv-new-words>) <footnotePts> together with other dictionaries, which is why I rely on it just as much as on ChhoeTaigi.
+As I translate, I often need to look up how to say a phrase or word in Taigi, in which case I may look it up on ChhoeTaigi #footnoteCite(<chhoetaigi>), Lohankha loanword transliteration system #footnoteCite(<lohankha-loanword>), or my own Kemdict #footnote[Unified search interface for many dictionaries for Taigi, Mandarin, and Hakka, including some Taigi sources not included by ChhoeTaigi (but missing some other sources in ChhoeTaigi), as well as providing fuzzy Taigi search that allows omitting tone marks. https://kemdict.com]. In particular, Kemdict allows me to search the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) #footnoteCite(<pts-taigitv-new-words>) <footnotePts> together with other dictionaries, which is why I rely on it just as much as on ChhoeTaigi.
 
 I also try to refer to prior art where it exists. For software translation I have not found much reference, except for Tân Kiàn-ting's Mastodon translation #footnoteCite(<kianting20250604>) which is immensely helpful where the same concepts have been mentioned.
 
@@ -295,7 +297,7 @@ The module `kconfigwidgets` contains a list of 106 languages. Some of these have
 
 ==== Orthographically borrowing from Mandarin
 
-- "desktop environment" is calqued to 桌面環境 (zhuo1 mian4 huan2 jing4) in Mandarin. I decided to do the same and translate it to toh-bīn khuân-kíng (桌面環境) in Taigi.
+- "desktop environment" in Mandarin is calqued to 桌面環境 (zhuo1 mian4 huan2 jing4). I decided to do the same and translate it to toh-bīn khuân-kíng (桌面環境) in Taigi.
 - "view" (as in display mode in a program, such as Icon View or Detailed View) is conventionally translated to 檢視 (jian3 shi4) in Taiwanese Mandarin, which is an extension to its original definition. I have decided to borrow it as kiám-sī (檢視) in Taigi, since the original word also already exists in Taigi. I later learned this was also the choice in the PTS New Words Dictionary @footnotePts.
 
 ==== Orthographically borrowing from Japanese
@@ -317,20 +319,27 @@ In this process I have collected a Lokalize glossary of 195 entries. This is mai
 The translations are published on GitHub:\
 https://github.com/kisaragi-hiu/kde-l10n-nan_tw
 
-= Discussion DRAFT DRAFT DRAFT
+= Discussion
 
-It would be a shame if Taigi were lost as a language, but as in the National Languages Development Report #footnoteCite(<MOC20250616>) Taigi would be on its way to obscurity without revitalization efforts. One of the most important parts of revitalizing a language is the written language
+It would be a shame if Taigi were lost as a language, but as in the National Languages Development Report #footnoteCite(<MOC20250616>) Taigi would be on its way to obscurity without revitalization efforts. The written language is one part in this effort, and it is my wish to establish Taigi computing environments in order to at the very least offer an option for Taigi speakers and learners to be more exposed to written Taigi in daily life.
 
-This effort that I have attempted to undertake (and which I utilized a free research project to provide the extrinsic motivation to keep going for) is built on a lot of prior work --- there are multiple dictionaries that I have been able to freely reference throughout.
+Further work will be needed to translate more applications in order to provide a computing environment that is completely (or sufficiently close to completely) translated into Taigi. This may be challenging, mostly to do with a lack of manpower#footnote[Even the KDE Traditional Chinese team has mostly just been me in the last 3 years. These statistics aren't automatically collected, but by running `svn log` on the l10n-kf6/zh_TW folder on the KDE Subversion repository I can see that between 2023 and now, 282 out of 290 translation commits (97%) are from me (KDE Identity username `moonlight`).], but is well within the realms of feasibility. It may, however, be favorable if relevant communities or organizations also recognize the importance of having software be available in Taigi as an option.
 
-Further work will be needed to translate more applications in order to provide a computing environment that is completely (or sufficiently close to completely) translated into Taigi. This may be challenging, as there are
+During this process I relied heavily on Lokalize for its local computer-aided translation (CAT) features. Lokalize allows easily viewing statistics, creating new translation files based on new translation templates, handling glossary, handling translation memory. Lokalize, however, lacks certain features to make utilizing its capabilities easier for new translators: for example, I had to set up my translation workspace manually, as outlined in @set-up-workspace --- or write a program myself to automate it#footnote[I avoided mentioning this tool in @set-up-workspace as it would needlessly complicate the section. The tool is available at https://github.com/kisaragi-hiu/k-kdesvn]. It also lacks features that would make working with multi-script languages nicer: for example, I when working on `nan_TW` (mixed-script) I would wish to see both `nan_TW@latin` and Japanese strings as references, but Lokalize only supports showing one alternate language, not multiple, so I had to choose one (`nan_TW@latin`) while giving up the other. Improvements for Lokalize is thus also an area of work I would like to see happen, both from myself and others (although this is out of scope from specifically Taigi translations).
 
-Challenges. This is two language variants to be maintained. This is doable. There is precedant. It's fine if it's not complete. With Lokalize I believe we can go through 1000s of strings no problem (though apps with 10000s of strings themselves like Krita or Kdenlive or (outside of KDE) Blender or Godot would be much harder). I already effectively maintain KDE zh_TW translations :meltingface: with intermittent translation efforts. It's faster than elementary OS but slower than Blender.
+#pagebreak()
 
 = Declarations
+
+== Potential conflict of interest
+
+I am already a KDE translator for Traditional Chinese (Taiwanese Mandarin), and have been for the last 5 years.
+
+I am a KDE e.V. voting member because of this work.
+
 == AI usage
 
-- I have occasionally asked a chatbot for a second opinion on the translation of specific words. The results are always judged by my knowledge of the language (I only use them as a reminder), and I have been trying this less and less, as I found this to rarely be as passably correct than simply borrowing from another language.
+- I have occasionally asked a chatbot for a second opinion on the translation of specific words. The results are always judged by my knowledge of the language (I only use them as a reminder), and I have been trying this less and less, as I found this to rarely be as passably correct as simply borrowing from another language.
 - There are 106 strings in `kconfigwidgets._desktop_.po`, which are all language names. Through my own search I've filled 44 of them already. The rest seems like I would have to copy from Hokkien Wikipedia.
 
   I tried using Gemini CLI for this task once, using gemini-3-flash-preview with this prompt: #quote(block: true)[./words.po is a Gettext PO file that contains a list of languages in English. Please fill in their translations in Taiwanese Hokkien#footnote[I would prefer "Taigi", but figured the model would understand "Taiwanese Hokkien" better.]. Use your search tool if available.]
@@ -338,12 +347,8 @@ Challenges. This is two language variants to be maintained. This is doable. Ther
   I then reviewed the result and incorporated them as appropriate. Almost all strings turned out to need further tweaking by me looking them up on Hokkien Wikipedia again myself. This helped in only three minor ways:
 
   - By having 62 filled-in but slightly wrong strings, this motivated me to go through each of them and figure out something better, instead of being intimidated by 62 empty strings.
-  - I learned that Crimea is better borrowed into Taigi directly from Ukrainian, such that Crimean Tatar is _Krym Tatar-gí_
+  - I learned that Crimea is probably better borrowed into Taigi directly from Ukrainian, such that Crimean Tatar is _Krym Tatar-gí_. On further reflection, however, perhaps an even better choice would be the native name in Crimean Tatar, _qırımtatar_, or a localized spelling of it (_qirimtatar_, with the Turkic dotless _ı_ replaced with _i_).
   - I realized that I could translate Latin (script) into "Lô-má-jī" (literally "Rome characters") instead of the clumsy "La-ting bûn-jī".
-
-== Potential conflict of interest
-
-I am already a KDE translator for Traditional Chinese (Taiwanese Mandarin), and have been for the last 5 years. I am a KDE e.V. voting member because of this work.
 
 #pagebreak()
 #heading(numbering: none)[Acknowledgements]
@@ -354,7 +359,10 @@ On the software side, I would like to thank Lokalize developers for making such 
 
 On the Taigi side, I would like to thank Arne Goetje #footnoteCite(<glibc-nan_TW_latin>) and Wei-Lun Chao #footnoteCite(<glibc-nan_TW>) for contributing Taigi locales (as Min Nan Chinese) into glibc ages ago, in 2009 and 2013, respectively; Ìthuân Khoki, for submitting ISO 639-3 CR 2021-044 #footnoteCite(<iso639-3-CR2021-044>); Dr. Iûⁿ Ún-giân, ChhoeTaigi and the Tâi-bûn Ke-si Mī project, and countless others for all the work on Taigi revitalization; and all those who made the dictionaries that I've been relying on, especially the Ministry of Education's Dictionary of Frequently-Used Taiwanese Taigi #footnoteCite(<kautian>), the Maryknoll Taiwanese-English Dictionary #footnoteCite(<maryknoll1976>), the Comprehensive Taiwanese-Japanese Dictionary by 小川尚義 #footnoteCite(<taijit>) and its Taigi translation by Elder Lîm Chùn-io̍k #footnoteCite(<taijit-taigi>), as well as the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) #footnoteCite(<pts-taigitv-new-words>).
 
-TODO Lastly, on a more personal note...
+Lastly, on a more personal note, I would like to thank my advisor, Dr. Wu Yi-ping, for being willing to take on the advisor role for this independent study in my 8th year of my 4 year undergraduate college study, as well as express my gratitude for every other professor and instructor that have
+
+#pagebreak()
+#heading(numbering: none)[Bibliography]
 
 #bibliography("bibliography.bib", style: "apa", title: none)
 

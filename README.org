@@ -22,7 +22,6 @@ Use =make install= to compile PO files to MO and install them into ~~/.local/sha
 challenges
 ** 2 scripts precedant
 ** acknowledgements
-** date
 ** end
 ** Georgian should be Georgia-gí
 /Gruzia/ is from Russian and there has been a campaign to move to English “Georgia” or native Georgian “Sakartvelo”. Using /Gruzia/ is worse than using /Georgia/.
