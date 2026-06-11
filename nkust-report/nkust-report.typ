@@ -11,13 +11,9 @@
 )
 #set page(numbering: "i")
 
-#let footnoteCite(target) = [
-  #footnote(cite(target, form: "full"))
-]
-
-// #show cite: it => {
-//   footnote(text[#it])
-// }
+#let footnoteCite(target, ..args) = {
+    return footnote(cite(target, form: "full", ..args))
+}
 
 // Editing this file: use typst-ts-mode, then use typst-preview-mode for real time preview
 // Throw links/articles that you may want to reference into bibliography.bib
@@ -71,7 +67,7 @@ _*Keywords*: #context (document.keywords.join(", "))_
 
 = Introduction
 
-I wish KDE software can be translated into Taiwanese (Taigi) so that users have an option to use the language if they wish to. This would then hopefully help more people to be exposed to the language, thus allowing the language to stay alive.
+I wish KDE software can be translated into Taiwanese (Taigi) so that users have an option to use the language if they wish to. I already contribute Traditional Chinese (Taiwanese Mandarin) translations to KDE. This would then hopefully help more people to be exposed to the language, thus allowing the language to stay alive.
 
 == What is Taiwanese Taigi
 
@@ -108,7 +104,7 @@ Before translation can start, there are a few foundational questions that I had 
 
 Although the National Language Development Report #footnoteCite(<MOC20250616>) has settled this question in Taiwan ("Taiwanese Taigi" or "Taigi" in English, "臺灣台語" in Mandarin), this is not the established norm outside of Taiwan.
 
-Right now, Taiwanese Taigi is regarded as a "variety" of Hokkien (Taiwanese Hokkien), and in international standards is referred to as a "variety" of "Min Nan Chinese", an English name that is transcribed through a Mandarin name of the language.
+Right now, Taiwanese Taigi is regarded as a "variety" of Hokkien (Taiwanese Hokkien), and in international standards is referred to as a "variety" of "Min Nan Chinese", an English name that is transcribed through a Mandarin name of the language. The name "Min Nan Chinese" is used by Glibc locales, by Unicode CLDR, and others.
 
 This situation is not ideal in regards to the principle of respecting the endonym of a language's own speakers, but I am one person and do not want to wait until international standards catch up in respecting this principle before I start the actual work of translating. Therefore, my choice here is to use the official name or the colloquial name if I can ("Taiwanese Taigi", "Taigi", or "Taiwanese"); and to refer to the language as "Min Nan Chinese" if I have to.
 
@@ -125,7 +121,7 @@ The choice here is obvious, as Taigi doesn't have its own code yet (pending the 
 == Writing system
 *Final choice: two systems, mixed script (hàn-lô) and all-romanized (tsuân-lô), both using Tāi-lô orthography*
 
-Compared to the vast number of people who speak Hokkien natively, it is historically rarely written down. This is related to how traditional Chinese writing used to only write things in Literary Chinese. The same can be said for Taigi as well.
+Compared to the vast number of people who speak Hokkien natively, it is historically rarely written down. This is related to how traditionally Chinese writing used to only write things in Literary Chinese. The same can be said for Taigi as well.
 
 Taigi does have a large (in absolute terms) corpus of written material in a fairly standardized form, _Pe̍h-ōe-jī_ (literally "vernacular writing"), mostly written between the late 19th century and the mid 20th century.
 
@@ -200,13 +196,12 @@ My translation folder, which I've come to refer to as my translation "workspace"
 
 - *\~/kde-translations/l10n-templates*: a clone of the templates repository #footnoteCite(<kde-l10n-templates>), which has been migrated off Subversion and is now tracked in a Git repository.
 - *\~/kde-translations/kde-svn*: a partial checkout of the Subversion repository, utilizing the `svn update --set-depth <depth>` feature #footnoteCite(<svn-redbook-depth>) to avoid downloading the entire repository's head revision. I set it up such that the partial checkout has this directory structure:
-  - kde-svn/trunk/
-    - l10n-kf5
-      - ja
-      - zh_TW
-    - l10n-kf6
-      - ja
-      - zh_TW
+  - kde-svn/trunk/l10n-kf5
+    - ja
+    - zh_TW
+  - kde-svn/trunk/l10n-kf6
+    - ja
+    - zh_TW
 - *\~/kde-translations/zh_TW*: a Lokalize project directory for Traditional Chinese, using symbolic links to make Lokalize see files from `~/kde-translations/kde-svn` in one project. This is useful for my work as a KDE translator for Traditional Chinese, but for Taiwanese Taigi this is here for reference. It has this directory structure:
   - zh_TW
     - kf5: symbolic link to ../kde-svn/trunk/l10n-kf5/zh_TW
@@ -234,42 +229,78 @@ My translation folder, which I've come to refer to as my translation "workspace"
 
 This directory structure allows me to utilize Lokalize to the fullest extent.
 
+#pagebreak()
+
 === Translating in Lokalize
+
+#[
+#show image: set image(width: 70%)
+
+    After setting up the directory structure and setting up the Lokalize project, translation work can begin. I can open individual files from the project overview in Lokalize.
 
 #figure(
   image("20260604T053624+0900-lokalize-project-overview.png"),
-  caption: [Lokalize project overview],
+  caption: [Lokalize project overview, showing translation progress for each file. Files that exist in templates but don't exist in this translation project are nevertheless shown as 0% translated files, instead of being omitted.],
 ) <img-overview>
-#figure(
-  image("20260604T053022+0900-lokalize-translate-nan_TW.png"),
-  caption: [Translating a nan_TW (Hàn-lô) string in Lokalize.],
-) <img-nan_TW>
 
 #figure(
   image("20260604T053057+0900-lokalize-translate-nan_TW@latin.png"),
-  caption: [Translating a nan_TW\@latin (Tsuân-lô) string in Lokalize.],
+  caption: [Translating a nan_TW\@latin (tsuân-lô) string in Lokalize. I have set Japanese as the source of alternate translations for nan_TW\@latin, so Alternate Translations shows the Japanese version of this string.],
 ) <img-nan_TW-latin>
+
+In the view for each file, I then go through each text entry --- which corresponds to a string in the source code of the corresponding module --- and translate them. In this view I have access to Translation Memory features for similar source texts, matching or similar glossary entries, and alternative translations to aid in my translation.
+
+    I start with `nan_TW@latin` (all-Latin) because this forces me to actually find Taigi words first before using them, instead of consciously or subconsciously falling back to Mandarin words all the time or mixing up Mandarin and Taigi knowledge.
+
+    For the same reason, I also chose Japanese as my reference language.
+
+#figure(
+  image("20260604T053022+0900-lokalize-translate-nan_TW.png"),
+  caption: [Translating a nan_TW (Hàn-lô) string in Lokalize. The project is set up to use the nan_TW\@latin project as its source of alternate translations, so the translation of the corresponding entry shows up in the Alternate Translations widget.],
+) <img-nan_TW>
+
+    I then go to the `nan_TW` version and re-type words from the all-Latin version, choosing appropriate Han characters or Latin. This is not really automatable #footnote[Not in a deterministic way like how conversion between POJ and TL is deterministic.], so
 
 #figure(
   image("20260604T053115+0900-lokalize-glossary.png"),
   caption: [The glossary view in Lokalize.],
 ) <img-glossary>
-
-In @img-overview, the project overview is showing translation progress for each file. Files that exist in templates but don't exist in this translation project are nevertheless shown as 0% translated files, instead of being omitted.
-
-In @img-nan_TW, the project is set up to use the nan_TW\@latin project as its source of alternate translations, so the translation of the corresponding entry shows up in the Alternate Translations widget.
-
-In @img-nan_TW-latin, I have set Japanese as the source of alternate translations for nan_TW\@latin, so Alternate Translations shows a Japanese translation of this string. The Translation Memory widget shows suggested translations that have similar source language strings.
+]
 
 Finally, in @img-glossary, the interface shows the glossary entries which I have created to help maintain some level of consistency as I translate.
 
 === Word choices
 
-As I translate, I may need to look up how to say a phrase or word in Taigi, in which case I may look it up on ChhoeTaigi #footnoteCite(<chhoetaigi>), Lohankha loanword transliteration system #footnoteCite(<lohankha-loanword>), or my own Kemdict #footnote[unified search interface for many dictionaries for Taigi, Mandarin, and Hakka, including some Taigi sources not included by ChhoeTaigi, as well as providing fuzzy Taigi search that allows omitting tone marks. @kemdict]. Kemdict in particular allows me to search the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) #footnoteCite(<pts-taigitv-new-words>) together with other dictionaries, which is why I rely on it just as much as on ChhoeTaigi.
+As I translate, I often need to look up how to say a phrase or word in Taigi, in which case I may look it up on ChhoeTaigi #footnoteCite(<chhoetaigi>), Lohankha loanword transliteration system #footnoteCite(<lohankha-loanword>), or my own Kemdict #footnote[unified search interface for many dictionaries for Taigi, Mandarin, and Hakka, including some Taigi sources not included by ChhoeTaigi, as well as providing fuzzy Taigi search that allows omitting tone marks. @kemdict]. In particular, Kemdict allows me to search the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) #footnoteCite(<pts-taigitv-new-words>) <footnotePts> together with other dictionaries, which is why I rely on it just as much as on ChhoeTaigi.
 
 I also try to refer to prior art where it exists. For software translation I have not found much reference, except for Tân Kiàn-ting's Mastodon translation #footnoteCite(<kianting20250604>) which is immensely helpful where the same concepts have been mentioned.
 
-When I cannot find what a concept should directly correspond with, I fall back to borrowing from English, or orthographically borrowing the word from Mandarin (such as using si̍t-thé to correspond to _entity_ or _instance_).
+When I cannot find what a concept should directly correspond with, I fall back to borrowing from English, or some other source language, or orthographically borrowing the word from Mandarin or Japanese (such as using si̍t-thé to correspond to _entity_ or _instance_).
+
+Some examples include:
+
+==== Answers already exist
+
+- "Email" has already been translated into tiān-tsú phue-sìn (電子批信, lit. "electronic mail") by ChhoeTaigi's interface and others.
+- "portable" (as in "portable computing device") has already been recorded as tshiú-thê (手提, lit. "hand-held") by Maryknoll Taiwanese-English Dictionary #footnoteCite(<maryknoll1976>).
+- "donate" has already been orthographically borrowed from Japanese 寄付 (きふ, kifu) into Taigi as kià-hù (寄付) long ago #footnoteCite(<taijitFirst244>).
+
+==== Borrow from English or another source language
+
+The module `kconfigwidgets` contains a list of 106 languages. Some of these have obvious Taigi names, like Tik-gí (德語, German). Many of these are already on Southern Min Wikipedia #footnoteCite(<wikipedia-zh-min-nan-languages>). A few of these are borrowed directly from English or appear identical to the English name, such as Toki Pona. Some languages here are from their native language though, such as Catalunya-gí (lit. "_Catalunya_ language", Catalonian).
+
+==== Orthographically borrowing from Mandarin
+
+- "desktop environment" is calqued to 桌面環境 (zhuo1 mian4 huan2 jing4) in Mandarin. I decided to do the same and translate it to toh-bīn khuân-kíng (桌面環境) in Taigi.
+- "view" (as in display mode in a program, such as Icon View or Detailed View) is conventionally translated to 檢視 (jian3 shi4) in Taiwanese Mandarin, which is an extension to its original definition. I have decided to borrow it as kiám-sī (檢視) in Taigi, since the original word also already exists in Taigi. I later learned this was also the choice in the PTS New Words Dictionary @footnotePts.
+
+==== Orthographically borrowing from Japanese
+
+- For the phrase "Open Containing Folder" (meaning to open the folder that contains a particular file that the context will have made clear), I chose to handle it like the way the Japanese translation does it.
+
+  When translating Mandarin, I found this string hard to translate, as the obvious one-to-one translation 開啟包含資料夾 loses the sense that the folder being opened is the one that contains the file in the context. In other words, this is easy to be confused with meaning the folder that is _contained_, not the folder that _contains_. My solution in Mandarin is to use 開啟所在資料夾 (open the folder that [the file] is located in).
+
+  Japanese KDE translators have instead chosen to translate this as 保存フォルダを開く (open the folder [where the file is] saved). After comparing the two approaches and not having other ideas, I chose to adopt the same way Japanese does it, translating this string to "Phah-khui Pó-tsûn Tsu-liāu-giap-á" (拍開保存資料鋏仔), which seems both succinct and clear to me.
 
 = Results
 
