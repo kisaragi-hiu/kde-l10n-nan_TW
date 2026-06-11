@@ -1,4 +1,8 @@
 #set heading(numbering: "1.1.")
+#show quote: set block(above: 0.75em)
+#show quote: set block(below: 0.75em)
+#show quote: set block(inset: (x: 0.5em))
+
 #show heading.where(level: 1): set block(below: 1em)
 #show heading.where(level: 1): set align(center)
 // https://zenn.dev/mkpoli/articles/6234c1d2a595bd
@@ -48,11 +52,11 @@ Kaohsiung, Taiwan
 
 #heading(numbering: none)[Abstract]
 
-Taiwanese Taigi (also known as Taiwanese, Taigi, or Taiwanese Hokkien) is a language in a process of being revitalized, to ensure its survival into the next generations. Similar to other Hokkien languages, Taigi has historically not been used in writing by most speakers. To bring written Taigi to this era and to provide options for people who already speak the language, it is necessary that user interfaces are translated into this language. As a stepping stone, I have embarked on an effort to create a Taigi provide Taigi translations for KDE projects.
+Taiwanese Taigi (also known as Taiwanese, Taigi, or Taiwanese Hokkien) is a language in a process of being revitalized, to ensure its survival into the next generations. Similar to other Hokkien languages, Taigi has historically not been used in writing by most speakers. To bring written Taigi to this era and to provide options for people who already speak the language, it is necessary that user interfaces are translated into this language. As a stepping stone, I have embarked on an effort to provide Taigi translations for KDE projects.
 
-This report documents the work done to this end. An introduction to KDE and Taiwanese Taigi is provided. Numerous foundational choices are identified and then decided on for this translation. For the language name, the language is called "Taiwanese Taigi", but there are some places that require "Min Nan Chinese" and that is acceptable for now; for the language code, nan_TW is the answer for now; for the writing system, two are chosen (similar to other multi-script languages), which are mixed script (Han characters + Latin script) and all-Latin script. Notes about my translation process are then provided.
+This report documents the work done to this end. An introduction to KDE and Taiwanese Taigi is provided. Numerous foundational choices are identified and then decided on for this translation. For the language name, the language is called "Taiwanese Taigi", but there are some places that require "Min Nan Chinese" and that is acceptable for now; for the language code, nan_TW is the answer for now; for the writing system, two are chosen (similar to other multi-script languages), which are mixed script (Han characters + Latin script) and all-Latin script. I then describe my translation process, including how KDE translation generally works and what I do in my process to make it more effective.
 
-Finally, a review of the current result as well as discussions of challenges is provided.
+Finally, I go through the current result and discuss challenges and where future work may be needed.
 
 _*Keywords*: #context (document.keywords.join(", "))_
 
@@ -69,7 +73,9 @@ _*Keywords*: #context (document.keywords.join(", "))_
 
 = Introduction
 
-I wish KDE software can be translated into Taiwanese (Taigi) so that users have an option to use the language if they wish to. I already contribute Traditional Chinese (Taiwanese Mandarin) translations to KDE. This would then hopefully help more people to be exposed to the language, thus allowing the language to stay alive.
+I wish KDE software could be translated into Taiwanese (Taigi) so that users have an option to use the language if they wish to. This would then hopefully help more people to be exposed to the language, thus allowing the language to stay alive.
+
+I already contribute Traditional Chinese (Taiwanese Mandarin) translations to KDE.
 
 == What is Taiwanese Taigi
 
@@ -80,7 +86,7 @@ The language name is a subject of much debate. Its endonym is primarily Tâi-gí
 - Colloquially, the name is freely chosen by every speaker, and the report does not dictate which name is more appropriate. The report does, however, document names that are often used: "台語, 臺語, 臺灣話, 河洛話, 福佬話, 學佬話, 閩南語, 臺灣閩南語, 臺灣台語". #cite(<MOC20250616>, supplement: "p. 65")
 - In official contexts, the report chooses 臺灣台語 (Taiwanese Taigi). While this name specifies Taiwan twice, the intent of this is to emphasize that Taigi is not the only language of Taiwan, nor does it refer to all languages of Taiwan #cite(<MOC20250616>, supplement: "p. 68").
 
-This article will stick to the National Language Development Report's recommendation for the official name ("Taiwanese Taigi" or "Taigi"), as adding to this debate is not what I would like to focus on.
+This report will stick to the National Language Development Report's recommendation for the official name ("Taiwanese Taigi" or "Taigi"), as adding to this debate is not what I would like to focus on.
 
 == What is KDE
 
@@ -92,13 +98,13 @@ KDE software constitutes a large part of a computing experience. Translating KDE
 
 There are a few existing Taigi software translation projects, or software (or websites) that are written in Taigi, that I know of:
 
-- Tân Kiàn-ting wrote about translating the free software social media Pleroma into Taiwanese Taigi in 2015 #footnoteCite(<kianting20150503>). He also mention having worked on translating parts of the Caja file manager for Linux.
-- Kiàn-ting also translated the (more widely used) social media Mastodon into Taiwanese Taigi in 2025 #footnoteCite(<kianting20250604>). The translation is initially merged into Mastodon in February 2026 and he presumably continues to maintain it.
+- Tân Kiàn-ting wrote about translating the free software social media Pleroma into Taiwanese Taigi in 2015 #footnoteCite(<kianting20150503>). He also mentioned having worked on translating parts of the Caja file manager for Linux.
+- Kiàn-ting also translated the (more widely used) social media Mastodon into Taiwanese Taigi in 2025 #footnoteCite(<kianting20250604>). The translation was initially merged into Mastodon in February 2026 and he presumably continues to maintain it.
 - The Southern Min Wikipedia, while specifically for Southern Min (Hokkien / Minnan), still serves as prior art of Taigi translation as the two languages are mutually intelligible. #footnoteCite(<wikipedia-zh-min-nan>)
 
 = Foundational choices
 
-Before translation can start, there are a few foundational questions that I had to answer. These are: what should I call this language? Which language code should I use for it? And which writing system should I use?
+Before translation could start, there are a few foundational questions that I had to answer. These are: what should I call this language? Which language code should I use for it? And which writing system should I use?
 
 == Language name
 
@@ -116,9 +122,9 @@ There is hope, however: a ISO 639-3 Change Request that establishes Taigi as its
 
 *Final choice: _nan_TW_ for now*
 
-Adjacent to the choice of the name of the language, software translations (including KDE) also requires choosing a short name for the language or regional dialect. For example, British English is `en_GB`, and Japanese is `ja`. The international standard for this is ISO 639, with the de-facto standard being a mix of ISO 639-3 (comprehensive three-letter codes) and ISO 639-1 (two-letter codes).
+Adjacent to the choice of the name of the language, software translations (including KDE) also require choosing a short name for the language or regional dialect. For example, British English is `en_GB`, and Japanese is `ja`. The international standard for this is ISO 639, with the de-facto standard being a mix of ISO 639-3 (comprehensive three-letter codes) and ISO 639-1 (two-letter codes).
 
-The choice here is obvious, as Taigi doesn't have its own code yet (pending the aforementioned Change Request 2021-044 #footnoteCite(<iso639-3-CR2021-044>)), the next best code is `nan` for Min Nan Chinese, with a region code of `TW` to denote Taiwanese Minnan, ie. Taiwanese Hokkien.
+The choice here is obvious: as Taigi doesn't have its own code yet (pending the aforementioned Change Request 2021-044 #footnoteCite(<iso639-3-CR2021-044>)), the next best code is `nan` for Min Nan Chinese, with a region code of `TW` to denote Taiwanese Minnan, ie. Taiwanese Hokkien.
 
 == Writing system
 *Final choice: two systems, mixed script (hàn-lô) and all-romanized (tsuân-lô), both using Tāi-lô orthography*
@@ -137,9 +143,9 @@ Before I can translate anything, I have to decide on one (or two, as we'll see b
 
 - *Using a mix of Han characters and Latin characters*, also referred to as hàn-lô (漢羅). This is similar to Japanese mixed script: write each word in whichever script that suits it best. The Latin characters are written in either Pe̍h-ōe-jī or Tâi-lô, but writers who write in this style always use standardized Han characters.
 
-This may look like an unthinkably large number of writing systems, but indeed this list can be simplified to two items considering a few facts.
+This may look like an unthinkably large number of writing systems, but indeed this list can be simplified to two items considering the following:
 
-- Using ad-hoc Han characters is ruled out as mentioned above.
+- Using ad-hoc Han characters can be ruled out as mentioned above.
 - No one actually writes exclusively with Han characters. As noted by Tân Kiàn-tiong #footnoteCite(<kiantiong20230908>), even the Ministry of Education occasionally writes in mixed script in its Taigi dictionary #footnoteCite(<kautian>) when encountering certain loanwords. Apart from loanwords, the fact that the third person possessive pronoun 𪜶 (/in/) is poorly supported by fonts also means in practice it remains more convenient to fall back to writing words in romanization even when there is a preference to write as much in Han characters as practical.
 - While Pe̍h-ōe-jī and Tâi-lô are often treated as separate systems, in reality Tâi-lô is a minor spelling reform on top of Pe̍h-ōe-jī. The way tones are marked remains identical; the convention of separating syllables within one compound with "-" instead of spaces is the same too. The only difference is that some consonants and vowels are spelled differently, such as `ch` in Pe̍h-ōe-jī being spelled `ts` in Tâi-lô, or `oe` in Pe̍h-ōe-jī being spelled `ue` in Tâi-lô, but the differences are one-to-one and unambiguous.
 
@@ -164,7 +170,7 @@ Ultimately I chose Tâi-lô because that's what the Ministry of Education, which
 
 Glibc (the GNU C Library) provides core libraries for many Linux systems #footnoteCite(<glibc>), and includes a system of "locales", which define the name, date/time format, numeric format, territory, etc. of a given language variant.
 
-A decision on this has already been made before me, in fact. A `nan_TW` locale has been available since 2013 #footnoteCite(<glibc-nan_TW>), and a `nan_TW@latin` locale has been available since 2009 #footnoteCite(<glibc-nan_TW_latin>). To quote the submittion of `nan_TW@latin`:
+A decision on this has already been made before me, in fact. A `nan_TW` locale has been available since 2013 #footnoteCite(<glibc-nan_TW>), and a `nan_TW@latin` locale has been available since 2009 #footnoteCite(<glibc-nan_TW_latin>). To quote the submission of `nan_TW@latin`:
 
 #quote(block: true, attribution: [Arne Goetje])[
   Minnan can be written using Latin or traditional Han script. Therefor this locale has \@latin to clarify which script we use.
@@ -325,7 +331,7 @@ It would be a shame if Taigi were lost as a language, but as in the National Lan
 
 Further work will be needed to translate more applications in order to provide a computing environment that is completely (or sufficiently close to completely) translated into Taigi. This may be challenging, mostly to do with a lack of manpower#footnote[Even the KDE Traditional Chinese team has mostly just been me in the last 3 years. These statistics aren't automatically collected, but by running `svn log` on the l10n-kf6/zh_TW folder on the KDE Subversion repository I can see that between 2023 and now, 282 out of 290 translation commits (97%) are from me (KDE Identity username `moonlight`).], but is well within the realms of feasibility. It may, however, be favorable if relevant communities or organizations also recognize the importance of having software be available in Taigi as an option.
 
-During this process I relied heavily on Lokalize for its local computer-aided translation (CAT) features. Lokalize allows easily viewing statistics, creating new translation files based on new translation templates, handling glossary, handling translation memory. Lokalize, however, lacks certain features to make utilizing its capabilities easier for new translators: for example, I had to set up my translation workspace manually, as outlined in @set-up-workspace --- or write a program myself to automate it#footnote[I avoided mentioning this tool in @set-up-workspace as it would needlessly complicate the section. The tool is available at https://github.com/kisaragi-hiu/k-kdesvn]. It also lacks features that would make working with multi-script languages nicer: for example, I when working on `nan_TW` (mixed-script) I would wish to see both `nan_TW@latin` and Japanese strings as references, but Lokalize only supports showing one alternate language, not multiple, so I had to choose one (`nan_TW@latin`) while giving up the other. Improvements for Lokalize is thus also an area of work I would like to see happen, both from myself and others (although this is out of scope from specifically Taigi translations).
+During this process I relied heavily on Lokalize for its local computer-aided translation (CAT) features. Lokalize allows easily viewing statistics, creating new translation files based on new translation templates, handling glossary, handling translation memory. Lokalize, however, lacks certain features to make utilizing its capabilities easier for new translators: for example, I had to set up my translation workspace manually, as outlined in @set-up-workspace --- or write a program myself to automate it#footnote[I avoided mentioning this tool in @set-up-workspace as it would needlessly complicate the section. The tool is available at https://github.com/kisaragi-hiu/k-kdesvn]. It also lacks features that would make working with multi-script languages nicer: for example, when working on `nan_TW` (mixed-script) I would wish to see both `nan_TW@latin` and Japanese strings as references, but Lokalize only supports showing one alternate language, not multiple, so I had to choose one (`nan_TW@latin`) while giving up the other. Improvements for Lokalize are thus also an area of work I would like to see happen, both from myself and others (although this is out of scope from specifically Taigi translations).
 
 #pagebreak()
 
@@ -342,7 +348,7 @@ I am a KDE e.V. voting member because of this work.
 - I have occasionally asked a chatbot for a second opinion on the translation of specific words. The results are always judged by my knowledge of the language (I only use them as a reminder), and I have been trying this less and less, as I found this to rarely be as passably correct as simply borrowing from another language.
 - There are 106 strings in `kconfigwidgets._desktop_.po`, which are all language names. Through my own search I've filled 44 of them already. The rest seems like I would have to copy from Hokkien Wikipedia.
 
-  I tried using Gemini CLI for this task once, using gemini-3-flash-preview with this prompt: #quote(block: true)[./words.po is a Gettext PO file that contains a list of languages in English. Please fill in their translations in Taiwanese Hokkien#footnote[I would prefer "Taigi", but figured the model would understand "Taiwanese Hokkien" better.]. Use your search tool if available.]
+  I tried using Gemini CLI for this task once, using gemini-3-flash-preview with this prompt: #quote(block: true)[> ./words.po is a Gettext PO file that contains a list of languages in English. Please fill in their translations in Taiwanese Hokkien#footnote[I would prefer "Taigi", but figured the model would understand "Taiwanese Hokkien" better.]. Use your search tool if available.]
 
   I then reviewed the result and incorporated them as appropriate. Almost all strings turned out to need further tweaking by me looking them up on Hokkien Wikipedia again myself. This helped in only three minor ways:
 
@@ -350,12 +356,16 @@ I am a KDE e.V. voting member because of this work.
   - I learned that Crimea is probably better borrowed into Taigi directly from Ukrainian, such that Crimean Tatar is _Krym Tatar-gí_. On further reflection, however, perhaps an even better choice would be the native name in Crimean Tatar, _qırımtatar_, or a localized spelling of it (_qirimtatar_, with the Turkic dotless _ı_ replaced with _i_).
   - I realized that I could translate Latin (script) into "Lô-má-jī" (literally "Rome characters") instead of the clumsy "La-ting bûn-jī".
 
+- I used Gemini CLI for grammar review once with this prompt: #quote(block: true)[> Review ./nkust-report.typ [referring to this report] for grammar and flow. Review means to not edit anything, so do not edit anything#footnote[This is in response to an earlier attempt where it tried to initiate edits despite telling it to "review".]. Do not address me as a person.]
+
+  This caught a few leftover partial sentences, repetitive or inconsistent word choices, and minor verb tense or number issues, which I then fixed myself.
+
 #pagebreak()
 #heading(numbering: none)[Acknowledgements]
 
 This work is built on the shoulder of many giants.
 
-On the software side, I would like to thank Lokalize developers for making such a crutial piece of my workflow (especially Finley Watson for reviewing my occasional Merge Requests); as well as Typst, for being a fast and easy alternative to LaTeX, with as much flexibility as the Lisp-based documentation systems that I've used in the past while having a lot more batteries included. The table of contents is a one-liner and required barely any bookkeeping, allowing me to focus on translating and writing this report.
+On the software side, I would like to thank Lokalize developers for making such a crucial piece of my workflow (especially Finley Watson for reviewing my occasional Merge Requests); as well as Typst, for being a fast and easy alternative to LaTeX, with as much flexibility as the Lisp-based documentation systems that I've used in the past while having a lot more batteries included. The table of contents is a one-liner and required barely any bookkeeping, allowing me to focus on translating and writing this report.
 
 On the Taigi side, I would like to thank Arne Goetje #footnoteCite(<glibc-nan_TW_latin>) and Wei-Lun Chao #footnoteCite(<glibc-nan_TW>) for contributing Taigi locales (as Min Nan Chinese) into glibc ages ago, in 2009 and 2013, respectively; Ìthuân Khoki, for submitting ISO 639-3 CR 2021-044 #footnoteCite(<iso639-3-CR2021-044>); Dr. Iûⁿ Ún-giân, ChhoeTaigi and the Tâi-bûn Ke-si Mī project, and countless others for all the work on Taigi revitalization; and all those who made the dictionaries that I've been relying on, especially the Ministry of Education's Dictionary of Frequently-Used Taiwanese Taigi #footnoteCite(<kautian>), the Maryknoll Taiwanese-English Dictionary #footnoteCite(<maryknoll1976>), the Comprehensive Taiwanese-Japanese Dictionary by 小川尚義 #footnoteCite(<taijit>) and its Taigi translation by Elder Lîm Chùn-io̍k #footnoteCite(<taijit-taigi>), as well as the Taiwan Public Television Service's Taigi TV New Words Dictionary (台語新詞辭庫) #footnoteCite(<pts-taigitv-new-words>).
 
