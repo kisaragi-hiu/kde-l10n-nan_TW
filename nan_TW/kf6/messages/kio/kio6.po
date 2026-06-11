@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-05 00:39+0000\n"
-"PO-Revision-Date: 2026-06-08 13:28+0900\n"
+"PO-Revision-Date: 2026-06-11 16:25+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Taiwanese Hokkien <zh-l10n@lists.slat.org>\n"
 "Language: nan_TW\n"
@@ -1091,73 +1091,73 @@ msgstr ""
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
 "found instead."
-msgstr ""
+msgstr "請求期待 ê 是資料鋏仔，毋過揣著 ê 是檔案 <strong>%1</strong>。"
 
 #: core/job_error.cpp:567
 #, kde-format
 msgid "File or Folder Does Not Exist"
-msgstr ""
+msgstr "檔案猶是資料鋏仔無存在"
 
 #: core/job_error.cpp:569
 #, kde-format
 msgid "The specified file or folder <strong>%1</strong> does not exist."
-msgstr ""
+msgstr "指定 ê 檔案猶是資料鋏仔 <strong>%1</strong> 無存在。"
 
 #: core/job_error.cpp:579
 #, kde-format
 msgid ""
 "The requested file could not be created because a file with the same name "
 "already exists."
-msgstr ""
+msgstr "無法度建立請求 ê 檔案，因為已經有檔案叫彼个名--ah。"
 
 #: core/job_error.cpp:582
 #, kde-format
 msgid "Try moving the current file out of the way first, and then try again."
-msgstr ""
+msgstr "請先 kā 這馬 ê 檔案徙去別位，然後閣試一擺。"
 
 #: core/job_error.cpp:584
 #, kde-format
 msgid "Delete the current file and try again."
-msgstr ""
+msgstr "請刣掉這馬 ê 檔案然後閣試一擺。"
 
 #: core/job_error.cpp:584
 #, kde-format
 msgid "Choose an alternate filename for the new file."
-msgstr ""
+msgstr "請為新 ê 檔案選另外一个名。"
 
 #: core/job_error.cpp:590
 #, kde-format
 msgid ""
 "The requested folder could not be created because a folder with the same "
 "name already exists."
-msgstr ""
+msgstr "無法度建立請求 ê 資料鋏仔，因為已經有資料鋏仔叫彼个名--ah。"
 
 #: core/job_error.cpp:593
 #, kde-format
 msgid "Try moving the current folder out of the way first, and then try again."
-msgstr ""
+msgstr "請先 kā 這馬 ê 資料鋏仔徙去別位，然後閣試一擺。"
 
 #: core/job_error.cpp:595
 #, kde-format
 msgid "Delete the current folder and try again."
-msgstr ""
+msgstr "請刣掉這馬 ê 資料鋏仔然後閣試一擺。"
 
 #: core/job_error.cpp:595
 #, kde-format
 msgid "Choose an alternate name for the new folder."
-msgstr ""
+msgstr "請為新 ê 資料鋏仔選另外一个名。"
 
 #: core/job_error.cpp:599
 #, kde-format
 msgid "Unknown Host"
-msgstr ""
+msgstr "毋知 ê 主機"
 
 #: core/job_error.cpp:601
 #, kde-format
 msgid ""
 "An unknown host error indicates that the server with the requested name, "
 "<strong>%1</strong>, could not be located on the Internet."
-msgstr ""
+msgstr "毋知 ê 主機錯誤代表無法度佇網路揣著 <strong>%1</strong> 這个伺服器。"
 
 #: core/job_error.cpp:606
 #, kde-format
@@ -1202,7 +1202,7 @@ msgstr "拒絕寫入存取"
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
 "rejected."
-msgstr "這代表寫入檔案 <strong>%1<string> ê 動作予拒絕--ah。"
+msgstr "這代表寫入檔案 <strong>%1</strong> ê 動作予拒絕--ah。"
 
 #: core/job_error.cpp:645
 #, kde-format
