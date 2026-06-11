@@ -71,7 +71,7 @@ Taiwanese (Taigi) is one of several national languages of Taiwan (ROC). It is a 
 
 The language name is a subject of much debate. Its endonym is primarily Tâi-gí (Taiwan-language, corresponds to "Taiwanese" in English), but this is criticized, as Taigi itself is a language relatively recently introduced to the region now known as Taiwan during Qing rule. It is alternatively referred to as Bân-lâm-gí (Minnan-language, corresponds to "Min Nan" or "Hokkien" in English), but this is criticized, as Bân (閩) is seen as having negative connotations. This entire debate is succinctly summarized by the National Language Development Report from the #cite(<MOC20250616>, form: "prose", supplement: "p. 57"), in which the conclusion is that:
 
-- Colloquially, the name is freely chosen by every speaker, and the report does not dictate which name is more appropriate. The report does, however, document names that are often used: 台語, 臺語, 臺灣話, 河洛話, 福佬話, 學佬話, 閩南語, 臺灣閩南語, and 臺灣台語. #cite(<MOC20250616>, supplement: "p. 65")
+- Colloquially, the name is freely chosen by every speaker, and the report does not dictate which name is more appropriate. The report does, however, document names that are often used: "台語, 臺語, 臺灣話, 河洛話, 福佬話, 學佬話, 閩南語, 臺灣閩南語, 臺灣台語". #cite(<MOC20250616>, supplement: "p. 65")
 - In official contexts, the report chooses 臺灣台語 (Taiwanese Taigi). While this name specifies Taiwan twice, the intent of this is to emphasize that Taigi is not the only language of Taiwan, nor does it refer to all languages of Taiwan #cite(<MOC20250616>, supplement: "p. 68").
 
 This article will stick to the National Language Development Report's recommendation for the official name ("Taiwanese Taigi" or "Taigi"), as adding to this debate is not what I would like to focus on.
