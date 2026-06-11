@@ -1,4 +1,9 @@
 #set heading(numbering: "1.1.")
+#show heading.where(level: 1): set block(below: 1em)
+#show heading.where(level: 1): set align(center)
+// https://zenn.dev/mkpoli/articles/6234c1d2a595bd
+// 漢字かなカナのみ指定（ゴシック体＝サンセリフ体）
+#show regex("[\p{scx:Han}\p{scx:Hira}\p{scx:Kana}]"): set text(font: "Noto Serif CJK TC")
 #set document(
   title: [Translating KDE Software Into Taiwanese Taigi],
   keywords: ("translation", "Taiwanese", "Taigi", "Min Nan Chinese"),
@@ -37,7 +42,11 @@ Kaohsiung, Taiwan
 
 #heading(numbering: none)[Abstract]
 
-This report documents the work done with the goal of creating a Taiwanese Taigi translation team for the KDE project. A brief description of the context and challenges is included, as well as a discussion of the results.
+Taiwanese Taigi (also known as Taiwanese, Taigi, or Taiwanese Hokkien) is a language in a process of being revitalized, to ensure its survival into the next generations. Similar to other Hokkien languages, Taigi has historically not been used in writing by most speakers. To bring written Taigi to this era and to provide options for people who already speak the language, it is necessary that user interfaces are translated into this language. As a stepping stone, I have embarked on an effort to create a Taigi provide Taigi translations for KDE projects.
+
+This report documents the work done to this end. An introduction to KDE and Taiwanese Taigi is provided. Numerous foundational choices are identified and then decided on for this translation. For the language name, the language is called "Taiwanese Taigi", but there are some places that require "Min Nan Chinese" and that is acceptable for now; for the language code, nan_TW is the answer for now; for the writing system, two are chosen (similar to other dual-orthography languages), which are mixed script (Han characters + Latin script) and all-Latin script. Notes about my translation process are then provided.
+
+Finally, a review of the current result as well as discussions of challenges is provided.
 
 _*Keywords*: #context (document.keywords.join(", "))_
 
