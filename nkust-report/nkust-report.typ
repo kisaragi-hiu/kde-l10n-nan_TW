@@ -314,11 +314,23 @@ The module `kconfigwidgets` contains a list of 106 languages. Some of these have
 
   Japanese KDE translators have instead chosen to translate this as 保存フォルダを開く (open the folder [where the file is] saved). After comparing the two approaches and not having other ideas, I chose to adopt the same way Japanese does it, translating this string to "Phah-khui Pó-tsûn Tsu-liāu-giap-á" (拍開保存資料鋏仔), which seems both succinct and clear to me.
 
+#pagebreak()
+
 = Results
 
 While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I found that two other modules `kconfig` and `kconfigwidgets` seem just as helpful to translate when building a foundation for the overall translation.
 
 As of June 11, 2026, I have gotten these 5 modules to 87% translated overall, with `nan_TW@latin` being 92% translated and `nan_TW` being 83% translated, according to statistics collected with pocount from Translate Toolkit #footnoteCite(<pocount>). At this point I have sent the current translations to upstream developers and awaiting further feedback.
+
+#figure(
+    image("20260608T133631+0900.png", width: 35%),
+    caption: [A menu in the Okular document viewer, using my current `nan_TW@latin` translations.],
+)
+
+#figure(
+    image("20260608T133919+0900.png", width: 35%),
+    caption: [A menu in the Gwenview image viewer, using my current `nan_TW` translations.],
+)
 
 In this process I have collected a Lokalize glossary of 195 entries. This is mainly useful for translating in Lokalize, but may be of use for others as well.
 
