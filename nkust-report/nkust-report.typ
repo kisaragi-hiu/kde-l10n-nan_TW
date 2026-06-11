@@ -11,6 +11,11 @@
 )
 #set page(numbering: "i")
 
+#set cite(form: "full")
+#show cite: it => {
+  footnote(text[#it])
+}
+
 // Editing this file: use typst-ts-mode, then use typst-preview-mode for real time preview
 // Throw links/articles that you may want to reference into bibliography.bib
 
@@ -311,7 +316,7 @@ On the Taigi side, I would like to thank Arne Goetje @glibc-nan_TW_latin and Wei
 
 // TODO Lastly, on a more personal note...
 
-#bibliography("bibliography.bib", style: "ieee")
+#bibliography("bibliography.bib", style: "apa", title: none)
 
 // Local Variables:
 // typst-preview--master-file: "nkust-report.typ"
