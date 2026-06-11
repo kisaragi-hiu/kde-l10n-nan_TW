@@ -48,7 +48,7 @@ Kaohsiung, Taiwan
 
 Taiwanese Taigi (also known as Taiwanese, Taigi, or Taiwanese Hokkien) is a language in a process of being revitalized, to ensure its survival into the next generations. Similar to other Hokkien languages, Taigi has historically not been used in writing by most speakers. To bring written Taigi to this era and to provide options for people who already speak the language, it is necessary that user interfaces are translated into this language. As a stepping stone, I have embarked on an effort to create a Taigi provide Taigi translations for KDE projects.
 
-This report documents the work done to this end. An introduction to KDE and Taiwanese Taigi is provided. Numerous foundational choices are identified and then decided on for this translation. For the language name, the language is called "Taiwanese Taigi", but there are some places that require "Min Nan Chinese" and that is acceptable for now; for the language code, nan_TW is the answer for now; for the writing system, two are chosen (similar to other dual-orthography languages), which are mixed script (Han characters + Latin script) and all-Latin script. Notes about my translation process are then provided.
+This report documents the work done to this end. An introduction to KDE and Taiwanese Taigi is provided. Numerous foundational choices are identified and then decided on for this translation. For the language name, the language is called "Taiwanese Taigi", but there are some places that require "Min Nan Chinese" and that is acceptable for now; for the language code, nan_TW is the answer for now; for the writing system, two are chosen (similar to other multi-script languages), which are mixed script (Han characters + Latin script) and all-Latin script. Notes about my translation process are then provided.
 
 Finally, a review of the current result as well as discussions of challenges is provided.
 
@@ -141,7 +141,11 @@ This may look like an unthinkably large number of writing systems, but indeed th
 - No one actually writes exclusively with Han characters. As noted by Tân Kiàn-tiong #footnoteCite(<kiantiong20230908>), even the Ministry of Education occasionally writes in mixed script in its Taigi dictionary #footnoteCite(<kautian>) when encountering certain loanwords. Apart from loanwords, the fact that the third person possessive pronoun 𪜶 (/in/) is poorly supported by fonts also means in practice it remains more convenient to fall back to writing words in romanization even when there is a preference to write as much in Han characters as practical.
 - While Pe̍h-ōe-jī and Tâi-lô are often treated as separate systems, in reality Tâi-lô is a minor spelling reform on top of Pe̍h-ōe-jī. The way tones are marked remains identical; the convention of separating syllables within one compound with "-" instead of spaces is the same too. The only difference is that some consonants and vowels are spelled differently, such as `ch` in Pe̍h-ōe-jī being spelled `ts` in Tâi-lô, or `oe` in Pe̍h-ōe-jī being spelled `ue` in Tâi-lô, but the differences are one-to-one and unambiguous.
 
-This leaves us with two systems: *mixed script (hàn-lô)* and *exclusively romanization (tsuân-lô)*.
+This leaves us with two systems: *mixed script (hàn-lô)* and *all romanized / all-Latin (tsuân-lô)*.
+
+=== Feasibility of having two writing systems
+
+As shown by several other languages such as Serbian, Uzbek, or even Mandarin, it is practical for languages to maintain two writing systems at the same time (also known as multi-script languages). #cite(<treyjones20180312>, form: "prose")#footnoteCite(<treyjones20180312>) goes through how Wikipedia handles some multi-script languages. Compared to those examples, using both mixed-script and all-Latin for Taigi is more complex than Serbian (where the two scripts are one-to-one) but somewhat less complex than handling Traditional Chinese and Simplified Chinese for Mandarin (where not only is the script conversion very hard, the two variants often effectively stand-in for different dialects). In other words, while it requires manual work from translators, using both mixed-script and all-Latin for Taigi is entirely feasible.
 
 === Pe̍h-ōe-jī or Tâi-lô?
 
@@ -259,15 +263,15 @@ In the view for each file, I then go through each text entry --- which correspon
   caption: [Translating a nan_TW (Hàn-lô) string in Lokalize. The project is set up to use the nan_TW\@latin project as its source of alternate translations, so the translation of the corresponding entry shows up in the Alternate Translations widget.],
 ) <img-nan_TW>
 
-    I then go to the `nan_TW` version and re-type words from the all-Latin version, choosing appropriate Han characters or Latin. This is not really automatable #footnote[Not in a deterministic way like how conversion between POJ and TL is deterministic.], so
+    I then go to the `nan_TW` version and re-type words from the all-Latin version, choosing appropriate Han characters or Tâi-lô representations. This is not really automatable #footnote[Not in a deterministic way like how conversion between POJ and TL is deterministic.], so this process is necessary.
 
+    During this I am using Lokalize's glossary management to help maintain consistency as I translate.
+    
 #figure(
   image("20260604T053115+0900-lokalize-glossary.png"),
-  caption: [The glossary view in Lokalize.],
+    caption: [The glossary view in Lokalize. On the left side is a list of glossary entries which includes each entry's source text and target text. On the right side is the editor for the currently selected glossary entry.],
 ) <img-glossary>
 ]
-
-Finally, in @img-glossary, the interface shows the glossary entries which I have created to help maintain some level of consistency as I translate.
 
 === Word choices
 
@@ -304,20 +308,22 @@ The module `kconfigwidgets` contains a list of 106 languages. Some of these have
 
 = Results
 
-There may still be more work to do other than the translation itself, such as there being a requirement that a QLocale entry be created. More work will be needed in this regard, perhaps with the guidance of other KDE developers.
+While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I found that two other modules `kconfig` and `kconfigwidgets` seem just as helpful to translate when building a foundation for the overall translation.
 
-While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I found that two other modules `kconfig` and `kconfigwidgets` seem just as helpful to translate when building a foundation for the overall translation. As of 2026-06-08, these 5 modules are currently 87% translated overall, with `nan_TW@latin` being 92% translated and `nan_TW` being 83% translated, according to statistics collected with pocount from Translate Toolkit #footnoteCite(<pocount>).
+As of June 11, 2026, I have gotten these 5 modules to 87% translated overall, with `nan_TW@latin` being 92% translated and `nan_TW` being 83% translated, according to statistics collected with pocount from Translate Toolkit #footnoteCite(<pocount>). At this point I have sent the current translations to upstream developers and awaiting further feedback.
 
-These translations are currently available on GitHub:\
+In this process I have collected a Lokalize glossary of 195 entries. This is mainly useful for translating in Lokalize, but may be of use for others as well.
+
+The translations are published on GitHub:\
 https://github.com/kisaragi-hiu/kde-l10n-nan_tw
 
-= DRAFT DRAFT DRAFT Discussion DRAFT DRAFT DRAFT
+= Discussion DRAFT DRAFT DRAFT
 
 It would be a shame if Taigi were lost as a language, but as in the National Languages Development Report #footnoteCite(<MOC20250616>) Taigi would be on its way to obscurity without revitalization efforts. One of the most important parts of revitalizing a language is the written language
 
 This effort that I have attempted to undertake (and which I utilized a free research project to provide the extrinsic motivation to keep going for) is built on a lot of prior work --- there are multiple dictionaries that I have been able to freely reference throughout.
 
-
+Further work will be needed to translate more applications in order to provide a computing environment that is completely (or sufficiently close to completely) translated into Taigi. This may be challenging, as there are
 
 Challenges. This is two language variants to be maintained. This is doable. There is precedant. It's fine if it's not complete. With Lokalize I believe we can go through 1000s of strings no problem (though apps with 10000s of strings themselves like Krita or Kdenlive or (outside of KDE) Blender or Godot would be much harder). I already effectively maintain KDE zh_TW translations :meltingface: with intermittent translation efforts. It's faster than elementary OS but slower than Blender.
 

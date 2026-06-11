@@ -18,8 +18,9 @@ Since this is not submitted yet we don't have Scripty keeping the PO files up to
 Use =make install= to compile PO files to MO and install them into ~~/.local/share/locales~. Then use ~env LANGUAGE=<nan_TW or nan_TW@latin> LANG=nan_TW <command>~ to test it. (Both need to be set; =LANG= should always be ~nan_TW~ regardless of script.)
 
 ** uì / uī typo
-** discussino
-** results
+** discussion
+challenges
+** 2 scripts precedant
 ** acknowledgements
 ** date
 ** end
