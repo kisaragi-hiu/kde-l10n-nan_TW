@@ -212,5 +212,5 @@
 #bibliography("bibliography.bib", style: "apa", title: none)
 
 // Local Variables:
-// typst-preview--master-file: "/home/kisaragi-hiu/kde-translations/l10n-nan_TW-repo/nkust-report/nkust-report-presentation.typ"
+// typst-preview--master-file: "nkust-report-presentation.typ"
 // End:
