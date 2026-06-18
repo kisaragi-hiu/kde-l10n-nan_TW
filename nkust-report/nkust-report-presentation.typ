@@ -135,7 +135,7 @@
 - "No standard writing system"?
 - Pe̍h-ōe-jī was de facto standard\
   (Taiwan Church News: all POJ 1885\~1969 till banned)
-- Tâi-lô is already standard @tailo-main @tailo-manual
+- Tâi-lô is already standard @tailo-manual
 ]
 
 == Writing system
