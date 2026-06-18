@@ -127,7 +127,7 @@ Adjacent to the choice of the name of the language, software translations (inclu
 The choice here is obvious: as Taigi doesn't have its own code yet (pending the aforementioned Change Request 2021-044 #footnoteCite(<iso639-3-CR2021-044>)), the next best code is `nan` for Min Nan Chinese, with a region code of `TW` to denote Taiwanese Minnan, ie. Taiwanese Hokkien.
 
 == Writing system
-*Final choice: two systems, mixed script (hàn-lô) and all-romanized (tsuân-lô), both using Tāi-lô orthography*
+*Final choice: two systems, mixed script (hàn-lô) and all-romanized (tsuân-lô), both using Tâi-lô orthography*
 
 Compared to the vast number of people who speak Hokkien natively, it is historically rarely written down. This is related to how traditionally Chinese writing used to only write things in Literary Chinese. The same can be said for Taigi as well.
 
@@ -163,7 +163,7 @@ Ultimately I chose Tâi-lô because that's what the Ministry of Education, which
 
 #figure(
   image("20260604T105105+0900-mixed-tl-poj.png"),
-  caption: [Example of Tāi-lô and Pe̍h-ōe-jī being mixed in the same context. Screenshot from Southern Min Wikipedia's menu],
+  caption: [Example of Tâi-lô and Pe̍h-ōe-jī being mixed in the same context. Screenshot from Southern Min Wikipedia's menu],
 )
 
 == Glibc locale
