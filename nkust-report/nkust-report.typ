@@ -19,7 +19,7 @@
     return footnote(cite(target, form: "full", ..args))
 }
 
-#let today = datetime(year: 2026, month: 6, day: 11)
+#let today = datetime(year: 2026, month: 6, day: 18)
 
 // Editing this file: use typst-ts-mode, then use typst-preview-mode for real time preview
 // Throw links/articles that you may want to reference into bibliography.bib
@@ -106,7 +106,7 @@ There are a few existing Taigi software translation projects, or software (or we
 
 Before translation could start, there are a few foundational questions that I had to answer. These are: what should I call this language? Which language code should I use for it? And which writing system should I use?
 
-== Language name
+== Language name <section-language-name>
 
 *Final choice: _Taiwanese Taigi_ or _Taigi_ if possible, _Min Nan Chinese_ where I must*
 
@@ -318,24 +318,33 @@ The module `kconfigwidgets` contains a list of 106 languages. Some of these have
 
 = Results
 
-While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I found that two other modules `kconfig` and `kconfigwidgets` seem just as helpful to translate when building a foundation for the overall translation.
+While the documented base modules are `kcoreaddons`, `kio`, and `kxmlgui`, I found that two other modules `kconfig` and `kconfigwidgets` seem just as helpful to translate when building a foundation for the overall translation. I had gotten these 5 modules to 87% translated overall, with `nan_TW@latin` being 92% translated and `nan_TW` being 83% translated, according to statistics collected with pocount from Translate Toolkit #footnoteCite(<pocount>). I then sent these translations upstream on June 8, 2026.
 
-As of June 11, 2026, I have gotten these 5 modules to 87% translated overall, with `nan_TW@latin` being 92% translated and `nan_TW` being 83% translated, according to statistics collected with pocount from Translate Toolkit #footnoteCite(<pocount>). At this point I have sent the current translations to upstream developers and awaiting further feedback.
+After some review and feedback, the initial translations were accepted into the KDE Subversion repository on June 15, 2026, thus creating the "Min Nan Chinese" and "Min Nan Chinese Latin" language teams #footnote[These names are necessary for now, as discussed in @section-language-name.]. Now that the team is created, I (or anyone interested) can now translate other modules and ship those translations.
 
+There may still be other technical hurdles, but with a KDE translation team now established clearing them would be easier.
+
+#[
+    #set image(width: 70%)
 #figure(
-    image("20260608T133631+0900.png", width: 35%),
-    caption: [A menu in the Okular document viewer, using my current `nan_TW@latin` translations.],
+    grid(columns: 2,
+        image("20260608T133631+0900.png"),
+        image("20260608T133919+0900.png")
+    ),
+    caption: [`nan_TW@latin` translations in the Okular document viewer and `nan_TW` translations in the Gwenview image viewer.],
 )
+]
 
-#figure(
-    image("20260608T133919+0900.png", width: 35%),
-    caption: [A menu in the Gwenview image viewer, using my current `nan_TW` translations.],
-)
+In this process I have also collected a Lokalize glossary of 195 entries. This is mainly useful for translating in Lokalize, but may be of use for others as well. I plan to publish them on a dedicated website as well to be able to better solicit reviews from other Taigi speakers.
 
-In this process I have collected a Lokalize glossary of 195 entries. This is mainly useful for translating in Lokalize, but may be of use for others as well.
+The translation teams can be accessed on\
+https://l10n.kde.org/team-infos.php?teamcode=nan_TW \
+https://l10n.kde.org/team-infos.php?teamcode=nan_TW%40latin
 
-The translations are published on GitHub:\
+While the staging translations are published on GitHub:\
 https://github.com/kisaragi-hiu/kde-l10n-nan_tw
+
+#pagebreak()
 
 = Discussion
 

@@ -1,5 +1,7 @@
 * KDE nan_TW translations staging repo
 
+Update 2026-06-18: The team is now created ([[https://l10n.kde.org/team-infos.php?teamcode=nan_TW%40latin][nan_TW@latin]], [[https://l10n.kde.org/team-infos.php?teamcode=nan_TW][nan_TW]]) so further translation should be done on the files in Subversion, not here.
+
 I want to make a translation team for nan_TW; this is a repository for staging our translations before we submit it.
 
 nan_TW will be in two scripts: nan_TW is Hntl (Traditional Han characters + Latin) while nan_TW@latin is Latin script only. I use TL (Ministry of Education) spelling for “Latin script”, but realistically mixing POJ is also perfectly fine, just slightly inconsistent.
