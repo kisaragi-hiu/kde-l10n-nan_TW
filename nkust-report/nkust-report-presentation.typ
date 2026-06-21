@@ -52,37 +52,27 @@
 
 - Shen Yu-hsiang / Kisaragi Hiu
 - Main work: 2022\~ on zh_TW KDE translations
-- (Note: KDE e.V. voting member. KDE e.V. invites community members w/ contribution so contributors are represented)
-
-== Why
-
-- No Taigi user interface translations available
-- I already contribute zh_TW translations to KDE
-- I can help? Probably?
-
-== What
-
-- "Taiwanese Taigi"?
-- What is KDE anyways
-- What work
-
-== What: Taiwanese Taigi
-
-- Mutually intelligible with Hokkien; also known as Taiwanese Hokkien
-- Ususally "Taiwanese" in English but could confuse as the one canonical language of Taiwan
-- National Language Development Report (MOC, 2022) compromise: emphasize Taigi is not the only language of Taiwan
 
 == What: KDE
 
 #text(size: 30pt)[
-  - Was "K Desktop Environment", FOSS computing environment for Linux and other OSs
-  - Now a Free Software community / forge / common infrastructure
-  - KDE software: KDE Plasma (DE, used by Steam Deck et al), day-to-day apps, professional apps, software libraries, Calligra office, etc.
+  - KDE Plasma: major Linux desktop UI (other is GNOME)
+    - Steam Deck desktop mode
+  - KDE: a free software community w/ common infra & tech stack (Qt)
+  - Other KDE apps: Dolphin, Krita, Calligra, Okular
   - Unified translation infrastructure
 ]
 
 #figure(
-    image("20260618T220925+0900.png"), caption: [KDE Plasma])
+  image("20260618T220925+0900.png"),
+  caption: [KDE Plasma],
+)
+
+== What: Taiwanese Taigi
+
+- Taiwanese Hokkien / Taiwanese
+- ^ Could confuse as canonical language of Taiwan
+- ➝ National Language Development Report (MOC, 2022) compromise: emphasize Taigi is not the only language of Taiwan
 
 == What work
 
@@ -98,6 +88,12 @@
   - Mastodon also translated by Tân Kiàn-ting in 2025 @kianting20250604
   - Southern Min Wikipedia @wikipedia-zh-min-nan
 ]
+
+== Why
+
+- No Taigi user interface translations available
+- I already contribute zh_TW translations to KDE
+- I can help? Probably?
 
 #titleslide[
   = Foundational choices
