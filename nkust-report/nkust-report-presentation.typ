@@ -70,16 +70,25 @@
 
 == What: Taiwanese Taigi
 
-- Taiwanese Hokkien / Taiwanese
+- aka Taiwanese
 - ^ Could confuse as canonical language of Taiwan
+- aka Taiwanese Hokkien
+- ^ Many prefer its identity recognized
 - ➝ National Language Development Report (MOC, 2022) compromise: emphasize Taigi is not the only language of Taiwan
+
+== Why
+
+- No Taigi user interface translations available
+- Provide options for those who prefer
+- I already contribute zh_TW translations to KDE, probably able to help
 
 == What work
 
 - Start translating KDE software into Taiwanese Taigi
-- Establish a language team
-- Initial work done → then easy revision / improvement
 - Infrastructure: modern tech terms
+- Establish a language team
+- Prerequisite before submitting upstream: `kcoreaddons`, `kio`, `kxmlgui`
+  - Filetypes, licenses, some units; file IO and file management; common UI library
 
 == Taigi software prior work
 
@@ -88,12 +97,6 @@
   - Mastodon also translated by Tân Kiàn-ting in 2025 @kianting20250604
   - Southern Min Wikipedia @wikipedia-zh-min-nan
 ]
-
-== Why
-
-- No Taigi user interface translations available
-- I already contribute zh_TW translations to KDE
-- I can help? Probably?
 
 #titleslide[
   = Foundational choices
@@ -128,42 +131,64 @@
 
 == Writing system
 
-#[
-  #set text(size: 28pt)
-  - "No standard writing system"?
-  - Pe̍h-ōe-jī was de facto standard\
-    (Taiwan Church News: all POJ 1885\~1969 till banned)
-  - Tâi-lô is already standard @tailo-manual
-]
+- "No standard writing system"?
 
 == Writing system
 
-#[
-  #set text(size: 26pt)
-  - We can choose two like Serbian or Mandarin
-  - all-Han (tsuân-hàn): infeasible / inconvenient\
-    (even MOE dictionary has eg. oo-tóo-bái @kiantiong20230908)
-  - all romanized (tsuân-lô): decades of publishing
-  - mixed script (hàn-lô): decades of publishing
-  - Establish foundation first, work later
-  - → Both *mixed script* and *all romanized*
-]
+- Han characters, romanization (Tâi-lô or POJ),\
+  Kana, Bopomofo, Hangul...
+- Too many
+
+== Writing system
+
+- Han characters, romanization (Tâi-lô or POJ),\
+  #strike[Kana], Bopomofo, Hangul...
+  - Unused since 1945
+
+== Writing system
+
+- Han characters, romanization (Tâi-lô or POJ),\
+  #strike[Kana], #strike[Bopomofo], Hangul...
+  - Transcription scheme, not used as primary orthography
+
+== Writing system
+
+- Han characters, romanization (Tâi-lô or POJ),\
+  #strike[Kana], #strike[Bopomofo], #strike[Hangul]...
+  - Not seen it ever (no idea why English Wikipedia lists it)
 
 == Writing system: POJ or TL
 
-- Tāi-lô: spelling reform over POJ (be more like IPA, support more Taigi dialects)
-- "It's a transcription scheme"\
-  → kind of, unfortunate naming
+- Tâi-lô is an OK spelling reform\
+  (ch → ts; oe/oa → ue/ua; eng → ing; tones sometimes on different vowels)
+- Perfectly usable as primary orthography
+- Clear standard
 - No conflict (p is always p, 1-to-1 differences)
-- → Use Tāi-lô
+- → Use Tâi-lô
+
+== Writing system
+
+- Han characters, romanization (Tâi-lô #strike[or POJ]),\
+  #strike[Kana], #strike[Bopomofo], #strike[Hangul]...
+- Really just 3 valid standard options
+- Standards: MOE dictionary, POJ Bible and conventions, 57-page Tâi-lô definitive manual @tailo-manual
+
+== Mixed writing
+
+- Choose 2: like Serbian, Uzbek, Mandarin...
+- all-Han: inconvenient\
+  (even MOE dictionary has eg. oo-tóo-bái @kiantiong20230908)
+- all romanized (tsuân-lô): decades of publishing
+- mixed script (hàn-lô): decades of publishing
+- → Both *mixed script* and *all romanized*
 
 == Glibc locale
 
 #[
   #set text(size: 28pt)
-  - Provides name, datetime format, numeric format, etc. metadata
-  - `nan_TW` locale already available since 2013 @glibc-nan_TW
-  - `nan_TW@latin` locale already available since 2009 @glibc-nan_TW_latin
+  - Locale: name, datetime format, numeric format, etc.
+  - `nan_TW` (all-Han or mixed) locale already available since 2013 @glibc-nan_TW
+  - `nan_TW@latin` (all-romanized) locale already available since 2009 @glibc-nan_TW_latin
 ]
 
 #titleslide[
@@ -176,7 +201,7 @@
 - Source code → extract to template → translate → incorporate translation into source code
 - KDE Invent repositories → KDE Subversion repository → Translate & commit → KDE Invent repositories, automated by Scripty
 
-== Requirements for a new language team
+== Creating a new language team
 
 - Metadata, send email to kde-l10n-doc mailing list announcing it, discuss, translate `kcoreaddons`, `kio`, `kxmlgui`, send if accepted
 - Compromise on language name was made here
@@ -206,7 +231,7 @@
 - experience: 5% the essence, 95% the discourse
 - Use existing if possible (dictionaries, PTS Taigi TV's Taigi Words, search in ChhoeTaigi or Kemdict)
   - Kemdict: my own dictionary search frontend, slightly different, need both it and ChhoeTaigi
-- Borrow: directly from English, directly from another source language, orthographically from Mandarin
+- Borrow: directly from English, directly from another source language, orthographically from Mandarin...
 
 == Word choices: examples
 
@@ -226,19 +251,23 @@
 
 == Results
 
-- Staging repo:\
-  #[
-    #set text(size: 24pt)
-    https://github.com/kisaragi-hiu/kde-l10n-nan_tw
-  ]
-- June 15, 2026: Team created! (Thank you aacid)\
-  #[
-    #set text(size: 24pt)
-    https://l10n.kde.org/team-infos.php?teamcode=nan_TW\
-    https://l10n.kde.org/team-infos.php?teamcode=nan_TW@latin
-  ]
-- Base modules `kcoreaddons`, `kio`, `kxmlgui` + also helpful `kconfig`, `kconfigwidgets`:\
-  `nan_TW@latin` 92%, `nan_TW` 87%
+#[
+  #set text(size: 24pt)
+  - As of sending: base modules `kcoreaddons`, `kio`, `kxmlgui` + helpful `kconfig`, `kconfigwidgets`:\
+    - `nan_TW@latin` 79% words (10828/13639), 92% strings (2147/2330)
+    - `nan_TW` 65% words (8975/13639), 83% strings (1947/2330)
+  - June 15, 2026: Team created! (Thank you aacid)\
+    #[
+      #set text(size: 24pt)
+      https://l10n.kde.org/team-infos.php?teamcode=nan_TW\
+      https://l10n.kde.org/team-infos.php?teamcode=nan_TW@latin
+    ]
+  - Staging repo:\
+    #[
+      #set text(size: 24pt)
+      https://github.com/kisaragi-hiu/kde-l10n-nan_tw
+    ]
+]
 
 #[
   #set image(width: 70%)
