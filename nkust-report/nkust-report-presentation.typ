@@ -7,7 +7,9 @@
 #set text(font: "Equity A")
 // https://zenn.dev/mkpoli/articles/6234c1d2a595bd
 // 漢字かなカナのみ指定（ゴシック体＝サンセリフ体）
-#show regex("[\p{scx:Han}\p{scx:Hira}\p{scx:Kana}]"): set text(font: "Noto Serif CJK TC")
+#show regex("[\p{scx:Han}\p{scx:Hira}\p{scx:Kana}]"): set text(
+  font: "Noto Serif CJK TC",
+)
 
 #set cite(form: "full")
 #show cite: it => {
@@ -37,9 +39,9 @@
   #text(size: 24pt)[Academic year 114-2, June 2026]
 ]
 
-#show heading: (it) => [
-    #pagebreak()
-    #it
+#show heading: it => [
+  #pagebreak()
+  #it
 ]
 
 #titleslide[
@@ -131,24 +133,24 @@
 == Writing system
 
 #[
-    #set text(size: 28pt)
-- "No standard writing system"?
-- Pe̍h-ōe-jī was de facto standard\
-  (Taiwan Church News: all POJ 1885\~1969 till banned)
-- Tâi-lô is already standard @tailo-manual
+  #set text(size: 28pt)
+  - "No standard writing system"?
+  - Pe̍h-ōe-jī was de facto standard\
+    (Taiwan Church News: all POJ 1885\~1969 till banned)
+  - Tâi-lô is already standard @tailo-manual
 ]
 
 == Writing system
 
 #[
-    #set text(size: 26pt)
-- We can choose two like Serbian or Mandarin
-- all-Han (tsuân-hàn): infeasible / inconvenient\
-  (even MOE dictionary has eg. oo-tóo-bái @kiantiong20230908)
-- all romanized (tsuân-lô): decades of publishing
-- mixed script (hàn-lô): decades of publishing
-- Establish foundation first, work later
-- → Both *mixed script* and *all romanized*
+  #set text(size: 26pt)
+  - We can choose two like Serbian or Mandarin
+  - all-Han (tsuân-hàn): infeasible / inconvenient\
+    (even MOE dictionary has eg. oo-tóo-bái @kiantiong20230908)
+  - all romanized (tsuân-lô): decades of publishing
+  - mixed script (hàn-lô): decades of publishing
+  - Establish foundation first, work later
+  - → Both *mixed script* and *all romanized*
 ]
 
 == Writing system: POJ or TL
@@ -162,10 +164,10 @@
 == Glibc locale
 
 #[
-    #set text(size: 28pt)
-- Provides name, datetime format, numeric format, etc. metadata
-- `nan_TW` locale already available since 2013 @glibc-nan_TW
-- `nan_TW@latin` locale already available since 2009 @glibc-nan_TW_latin
+  #set text(size: 28pt)
+  - Provides name, datetime format, numeric format, etc. metadata
+  - `nan_TW` locale already available since 2013 @glibc-nan_TW
+  - `nan_TW@latin` locale already available since 2009 @glibc-nan_TW_latin
 ]
 
 #titleslide[
@@ -190,8 +192,8 @@
 - `nan_TW@latin` first to make sure using Taigi words, then write again in `nan_TW`
 
 #figure(
-    image("20260604T053624+0900-lokalize-project-overview.png"),
-    caption: [Project overview]
+  image("20260604T053624+0900-lokalize-project-overview.png"),
+  caption: [Project overview],
 )
 
 #figure(
@@ -200,7 +202,7 @@
 )
 #figure(
   image("20260604T053115+0900-lokalize-glossary.png"),
-    caption: [Glossary management],
+  caption: [Glossary management],
 )
 
 == Word choices
@@ -213,13 +215,13 @@
 == Word choices: examples
 
 #[
-    #set text(size: 28pt)
-- Email: 電子批信 (seen in ChhoeTaigi's interface)
-- Catalonian: Catalunya-gí
-- Desktop environment: Toh-bīn-khuân-kíng (桌面環境)\
-  Calqued from Mandarin / also orthographic borrowing
-- Open Containing Folder: 拍開*保存*資料鋏仔\
-  Japanese 保存フォルダを開く\ (lit. Open the folder where [the file] is saved)
+  #set text(size: 28pt)
+  - Email: 電子批信 (seen in ChhoeTaigi's interface)
+  - Catalonian: Catalunya-gí
+  - Desktop environment: Toh-bīn-khuân-kíng (桌面環境)\
+    Calqued from Mandarin / also orthographic borrowing
+  - Open Containing Folder: 拍開*保存*資料鋏仔\
+    Japanese 保存フォルダを開く\ (lit. Open the folder where [the file] is saved)
 ]
 
 #titleslide[
@@ -230,27 +232,29 @@
 
 - Staging repo:\
   #[
-  #set text(size:24pt)
-  https://github.com/kisaragi-hiu/kde-l10n-nan_tw
+    #set text(size: 24pt)
+    https://github.com/kisaragi-hiu/kde-l10n-nan_tw
   ]
 - June 15, 2026: Team created! (Thank you aacid)\
   #[
-  #set text(size:24pt)
-  https://l10n.kde.org/team-infos.php?teamcode=nan_TW\
-  https://l10n.kde.org/team-infos.php?teamcode=nan_TW@latin
+    #set text(size: 24pt)
+    https://l10n.kde.org/team-infos.php?teamcode=nan_TW\
+    https://l10n.kde.org/team-infos.php?teamcode=nan_TW@latin
   ]
 - Base modules `kcoreaddons`, `kio`, `kxmlgui` + also helpful `kconfig`, `kconfigwidgets`:\
   `nan_TW@latin` 92%, `nan_TW` 87%
 
 #[
-    #set image(width: 70%)
-#figure(
-    grid(columns: 2,
-        image("20260608T133631+0900.png"),
-        image("20260608T133919+0900.png")
+  #set image(width: 70%)
+  #figure(
+    grid(
+      columns: 2,
+      image("20260608T133631+0900.png"), image("20260608T133919+0900.png"),
     ),
-    caption: text(size: 28pt)[`nan_TW@latin` in Okular, `nan_TW` translations in Gwenview],
-)
+    caption: text(
+      size: 28pt,
+    )[`nan_TW@latin` in Okular, `nan_TW` translations in Gwenview],
+  )
 ]
 
 #titleslide[
