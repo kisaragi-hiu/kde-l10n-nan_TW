@@ -1,7 +1,11 @@
 #import "@preview/polylux:0.4.0": *
 
 #set page(paper: "presentation-16-9")
-#set page(numbering: "1")
+// #set page(numbering: "1")
+// #set page(footer: context [
+//   #set align(right)
+//   #counter(page).display("1")
+// ])
 #set figure(supplement: none)
 #set text(size: 32pt)
 #set text(font: "Equity A")
@@ -16,10 +20,6 @@
   footnote(text(size: 20pt)[#it])
 }
 #set page(fill: rgb("#F7F4FA"))
-#set page(footer: context [
-  #set align(right)
-  #counter(page).display("1")
-])
 #let titleslide(content) = [
   #slide[
     // #set page(fill: black)
